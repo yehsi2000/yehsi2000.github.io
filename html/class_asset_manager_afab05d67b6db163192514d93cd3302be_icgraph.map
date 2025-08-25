@@ -1,0 +1,27 @@
+<map id="AssetManager::getTexture" name="AssetManager::getTexture">
+<area shape="rect" id="Node000001" title=" " alt="" coords="789,173,963,200"/>
+<area shape="rect" id="Node000002" href="$namespacefactory.html#afb051a88fa520dd405fa9b617102f984" title=" " alt="" coords="558,5,734,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="852,163,803,112,772,86,739,62,717,51,720,46,742,58,776,82,807,109,855,159"/>
+<area shape="rect" id="Node000003" href="$class_world.html#a83e7bd3a5490d65748ab5c575ae23e5b" title=" " alt="" coords="555,72,737,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="836,168,740,120,692,102,693,97,742,115,838,163"/>
+<area shape="rect" id="Node000004" href="$class_world.html#a51c0652a33b08264b5108b897673ff5f" title=" " alt="" coords="342,97,495,124"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="788,173,740,164,495,125,496,119,741,159,789,167"/>
+<area shape="rect" id="Node000007" href="$namespacefactory.html#aeb6369c52248c80b2876a56befa07053" title=" " alt="" coords="561,173,731,200"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="773,189,731,189,731,184,773,184"/>
+<area shape="rect" id="Node000008" href="$namespacefactory.html#ac986ddace9df2128cf45e161027b0038" title=" " alt="" coords="573,224,719,251"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="797,207,710,226,709,221,796,201"/>
+<area shape="rect" id="Node000010" href="$class_input_system.html#a718a5d69acb0a2d662dd0c52c217058a" title=" " alt="" coords="551,275,741,317"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="841,211,795,238,742,265,714,277,712,272,740,260,792,233,839,206"/>
+<area shape="rect" id="Node000012" href="$class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="559,341,733,384"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="858,214,810,273,778,304,742,332,721,343,719,338,739,327,774,300,806,269,854,211"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="540,100,496,105,495,99,539,95"/>
+<area shape="rect" id="Node000005" href="$class_world.html#a6effd57244b7e457ebe97c39e2f41ff4" title=" " alt="" coords="158,97,286,124"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="326,113,286,113,286,108,326,108"/>
+<area shape="rect" id="Node000006" href="$class_world.html#ae45b2d1dfcf9c15d79dbb19aa6dab2d9" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,97,110,124"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="142,113,110,113,110,108,142,108"/>
+<area shape="rect" id="Node000009" href="$class_g_engine.html#a11640a2dfd6e7a30dbe27711d3a51945" title=" " alt="" coords="334,224,503,251"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="558,240,504,240,504,235,558,235"/>
+<area shape="rect" id="Node000011" href="$class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="346,316,491,343"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="536,315,492,321,491,316,535,310"/>
+<area shape="poly" id="edge13_Node000012_Node000011" title=" " alt="" coords="544,350,491,343,492,337,545,345"/>
+</map>

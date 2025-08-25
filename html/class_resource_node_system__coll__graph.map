@@ -1,0 +1,14 @@
+<map id="ResourceNodeSystem" name="ResourceNodeSystem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,443,159,469"/>
+<area shape="rect" id="Node000002" href="$class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="47,245,117,272"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,288,76,344,78,399,83,442,77,443,72,399,71,344,76,287"/>
+<area shape="rect" id="Node000006" href="$class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="136,344,190,371"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="104,282,155,342,151,345,100,286"/>
+<area shape="rect" id="Node000003" href="$struct_input_state.html" title=" " alt="" coords="41,147,123,173"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,189,85,245,79,245,79,189"/>
+<area shape="rect" id="Node000004" href="$struct_vec2f.html" title=" " alt="" coords="18,5,72,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="48,47,52,83,62,122,75,145,70,147,57,124,47,84,43,48"/>
+<area shape="rect" id="Node000005" href="$struct_vec2.html" title=" " alt="" coords="96,5,146,32"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="116,48,88,147,83,145,111,46"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="145,384,94,444,90,441,141,381"/>
+</map>

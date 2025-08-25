@@ -1,0 +1,17 @@
+<map id="CameraSystem" name="CameraSystem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="76,344,189,371"/>
+<area shape="rect" id="Node000002" href="$class_g_engine.html" title="The main engine class that drives the game." alt="" coords="50,245,122,272"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,286,108,319,123,342,119,345,103,321,90,288"/>
+<area shape="rect" id="Node000003" href="$class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re..." alt="" coords="16,147,113,173"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="73,188,86,245,81,246,68,189"/>
+<area shape="rect" id="Node000004" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="67,47,67,146,62,146,62,47"/>
+<area shape="rect" id="Node000005" href="$class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="156,245,226,272"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="178,287,142,345,138,342,173,284"/>
+<area shape="rect" id="Node000006" href="$struct_input_state.html" title=" " alt="" coords="161,147,242,173"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="201,189,195,245,190,245,196,189"/>
+<area shape="rect" id="Node000007" href="$struct_vec2f.html" title=" " alt="" coords="161,5,216,32"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="194,47,203,146,198,146,188,48"/>
+<area shape="rect" id="Node000008" href="$struct_vec2.html" title=" " alt="" coords="239,5,290,32"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="263,48,254,85,237,124,218,148,214,145,233,121,249,83,258,47"/>
+</map>

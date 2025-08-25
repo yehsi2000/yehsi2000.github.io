@@ -1,0 +1,46 @@
+<map id="ItemDatabase::ItemDatabase" name="ItemDatabase::ItemDatabase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="753,341,947,368"/>
+<area shape="poly" id="edge21_Node000001_Node000001" title=" " alt="" coords="892,329,878,322,850,320,825,322,811,327,807,332,814,339,810,343,802,333,807,323,823,317,850,315,879,317,894,324"/>
+<area shape="rect" id="Node000002" href="$class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="528,265,689,292"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="797,338,705,307,665,295,666,290,706,301,798,333"/>
+<area shape="rect" id="Node000018" href="$class_item_database.html#ab6d37eea26600d798ba87e8e9d00f59c" title=" " alt="" coords="512,316,705,343"/>
+<area shape="poly" id="edge22_Node000001_Node000018" title=" " alt="" coords="738,346,705,342,706,337,738,340"/>
+<area shape="rect" id="Node000019" href="$class_item_database.html#a46eb730da87afb29009bd1ba1916fc7b" title=" " alt="" coords="526,367,692,393"/>
+<area shape="poly" id="edge23_Node000001_Node000019" title=" " alt="" coords="738,369,693,374,692,369,737,364"/>
+<area shape="rect" id="Node000020" href="$class_item_database.html#a9d4030075c3450ea3c3df546c9ac150a" title=" " alt="" coords="526,417,692,444"/>
+<area shape="poly" id="edge24_Node000001_Node000020" title=" " alt="" coords="798,376,706,408,666,419,665,414,705,403,797,371"/>
+<area shape="rect" id="Node000003" href="$class_assembling_machine_system.html#a919297c670597d285beda0fee8c6b19a" title=" " alt="" coords="263,5,446,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="594,252,575,210,546,159,509,107,462,62,444,51,446,46,466,58,513,103,551,156,580,208,599,250"/>
+<area shape="rect" id="Node000005" href="$class_u_i_system.html#a5d7944c7ca3deb191c9c4758dbf17823" title=" " alt="" coords="245,72,464,99"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="590,253,569,221,540,182,504,145,463,113,438,102,441,97,465,108,507,141,544,179,573,218,594,251"/>
+<area shape="rect" id="Node000007" href="$class_assembling_machine_system.html#abfb80ec67deffa5808ef8f420097b6f8" title=" " alt="" coords="263,224,446,267"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="513,269,446,260,447,255,514,264"/>
+<area shape="rect" id="Node000010" href="$class_input_system.html#a718a5d69acb0a2d662dd0c52c217058a" title=" " alt="" coords="260,291,449,333"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="514,294,450,302,449,297,513,288"/>
+<area shape="rect" id="Node000011" href="$class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="28,357,174,384"/>
+<area shape="poly" id="edge19_Node000002_Node000011" title=" " alt="" coords="527,300,513,306,499,316,490,327,481,338,465,348,390,370,312,381,238,384,174,381,174,376,238,378,312,376,389,365,463,343,477,334,486,324,496,313,511,302,524,295"/>
+<area shape="rect" id="Node000012" href="$class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="268,408,441,451"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="520,302,514,306,497,326,490,347,483,369,466,391,436,410,434,405,462,387,478,367,485,345,492,323,510,302,517,297"/>
+<area shape="rect" id="Node000013" href="$class_u_i_system.html#ab42a93e4647c6a9550f070b5abd37d39" title=" " alt="" coords="283,123,426,149"/>
+<area shape="poly" id="edge13_Node000002_Node000013" title=" " alt="" coords="582,256,530,208,498,184,463,164,425,150,427,145,465,159,501,180,534,204,586,252"/>
+<area shape="rect" id="Node000014" href="$class_u_i_system.html#a816f6fd73e1c0043c51cbac24436d6ca" title=" " alt="" coords="273,173,436,200"/>
+<area shape="poly" id="edge15_Node000002_Node000014" title=" " alt="" coords="567,260,518,237,463,215,424,203,426,198,465,209,520,232,569,255"/>
+<area shape="rect" id="Node000015" href="$class_inventory_command.html#a669cdafdc10f99587aee1e26c46e676d" title=" " alt="" coords="249,475,460,501"/>
+<area shape="poly" id="edge17_Node000002_Node000015" title=" " alt="" coords="517,303,514,306,499,325,492,344,491,384,489,424,482,445,466,465,450,476,446,472,462,461,477,442,484,423,486,384,487,343,495,322,510,302,513,299"/>
+<area shape="rect" id="Node000017" href="$class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="287,525,422,568"/>
+<area shape="poly" id="edge20_Node000002_Node000017" title=" " alt="" coords="517,302,514,306,496,331,488,356,487,382,490,408,493,434,492,461,484,488,466,515,446,530,424,540,421,535,444,526,462,512,480,486,487,460,488,435,485,408,482,382,483,355,491,329,510,302,514,299"/>
+<area shape="rect" id="Node000004" href="$class_assembling_machine_system.html#a7d36d87750dd1f4c13028751a6f53055" title=" " alt="" coords="5,5,197,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="247,29,197,29,197,24,247,24"/>
+<area shape="rect" id="Node000006" href="$class_u_i_system.html#ae66005968aae0198ab90285680e395a3" title=" " alt="" coords="36,123,166,149"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="269,105,167,126,166,120,268,100"/>
+<area shape="rect" id="Node000008" href="$class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="9,199,193,241"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="247,237,193,232,194,227,248,232"/>
+<area shape="rect" id="Node000009" href="$class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="9,265,193,308"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="248,265,194,274,193,269,247,260"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="245,340,163,359,162,354,244,335"/>
+<area shape="poly" id="edge12_Node000012_Node000011" title=" " alt="" coords="252,408,161,387,163,382,253,403"/>
+<area shape="poly" id="edge14_Node000013_Node000006" title=" " alt="" coords="267,139,167,139,167,133,267,133"/>
+<area shape="poly" id="edge16_Node000014_Node000006" title=" " alt="" coords="268,172,166,152,167,146,269,167"/>
+<area shape="rect" id="Node000016" href="$class_inventory_command.html#aef79beff4a3f0c7c1e0ee7db7827747e" title=" " alt="" coords="5,475,197,501"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="233,491,197,491,197,485,233,485"/>
+</map>

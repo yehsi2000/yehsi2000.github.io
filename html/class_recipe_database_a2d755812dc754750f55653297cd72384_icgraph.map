@@ -1,0 +1,37 @@
+<map id="RecipeDatabase::RecipeDatabase" name="RecipeDatabase::RecipeDatabase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1029,249,1252,276"/>
+<area shape="poly" id="edge20_Node000001_Node000001" title=" " alt="" coords="1188,237,1172,231,1140,228,1112,230,1096,235,1092,240,1099,247,1095,251,1087,241,1093,231,1111,225,1140,223,1173,225,1190,232"/>
+<area shape="rect" id="Node000002" href="$class_recipe_database.html#a82b048daff6f46a9e4f18cfa179d2a74" title=" " alt="" coords="781,173,957,200"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1084,247,980,215,935,203,936,198,981,209,1086,242"/>
+<area shape="rect" id="Node000012" href="$class_recipe_database.html#a34272e902a9a90e25e6936a6c622ca8e" title=" " alt="" coords="778,224,960,251"/>
+<area shape="poly" id="edge18_Node000001_Node000012" title=" " alt="" coords="1013,253,960,248,960,243,1013,248"/>
+<area shape="rect" id="Node000013" href="$class_recipe_database.html#ad5d4f81f001e91b7e7c88b07da5e9826" title=" " alt="" coords="778,275,960,301"/>
+<area shape="poly" id="edge19_Node000001_Node000013" title=" " alt="" coords="1013,277,960,282,960,277,1013,272"/>
+<area shape="rect" id="Node000014" href="$class_recipe_database.html#a159b274fa6b6c19775184773602de035" title=" " alt="" coords="757,325,981,352"/>
+<area shape="poly" id="edge21_Node000001_Node000014" title=" " alt="" coords="1086,284,981,316,936,327,935,322,980,311,1084,279"/>
+<area shape="rect" id="Node000003" href="$class_u_i_system.html#a383081863786c7b8fdadba4340682ab7" title=" " alt="" coords="504,5,709,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="840,165,781,118,708,69,670,51,673,46,711,64,784,113,843,161"/>
+<area shape="rect" id="Node000004" href="$class_u_i_system.html#a5d7944c7ca3deb191c9c4758dbf17823" title=" " alt="" coords="237,43,456,69"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="827,169,772,143,709,120,578,89,456,70,457,65,579,84,710,115,774,138,829,164"/>
+<area shape="rect" id="Node000006" href="$class_assembling_machine_system.html#abfb80ec67deffa5808ef8f420097b6f8" title=" " alt="" coords="255,173,438,216"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="766,191,438,196,438,191,766,186"/>
+<area shape="rect" id="Node000007" href="$class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="5,173,189,216"/>
+<area shape="poly" id="edge16_Node000002_Node000007" title=" " alt="" coords="766,175,656,164,524,156,380,154,237,164,176,175,175,170,236,159,380,149,524,151,657,159,766,170"/>
+<area shape="rect" id="Node000009" href="$class_assembling_machine_system.html#ad7127eaae06cdbc969da51dd22ca1f74" title=" " alt="" coords="515,224,698,267"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="792,207,699,227,698,222,791,201"/>
+<area shape="rect" id="Node000010" href="$class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="255,240,438,283"/>
+<area shape="poly" id="edge17_Node000002_Node000010" title=" " alt="" coords="768,209,759,214,744,230,737,248,728,266,711,281,674,296,635,305,595,309,555,310,478,301,413,286,414,281,479,296,555,304,595,304,634,300,672,291,708,276,724,262,732,246,739,227,756,210,765,204"/>
+<area shape="rect" id="Node000011" href="$class_assembling_machine_system.html#aec3295a219a54f9d7d3808f2c498e309" title=" " alt="" coords="255,307,438,349"/>
+<area shape="poly" id="edge13_Node000002_Node000011" title=" " alt="" coords="769,207,759,214,748,226,742,238,737,264,731,290,724,303,711,314,679,332,645,344,574,357,502,358,438,351,439,346,503,352,573,352,644,339,677,327,708,310,720,299,726,288,732,263,737,236,744,222,756,210,766,203"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="489,43,457,46,456,41,488,37"/>
+<area shape="rect" id="Node000005" href="$class_u_i_system.html#ae66005968aae0198ab90285680e395a3" title=" " alt="" coords="32,43,162,69"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="221,59,163,59,163,53,221,53"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="239,197,189,197,189,192,239,192"/>
+<area shape="rect" id="Node000008" href="$class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="5,240,189,283"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="250,223,180,242,179,237,249,218"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="499,255,439,258,438,253,499,249"/>
+<area shape="poly" id="edge11_Node000010_Node000007" title=" " alt="" coords="249,238,179,219,180,214,250,233"/>
+<area shape="poly" id="edge12_Node000010_Node000008" title=" " alt="" coords="239,264,189,264,189,259,239,259"/>
+<area shape="poly" id="edge14_Node000011_Node000007" title=" " alt="" coords="242,301,235,297,219,280,210,263,202,246,187,230,169,219,171,214,190,226,206,243,215,260,223,277,238,293,245,297"/>
+<area shape="poly" id="edge15_Node000011_Node000008" title=" " alt="" coords="249,305,179,286,180,281,250,300"/>
+</map>

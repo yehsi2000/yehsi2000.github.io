@@ -1,0 +1,31 @@
+<map id="factory::CreateMiningDrill" name="factory::CreateMiningDrill">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,232,175,259"/>
+<area shape="rect" id="Node000002" href="$namespaceutil.html#ae3383a10be16eab71a2adc41b2272d9f" title=" " alt="" coords="257,5,384,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,231,110,193,136,142,173,88,196,63,221,42,241,31,244,35,224,46,200,67,177,91,141,144,114,195,99,233"/>
+<area shape="rect" id="Node000003" href="$class_registry.html#ae939ff1b510d101fd03f48d8ec62fb39" title="Adds a component to an entity." alt="" coords="237,56,405,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="97,230,144,164,179,125,221,92,231,87,234,91,224,97,183,129,148,167,101,233"/>
+<area shape="rect" id="Node000006" href="$class_world.html#a3ccf6511812d3316e3d8e433c344512c" title="Checks if a building can be placed at a given location." alt="" coords="238,131,404,157"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="110,229,159,198,222,167,241,160,243,165,224,172,162,203,113,234"/>
+<area shape="rect" id="Node000007" href="$class_registry.html#aaec7ed69f07cc2191b2c88f92bb08602" title="Creates a new entity." alt="" coords="245,181,396,208"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="154,229,242,209,243,214,155,234"/>
+<area shape="rect" id="Node000008" href="$class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="223,232,419,259"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="175,243,207,243,207,248,175,248"/>
+<area shape="rect" id="Node000009" href="$class_asset_manager.html#afab05d67b6db163192514d93cd3302be" title=" " alt="" coords="234,283,408,309"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="155,257,243,276,242,281,154,262"/>
+<area shape="rect" id="Node000010" href="$class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="236,357,406,384"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="116,257,224,319,279,348,276,352,221,324,113,261"/>
+<area shape="rect" id="Node000011" href="$class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="239,408,402,435"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="101,257,148,323,183,361,224,394,234,399,231,404,221,398,179,365,144,327,97,261"/>
+<area shape="rect" id="Node000013" href="$class_world.html#a7c84c26e0fc51a696933573a4e79fcc2" title="Marks tiles as occupied by a building." alt="" coords="250,483,392,509"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="100,258,144,343,181,397,224,445,246,460,269,473,266,478,243,465,221,449,176,400,140,346,95,261"/>
+<area shape="rect" id="Node000004" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="467,144,664,171"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="382,81,420,92,523,135,521,140,418,97,381,86"/>
+<area shape="rect" id="Node000005" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="712,144,942,171"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="665,155,697,155,697,160,665,160"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="282,132,275,122,280,112,295,106,321,104,349,107,363,113,361,118,347,112,321,109,297,111,283,116,280,121,286,129"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="381,229,418,217,521,175,523,180,420,223,382,234"/>
+<area shape="poly" id="edge12_Node000010_Node000010" title=" " alt="" coords="282,359,275,349,280,339,295,333,321,331,349,333,363,340,361,345,347,338,321,336,297,338,283,343,280,348,286,355"/>
+<area shape="rect" id="Node000012" href="$class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="467,408,664,435"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="403,419,452,419,452,424,403,424"/>
+<area shape="poly" id="edge16_Node000013_Node000013" title=" " alt="" coords="282,484,275,474,280,464,295,458,321,456,349,459,363,465,361,470,347,464,321,461,297,463,283,468,280,473,286,481"/>
+</map>

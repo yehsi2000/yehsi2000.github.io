@@ -1,0 +1,12 @@
+<map id="util::GetCameraPosition" name="util::GetCameraPosition">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,166,57"/>
+<area shape="rect" id="Node000002" href="$class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="214,5,380,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,32,198,28,198,33,167,37"/>
+<area shape="rect" id="Node000005" href="$class_registry.html#a1fe75e6a9c525a9dc4775bbdf1b29dde" title="Creates a view of all entities that have a given set of components." alt="" coords="244,56,350,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="167,51,229,59,229,64,166,56"/>
+<area shape="rect" id="Node000003" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="428,31,625,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="380,25,413,29,412,34,380,30"/>
+<area shape="rect" id="Node000004" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="673,31,903,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="626,41,658,41,658,47,626,47"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="349,61,412,54,413,59,350,66"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="World::CreateChunkTexture" name="World::CreateChunkTexture">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,188,83"/>
+<area shape="rect" id="Node000002" href="$class_asset_manager.html#afab05d67b6db163192514d93cd3302be" title=" " alt="" coords="236,5,410,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,53,245,33,246,39,160,58"/>
+<area shape="rect" id="Node000003" href="$class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="268,56,378,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,67,252,67,252,72,188,72"/>
+<area shape="rect" id="Node000004" href="$class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="241,107,404,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="160,81,246,100,245,105,159,86"/>
+<area shape="rect" id="Node000005" href="$class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="458,107,655,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="405,117,442,117,442,123,405,123"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="UISystem::AssemblingMachineRecipeSelection" name="UISystem::AssemblingMachineRecipeSelection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="451,5,656,48"/>
+<area shape="rect" id="Node000002" href="$class_u_i_system.html#a5d7944c7ca3deb191c9c4758dbf17823" title=" " alt="" coords="184,13,403,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="435,29,403,29,403,24,435,24"/>
+<area shape="rect" id="Node000003" href="$class_u_i_system.html#ae66005968aae0198ab90285680e395a3" title=" " alt="" coords="5,13,136,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,29,136,29,136,24,168,24"/>
+</map>

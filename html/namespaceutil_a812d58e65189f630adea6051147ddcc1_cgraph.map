@@ -1,0 +1,14 @@
+<map id="util::DetachTimer" name="util::DetachTimer">
+<area shape="rect" id="Node000001" title="Detaches a timer from an entity." alt="" coords="5,56,127,83"/>
+<area shape="rect" id="Node000002" href="$class_timer_manager.html#ab6fb7ec06a23498f60811ec3f2bce91b" title="Destroys a timer instance, returning it to the pool." alt="" coords="175,5,366,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,53,198,34,200,39,124,58"/>
+<area shape="rect" id="Node000003" href="$class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="187,56,354,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="127,67,171,67,171,72,127,72"/>
+<area shape="rect" id="Node000006" href="$class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="428,107,597,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="119,81,175,92,298,106,412,114,412,119,298,112,174,97,118,86"/>
+<area shape="rect" id="Node000004" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="414,56,611,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="354,67,398,67,398,72,354,72"/>
+<area shape="rect" id="Node000005" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="659,81,889,108"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="612,76,644,79,643,85,612,82"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="598,109,644,105,644,110,598,114"/>
+</map>

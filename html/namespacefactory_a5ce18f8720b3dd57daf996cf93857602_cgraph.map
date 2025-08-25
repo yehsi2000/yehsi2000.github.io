@@ -1,0 +1,7 @@
+<map id="factory::CreateAssemblingMachine" name="factory::CreateAssemblingMachine">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,182,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="49,29,47,19,55,10,70,5,94,3,119,5,134,11,132,16,117,10,93,8,71,10,58,15,52,21,54,28"/>
+<area shape="rect" id="Node000002" href="$class_world.html#aab930ca8785b92299040410a6ce57bc9" title="Converts world coordinates to tile grid indices." alt="" coords="230,29,429,72"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="182,48,214,48,214,53,182,53"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="285,29,283,19,290,10,306,5,329,3,355,5,370,11,368,16,353,10,329,8,307,10,293,15,288,21,290,28"/>
+</map>

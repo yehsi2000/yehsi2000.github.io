@@ -1,0 +1,26 @@
+<map id="util::DetachTimer" name="util::DetachTimer">
+<area shape="rect" id="Node000001" title="Detaches a timer from an entity." alt="" coords="693,243,815,269"/>
+<area shape="rect" id="Node000002" href="$namespaceutil.html#a0af215271a8cf36a7b967449b3231ea3" title="Attaches a new timer to an entity." alt="" coords="498,121,615,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="716,237,579,151,581,146,719,232"/>
+<area shape="rect" id="Node000009" href="$class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="29,205,165,248"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="678,255,165,232,165,227,678,250"/>
+<area shape="rect" id="Node000010" href="$class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="470,264,643,307"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="678,270,644,275,644,270,677,265"/>
+<area shape="rect" id="Node000012" href="$class_movement_system.html#a67ce77218fa1afd071c8f6489f1d0034" title=" " alt="" coords="468,331,645,357"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="721,280,686,301,646,321,615,333,613,328,644,316,683,297,719,276"/>
+<area shape="rect" id="Node000003" href="$class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="252,9,405,52"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="514,116,419,70,383,55,385,50,421,66,516,112"/>
+<area shape="rect" id="Node000005" href="$class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="237,80,420,123"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="483,127,420,117,421,112,483,121"/>
+<area shape="rect" id="Node000008" href="$class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="261,147,396,189"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="483,148,397,161,396,156,482,143"/>
+<area shape="rect" id="Node000004" href="$class_interaction_system.html#a78be599c43f0cda96c72a64d392278c3" title=" " alt="" coords="29,5,165,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="236,32,165,31,165,25,236,26"/>
+<area shape="rect" id="Node000006" href="$class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="5,72,189,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="221,100,189,99,189,94,222,95"/>
+<area shape="rect" id="Node000007" href="$class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="5,139,189,181"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="228,130,185,141,183,135,226,124"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="246,191,166,212,165,207,245,186"/>
+<area shape="rect" id="Node000011" href="$class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="256,272,401,299"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="454,288,401,288,401,283,454,283"/>
+</map>

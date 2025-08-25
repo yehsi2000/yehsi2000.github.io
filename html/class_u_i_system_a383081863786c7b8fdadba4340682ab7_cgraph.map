@@ -1,0 +1,14 @@
+<map id="UISystem::AssemblingMachineRecipeSelection" name="UISystem::AssemblingMachineRecipeSelection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,211,77"/>
+<area shape="rect" id="Node000002" href="$class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="263,12,430,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,40,247,35,248,41,212,45"/>
+<area shape="rect" id="Node000005" href="$class_recipe_database.html#a82b048daff6f46a9e4f18cfa179d2a74" title=" " alt="" coords="259,68,434,95"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="212,64,244,68,243,73,211,70"/>
+<area shape="rect" id="Node000003" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="495,5,692,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="430,20,479,19,479,24,430,26"/>
+<area shape="rect" id="Node000004" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="753,5,983,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="693,16,738,16,738,21,693,21"/>
+<area shape="rect" id="Node000006" href="$class_recipe_database.html#a2d755812dc754750f55653297cd72384" title=" " alt="" coords="482,80,705,107"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="435,83,467,84,466,90,434,88"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="552,81,545,71,550,61,566,55,594,53,624,56,639,63,637,68,622,61,594,59,568,61,553,65,550,71,556,78"/>
+</map>

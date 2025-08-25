@@ -1,0 +1,8 @@
+<map id="World::PlaceBuilding" name="World::PlaceBuilding">
+<area shape="rect" id="Node000001" title="Marks tiles as occupied by a building." alt="" coords="230,43,371,69"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="336,30,323,24,300,21,279,23,267,28,264,33,270,41,265,44,259,34,263,24,277,18,300,16,325,19,338,25"/>
+<area shape="rect" id="Node000002" href="$namespacefactory.html#afb051a88fa520dd405fa9b617102f984" title=" " alt="" coords="5,5,182,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,46,182,42,183,37,215,41"/>
+<area shape="rect" id="Node000003" href="$namespacefactory.html#aeb6369c52248c80b2876a56befa07053" title=" " alt="" coords="9,72,178,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,71,179,76,178,71,214,66"/>
+</map>

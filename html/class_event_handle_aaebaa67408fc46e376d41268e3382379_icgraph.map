@@ -1,0 +1,11 @@
+<map id="EventHandle::EventHandle" name="EventHandle::EventHandle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="233,81,412,108"/>
+<area shape="rect" id="Node000002" href="$class_event_handle.html#a81b317dfa63aad0f97e7978bd57d7818" title=" " alt="" coords="5,5,185,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="271,78,184,47,147,35,148,30,186,41,273,73"/>
+<area shape="rect" id="Node000003" href="$class_event_handle.html#a93daeb86181c0fadfdecd31d9ceb157a" title=" " alt="" coords="5,56,185,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,86,185,82,186,77,218,80"/>
+<area shape="rect" id="Node000004" href="$class_event_handle.html#a11d19a87f7a01d848bd88a06743ea38f" title=" " alt="" coords="15,107,175,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="217,109,175,114,175,108,217,104"/>
+<area shape="rect" id="Node000005" href="$class_event_handle.html#ad35f1c74446e8fc676257c484ae89412" title=" " alt="" coords="15,157,175,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="273,116,186,148,148,159,147,154,184,143,271,111"/>
+</map>

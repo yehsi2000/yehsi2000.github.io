@@ -1,0 +1,24 @@
+<map id="GEngine::GeneratePlayer" name="GEngine::GeneratePlayer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,132,175,159"/>
+<area shape="rect" id="Node000002" href="$namespacefactory.html#ac986ddace9df2128cf45e161027b0038" title=" " alt="" coords="223,132,368,159"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,143,207,143,207,148,175,148"/>
+<area shape="rect" id="Node000003" href="$namespaceutil.html#ae3383a10be16eab71a2adc41b2272d9f" title=" " alt="" coords="450,5,578,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="307,130,351,86,382,62,415,42,435,33,437,38,417,46,385,67,355,90,311,134"/>
+<area shape="rect" id="Node000004" href="$class_registry.html#ae939ff1b510d101fd03f48d8ec62fb39" title="Adds a component to an entity." alt="" coords="430,56,598,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="325,129,415,92,439,85,440,90,417,97,327,134"/>
+<area shape="rect" id="Node000007" href="$class_registry.html#aaec7ed69f07cc2191b2c88f92bb08602" title="Creates a new entity." alt="" coords="438,107,590,133"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="368,134,423,128,423,133,369,140"/>
+<area shape="rect" id="Node000008" href="$class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="416,157,612,184"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="369,151,401,155,400,160,368,156"/>
+<area shape="rect" id="Node000009" href="$class_asset_manager.html#afab05d67b6db163192514d93cd3302be" title=" " alt="" coords="427,208,601,235"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="327,157,417,193,440,201,439,206,415,199,325,162"/>
+<area shape="rect" id="Node000010" href="$class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="432,259,596,285"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="311,157,355,200,385,224,417,244,431,250,428,255,415,249,382,228,351,204,307,161"/>
+<area shape="rect" id="Node000005" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="660,107,858,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="583,81,677,100,676,106,582,86"/>
+<area shape="rect" id="Node000006" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="906,107,1135,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="858,117,890,117,890,123,858,123"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="582,154,676,134,677,140,583,159"/>
+<area shape="rect" id="Node000011" href="$class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="660,259,858,285"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="596,269,645,269,645,275,596,275"/>
+</map>

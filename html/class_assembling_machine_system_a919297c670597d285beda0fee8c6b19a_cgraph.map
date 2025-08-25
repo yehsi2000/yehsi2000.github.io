@@ -1,0 +1,10 @@
+<map id="AssemblingMachineSystem::AddInputItem" name="AssemblingMachineSystem::AddInputItem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,189,65"/>
+<area shape="rect" id="Node000002" href="$class_item_database.html#a5d13ed9b8c60c2593baabd6f2d41f905" title=" " alt="" coords="252,5,382,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,31,237,25,237,30,189,36"/>
+<area shape="rect" id="Node000003" href="$class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="237,56,397,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,52,221,56,221,61,189,57"/>
+<area shape="rect" id="Node000004" href="$class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="445,56,638,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="397,67,429,67,429,72,397,72"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="504,57,497,47,502,37,517,31,542,29,568,32,583,38,580,43,567,37,542,35,518,37,505,41,502,47,508,54"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="InventoryCommand::TryAddItem" name="InventoryCommand::TryAddItem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,217,57"/>
+<area shape="rect" id="Node000002" href="$class_item_database.html#a5d13ed9b8c60c2593baabd6f2d41f905" title=" " alt="" coords="280,5,410,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,30,265,25,265,30,217,35"/>
+<area shape="rect" id="Node000003" href="$class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="265,56,425,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,53,249,56,249,62,217,58"/>
+<area shape="rect" id="Node000004" href="$class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="473,56,666,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="425,67,457,67,457,72,425,72"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="532,57,525,47,530,37,545,31,570,29,596,32,611,38,608,43,595,37,570,35,546,37,533,41,530,47,536,54"/>
+</map>

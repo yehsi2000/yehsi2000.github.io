@@ -1,0 +1,8 @@
+<map id="factory::CreateAssemblingMachine" name="factory::CreateAssemblingMachine">
+<area shape="rect" id="Node000001" title=" " alt="" coords="420,29,596,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="544,16,531,10,508,8,487,10,474,15,469,21,471,28,466,29,464,19,471,10,486,5,508,3,532,5,546,11"/>
+<area shape="rect" id="Node000002" href="$class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="199,29,372,72"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="405,53,372,53,372,48,405,48"/>
+<area shape="rect" id="Node000003" href="$class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="5,37,151,64"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="183,53,151,53,151,48,183,48"/>
+</map>

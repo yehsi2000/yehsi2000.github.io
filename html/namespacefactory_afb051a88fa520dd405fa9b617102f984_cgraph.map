@@ -1,0 +1,25 @@
+<map id="factory::CreateAssemblingMachine" name="factory::CreateAssemblingMachine">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,173,182,216"/>
+<area shape="rect" id="Node000002" href="$namespaceutil.html#ae3383a10be16eab71a2adc41b2272d9f" title=" " alt="" coords="264,5,392,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,171,154,107,189,72,228,42,248,32,251,37,231,46,192,76,158,110,110,175"/>
+<area shape="rect" id="Node000003" href="$class_world.html#a3ccf6511812d3316e3d8e433c344512c" title="Checks if a building can be placed at a given location." alt="" coords="245,80,410,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="127,170,174,143,229,116,248,109,250,114,231,121,176,147,129,175"/>
+<area shape="rect" id="Node000004" href="$class_registry.html#aaec7ed69f07cc2191b2c88f92bb08602" title="Creates a new entity." alt="" coords="252,131,404,157"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="181,173,248,159,249,164,182,178"/>
+<area shape="rect" id="Node000005" href="$class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="230,181,426,208"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="182,192,214,192,214,197,182,197"/>
+<area shape="rect" id="Node000008" href="$class_asset_manager.html#afab05d67b6db163192514d93cd3302be" title=" " alt="" coords="241,232,415,259"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="182,211,249,226,248,231,181,216"/>
+<area shape="rect" id="Node000009" href="$class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="246,283,410,309"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="129,214,176,242,231,268,250,275,248,280,229,273,174,247,127,219"/>
+<area shape="rect" id="Node000011" href="$class_world.html#a7c84c26e0fc51a696933573a4e79fcc2" title="Marks tiles as occupied by a building." alt="" coords="257,357,398,384"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="116,214,166,265,231,319,282,348,279,353,228,324,163,269,112,218"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="288,81,281,71,286,61,302,55,328,53,356,56,371,63,369,68,355,61,328,59,303,61,290,65,287,71,293,78"/>
+<area shape="rect" id="Node000006" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="474,181,671,208"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="427,192,459,192,459,197,427,197"/>
+<area shape="rect" id="Node000007" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="719,181,949,208"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="672,192,704,192,704,197,672,197"/>
+<area shape="rect" id="Node000010" href="$class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="474,283,671,309"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="410,293,459,293,459,299,410,299"/>
+<area shape="poly" id="edge12_Node000011_Node000011" title=" " alt="" coords="288,359,281,349,286,339,302,333,328,331,356,333,371,340,369,345,355,338,328,336,303,338,290,343,287,348,293,355"/>
+</map>

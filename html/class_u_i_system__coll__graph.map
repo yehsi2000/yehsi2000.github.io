@@ -1,0 +1,12 @@
+<map id="UISystem" name="UISystem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="190,301,270,328"/>
+<area shape="rect" id="Node000002" href="$class_g_engine.html" title="The main engine class that drives the game." alt="" coords="194,203,266,229"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,245,232,301,227,301,227,245"/>
+<area shape="rect" id="Node000003" href="$class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re..." alt="" coords="16,104,113,131"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="56,146,48,187,49,208,57,228,84,258,119,280,156,295,190,304,189,309,154,300,116,284,81,262,53,231,44,210,43,187,51,145"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,136,210,200,207,204,98,141"/>
+<area shape="rect" id="Node000004" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="67,48,67,104,62,104,62,48"/>
+<area shape="rect" id="Node000005" href="$struct_item_payload.html" title=" " alt="" coords="289,203,384,229"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="319,243,284,279,251,303,248,299,280,275,315,239"/>
+</map>

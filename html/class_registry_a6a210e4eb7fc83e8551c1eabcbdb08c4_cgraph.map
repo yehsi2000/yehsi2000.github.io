@@ -1,0 +1,7 @@
+<map id="Registry::RemoveComponent" name="Registry::RemoveComponent">
+<area shape="rect" id="Node000001" title="Removes a component from an entity." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="Node000002" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="248,5,445,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,16,232,16,232,21,200,21"/>
+<area shape="rect" id="Node000003" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="493,5,722,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="445,16,477,16,477,21,445,21"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="EventHandle" name="EventHandle">
+<area shape="rect" id="Node000001" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re..." alt="" coords="16,104,113,131"/>
+<area shape="rect" id="Node000002" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,48,67,104,62,104,62,48"/>
+</map>

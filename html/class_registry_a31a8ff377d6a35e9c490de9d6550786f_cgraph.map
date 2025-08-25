@@ -1,0 +1,5 @@
+<map id="Registry::RegisterComponent" name="Registry::RegisterComponent">
+<area shape="rect" id="Node000001" title="Registers a new component type with the registry." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="Node000002" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="248,5,477,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,16,232,16,232,21,200,21"/>
+</map>

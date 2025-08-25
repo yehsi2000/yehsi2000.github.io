@@ -1,0 +1,21 @@
+<map id="util::SetAnimation" name="util::SetAnimation">
+<area shape="rect" id="Node000001" title=" " alt="" coords="468,139,592,165"/>
+<area shape="rect" id="Node000002" href="$class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="242,5,415,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="504,130,465,96,419,62,396,51,398,46,421,58,469,91,507,126"/>
+<area shape="rect" id="Node000004" href="$class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="252,72,405,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="466,136,403,118,405,113,468,131"/>
+<area shape="rect" id="Node000006" href="$class_movement_system.html#a67ce77218fa1afd071c8f6489f1d0034" title=" " alt="" coords="240,139,417,165"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="452,155,418,155,418,149,452,149"/>
+<area shape="rect" id="Node000007" href="$class_assembling_machine_system.html#a27346bb46136ea08d2d3051a219c94d5" title=" " alt="" coords="237,189,420,232"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="468,173,405,191,403,186,466,168"/>
+<area shape="rect" id="Node000009" href="$class_mining_drill_system.html#a91b72ed51a2f95c47c3932babc96b1c2" title=" " alt="" coords="252,256,404,299"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="507,178,469,213,421,246,398,258,396,253,419,242,465,208,504,174"/>
+<area shape="rect" id="Node000003" href="$class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="24,13,170,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="226,29,170,29,170,24,226,24"/>
+<area shape="rect" id="Node000005" href="$class_interaction_system.html#a78be599c43f0cda96c72a64d392278c3" title=" " alt="" coords="29,72,165,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="236,96,165,96,165,91,236,91"/>
+<area shape="rect" id="Node000008" href="$class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="5,189,189,232"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="221,213,189,213,189,208,221,208"/>
+<area shape="rect" id="Node000010" href="$class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="29,256,165,299"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="237,280,165,280,165,275,237,275"/>
+</map>

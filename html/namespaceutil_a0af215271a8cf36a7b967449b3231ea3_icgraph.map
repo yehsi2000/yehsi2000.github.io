@@ -1,0 +1,17 @@
+<map id="util::AttachTimer" name="util::AttachTimer">
+<area shape="rect" id="Node000001" title="Attaches a new timer to an entity." alt="" coords="468,97,585,124"/>
+<area shape="rect" id="Node000002" href="$class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="252,15,405,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="474,94,386,60,388,55,476,89"/>
+<area shape="rect" id="Node000004" href="$class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="237,89,420,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="453,113,420,113,420,108,453,108"/>
+<area shape="rect" id="Node000007" href="$class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="261,172,396,215"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="480,133,383,174,381,169,478,128"/>
+<area shape="rect" id="Node000003" href="$class_interaction_system.html#a78be599c43f0cda96c72a64d392278c3" title=" " alt="" coords="29,5,165,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="236,35,165,32,165,27,236,30"/>
+<area shape="rect" id="Node000005" href="$class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="5,72,189,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="221,105,189,103,189,98,222,100"/>
+<area shape="rect" id="Node000006" href="$class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="5,139,189,181"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="222,136,190,143,189,138,221,131"/>
+<area shape="rect" id="Node000008" href="$class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="29,205,165,248"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="246,208,166,220,165,214,245,203"/>
+</map>

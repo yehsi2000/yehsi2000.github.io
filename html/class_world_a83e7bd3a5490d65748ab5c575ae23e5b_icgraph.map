@@ -1,0 +1,9 @@
+<map id="World::CreateChunkTexture" name="World::CreateChunkTexture">
+<area shape="rect" id="Node000001" title=" " alt="" coords="535,5,718,32"/>
+<area shape="rect" id="Node000002" href="$class_world.html#a51c0652a33b08264b5108b897673ff5f" title=" " alt="" coords="334,5,487,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="520,21,488,21,488,16,520,16"/>
+<area shape="rect" id="Node000003" href="$class_world.html#a6effd57244b7e457ebe97c39e2f41ff4" title=" " alt="" coords="158,5,286,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="318,21,286,21,286,16,318,16"/>
+<area shape="rect" id="Node000004" href="$class_world.html#ae45b2d1dfcf9c15d79dbb19aa6dab2d9" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,5,110,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="142,21,110,21,110,16,142,16"/>
+</map>

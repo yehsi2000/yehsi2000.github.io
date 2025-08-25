@@ -1,0 +1,17 @@
+<map id="AssemblingMachineSystem::CanStoreOutput" name="AssemblingMachineSystem::CanStoreOutput">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,73,189,116"/>
+<area shape="rect" id="Node000002" href="$class_item_database.html#a5d13ed9b8c60c2593baabd6f2d41f905" title=" " alt="" coords="260,5,389,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,70,236,41,258,34,260,39,238,47,156,75"/>
+<area shape="rect" id="Node000003" href="$class_recipe_database.html#a46dcedb5aee9db8e2c5d20f67ac457a9" title=" " alt="" coords="252,56,396,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,82,236,76,237,82,189,87"/>
+<area shape="rect" id="Node000004" href="$class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="244,107,404,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="189,102,229,107,228,112,189,108"/>
+<area shape="rect" id="Node000006" href="$class_recipe_database.html#a82b048daff6f46a9e4f18cfa179d2a74" title=" " alt="" coords="237,163,412,189"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="159,114,238,143,270,154,268,159,236,148,157,119"/>
+<area shape="rect" id="Node000005" href="$class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="475,100,668,127"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="405,115,459,114,459,119,405,121"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="530,101,523,91,528,81,544,75,572,73,602,76,617,83,615,88,600,81,572,79,546,81,531,85,528,91,534,98"/>
+<area shape="rect" id="Node000007" href="$class_recipe_database.html#a2d755812dc754750f55653297cd72384" title=" " alt="" coords="460,175,683,201"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="413,178,445,179,444,184,412,183"/>
+<area shape="poly" id="edge8_Node000007_Node000007" title=" " alt="" coords="530,176,523,166,528,156,544,150,572,148,602,151,617,157,615,162,600,156,572,153,546,155,531,160,528,165,534,173"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="World::IsTileMovable" name="World::IsTileMovable">
+<area shape="rect" id="Node000001" title="Checks if a tile at a given position is passable." alt="" coords="5,29,149,56"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="101,16,93,10,77,8,62,10,55,14,53,20,57,28,52,30,48,21,51,11,61,5,77,3,95,5,104,12"/>
+</map>

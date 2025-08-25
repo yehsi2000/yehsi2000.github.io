@@ -1,0 +1,10 @@
+<map id="AssemblingMachineSystem::HasEnoughIngredients" name="AssemblingMachineSystem::HasEnoughIngredients">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,189,65"/>
+<area shape="rect" id="Node000002" href="$class_recipe_database.html#a46dcedb5aee9db8e2c5d20f67ac457a9" title=" " alt="" coords="252,5,396,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,31,236,26,237,31,189,36"/>
+<area shape="rect" id="Node000003" href="$class_recipe_database.html#a82b048daff6f46a9e4f18cfa179d2a74" title=" " alt="" coords="237,56,412,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,52,222,55,221,61,189,57"/>
+<area shape="rect" id="Node000004" href="$class_recipe_database.html#a2d755812dc754750f55653297cd72384" title=" " alt="" coords="460,56,683,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="413,67,444,67,444,72,413,72"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="530,57,523,47,528,37,544,31,572,29,602,32,617,39,615,44,600,37,572,35,546,37,531,41,528,47,534,54"/>
+</map>

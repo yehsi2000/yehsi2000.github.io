@@ -1,0 +1,5 @@
+<map id="TimerManager" name="TimerManager">
+<area shape="rect" id="Node000001" title="Manages the lifecycle of all TimerInstance objects in the game, centralizing the logic and memory man..." alt="" coords="49,104,153,131"/>
+<area shape="rect" id="Node000002" href="$class_object_pool.html" title=" " alt="" coords="5,5,197,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,48,104,104,98,104,98,48"/>
+</map>

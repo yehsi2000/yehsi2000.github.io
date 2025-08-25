@@ -1,0 +1,8 @@
+<map id="factory::CreateMiningDrill" name="factory::CreateMiningDrill">
+<area shape="rect" id="Node000001" title=" " alt="" coords="420,29,589,56"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="542,16,529,10,505,8,482,10,469,15,466,20,472,27,468,30,461,21,466,11,480,5,505,3,531,5,545,12"/>
+<area shape="rect" id="Node000002" href="$class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="199,21,372,64"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="405,45,372,45,372,40,405,40"/>
+<area shape="rect" id="Node000003" href="$class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="5,29,151,56"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="183,45,151,45,151,40,183,40"/>
+</map>

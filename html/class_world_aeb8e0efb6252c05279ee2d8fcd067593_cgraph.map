@@ -1,0 +1,6 @@
+<map id="World::IsTileMovable" name="World::IsTileMovable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,149,56"/>
+<area shape="rect" id="Node000002" href="$class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="197,29,367,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,40,181,40,181,45,149,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="247,30,241,21,245,11,259,5,282,3,306,5,319,12,317,16,305,10,282,8,260,10,249,15,246,20,251,27"/>
+</map>

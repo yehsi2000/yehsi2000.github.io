@@ -1,0 +1,7 @@
+<map id="World::IsTileMovable" name="World::IsTileMovable">
+<area shape="rect" id="Node000001" title="Checks if a tile at a given position is passable." alt="" coords="5,37,149,64"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="40,38,33,29,38,19,53,13,77,11,103,13,117,20,115,24,102,18,77,16,54,18,41,23,39,28,44,35"/>
+<area shape="rect" id="Node000002" href="$class_world.html#aab930ca8785b92299040410a6ce57bc9" title="Converts world coordinates to tile grid indices." alt="" coords="197,29,396,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,48,181,48,181,53,149,53"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="255,29,253,19,260,10,274,5,296,3,320,5,334,11,332,16,318,10,296,8,276,10,263,15,258,21,260,28"/>
+</map>

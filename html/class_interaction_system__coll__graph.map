@@ -1,0 +1,10 @@
+<map id="InteractionSystem" name="InteractionSystem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,301,133,328"/>
+<area shape="rect" id="Node000002" href="$class_g_engine.html" title="The main engine class that drives the game." alt="" coords="117,203,189,229"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,243,82,303,78,299,130,239"/>
+<area shape="rect" id="Node000003" href="$class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re..." alt="" coords="21,104,117,131"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="68,146,62,203,63,257,69,301,64,301,58,258,56,203,62,146"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,141,144,201,140,204,88,144"/>
+<area shape="rect" id="Node000004" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="10,5,128,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="72,48,72,104,66,104,66,48"/>
+</map>

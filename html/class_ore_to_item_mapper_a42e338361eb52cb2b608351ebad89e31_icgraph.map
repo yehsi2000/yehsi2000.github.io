@@ -1,0 +1,14 @@
+<map id="OreToItemMapper::OreToItemMapper" name="OreToItemMapper::OreToItemMapper">
+<area shape="rect" id="Node000001" title=" " alt="" coords="461,81,655,124"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="598,68,583,62,558,60,535,62,521,67,516,73,518,80,512,81,510,71,518,62,534,57,558,55,584,57,600,63"/>
+<area shape="rect" id="Node000002" href="$class_ore_to_item_mapper.html#a4d0c2e07410e9c683c66a963694a781d" title=" " alt="" coords="225,13,407,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="483,78,412,55,372,43,374,38,414,49,484,73"/>
+<area shape="rect" id="Node000004" href="$class_ore_to_item_mapper.html#a956adf735664545e0592e97edb653c5c" title=" " alt="" coords="222,64,410,91"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="445,94,410,90,411,85,445,88"/>
+<area shape="rect" id="Node000005" href="$class_ore_to_item_mapper.html#ae01d6c9fcde73d6be1995717d008aefa" title=" " alt="" coords="222,115,410,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="445,117,411,121,410,116,445,112"/>
+<area shape="rect" id="Node000006" href="$class_ore_to_item_mapper.html#ae5d4d5a21401ce758409ad3962913c29" title=" " alt="" coords="219,165,413,208"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="482,132,414,156,381,167,379,162,412,151,480,127"/>
+<area shape="rect" id="Node000003" href="$class_resource_mine_command.html#aa286cd0a089ae22bb03599f7d6aabeb6" title=" " alt="" coords="5,5,171,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="209,29,171,29,171,24,209,24"/>
+</map>

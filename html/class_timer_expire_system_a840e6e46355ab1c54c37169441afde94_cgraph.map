@@ -1,0 +1,15 @@
+<map id="TimerExpireSystem::Update" name="TimerExpireSystem::Update">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,150,91"/>
+<area shape="rect" id="Node000002" href="$class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="198,5,364,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,49,209,34,210,39,151,54"/>
+<area shape="rect" id="Node000005" href="$class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="426,107,595,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="151,83,198,92,308,105,411,113,410,118,307,110,197,97,150,89"/>
+<area shape="rect" id="Node000006" href="$class_registry.html#a1fe75e6a9c525a9dc4775bbdf1b29dde" title="Creates a view of all entities that have a given set of components." alt="" coords="228,56,334,83"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="150,67,213,67,213,72,150,72"/>
+<area shape="rect" id="Node000003" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="412,56,609,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="345,30,433,49,431,55,344,35"/>
+<area shape="rect" id="Node000004" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="657,81,887,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="610,76,642,79,641,85,610,82"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="596,109,642,105,642,110,596,114"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="334,67,396,67,396,72,334,72"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="InventorySystem::InventorySystem" name="InventorySystem::InventorySystem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,188,65"/>
+<area shape="rect" id="Node000002" href="$class_inventory_system.html#a747f4c853baefbdad883af4a6b029948" title=" " alt="" coords="236,31,413,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,41,220,41,220,47,188,47"/>
+<area shape="rect" id="Node000003" href="$class_command_queue.html#aed4702e51ab2e3eb042886487a29f45a" title=" " alt="" coords="461,5,639,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="413,31,445,28,446,33,414,37"/>
+<area shape="rect" id="Node000004" href="$class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="466,56,635,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="414,51,451,55,450,61,413,57"/>
+<area shape="rect" id="Node000005" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="687,56,917,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="635,67,672,67,672,72,635,72"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="World::GetTileIndexFromWorldPosition" name="World::GetTileIndexFromWorldPosition">
+<area shape="rect" id="Node000001" title="Converts world coordinates to tile grid indices." alt="" coords="665,137,865,180"/>
+<area shape="poly" id="edge9_Node000001_Node000001" title=" " alt="" coords="805,124,790,118,765,116,742,118,727,123,722,129,724,136,718,137,717,127,724,118,741,113,765,111,791,113,807,119"/>
+<area shape="rect" id="Node000002" href="$namespacefactory.html#a5ce18f8720b3dd57daf996cf93857602" title=" " alt="" coords="430,29,607,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="710,132,616,86,587,75,589,70,618,82,713,127"/>
+<area shape="rect" id="Node000005" href="$namespacefactory.html#ab8ddcd28f448d5efac3dc444c13dbf4f" title=" " alt="" coords="434,120,603,147"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="650,150,603,145,604,139,650,144"/>
+<area shape="rect" id="Node000006" href="$class_world.html#a4d7316cbf430c3bdd51d17de27a52ed1" title=" " alt="" coords="420,171,617,197"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="650,173,618,176,617,171,650,168"/>
+<area shape="rect" id="Node000007" href="$class_world.html#ae92e0d0bc9acd3b1e879f158f00d2feb" title="Checks if a tile at a given position is passable." alt="" coords="447,245,590,272"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="697,189,555,247,553,242,695,184"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="557,16,542,10,519,8,497,10,483,15,478,21,480,28,474,29,473,19,480,10,495,5,519,3,544,5,559,11"/>
+<area shape="rect" id="Node000003" href="$class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="199,71,372,113"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="416,72,373,79,372,74,415,66"/>
+<area shape="rect" id="Node000004" href="$class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="5,79,151,105"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="183,95,151,95,151,89,183,89"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="424,119,372,110,373,105,425,114"/>
+<area shape="poly" id="edge6_Node000005_Node000005" title=" " alt="" coords="559,108,545,101,519,99,494,101,481,105,478,111,484,118,479,121,472,111,477,101,493,95,519,93,547,96,561,103"/>
+<area shape="poly" id="edge11_Node000007_Node000007" title=" " alt="" coords="559,233,545,226,519,224,494,226,481,231,478,236,484,243,479,247,472,237,477,227,493,221,519,219,547,221,561,228"/>
+</map>

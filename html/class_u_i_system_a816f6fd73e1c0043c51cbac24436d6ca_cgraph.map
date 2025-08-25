@@ -1,0 +1,23 @@
+<map id="UISystem::MiningDrillUI" name="UISystem::MiningDrillUI">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,169,133"/>
+<area shape="rect" id="Node000002" href="$class_item_database.html#a5d13ed9b8c60c2593baabd6f2d41f905" title=" " alt="" coords="235,5,364,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,104,155,73,216,42,232,35,234,40,218,46,158,78,110,108"/>
+<area shape="rect" id="Node000003" href="$class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="217,56,383,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,103,225,84,226,89,147,109"/>
+<area shape="rect" id="Node000006" href="$class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="218,157,382,184"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="147,131,226,151,225,156,146,137"/>
+<area shape="rect" id="Node000008" href="$class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="220,213,380,240"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="110,132,159,162,218,194,244,205,242,210,216,198,156,166,108,136"/>
+<area shape="rect" id="Node000010" href="$class_registry.html#a1fe75e6a9c525a9dc4775bbdf1b29dde" title="Creates a view of all entities that have a given set of components." alt="" coords="247,107,352,133"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="169,117,232,117,232,123,169,123"/>
+<area shape="rect" id="Node000004" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="431,79,628,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="383,75,416,78,415,83,383,80"/>
+<area shape="rect" id="Node000005" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="676,79,906,105"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="629,89,661,89,661,95,629,95"/>
+<area shape="rect" id="Node000007" href="$class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="431,151,628,177"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="382,166,415,165,415,170,382,171"/>
+<area shape="rect" id="Node000009" href="$class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="433,225,626,252"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="381,228,418,230,417,235,380,234"/>
+<area shape="poly" id="edge9_Node000009_Node000009" title=" " alt="" coords="491,226,484,217,489,207,504,201,530,199,557,201,572,208,570,213,556,206,530,204,505,206,492,211,489,216,495,223"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="352,111,415,103,416,109,353,116"/>
+</map>
