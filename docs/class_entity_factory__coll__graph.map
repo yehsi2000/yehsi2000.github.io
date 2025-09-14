@@ -1,0 +1,9 @@
+<map id="EntityFactory" name="EntityFactory">
+<area shape="rect" id="Node000001" title="A factory for creating pre&#45;configured entities." alt="" coords="71,203,170,229"/>
+<area shape="rect" id="Node000002" href="$class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="29,104,100,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,144,98,177,114,201,109,204,94,180,75,146"/>
+<area shape="rect" id="Node000003" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="67,48,67,104,62,104,62,48"/>
+<area shape="rect" id="Node000004" href="$class_asset_manager.html" title="A singleton for managing and caching in&#45;game entity assets." alt="" coords="124,104,229,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="167,146,149,180,133,204,128,201,145,177,163,143"/>
+</map>

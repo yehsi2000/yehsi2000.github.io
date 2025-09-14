@@ -1,16 +1,5 @@
 <map id="World::GenerateChunk" name="World::GenerateChunk">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,68,159,95"/>
-<area shape="rect" id="Node000002" href="$class_world.html#a83e7bd3a5490d65748ab5c575ae23e5b" title=" " alt="" coords="207,43,389,69"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,70,191,66,191,71,159,75"/>
-<area shape="rect" id="Node000003" href="$class_asset_manager.html#afab05d67b6db163192514d93cd3302be" title=" " alt="" coords="437,5,611,32"/>
-<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="108,65,153,45,206,28,261,19,317,13,421,11,422,16,317,19,262,24,207,33,155,50,111,70"/>
-<area shape="rect" id="Node000004" href="$class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="470,68,579,95"/>
-<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="159,79,454,79,454,84,159,84"/>
-<area shape="rect" id="Node000005" href="$class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="442,131,606,157"/>
-<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="159,89,427,128,426,133,159,95"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="382,39,424,33,425,38,383,45"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="390,64,454,71,454,76,389,69"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="336,67,474,122,473,127,334,72"/>
-<area shape="rect" id="Node000006" href="$class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="659,131,857,157"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="606,141,644,141,644,147,606,147"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,159,32"/>
+<area shape="rect" id="Node000002" href="$class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="207,5,316,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,16,191,16,191,21,159,21"/>
 </map>

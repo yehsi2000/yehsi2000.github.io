@@ -1,7 +1,7 @@
 <map id="PlayerInteractEvent" name="PlayerInteractEvent">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,104,142,131"/>
-<area shape="rect" id="Node000002" href="$struct_event.html" title=" " alt="" coords="7,5,62,32"/>
+<area shape="rect" id="Node000002" href="$struct_event.html" title="The base struct for all events in the game." alt="" coords="7,5,62,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,46,71,103,66,105,43,48"/>
-<area shape="rect" id="Node000003" href="$struct_vec2.html" title=" " alt="" coords="87,5,137,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,48,81,105,76,103,99,46"/>
+<area shape="rect" id="Node000003" href="$struct_vec2f.html" title="A 2D vector of floats." alt="" coords="86,5,141,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="105,48,81,105,76,103,100,46"/>
 </map>

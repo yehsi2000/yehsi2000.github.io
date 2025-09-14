@@ -92,14 +92,17 @@ $(function(){initNavTree('class_i_component_array.html','','class_i_component_ar
 </div><!--header-->
 <div class="contents">
 
+<p>Interface for component arrays.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_component_array_8h_source.html">ComponentArray.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for IComponentArray:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_i_component_array__inherit__graph.png" border="0" usemap="#a_i_component_array_inherit__map" loading="lazy" alt="Inheritance graph"/></div>
 <map name="a_i_component_array_inherit__map" id="a_i_component_array_inherit__map">
-<area shape="rect" title=" " alt="" coords="19,5,142,32"/>
-<area shape="rect" href="class_component_array.html" title=" " alt="" coords="5,80,156,107"/>
+<area shape="rect" title="Interface for component arrays." alt="" coords="19,5,142,32"/>
+<area shape="rect" href="class_component_array.html" title="A cache&#45;friendly container for a single type of component." alt="" coords="5,80,156,107"/>
 <area shape="poly" title=" " alt="" coords="83,48,83,80,78,80,78,48"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
@@ -107,12 +110,15 @@ Inheritance diagram for IComponentArray:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a62d9c4e88931d5e885aaaf0e37a73600" id="r_a62d9c4e88931d5e885aaaf0e37a73600"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62d9c4e88931d5e885aaaf0e37a73600">~IComponentArray</a> ()=default</td></tr>
-<tr class="memitem:a345c51893367e2d5cda0d9036846f303" id="r_a345c51893367e2d5cda0d9036846f303"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a345c51893367e2d5cda0d9036846f303">entityDestroyed</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> entity)=0</td></tr>
-<tr class="memitem:a13bba7d24eacfb156b21465156a7fcc3" id="r_a13bba7d24eacfb156b21465156a7fcc3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13bba7d24eacfb156b21465156a7fcc3">hasEntity</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> entity)=0</td></tr>
-<tr class="memitem:aac0b65a5ee7eb75a787f830c920894b9" id="r_aac0b65a5ee7eb75a787f830c920894b9"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0b65a5ee7eb75a787f830c920894b9">getSize</a> ()=0</td></tr>
-<tr class="memitem:a6aa83c68b71f3fdf3a3029f5a639ffe3" id="r_a6aa83c68b71f3fdf3a3029f5a639ffe3"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aa83c68b71f3fdf3a3029f5a639ffe3">getAllEntities</a> ()=0</td></tr>
+<tr class="memitem:ac7358edc30b26af1cc6469093c1a8542" id="r_ac7358edc30b26af1cc6469093c1a8542"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7358edc30b26af1cc6469093c1a8542">EntityDestroyed</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> entity)=0</td></tr>
+<tr class="memitem:acb8a010755ba20585f60bf6934dd0a77" id="r_acb8a010755ba20585f60bf6934dd0a77"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb8a010755ba20585f60bf6934dd0a77">HasEntity</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> entity)=0</td></tr>
+<tr class="memitem:aada62d689bbf2c55ac1f91f54910ffb7" id="r_aada62d689bbf2c55ac1f91f54910ffb7"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aada62d689bbf2c55ac1f91f54910ffb7">GetSize</a> ()=0</td></tr>
+<tr class="memitem:a198c500f9ab6ad49e8ee3f1d1f001dcf" id="r_a198c500f9ab6ad49e8ee3f1d1f001dcf"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a198c500f9ab6ad49e8ee3f1d1f001dcf">GetAllEntities</a> ()=0</td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Interface for component arrays. </p>
+<p>Provides a common interface for type-erased storage of components. This allows the <a class="el" href="class_registry.html" title="The core of the Entity-Component-System (ECS) architecture.">Registry</a> to manage component arrays of different types without knowing their specific template arguments. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a62d9c4e88931d5e885aaaf0e37a73600" name="a62d9c4e88931d5e885aaaf0e37a73600"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a62d9c4e88931d5e885aaaf0e37a73600">&#9670;&#160;</a></span>~IComponentArray()</h2>
 
@@ -139,8 +145,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a345c51893367e2d5cda0d9036846f303" name="a345c51893367e2d5cda0d9036846f303"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a345c51893367e2d5cda0d9036846f303">&#9670;&#160;</a></span>entityDestroyed()</h2>
+<a id="ac7358edc30b26af1cc6469093c1a8542" name="ac7358edc30b26af1cc6469093c1a8542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7358edc30b26af1cc6469093c1a8542">&#9670;&#160;</a></span>EntityDestroyed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -149,7 +155,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void IComponentArray::entityDestroyed </td>
+          <td class="memname">virtual void IComponentArray::EntityDestroyed </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span></td><td>)</td>
           <td></td>
@@ -162,12 +168,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_component_array.html#afd640781b7f0ccbd0828da40d7ebd43b">ComponentArray&lt; T &gt;</a>.</p>
+<p>Implemented in <a class="el" href="class_component_array.html#acc516b9bad546fd62d2a61706fa65293">ComponentArray&lt; T &gt;</a>.</p>
 
 </div>
 </div>
-<a id="a6aa83c68b71f3fdf3a3029f5a639ffe3" name="a6aa83c68b71f3fdf3a3029f5a639ffe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6aa83c68b71f3fdf3a3029f5a639ffe3">&#9670;&#160;</a></span>getAllEntities()</h2>
+<a id="a198c500f9ab6ad49e8ee3f1d1f001dcf" name="a198c500f9ab6ad49e8ee3f1d1f001dcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a198c500f9ab6ad49e8ee3f1d1f001dcf">&#9670;&#160;</a></span>GetAllEntities()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,7 +182,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::vector&lt; <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> &gt; IComponentArray::getAllEntities </td>
+          <td class="memname">virtual std::vector&lt; <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> &gt; IComponentArray::GetAllEntities </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -189,12 +195,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_component_array.html#a6f17f535bd339f8bdaa27836011aee6f">ComponentArray&lt; T &gt;</a>.</p>
+<p>Implemented in <a class="el" href="class_component_array.html#a620e0b6971b353ca24b81115ff433d17">ComponentArray&lt; T &gt;</a>.</p>
 
 </div>
 </div>
-<a id="aac0b65a5ee7eb75a787f830c920894b9" name="aac0b65a5ee7eb75a787f830c920894b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac0b65a5ee7eb75a787f830c920894b9">&#9670;&#160;</a></span>getSize()</h2>
+<a id="aada62d689bbf2c55ac1f91f54910ffb7" name="aada62d689bbf2c55ac1f91f54910ffb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aada62d689bbf2c55ac1f91f54910ffb7">&#9670;&#160;</a></span>GetSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,7 +209,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::size_t IComponentArray::getSize </td>
+          <td class="memname">virtual std::size_t IComponentArray::GetSize </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -216,12 +222,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_component_array.html#af50199e68d66dbb7cb83bfbd2c5989f4">ComponentArray&lt; T &gt;</a>.</p>
+<p>Implemented in <a class="el" href="class_component_array.html#a3807da452732ab98f7d8398dd95d004f">ComponentArray&lt; T &gt;</a>.</p>
 
 </div>
 </div>
-<a id="a13bba7d24eacfb156b21465156a7fcc3" name="a13bba7d24eacfb156b21465156a7fcc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13bba7d24eacfb156b21465156a7fcc3">&#9670;&#160;</a></span>hasEntity()</h2>
+<a id="acb8a010755ba20585f60bf6934dd0a77" name="acb8a010755ba20585f60bf6934dd0a77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb8a010755ba20585f60bf6934dd0a77">&#9670;&#160;</a></span>HasEntity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230,7 +236,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool IComponentArray::hasEntity </td>
+          <td class="memname">virtual bool IComponentArray::HasEntity </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span></td><td>)</td>
           <td></td>
@@ -243,7 +249,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_component_array.html#adef9fedbf1ba286a9f686b845c4ad7b9">ComponentArray&lt; T &gt;</a>.</p>
+<p>Implemented in <a class="el" href="class_component_array.html#a46d896958d2b2b76590c2d156c1cebd8">ComponentArray&lt; T &gt;</a>.</p>
 
 </div>
 </div>

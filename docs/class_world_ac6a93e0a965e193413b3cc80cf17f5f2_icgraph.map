@@ -1,4 +1,6 @@
 <map id="World::GetTileAtWorldPosition" name="World::GetTileAtWorldPosition">
-<area shape="rect" id="Node000001" title="Gets the tile data at a specific world position." alt="" coords="5,29,203,56"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="138,16,126,10,104,8,83,10,72,15,70,20,75,27,70,30,64,21,69,11,82,5,104,3,128,5,140,12"/>
+<area shape="rect" id="Node000001" title="Gets the tile data at a specific world position." alt="" coords="253,29,450,56"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="394,17,380,10,351,8,325,10,311,15,308,20,314,27,310,31,303,21,308,11,324,5,351,3,381,5,396,12"/>
+<area shape="rect" id="Node000002" href="$class_world.html#af66bd44d890c478263254cbd9f01472c" title=" " alt="" coords="5,29,205,56"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="237,45,205,45,205,40,237,40"/>
 </map>

@@ -91,39 +91,53 @@ $(function(){initNavTree('_u_i_system_8h.html','',''); });
   <div class="headertitle"><div class="title">UISystem.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="_event_dispatcher_8h_source.html">Core/EventDispatcher.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;list&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 <code>#include &quot;<a class="el" href="_entity_8h_source.html">Core/Entity.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_item_8h_source.html">Core/Item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_common_8h_source.html">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_system_context_8h_source.html">Core/SystemContext.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for UISystem.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_u_i_system_8h__incl.png" border="0" usemap="#ainclude_2_system_2_u_i_system_8h" loading="lazy" alt=""/></div>
 <map name="ainclude_2_system_2_u_i_system_8h" id="ainclude_2_system_2_u_i_system_8h">
-<area shape="rect" title=" " alt="" coords="5,5,191,32"/>
-<area shape="rect" href="_event_dispatcher_8h.html" title=" " alt="" coords="148,80,309,107"/>
-<area shape="poly" title=" " alt="" coords="122,30,194,70,191,74,119,35"/>
-<area shape="rect" href="_entity_8h.html" title=" " alt="" coords="125,304,223,331"/>
-<area shape="poly" title=" " alt="" coords="90,34,72,61,53,98,42,139,42,160,47,180,66,215,91,246,145,293,141,297,87,249,62,218,42,182,37,161,37,139,48,96,67,58,86,31"/>
-<area shape="rect" title=" " alt="" coords="139,155,217,181"/>
-<area shape="poly" title=" " alt="" coords="222,109,197,144,193,141,218,106"/>
-<area shape="rect" title=" " alt="" coords="241,155,318,181"/>
-<area shape="poly" title=" " alt="" coords="240,106,264,141,260,144,235,109"/>
-<area shape="rect" title=" " alt="" coords="423,304,533,331"/>
-<area shape="poly" title=" " alt="" coords="310,104,396,124,431,137,455,153,474,185,484,222,486,258,485,289,479,288,481,258,478,223,469,187,451,157,429,142,394,129,309,110"/>
-<area shape="rect" title=" " alt="" coords="57,155,115,181"/>
-<area shape="poly" title=" " alt="" coords="205,110,126,150,123,145,203,105"/>
-<area shape="rect" href="_event_8h.html" title=" " alt="" coords="342,155,440,181"/>
-<area shape="poly" title=" " alt="" coords="258,105,350,145,348,150,256,110"/>
-<area shape="poly" title=" " alt="" coords="344,184,273,207,242,219,221,231,199,259,184,290,180,288,194,257,218,227,239,214,271,202,342,179"/>
-<area shape="rect" href="_item_8h.html" title=" " alt="" coords="349,229,439,256"/>
-<area shape="poly" title=" " alt="" coords="394,182,396,214,390,214,389,182"/>
-<area shape="rect" href="_type_8h.html" title=" " alt="" coords="232,229,324,256"/>
-<area shape="poly" title=" " alt="" coords="373,184,312,223,309,218,370,180"/>
-<area shape="poly" title=" " alt="" coords="410,255,454,292,450,296,407,259"/>
-<area shape="poly" title=" " alt="" coords="357,259,228,301,226,296,355,254"/>
-<area shape="rect" title=" " alt="" coords="346,304,399,331"/>
-<area shape="poly" title=" " alt="" coords="393,257,383,290,378,288,388,256"/>
-<area shape="rect" title=" " alt="" coords="246,304,318,331"/>
-<area shape="poly" title=" " alt="" coords="281,256,283,288,278,289,276,257"/>
+<area shape="rect" title=" " alt="" coords="467,5,652,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,44,107"/>
+<area shape="poly" title=" " alt="" coords="466,29,279,47,170,62,62,83,59,83,58,78,61,77,169,57,278,42,466,23"/>
+<area shape="rect" title=" " alt="" coords="56,229,124,256"/>
+<area shape="poly" title=" " alt="" coords="482,35,381,55,269,82,170,117,133,136,108,156,100,169,95,184,91,214,86,214,89,183,95,167,104,153,130,132,168,112,268,77,380,50,481,30"/>
+<area shape="rect" title=" " alt="" coords="627,155,681,181"/>
+<area shape="poly" title=" " alt="" coords="576,31,597,52,619,79,635,109,648,139,643,141,631,111,614,81,593,56,572,35"/>
+<area shape="rect" href="_entity_8h.html" title=" " alt="" coords="705,155,803,181"/>
+<area shape="poly" title=" " alt="" coords="578,30,643,78,728,143,724,147,640,82,575,34"/>
+<area shape="rect" href="_item_8h.html" title=" " alt="" coords="514,80,604,107"/>
+<area shape="poly" title=" " alt="" coords="562,33,562,64,557,64,557,33"/>
+<area shape="rect" href="_common_8h.html" title=" " alt="" coords="730,80,815,107"/>
+<area shape="poly" title=" " alt="" coords="597,30,722,72,720,77,596,35"/>
+<area shape="rect" href="_system_context_8h.html" title=" " alt="" coords="327,80,482,107"/>
+<area shape="poly" title=" " alt="" coords="533,35,446,75,444,71,531,30"/>
+<area shape="poly" title=" " alt="" coords="577,105,627,143,624,147,574,109"/>
+<area shape="poly" title=" " alt="" coords="594,105,706,146,705,151,592,110"/>
+<area shape="rect" title=" " alt="" coords="493,155,604,181"/>
+<area shape="poly" title=" " alt="" coords="560,108,555,140,550,139,555,107"/>
+<area shape="poly" title=" " alt="" coords="451,105,613,151,612,156,449,110"/>
+<area shape="poly" title=" " alt="" coords="431,105,511,145,508,150,428,110"/>
+<area shape="rect" href="_packet_8h.html" title=" " alt="" coords="119,155,224,181"/>
+<area shape="poly" title=" " alt="" coords="365,110,227,152,226,147,363,105"/>
+<area shape="rect" title=" " alt="" coords="149,229,209,256"/>
+<area shape="poly" title=" " alt="" coords="378,110,336,131,290,157,245,189,206,221,203,217,241,185,287,152,333,126,375,105"/>
+<area shape="rect" href="_thread_safe_queue_8h.html" title=" " alt="" coords="300,155,469,181"/>
+<area shape="poly" title=" " alt="" coords="404,108,395,141,389,139,398,106"/>
+<area shape="poly" title=" " alt="" coords="159,184,117,221,113,217,155,180"/>
+<area shape="poly" title=" " alt="" coords="175,182,179,213,173,214,170,182"/>
+<area shape="rect" title=" " alt="" coords="322,229,447,256"/>
+<area shape="poly" title=" " alt="" coords="387,182,387,214,382,214,382,182"/>
+<area shape="rect" title=" " alt="" coords="472,229,529,256"/>
+<area shape="poly" title=" " alt="" coords="406,180,469,218,466,223,403,184"/>
+<area shape="rect" title=" " alt="" coords="242,229,298,256"/>
+<area shape="poly" title=" " alt="" coords="366,184,304,223,301,218,363,180"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -131,11 +145,13 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="_u_i_system_8h__dep__incl.png" border="0" usemap="#ainclude_2_system_2_u_i_system_8hdep" loading="lazy" alt=""/></div>
 <map name="ainclude_2_system_2_u_i_system_8hdep" id="ainclude_2_system_2_u_i_system_8hdep">
-<area shape="rect" title=" " alt="" coords="81,5,266,32"/>
-<area shape="rect" href="_g_engine_8cpp.html" title=" " alt="" coords="5,80,156,107"/>
-<area shape="poly" title=" " alt="" coords="147,44,98,82,95,77,144,40"/>
-<area shape="rect" href="_u_i_system_8cpp.html" title=" " alt="" coords="180,80,357,107"/>
-<area shape="poly" title=" " alt="" coords="204,40,254,77,251,82,201,44"/>
+<area shape="rect" title=" " alt="" coords="244,5,429,32"/>
+<area shape="rect" href="_client_state_8cpp.html" title=" " alt="" coords="5,80,209,107"/>
+<area shape="poly" title=" " alt="" coords="283,40,148,82,146,77,281,35"/>
+<area shape="rect" href="_server_state_8cpp.html" title=" " alt="" coords="233,80,440,107"/>
+<area shape="poly" title=" " alt="" coords="339,48,339,80,334,80,334,48"/>
+<area shape="rect" href="_u_i_system_8cpp.html" title=" " alt="" coords="464,80,640,107"/>
+<area shape="poly" title=" " alt="" coords="389,35,515,77,514,82,387,40"/>
 </map>
 </div>
 </div>
@@ -144,7 +160,448 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:UISystem" id="r_UISystem"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_system.html">UISystem</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ac0262066346a1d2cd187e0982f3e86ca" id="r_ac0262066346a1d2cd187e0982f3e86ca"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a> = static_cast&lt;float&gt;(<a class="el" href="_common_8h.html#a40007c365c6a850d1c5df2291b75f98f">ICONSPRITE_WIDTH</a>)</td></tr>
+<tr class="memitem:aab379add7c21fd6c3c296bb4440d9789" id="r_aab379add7c21fd6c3c296bb4440d9789"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab379add7c21fd6c3c296bb4440d9789">ICONSPRITE_HEIGHTF</a> = static_cast&lt;float&gt;(<a class="el" href="_common_8h.html#acd0300594edc8dd78c3f2a1371ff3a23">ICONSPRITE_HEIGHT</a>)</td></tr>
+<tr class="memitem:a0a8776c8865aaeb625bfb9ba8d8c852a" id="r_a0a8776c8865aaeb625bfb9ba8d8c852a"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a8776c8865aaeb625bfb9ba8d8c852a">uB0</a> = 0 / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td></tr>
+<tr class="memitem:a8660ad4be9ede42f0ee78575b628b249" id="r_a8660ad4be9ede42f0ee78575b628b249"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8660ad4be9ede42f0ee78575b628b249">vB0</a> = 0.f</td></tr>
+<tr class="memitem:a97cae7450b0b81158e64f35376a45c0e" id="r_a97cae7450b0b81158e64f35376a45c0e"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97cae7450b0b81158e64f35376a45c0e">uB1</a> = <a class="el" href="_common_8h.html#a37f5b9dfaaa23cade668680c64cf5ef6">ICONSIZE_BIG</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td></tr>
+<tr class="memitem:a7509378746fcfafd632703316f469996" id="r_a7509378746fcfafd632703316f469996"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7509378746fcfafd632703316f469996">vB1</a> = <a class="el" href="_common_8h.html#a37f5b9dfaaa23cade668680c64cf5ef6">ICONSIZE_BIG</a> / <a class="el" href="#aab379add7c21fd6c3c296bb4440d9789">ICONSPRITE_HEIGHTF</a></td></tr>
+<tr class="memitem:ab8c1f69f95180a3c37330eb222db9e74" id="r_ab8c1f69f95180a3c37330eb222db9e74"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8c1f69f95180a3c37330eb222db9e74">uM0</a> = <a class="el" href="_common_8h.html#a37f5b9dfaaa23cade668680c64cf5ef6">ICONSIZE_BIG</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td></tr>
+<tr class="memitem:a6df5a0ebdf00003596e66400562ef21e" id="r_a6df5a0ebdf00003596e66400562ef21e"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6df5a0ebdf00003596e66400562ef21e">vM0</a> = 0.f</td></tr>
+<tr class="memitem:a851fee8fa458380f1e3a364975e27361" id="r_a851fee8fa458380f1e3a364975e27361"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a851fee8fa458380f1e3a364975e27361">uM1</a> = <a class="el" href="_common_8h.html#ad7db66d60de160cd0afd66e7f791ace4">ICONSIZE_MID_XSTART</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td></tr>
+<tr class="memitem:a44c45a0c6275da35d2e1d8b719a46dc3" id="r_a44c45a0c6275da35d2e1d8b719a46dc3"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44c45a0c6275da35d2e1d8b719a46dc3">vM1</a> = <a class="el" href="_common_8h.html#a2e51062ee1fcd10af4f278baadaaa200">ICONSIZE_MID</a> / <a class="el" href="#aab379add7c21fd6c3c296bb4440d9789">ICONSPRITE_HEIGHTF</a></td></tr>
+<tr class="memitem:a512de26cab458d4cfc14f31896ae8cd9" id="r_a512de26cab458d4cfc14f31896ae8cd9"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a512de26cab458d4cfc14f31896ae8cd9">uS0</a> = <a class="el" href="_common_8h.html#ad7db66d60de160cd0afd66e7f791ace4">ICONSIZE_MID_XSTART</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td></tr>
+<tr class="memitem:a179e7570263db79cc71f3efad8976b56" id="r_a179e7570263db79cc71f3efad8976b56"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a179e7570263db79cc71f3efad8976b56">vS0</a> = 0.f</td></tr>
+<tr class="memitem:a3a70620653651d6eaeb4e339dda270ae" id="r_a3a70620653651d6eaeb4e339dda270ae"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a70620653651d6eaeb4e339dda270ae">uS1</a> = <a class="el" href="_common_8h.html#afc6aff916327f90712450d50cc2be594">ICONSIZE_SMALL_XSTART</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td></tr>
+<tr class="memitem:ad27c2d081bbaa268d93e52e194b144f5" id="r_ad27c2d081bbaa268d93e52e194b144f5"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad27c2d081bbaa268d93e52e194b144f5">vS1</a> = <a class="el" href="_common_8h.html#ac77885113bccc84b9ddfbc5b5466f063">ICONSIZE_SMALL</a> / <a class="el" href="#aab379add7c21fd6c3c296bb4440d9789">ICONSPRITE_HEIGHTF</a></td></tr>
+<tr class="memitem:aa5e81bd096b42cfef15ed8b2ccf24d99" id="r_aa5e81bd096b42cfef15ed8b2ccf24d99"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5e81bd096b42cfef15ed8b2ccf24d99">uT0</a> = <a class="el" href="_common_8h.html#afc6aff916327f90712450d50cc2be594">ICONSIZE_SMALL_XSTART</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td></tr>
+<tr class="memitem:aea02cad2c1f58726ea38596e4fb3ae24" id="r_aea02cad2c1f58726ea38596e4fb3ae24"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea02cad2c1f58726ea38596e4fb3ae24">vT0</a> = 0.f</td></tr>
+<tr class="memitem:a9bb7777e90b02c0b6416d50a37301635" id="r_a9bb7777e90b02c0b6416d50a37301635"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bb7777e90b02c0b6416d50a37301635">uT1</a> = <a class="el" href="_common_8h.html#a2dae8aec3b0f68513d228e387ecbe379">ICONSIZE_TINY_XSTART</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td></tr>
+<tr class="memitem:a6eed2881d220fe9c91bae0d75e04fdf8" id="r_a6eed2881d220fe9c91bae0d75e04fdf8"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eed2881d220fe9c91bae0d75e04fdf8">vT1</a> = <a class="el" href="_common_8h.html#ad4ab08efd468f15f7c75bc8cac690075">ICONSIZE_TINY</a> / <a class="el" href="#aab379add7c21fd6c3c296bb4440d9789">ICONSPRITE_HEIGHTF</a></td></tr>
+<tr class="memitem:acebff1e2ec9fcdf6dd9b2f644224db81" id="r_acebff1e2ec9fcdf6dd9b2f644224db81"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acebff1e2ec9fcdf6dd9b2f644224db81">invNodeSize</a> = 64.f</td></tr>
 </table>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="aab379add7c21fd6c3c296bb4440d9789" name="aab379add7c21fd6c3c296bb4440d9789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab379add7c21fd6c3c296bb4440d9789">&#9670;&#160;</a></span>ICONSPRITE_HEIGHTF</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ICONSPRITE_HEIGHTF = static_cast&lt;float&gt;(<a class="el" href="_common_8h.html#acd0300594edc8dd78c3f2a1371ff3a23">ICONSPRITE_HEIGHT</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0262066346a1d2cd187e0982f3e86ca" name="ac0262066346a1d2cd187e0982f3e86ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0262066346a1d2cd187e0982f3e86ca">&#9670;&#160;</a></span>ICONSPRITE_WIDTHF</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ICONSPRITE_WIDTHF = static_cast&lt;float&gt;(<a class="el" href="_common_8h.html#a40007c365c6a850d1c5df2291b75f98f">ICONSPRITE_WIDTH</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acebff1e2ec9fcdf6dd9b2f644224db81" name="acebff1e2ec9fcdf6dd9b2f644224db81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acebff1e2ec9fcdf6dd9b2f644224db81">&#9670;&#160;</a></span>invNodeSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float invNodeSize = 64.f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a8776c8865aaeb625bfb9ba8d8c852a" name="a0a8776c8865aaeb625bfb9ba8d8c852a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a8776c8865aaeb625bfb9ba8d8c852a">&#9670;&#160;</a></span>uB0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float uB0 = 0 / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97cae7450b0b81158e64f35376a45c0e" name="a97cae7450b0b81158e64f35376a45c0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97cae7450b0b81158e64f35376a45c0e">&#9670;&#160;</a></span>uB1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float uB1 = <a class="el" href="_common_8h.html#a37f5b9dfaaa23cade668680c64cf5ef6">ICONSIZE_BIG</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8c1f69f95180a3c37330eb222db9e74" name="ab8c1f69f95180a3c37330eb222db9e74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8c1f69f95180a3c37330eb222db9e74">&#9670;&#160;</a></span>uM0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float uM0 = <a class="el" href="_common_8h.html#a37f5b9dfaaa23cade668680c64cf5ef6">ICONSIZE_BIG</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a851fee8fa458380f1e3a364975e27361" name="a851fee8fa458380f1e3a364975e27361"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a851fee8fa458380f1e3a364975e27361">&#9670;&#160;</a></span>uM1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float uM1 = <a class="el" href="_common_8h.html#ad7db66d60de160cd0afd66e7f791ace4">ICONSIZE_MID_XSTART</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a512de26cab458d4cfc14f31896ae8cd9" name="a512de26cab458d4cfc14f31896ae8cd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a512de26cab458d4cfc14f31896ae8cd9">&#9670;&#160;</a></span>uS0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float uS0 = <a class="el" href="_common_8h.html#ad7db66d60de160cd0afd66e7f791ace4">ICONSIZE_MID_XSTART</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a70620653651d6eaeb4e339dda270ae" name="a3a70620653651d6eaeb4e339dda270ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a70620653651d6eaeb4e339dda270ae">&#9670;&#160;</a></span>uS1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float uS1 = <a class="el" href="_common_8h.html#afc6aff916327f90712450d50cc2be594">ICONSIZE_SMALL_XSTART</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5e81bd096b42cfef15ed8b2ccf24d99" name="aa5e81bd096b42cfef15ed8b2ccf24d99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5e81bd096b42cfef15ed8b2ccf24d99">&#9670;&#160;</a></span>uT0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float uT0 = <a class="el" href="_common_8h.html#afc6aff916327f90712450d50cc2be594">ICONSIZE_SMALL_XSTART</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bb7777e90b02c0b6416d50a37301635" name="a9bb7777e90b02c0b6416d50a37301635"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bb7777e90b02c0b6416d50a37301635">&#9670;&#160;</a></span>uT1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float uT1 = <a class="el" href="_common_8h.html#a2dae8aec3b0f68513d228e387ecbe379">ICONSIZE_TINY_XSTART</a> / <a class="el" href="#ac0262066346a1d2cd187e0982f3e86ca">ICONSPRITE_WIDTHF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8660ad4be9ede42f0ee78575b628b249" name="a8660ad4be9ede42f0ee78575b628b249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8660ad4be9ede42f0ee78575b628b249">&#9670;&#160;</a></span>vB0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float vB0 = 0.f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7509378746fcfafd632703316f469996" name="a7509378746fcfafd632703316f469996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7509378746fcfafd632703316f469996">&#9670;&#160;</a></span>vB1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float vB1 = <a class="el" href="_common_8h.html#a37f5b9dfaaa23cade668680c64cf5ef6">ICONSIZE_BIG</a> / <a class="el" href="#aab379add7c21fd6c3c296bb4440d9789">ICONSPRITE_HEIGHTF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6df5a0ebdf00003596e66400562ef21e" name="a6df5a0ebdf00003596e66400562ef21e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6df5a0ebdf00003596e66400562ef21e">&#9670;&#160;</a></span>vM0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float vM0 = 0.f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44c45a0c6275da35d2e1d8b719a46dc3" name="a44c45a0c6275da35d2e1d8b719a46dc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44c45a0c6275da35d2e1d8b719a46dc3">&#9670;&#160;</a></span>vM1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float vM1 = <a class="el" href="_common_8h.html#a2e51062ee1fcd10af4f278baadaaa200">ICONSIZE_MID</a> / <a class="el" href="#aab379add7c21fd6c3c296bb4440d9789">ICONSPRITE_HEIGHTF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a179e7570263db79cc71f3efad8976b56" name="a179e7570263db79cc71f3efad8976b56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a179e7570263db79cc71f3efad8976b56">&#9670;&#160;</a></span>vS0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float vS0 = 0.f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad27c2d081bbaa268d93e52e194b144f5" name="ad27c2d081bbaa268d93e52e194b144f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad27c2d081bbaa268d93e52e194b144f5">&#9670;&#160;</a></span>vS1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float vS1 = <a class="el" href="_common_8h.html#ac77885113bccc84b9ddfbc5b5466f063">ICONSIZE_SMALL</a> / <a class="el" href="#aab379add7c21fd6c3c296bb4440d9789">ICONSPRITE_HEIGHTF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea02cad2c1f58726ea38596e4fb3ae24" name="aea02cad2c1f58726ea38596e4fb3ae24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea02cad2c1f58726ea38596e4fb3ae24">&#9670;&#160;</a></span>vT0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float vT0 = 0.f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6eed2881d220fe9c91bae0d75e04fdf8" name="a6eed2881d220fe9c91bae0d75e04fdf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eed2881d220fe9c91bae0d75e04fdf8">&#9670;&#160;</a></span>vT1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float vT1 = <a class="el" href="_common_8h.html#ad4ab08efd468f15f7c75bc8cac690075">ICONSIZE_TINY</a> / <a class="el" href="#aab379add7c21fd6c3c296bb4440d9789">ICONSPRITE_HEIGHTF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

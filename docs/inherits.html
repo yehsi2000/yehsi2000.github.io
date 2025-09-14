@@ -121,7 +121,7 @@ $(function(){initNavTree('hierarchy.html','',''); });
 </td></tr>
 <tr><td><img src="inherit_graph_5.png" border="0" usemap="#a_asset_manager" loading="lazy" alt=""/>
 <map name="a_asset_manager" id="a_asset_manager">
-<area shape="rect" href="class_asset_manager.html" title="A singleton for managing and caching game assets." alt="" coords="5,5,111,32"/>
+<area shape="rect" href="class_asset_manager.html" title="A singleton for managing and caching in&#45;game entity assets." alt="" coords="5,5,111,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_6.png" border="0" usemap="#a_building_component" loading="lazy" alt=""/>
@@ -146,7 +146,7 @@ $(function(){initNavTree('hierarchy.html','',''); });
 </td></tr>
 <tr><td><img src="inherit_graph_10.png" border="0" usemap="#a_chunk" loading="lazy" alt=""/>
 <map name="a_chunk" id="a_chunk">
-<area shape="rect" href="class_chunk.html" title=" " alt="" coords="5,5,65,32"/>
+<area shape="rect" href="class_chunk.html" title="Represents a segment of the game world." alt="" coords="5,5,65,32"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_11.png" border="0" usemap="#a_chunk_component" loading="lazy" alt=""/>
@@ -159,296 +159,434 @@ $(function(){initNavTree('hierarchy.html','',''); });
 <area shape="rect" href="struct_chunk_coord.html" title="ChunkCoordinate operator for RB&#45;tree comparison." alt="" coords="5,5,100,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_13.png" border="0" usemap="#a_command" loading="lazy" alt=""/>
-<map name="a_command" id="a_command">
-<area shape="rect" href="class_command.html" title="Abstract base class for all commands. Commands are self&#45;contained units of work that modify the game ..." alt="" coords="5,31,87,57"/>
-<area shape="rect" href="class_inventory_command.html" title=" " alt="" coords="150,5,285,32"/>
-<area shape="poly" title=" " alt="" coords="102,33,149,26,150,31,103,38"/>
-<area shape="rect" href="class_resource_mine_command.html" title=" " alt="" coords="135,56,300,83"/>
-<area shape="poly" title=" " alt="" coords="103,50,135,54,134,60,102,55"/>
+<tr><td><img src="inherit_graph_13.png" border="0" usemap="#a_client_network_system" loading="lazy" alt=""/>
+<map name="a_client_network_system" id="a_client_network_system">
+<area shape="rect" href="class_client_network_system.html" title=" " alt="" coords="5,5,155,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_14.png" border="0" usemap="#a_command_queue" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_14.png" border="0" usemap="#a_client_network_system_1_1_input_command" loading="lazy" alt=""/>
+<map name="a_client_network_system_1_1_input_command" id="a_client_network_system_1_1_input_command">
+<area shape="rect" href="struct_client_network_system_1_1_input_command.html" title=" " alt="" coords="5,5,155,48"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_15.png" border="0" usemap="#a_client_state_1_1type_array_3_01_types_01_4" loading="lazy" alt=""/>
+<map name="a_client_state_1_1type_array_3_01_types_01_4" id="a_client_state_1_1type_array_3_01_types_01_4">
+<area shape="rect" href="struct_client_state_1_1type_array.html" title="template struct for register component types" alt="" coords="5,5,156,48"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_16.png" border="0" usemap="#a_command" loading="lazy" alt=""/>
+<map name="a_command" id="a_command">
+<area shape="rect" href="class_command.html" title="Abstract base class for all commands. Commands are self&#45;contained units of work that modify the game ..." alt="" coords="5,81,87,108"/>
+<area shape="rect" href="class_inventory_command.html" title=" " alt="" coords="166,5,302,32"/>
+<area shape="poly" title=" " alt="" coords="79,70,134,42,168,30,169,35,136,46,82,75"/>
+<area shape="rect" href="class_player_disconnected_command.html" title=" " alt="" coords="135,56,333,83"/>
+<area shape="poly" title=" " alt="" coords="102,85,134,80,135,85,102,90"/>
+<area shape="rect" href="class_player_spawn_command.html" title=" " alt="" coords="155,107,313,133"/>
+<area shape="poly" title=" " alt="" coords="102,100,155,107,154,112,102,105"/>
+<area shape="rect" href="class_resource_mine_command.html" title=" " alt="" coords="151,157,316,184"/>
+<area shape="poly" title=" " alt="" coords="82,114,136,143,169,154,168,159,134,148,79,119"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_17.png" border="0" usemap="#a_command_queue" loading="lazy" alt=""/>
 <map name="a_command_queue" id="a_command_queue">
 <area shape="rect" href="class_command_queue.html" title="A queue for deferred execution of commands." alt="" coords="5,5,125,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_15.png" border="0" usemap="#a_debug_rect_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_18.png" border="0" usemap="#a_debug_rect_component" loading="lazy" alt=""/>
 <map name="a_debug_rect_component" id="a_debug_rect_component">
 <area shape="rect" href="struct_debug_rect_component.html" title=" " alt="" coords="5,5,160,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_16.png" border="0" usemap="#a_event" loading="lazy" alt=""/>
-<map name="a_event" id="a_event">
-<area shape="rect" href="struct_event.html" title=" " alt="" coords="5,259,61,285"/>
-<area shape="rect" href="struct_assembly_add_input_event.html" title=" " alt="" coords="117,5,282,32"/>
-<area shape="poly" title=" " alt="" coords="33,243,38,199,50,145,72,90,87,65,107,42,123,30,126,35,110,46,92,68,76,93,55,147,43,200,38,244"/>
-<area shape="rect" href="struct_assembly_craft_output_event.html" title=" " alt="" coords="109,56,290,83"/>
-<area shape="poly" title=" " alt="" coords="36,243,44,208,57,168,78,128,107,93,125,81,128,85,110,97,82,130,62,170,49,210,41,244"/>
-<area shape="rect" href="struct_assembly_take_output_event.html" title=" " alt="" coords="109,107,290,133"/>
-<area shape="poly" title=" " alt="" coords="41,243,66,192,84,166,107,143,127,132,130,136,110,147,88,169,70,195,46,245"/>
-<area shape="rect" href="struct_item_add_event.html" title=" " alt="" coords="147,157,252,184"/>
-<area shape="poly" title=" " alt="" coords="52,245,76,218,107,194,145,178,148,183,110,198,80,222,55,248"/>
-<area shape="rect" href="struct_item_consume_event.html" title=" " alt="" coords="131,208,268,235"/>
-<area shape="poly" title=" " alt="" coords="75,255,108,244,147,233,148,238,109,249,76,260"/>
-<area shape="rect" href="struct_item_move_event.html" title=" " alt="" coords="143,259,256,285"/>
-<area shape="poly" title=" " alt="" coords="76,269,142,269,142,275,76,275"/>
-<area shape="rect" href="struct_player_interact_event.html" title=" " alt="" coords="131,309,268,336"/>
-<area shape="poly" title=" " alt="" coords="76,284,109,295,148,306,147,311,108,300,75,289"/>
-<area shape="rect" href="struct_quit_event.html" title=" " alt="" coords="160,360,239,387"/>
-<area shape="poly" title=" " alt="" coords="55,296,80,322,110,346,135,357,160,364,159,370,133,362,107,350,76,326,52,299"/>
-<area shape="rect" href="struct_toggle_inventory_event.html" title=" " alt="" coords="126,411,273,437"/>
-<area shape="poly" title=" " alt="" coords="46,299,70,349,88,375,110,397,130,408,127,412,107,401,84,378,66,352,41,301"/>
-<area shape="rect" href="struct_x_axis_event.html" title=" " alt="" coords="154,461,244,488"/>
-<area shape="poly" title=" " alt="" coords="41,300,49,334,62,374,82,414,110,447,131,460,155,468,153,473,129,465,107,451,78,416,57,376,44,336,36,301"/>
-<area shape="rect" href="struct_y_axis_event.html" title=" " alt="" coords="155,512,244,539"/>
-<area shape="poly" title=" " alt="" coords="38,300,43,344,55,397,76,451,92,476,110,498,131,511,155,519,153,524,129,516,107,502,87,479,72,454,50,399,38,345,33,301"/>
+<tr><td><img src="inherit_graph_19.png" border="0" usemap="#a_entity_factory" loading="lazy" alt=""/>
+<map name="a_entity_factory" id="a_entity_factory">
+<area shape="rect" href="class_entity_factory.html" title="A factory for creating pre&#45;configured entities." alt="" coords="5,5,105,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_17.png" border="0" usemap="#a_event_dispatcher" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_20.png" border="0" usemap="#a_event" loading="lazy" alt=""/>
+<map name="a_event" id="a_event">
+<area shape="rect" href="struct_event.html" title="The base struct for all events in the game." alt="" coords="5,385,61,412"/>
+<area shape="rect" href="struct_assembly_add_input_event.html" title=" " alt="" coords="117,5,282,32"/>
+<area shape="poly" title=" " alt="" coords="34,369,42,293,56,196,77,104,91,67,107,42,122,30,125,35,111,46,95,70,82,105,61,197,47,294,39,370"/>
+<area shape="rect" href="struct_assembly_craft_output_event.html" title=" " alt="" coords="109,56,290,83"/>
+<area shape="poly" title=" " alt="" coords="35,370,44,303,59,221,80,144,93,114,107,93,122,81,125,85,111,96,97,116,85,146,65,222,50,304,40,370"/>
+<area shape="rect" href="struct_assembly_take_output_event.html" title=" " alt="" coords="109,107,290,133"/>
+<area shape="poly" title=" " alt="" coords="32,370,35,321,46,260,69,198,86,169,107,143,123,132,126,136,110,147,90,172,73,200,51,262,40,322,37,370"/>
+<area shape="rect" href="struct_entity_destroyed_event.html" title=" " alt="" coords="125,157,274,184"/>
+<area shape="poly" title=" " alt="" coords="34,369,41,330,53,283,75,235,89,213,107,194,124,182,127,187,110,198,93,217,79,238,58,285,46,331,39,370"/>
+<area shape="rect" href="struct_item_add_event.html" title=" " alt="" coords="147,208,252,235"/>
+<area shape="poly" title=" " alt="" coords="38,369,61,307,81,273,107,245,125,233,146,226,148,231,128,238,110,249,85,276,66,309,43,371"/>
+<area shape="rect" href="struct_item_consume_event.html" title=" " alt="" coords="131,259,268,285"/>
+<area shape="poly" title=" " alt="" coords="46,370,71,331,88,312,107,295,129,284,132,288,110,300,91,316,75,334,50,373"/>
+<area shape="rect" href="struct_item_drop_in_world_event.html" title=" " alt="" coords="123,309,276,336"/>
+<area shape="poly" title=" " alt="" coords="62,373,107,346,138,334,140,339,110,350,65,378"/>
+<area shape="rect" href="struct_item_move_event.html" title=" " alt="" coords="143,360,256,387"/>
+<area shape="poly" title=" " alt="" coords="76,390,142,379,143,385,76,395"/>
+<area shape="rect" href="struct_move_applied_event.html" title=" " alt="" coords="134,411,264,437"/>
+<area shape="poly" title=" " alt="" coords="76,402,134,411,133,417,76,408"/>
+<area shape="rect" href="struct_new_chat_event.html" title=" " alt="" coords="144,461,254,488"/>
+<area shape="poly" title=" " alt="" coords="65,419,110,447,145,460,143,465,108,452,62,424"/>
+<area shape="rect" href="struct_player_end_interact_event.html" title=" " alt="" coords="120,512,279,539"/>
+<area shape="poly" title=" " alt="" coords="50,425,75,463,91,482,110,498,132,509,129,514,107,502,88,486,71,466,46,427"/>
+<area shape="rect" href="struct_player_interact_event.html" title=" " alt="" coords="131,563,268,589"/>
+<area shape="poly" title=" " alt="" coords="43,426,66,489,85,521,110,549,132,562,130,566,107,553,81,524,61,491,38,428"/>
+<area shape="rect" href="struct_quit_event.html" title=" " alt="" coords="160,613,239,640"/>
+<area shape="poly" title=" " alt="" coords="39,427,46,466,58,513,79,559,93,581,110,599,134,614,160,621,159,626,132,618,107,603,89,584,75,562,53,514,41,467,34,428"/>
+<area shape="rect" href="struct_send_chat_event.html" title=" " alt="" coords="143,664,256,691"/>
+<area shape="poly" title=" " alt="" coords="37,427,40,476,51,536,73,597,90,625,110,650,126,661,143,668,141,673,123,666,107,654,86,628,69,599,46,537,35,476,32,428"/>
+<area shape="rect" href="struct_toggle_chat_input_event.html" title=" " alt="" coords="124,715,274,741"/>
+<area shape="poly" title=" " alt="" coords="40,427,50,493,65,575,85,652,97,681,111,701,125,712,122,716,107,704,93,683,80,653,59,576,44,494,35,428"/>
+<area shape="rect" href="struct_toggle_inventory_event.html" title=" " alt="" coords="126,765,273,792"/>
+<area shape="poly" title=" " alt="" coords="39,427,47,503,61,601,82,692,95,728,111,752,127,764,124,768,107,755,91,730,77,694,56,602,42,504,34,428"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_21.png" border="0" usemap="#a_event_dispatcher" loading="lazy" alt=""/>
 <map name="a_event_dispatcher" id="a_event_dispatcher">
 <area shape="rect" href="class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_18.png" border="0" usemap="#a_event_handle" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_22.png" border="0" usemap="#a_event_handle" loading="lazy" alt=""/>
 <map name="a_event_handle" id="a_event_handle">
 <area shape="rect" href="class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re..." alt="" coords="5,5,102,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_19.png" border="0" usemap="#a_game_state" loading="lazy" alt=""/>
-<map name="a_game_state" id="a_game_state">
-<area shape="rect" href="class_game_state.html" title="An abstract base class for different states of the game (e.g., menu, playing)." alt="" coords="5,31,93,57"/>
-<area shape="rect" href="class_main_menu_state.html" title="Represents the main menu state of the game." alt="" coords="141,5,253,32"/>
-<area shape="poly" title=" " alt="" coords="108,31,140,26,141,31,109,37"/>
-<area shape="rect" href="class_play_state.html" title="Represents the primary gameplay state." alt="" coords="158,56,236,83"/>
-<area shape="poly" title=" " alt="" coords="108,51,158,60,157,65,108,57"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_20.png" border="0" usemap="#a_g_engine" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_23.png" border="0" usemap="#a_g_engine" loading="lazy" alt=""/>
 <map name="a_g_engine" id="a_g_engine">
-<area shape="rect" href="class_g_engine.html" title="The main engine class that drives the game." alt="" coords="5,5,77,32"/>
+<area shape="rect" href="class_g_engine.html" title="The main game engine class." alt="" coords="5,5,77,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_21.png" border="0" usemap="#a_i_component_array" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_24.png" border="0" usemap="#a_i_component_array" loading="lazy" alt=""/>
 <map name="a_i_component_array" id="a_i_component_array">
-<area shape="rect" href="class_i_component_array.html" title=" " alt="" coords="5,5,129,32"/>
-<area shape="rect" href="class_component_array.html" title=" " alt="" coords="177,5,327,32"/>
+<area shape="rect" href="class_i_component_array.html" title="Interface for component arrays." alt="" coords="5,5,129,32"/>
+<area shape="rect" href="class_component_array.html" title="A cache&#45;friendly container for a single type of component." alt="" coords="177,5,327,32"/>
 <area shape="poly" title=" " alt="" coords="144,16,176,16,176,21,144,21"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_22.png" border="0" usemap="#a_inactive_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_25.png" border="0" usemap="#a_i_game_state" loading="lazy" alt=""/>
+<map name="a_i_game_state" id="a_i_game_state">
+<area shape="rect" href="class_i_game_state.html" title="An abstract base class for different states of the game (e.g., menu, playing)." alt="" coords="5,81,97,108"/>
+<area shape="rect" href="class_client_state.html" title=" " alt="" coords="158,5,244,32"/>
+<area shape="poly" title=" " alt="" coords="88,71,143,42,167,30,170,35,146,46,91,76"/>
+<area shape="rect" href="class_main_menu_state.html" title="Represents the main menu state of the game." alt="" coords="145,56,257,83"/>
+<area shape="poly" title=" " alt="" coords="112,82,144,76,145,81,113,87"/>
+<area shape="rect" href="class_pause_state.html" title="Represents the pause state of the game." alt="" coords="156,107,246,133"/>
+<area shape="poly" title=" " alt="" coords="113,102,156,110,155,115,112,108"/>
+<area shape="rect" href="class_server_state.html" title="Represents the primary gameplay state." alt="" coords="156,157,246,184"/>
+<area shape="poly" title=" " alt="" coords="91,113,146,143,170,154,167,159,143,148,88,118"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_26.png" border="0" usemap="#a_inactive_component" loading="lazy" alt=""/>
 <map name="a_inactive_component" id="a_inactive_component">
 <area shape="rect" href="struct_inactive_component.html" title="// Marks components inactive to ignore entities that currently does nothing." alt="" coords="5,5,140,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_23.png" border="0" usemap="#a_input_state" loading="lazy" alt=""/>
-<map name="a_input_state" id="a_input_state">
-<area shape="rect" href="struct_input_state.html" title=" " alt="" coords="5,5,87,32"/>
+<tr><td><img src="inherit_graph_27.png" border="0" usemap="#a_input_manager" loading="lazy" alt=""/>
+<map name="a_input_manager" id="a_input_manager">
+<area shape="rect" href="class_input_manager.html" title="Manages all user input from keyboard, mouse, and other devices." alt="" coords="5,5,106,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_24.png" border="0" usemap="#a_input_system" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_28.png" border="0" usemap="#a_input_state" loading="lazy" alt=""/>
+<map name="a_input_state" id="a_input_state">
+<area shape="rect" href="struct_input_state.html" title="A snapshot of the state of all input devices at a single point in time." alt="" coords="5,5,87,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_29.png" border="0" usemap="#a_input_state_component" loading="lazy" alt=""/>
+<map name="a_input_state_component" id="a_input_state_component">
+<area shape="rect" href="struct_input_state_component.html" title=" " alt="" coords="5,5,154,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_30.png" border="0" usemap="#a_input_system" loading="lazy" alt=""/>
 <map name="a_input_system" id="a_input_system">
 <area shape="rect" href="class_input_system.html" title=" " alt="" coords="5,5,101,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_25.png" border="0" usemap="#a_interaction_system" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_31.png" border="0" usemap="#a_interaction_system" loading="lazy" alt=""/>
 <map name="a_interaction_system" id="a_interaction_system">
 <area shape="rect" href="class_interaction_system.html" title=" " alt="" coords="5,5,133,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_26.png" border="0" usemap="#a_inventory_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_32.png" border="0" usemap="#a_interp_buffer_component" loading="lazy" alt=""/>
+<map name="a_interp_buffer_component" id="a_interp_buffer_component">
+<area shape="rect" href="struct_interp_buffer_component.html" title=" " alt="" coords="5,5,161,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_33.png" border="0" usemap="#a_interp_buffer_component_1_1_sample" loading="lazy" alt=""/>
+<map name="a_interp_buffer_component_1_1_sample" id="a_interp_buffer_component_1_1_sample">
+<area shape="rect" href="struct_interp_buffer_component_1_1_sample.html" title=" " alt="" coords="5,5,161,48"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_34.png" border="0" usemap="#a_inventory_component" loading="lazy" alt=""/>
 <map name="a_inventory_component" id="a_inventory_component">
 <area shape="rect" href="struct_inventory_component.html" title=" " alt="" coords="5,5,148,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_27.png" border="0" usemap="#a_inventory_system" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_35.png" border="0" usemap="#a_inventory_system" loading="lazy" alt=""/>
 <map name="a_inventory_system" id="a_inventory_system">
 <area shape="rect" href="class_inventory_system.html" title=" " alt="" coords="5,5,126,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_28.png" border="0" usemap="#a_item_data" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_36.png" border="0" usemap="#a_item_data" loading="lazy" alt=""/>
 <map name="a_item_data" id="a_item_data">
-<area shape="rect" href="struct_item_data.html" title=" " alt="" coords="5,5,81,32"/>
+<area shape="rect" href="struct_item_data.html" title="Contains static data for a specific item type." alt="" coords="5,5,81,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_29.png" border="0" usemap="#a_item_database" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_37.png" border="0" usemap="#a_item_database" loading="lazy" alt=""/>
 <map name="a_item_database" id="a_item_database">
-<area shape="rect" href="class_item_database.html" title=" " alt="" coords="5,5,109,32"/>
+<area shape="rect" href="class_item_database.html" title="A singleton database for all item data." alt="" coords="5,5,109,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_30.png" border="0" usemap="#a_item_payload" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_38.png" border="0" usemap="#a_item_drag_system" loading="lazy" alt=""/>
+<map name="a_item_drag_system" id="a_item_drag_system">
+<area shape="rect" href="class_item_drag_system.html" title=" " alt="" coords="5,5,126,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_39.png" border="0" usemap="#a_item_payload" loading="lazy" alt=""/>
 <map name="a_item_payload" id="a_item_payload">
-<area shape="rect" href="struct_item_payload.html" title=" " alt="" coords="5,5,100,32"/>
+<area shape="rect" href="struct_item_payload.html" title="Represents a stack of items being transferred or manipulated." alt="" coords="5,5,100,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_31.png" border="0" usemap="#a_key_event" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_40.png" border="0" usemap="#a_key_event" loading="lazy" alt=""/>
 <map name="a_key_event" id="a_key_event">
 <area shape="rect" href="struct_key_event.html" title=" " alt="" coords="5,5,84,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_32.png" border="0" usemap="#a_key_event_hasher" loading="lazy" alt=""/>
-<map name="a_key_event_hasher" id="a_key_event_hasher">
-<area shape="rect" href="struct_key_event_hasher.html" title=" " alt="" coords="5,5,126,32"/>
+<tr><td><img src="inherit_graph_41.png" border="0" usemap="#a_local_player_component" loading="lazy" alt=""/>
+<map name="a_local_player_component" id="a_local_player_component">
+<area shape="rect" href="struct_local_player_component.html" title=" " alt="" coords="5,5,162,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_33.png" border="0" usemap="#a_mining_drill_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_42.png" border="0" usemap="#a_mining_drill_component" loading="lazy" alt=""/>
 <map name="a_mining_drill_component" id="a_mining_drill_component">
 <area shape="rect" href="struct_mining_drill_component.html" title=" " alt="" coords="5,5,155,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_34.png" border="0" usemap="#a_mining_drill_system" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_43.png" border="0" usemap="#a_mining_drill_system" loading="lazy" alt=""/>
 <map name="a_mining_drill_system" id="a_mining_drill_system">
 <area shape="rect" href="class_mining_drill_system.html" title=" " alt="" coords="5,5,133,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_35.png" border="0" usemap="#a_movable_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_44.png" border="0" usemap="#a_movable_component" loading="lazy" alt=""/>
 <map name="a_movable_component" id="a_movable_component">
 <area shape="rect" href="struct_movable_component.html" title=" " alt="" coords="5,5,143,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_36.png" border="0" usemap="#a_movement_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_45.png" border="0" usemap="#a_move_applied" loading="lazy" alt=""/>
+<map name="a_move_applied" id="a_move_applied">
+<area shape="rect" href="struct_move_applied.html" title="Represents a server&#45;validated player movement." alt="" coords="5,5,102,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_46.png" border="0" usemap="#a_movement_component" loading="lazy" alt=""/>
 <map name="a_movement_component" id="a_movement_component">
 <area shape="rect" href="struct_movement_component.html" title=" " alt="" coords="5,5,155,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_37.png" border="0" usemap="#a_movement_system" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_47.png" border="0" usemap="#a_movement_system" loading="lazy" alt=""/>
 <map name="a_movement_system" id="a_movement_system">
 <area shape="rect" href="class_movement_system.html" title=" " alt="" coords="5,5,133,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_38.png" border="0" usemap="#a_object_pool_3_01_t_01_4" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_48.png" border="0" usemap="#a_net_prediction_component" loading="lazy" alt=""/>
+<map name="a_net_prediction_component" id="a_net_prediction_component">
+<area shape="rect" href="struct_net_prediction_component.html" title=" " alt="" coords="5,5,173,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_49.png" border="0" usemap="#a_object_pool_3_01_t_01_4" loading="lazy" alt=""/>
 <map name="a_object_pool_3_01_t_01_4" id="a_object_pool_3_01_t_01_4">
 <area shape="rect" href="class_object_pool.html" title=" " alt="" coords="5,5,122,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_39.png" border="0" usemap="#a_ore_to_item_mapper" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_50.png" border="0" usemap="#a_ore_to_item_mapper" loading="lazy" alt=""/>
 <map name="a_ore_to_item_mapper" id="a_ore_to_item_mapper">
-<area shape="rect" href="class_ore_to_item_mapper.html" title=" " alt="" coords="5,5,131,32"/>
+<area shape="rect" href="class_ore_to_item_mapper.html" title="A singleton utility to map ore types to their corresponding item IDs." alt="" coords="5,5,131,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_40.png" border="0" usemap="#a_player_state_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_51.png" border="0" usemap="#a_packet" loading="lazy" alt=""/>
+<map name="a_packet" id="a_packet">
+<area shape="rect" href="struct_packet.html" title="The base struct for all network packets." alt="" coords="5,5,68,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_52.png" border="0" usemap="#a_packet_header" loading="lazy" alt=""/>
+<map name="a_packet_header" id="a_packet_header">
+<area shape="rect" href="struct_packet_header.html" title="The header for all network packets." alt="" coords="5,5,110,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_53.png" border="0" usemap="#a_player_state_component" loading="lazy" alt=""/>
 <map name="a_player_state_component" id="a_player_state_component">
 <area shape="rect" href="struct_player_state_component.html" title=" " alt="" coords="5,5,162,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_41.png" border="0" usemap="#a_recipe_data" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_54.png" border="0" usemap="#a_recipe_data" loading="lazy" alt=""/>
 <map name="a_recipe_data" id="a_recipe_data">
-<area shape="rect" href="struct_recipe_data.html" title=" " alt="" coords="5,5,96,32"/>
+<area shape="rect" href="struct_recipe_data.html" title="Contains the static data for a specific crafting recipe." alt="" coords="5,5,96,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_42.png" border="0" usemap="#a_recipe_database" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_55.png" border="0" usemap="#a_recipe_database" loading="lazy" alt=""/>
 <map name="a_recipe_database" id="a_recipe_database">
-<area shape="rect" href="class_recipe_database.html" title=" " alt="" coords="5,5,124,32"/>
+<area shape="rect" href="class_recipe_database.html" title="A singleton database for all recipe data." alt="" coords="5,5,124,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_43.png" border="0" usemap="#a_recipe_ingredient" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_56.png" border="0" usemap="#a_recipe_ingredient" loading="lazy" alt=""/>
 <map name="a_recipe_ingredient" id="a_recipe_ingredient">
-<area shape="rect" href="struct_recipe_ingredient.html" title=" " alt="" coords="5,5,125,32"/>
+<area shape="rect" href="struct_recipe_ingredient.html" title="Represents a single ingredient required for a recipe." alt="" coords="5,5,125,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_44.png" border="0" usemap="#a_refinery_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_57.png" border="0" usemap="#a_recv_packet" loading="lazy" alt=""/>
+<map name="a_recv_packet" id="a_recv_packet">
+<area shape="rect" href="struct_recv_packet.html" title="A packet received from the network." alt="" coords="5,5,99,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_58.png" border="0" usemap="#a_refinery_component" loading="lazy" alt=""/>
 <map name="a_refinery_component" id="a_refinery_component">
 <area shape="rect" href="struct_refinery_component.html" title=" " alt="" coords="5,5,143,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_45.png" border="0" usemap="#a_refinery_system" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_59.png" border="0" usemap="#a_refinery_system" loading="lazy" alt=""/>
 <map name="a_refinery_system" id="a_refinery_system">
-<area shape="rect" href="class_refinery_system.html" title=" " alt="" coords="5,5,121,32"/>
+<area shape="rect" href="class_refinery_system.html" title="Current does nothing. Will be used for handling resource refinement." alt="" coords="5,5,121,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_46.png" border="0" usemap="#a_registry" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_60.png" border="0" usemap="#a_registry" loading="lazy" alt=""/>
 <map name="a_registry" id="a_registry">
 <area shape="rect" href="class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="5,5,76,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_47.png" border="0" usemap="#a_render_system" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_61.png" border="0" usemap="#a_render_system" loading="lazy" alt=""/>
 <map name="a_render_system" id="a_render_system">
-<area shape="rect" href="class_render_system.html" title=" " alt="" coords="5,5,114,32"/>
+<area shape="rect" href="class_render_system.html" title="Responsible for rendering every entity, chunk and text." alt="" coords="5,5,114,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_48.png" border="0" usemap="#a_resource_node_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_62.png" border="0" usemap="#a_resource_node_component" loading="lazy" alt=""/>
 <map name="a_resource_node_component" id="a_resource_node_component">
 <area shape="rect" href="struct_resource_node_component.html" title=" " alt="" coords="5,5,181,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_49.png" border="0" usemap="#a_resource_node_system" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_63.png" border="0" usemap="#a_resource_node_system" loading="lazy" alt=""/>
 <map name="a_resource_node_system" id="a_resource_node_system">
-<area shape="rect" href="class_resource_node_system.html" title=" " alt="" coords="5,5,159,32"/>
+<area shape="rect" href="class_resource_node_system.html" title="Responsible for updating every resource node&#39;s info inside the world." alt="" coords="5,5,159,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_50.png" border="0" usemap="#a_sprite_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_64.png" border="0" usemap="#a_send_request" loading="lazy" alt=""/>
+<map name="a_send_request" id="a_send_request">
+<area shape="rect" href="struct_send_request.html" title="A request to send a packet over the network." alt="" coords="5,5,106,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_65.png" border="0" usemap="#a_server" loading="lazy" alt=""/>
+<map name="a_server" id="a_server">
+<area shape="rect" href="class_server.html" title="Manages the server&#45;side network communication." alt="" coords="5,5,65,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_66.png" border="0" usemap="#a_server_impl" loading="lazy" alt=""/>
+<map name="a_server_impl" id="a_server_impl">
+<area shape="rect" href="class_server_impl.html" title="Interface for the server implementation." alt="" coords="5,5,90,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_67.png" border="0" usemap="#a_server_network_system" loading="lazy" alt=""/>
+<map name="a_server_network_system" id="a_server_network_system">
+<area shape="rect" href="class_server_network_system.html" title=" " alt="" coords="5,5,159,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_68.png" border="0" usemap="#a_server_state_1_1type_array_3_01_types_01_4" loading="lazy" alt=""/>
+<map name="a_server_state_1_1type_array_3_01_types_01_4" id="a_server_state_1_1type_array_3_01_types_01_4">
+<area shape="rect" href="struct_server_state_1_1type_array.html" title="template struct for register component types" alt="" coords="5,5,160,48"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_69.png" border="0" usemap="#a_socket" loading="lazy" alt=""/>
+<map name="a_socket" id="a_socket">
+<area shape="rect" href="class_socket.html" title="Manages the client&#45;side network communication." alt="" coords="5,5,68,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_70.png" border="0" usemap="#a_socket_impl" loading="lazy" alt=""/>
+<map name="a_socket_impl" id="a_socket_impl">
+<area shape="rect" href="class_socket_impl.html" title="Interface for the socket implementation." alt="" coords="5,5,93,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_71.png" border="0" usemap="#a_sprite_component" loading="lazy" alt=""/>
 <map name="a_sprite_component" id="a_sprite_component">
 <area shape="rect" href="struct_sprite_component.html" title=" " alt="" coords="5,5,128,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_51.png" border="0" usemap="#a_text_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_72.png" border="0" usemap="#a_system_context" loading="lazy" alt=""/>
+<map name="a_system_context" id="a_system_context">
+<area shape="rect" href="struct_system_context.html" title="A container for shared game services and managers." alt="" coords="5,5,118,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_73.png" border="0" usemap="#a_text_component" loading="lazy" alt=""/>
 <map name="a_text_component" id="a_text_component">
 <area shape="rect" href="struct_text_component.html" title=" " alt="" coords="5,5,119,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_52.png" border="0" usemap="#a_texture_deleter" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_74.png" border="0" usemap="#a_texture_deleter" loading="lazy" alt=""/>
 <map name="a_texture_deleter" id="a_texture_deleter">
-<area shape="rect" href="struct_texture_deleter.html" title=" " alt="" coords="5,5,112,32"/>
+<area shape="rect" href="struct_texture_deleter.html" title="A custom deleter for SDL_Texture smart pointers." alt="" coords="5,5,112,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_53.png" border="0" usemap="#a_tile_data" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_75.png" border="0" usemap="#a_thread_safe_queue_3_01_t_01_4" loading="lazy" alt=""/>
+<map name="a_thread_safe_queue_3_01_t_01_4" id="a_thread_safe_queue_3_01_t_01_4">
+<area shape="rect" href="class_thread_safe_queue.html" title="A generic, thread&#45;safe queue for concurrent data access." alt="" coords="5,5,163,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_76.png" border="0" usemap="#a_tile_data" loading="lazy" alt=""/>
 <map name="a_tile_data" id="a_tile_data">
-<area shape="rect" href="struct_tile_data.html" title=" " alt="" coords="5,5,76,32"/>
+<area shape="rect" href="struct_tile_data.html" title="Contains the state and properties of a single tile in the game world." alt="" coords="5,5,76,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_54.png" border="0" usemap="#a_timer_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_77.png" border="0" usemap="#a_timer_component" loading="lazy" alt=""/>
 <map name="a_timer_component" id="a_timer_component">
 <area shape="rect" href="struct_timer_component.html" title=" " alt="" coords="5,5,127,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_55.png" border="0" usemap="#a_timer_expired_tag" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_78.png" border="0" usemap="#a_timer_expired_tag" loading="lazy" alt=""/>
 <map name="a_timer_expired_tag" id="a_timer_expired_tag">
 <area shape="rect" href="struct_timer_expired_tag.html" title="A tag component added to an entity when one of its timers expires. A tag component added to an entity..." alt="" coords="5,5,125,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_56.png" border="0" usemap="#a_timer_expire_system" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_79.png" border="0" usemap="#a_timer_expire_system" loading="lazy" alt=""/>
 <map name="a_timer_expire_system" id="a_timer_expire_system">
-<area shape="rect" href="class_timer_expire_system.html" title=" " alt="" coords="5,5,142,32"/>
+<area shape="rect" href="class_timer_expire_system.html" title="Check expired timer and execute corresponding logic for each kind of TimerID." alt="" coords="5,5,142,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_57.png" border="0" usemap="#a_timer_instance" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_80.png" border="0" usemap="#a_timer_instance" loading="lazy" alt=""/>
 <map name="a_timer_instance" id="a_timer_instance">
 <area shape="rect" href="struct_timer_instance.html" title=" " alt="" coords="5,5,110,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_58.png" border="0" usemap="#a_timer_manager" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_81.png" border="0" usemap="#a_timer_manager" loading="lazy" alt=""/>
 <map name="a_timer_manager" id="a_timer_manager">
 <area shape="rect" href="class_timer_manager.html" title="Manages the lifecycle of all TimerInstance objects in the game, centralizing the logic and memory man..." alt="" coords="5,5,110,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_59.png" border="0" usemap="#a_timer_system" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_82.png" border="0" usemap="#a_timer_system" loading="lazy" alt=""/>
 <map name="a_timer_system" id="a_timer_system">
-<area shape="rect" href="class_timer_system.html" title=" " alt="" coords="5,5,105,32"/>
+<area shape="rect" href="class_timer_system.html" title="System responsible for updating the elapsed time of all active timers." alt="" coords="5,5,105,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_60.png" border="0" usemap="#a_transform_component" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_83.png" border="0" usemap="#a_transform_component" loading="lazy" alt=""/>
 <map name="a_transform_component" id="a_transform_component">
 <area shape="rect" href="struct_transform_component.html" title=" " alt="" coords="5,5,153,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_61.png" border="0" usemap="#a_u_i_system" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_84.png" border="0" usemap="#a_u_i_system" loading="lazy" alt=""/>
 <map name="a_u_i_system" id="a_u_i_system">
 <area shape="rect" href="class_u_i_system.html" title=" " alt="" coords="5,5,86,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_62.png" border="0" usemap="#a_vec2" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_85.png" border="0" usemap="#a_vec2" loading="lazy" alt=""/>
 <map name="a_vec2" id="a_vec2">
-<area shape="rect" href="struct_vec2.html" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" href="struct_vec2.html" title="A 2D vector of integers." alt="" coords="5,5,56,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_63.png" border="0" usemap="#a_vec2f" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_86.png" border="0" usemap="#a_vec2f" loading="lazy" alt=""/>
 <map name="a_vec2f" id="a_vec2f">
-<area shape="rect" href="struct_vec2f.html" title=" " alt="" coords="5,5,60,32"/>
+<area shape="rect" href="struct_vec2f.html" title="A 2D vector of floats." alt="" coords="5,5,60,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_64.png" border="0" usemap="#a_world" loading="lazy" alt=""/>
+<tr><td><img src="inherit_graph_87.png" border="0" usemap="#a_world" loading="lazy" alt=""/>
 <map name="a_world" id="a_world">
 <area shape="rect" href="class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="5,5,60,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_88.png" border="0" usemap="#a_world_asset_manager" loading="lazy" alt=""/>
+<map name="a_world_asset_manager" id="a_world_asset_manager">
+<area shape="rect" href="class_world_asset_manager.html" title="A singleton for managing and caching world tile assets." alt="" coords="5,5,144,32"/>
 </map>
 </td></tr>
 </table>

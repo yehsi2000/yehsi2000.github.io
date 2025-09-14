@@ -1,0 +1,10 @@
+<map id="ItemDragSystem::CreatePreviewEntity" name="ItemDragSystem::CreatePreviewEntity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,220,77"/>
+<area shape="rect" id="Node000002" href="$class_item_drag_system.html#a5b2f57f4d48361b6b1d0cf8ef2b7717e" title=" " alt="" coords="268,5,489,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,42,252,38,253,43,220,47"/>
+<area shape="rect" id="Node000003" href="$class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="298,72,458,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,65,283,72,282,77,220,70"/>
+<area shape="rect" id="Node000004" href="$class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="537,72,730,99"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="459,83,521,83,521,88,459,88"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="591,73,583,63,589,53,606,47,634,45,664,48,680,55,678,60,663,53,634,51,607,53,592,58,589,63,595,70"/>
+</map>

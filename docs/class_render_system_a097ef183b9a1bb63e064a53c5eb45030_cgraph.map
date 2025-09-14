@@ -1,0 +1,7 @@
+<map id="RenderSystem::RenderSystem" name="RenderSystem::RenderSystem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,209,57"/>
+<area shape="rect" id="Node000002" href="$class_render_system.html#a45f3a1757abc0e36d8aedc1bf070c49c" title=" " alt="" coords="257,5,484,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,32,241,28,241,34,209,37"/>
+<area shape="rect" id="Node000003" href="$class_event_dispatcher.html#a21f7ebec8a4a83701c53c6d31c815c8e" title="Subscribes a callback function to a specific event type." alt="" coords="278,56,462,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,51,263,56,263,62,209,56"/>
+</map>

@@ -1,19 +1,8 @@
 <map id="World::LoadChunk" name="World::LoadChunk">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,137,134,163"/>
-<area shape="rect" id="Node000002" href="$class_world.html#a51c0652a33b08264b5108b897673ff5f" title=" " alt="" coords="182,86,335,113"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,133,191,115,192,120,123,139"/>
-<area shape="rect" id="Node000005" href="$class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="646,137,755,163"/>
-<area shape="poly" id="edge10_Node000001_Node000005" title=" " alt="" coords="134,147,631,147,631,153,134,153"/>
-<area shape="rect" id="Node000003" href="$class_world.html#a83e7bd3a5490d65748ab5c575ae23e5b" title=" " alt="" coords="383,35,565,62"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="318,83,399,63,400,69,319,88"/>
-<area shape="rect" id="Node000004" href="$class_asset_manager.html#afab05d67b6db163192514d93cd3302be" title=" " alt="" coords="613,86,788,113"/>
-<area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="335,97,598,97,598,102,335,102"/>
-<area shape="poly" id="edge8_Node000002_Node000005" title=" " alt="" coords="336,105,631,139,630,145,335,111"/>
-<area shape="rect" id="Node000006" href="$class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="619,10,782,37"/>
-<area shape="poly" id="edge9_Node000002_Node000006" title=" " alt="" coords="274,83,320,50,350,33,382,21,438,9,496,4,603,7,603,13,496,10,439,14,384,26,352,38,323,54,277,88"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="538,60,624,79,622,85,537,65"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="499,60,550,91,614,122,632,129,630,134,612,127,548,95,496,65"/>
-<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="566,36,603,32,604,37,566,41"/>
-<area shape="rect" id="Node000007" href="$class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="836,10,1033,37"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="783,21,820,21,820,26,783,26"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,134,57"/>
+<area shape="rect" id="Node000002" href="$class_world.html#a51c0652a33b08264b5108b897673ff5f" title=" " alt="" coords="182,5,335,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,33,166,28,167,34,134,38"/>
+<area shape="rect" id="Node000003" href="$class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="383,31,492,57"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="134,41,368,41,368,47,134,47"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="336,27,368,32,367,37,335,32"/>
 </map>

@@ -1,7 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_game_state.html" title="An abstract base class for different states of the game (e.g., menu, playing)." alt="" coords="5,31,93,57"/>
-<area shape="rect" id="Node000001" href="$class_main_menu_state.html" title="Represents the main menu state of the game." alt="" coords="141,5,253,32"/>
-<area shape="poly" id="edge14_Node000000_Node000001" title=" " alt="" coords="108,31,140,26,141,31,109,37"/>
-<area shape="rect" id="Node000002" href="$class_play_state.html" title="Represents the primary gameplay state." alt="" coords="158,56,236,83"/>
-<area shape="poly" id="edge15_Node000000_Node000002" title=" " alt="" coords="108,51,158,60,157,65,108,57"/>
+<area shape="rect" id="Node000000" href="$class_entity_factory.html" title="A factory for creating pre&#45;configured entities." alt="" coords="5,5,105,32"/>
 </map>

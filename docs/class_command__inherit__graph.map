@@ -1,7 +1,11 @@
 <map id="Command" name="Command">
-<area shape="rect" id="Node000001" title="Abstract base class for all commands. Commands are self&#45;contained units of work that modify the game ..." alt="" coords="119,5,200,32"/>
+<area shape="rect" id="Node000001" title="Abstract base class for all commands. Commands are self&#45;contained units of work that modify the game ..." alt="" coords="324,5,406,32"/>
 <area shape="rect" id="Node000002" href="$class_inventory_command.html" title=" " alt="" coords="5,80,141,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,44,90,82,86,78,131,40"/>
-<area shape="rect" id="Node000003" href="$class_resource_mine_command.html" title=" " alt="" coords="165,80,330,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,40,234,78,231,82,185,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="310,36,125,82,124,77,309,31"/>
+<area shape="rect" id="Node000003" href="$class_player_disconnected_command.html" title=" " alt="" coords="164,80,363,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="337,44,283,82,280,77,333,39"/>
+<area shape="rect" id="Node000004" href="$class_player_spawn_command.html" title=" " alt="" coords="387,80,546,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="397,39,450,77,447,82,393,44"/>
+<area shape="rect" id="Node000005" href="$class_resource_mine_command.html" title=" " alt="" coords="569,80,734,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="421,31,602,77,601,82,420,37"/>
 </map>

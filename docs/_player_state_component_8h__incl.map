@@ -1,5 +1,12 @@
 <map id="include/Components/PlayerStateComponent.h" name="include/Components/PlayerStateComponent.h">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,5,177,48"/>
-<area shape="rect" id="Node000002" href="$_entity_8h.html" title=" " alt="" coords="42,96,140,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,49,94,80,88,80,88,49"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="37,171,97,197"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,50,47,71,32,97,30,112,33,128,48,157,44,160,28,130,24,112,27,95,43,68,63,47"/>
+<area shape="rect" id="Node000003" href="$_entity_8h.html" title=" " alt="" coords="42,96,140,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,49,94,80,88,80,88,49"/>
+<area shape="rect" id="Node000004" href="$_packet_8h.html" title=" " alt="" coords="164,96,269,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="125,46,185,85,183,90,122,51"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="191,126,108,166,106,161,189,121"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="182,171,250,197"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="219,123,219,155,214,155,214,123"/>
 </map>

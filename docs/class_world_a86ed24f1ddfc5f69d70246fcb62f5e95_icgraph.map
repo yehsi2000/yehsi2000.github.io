@@ -1,0 +1,15 @@
+<map id="World::GetTileIndexFromWorldPosition" name="World::GetTileIndexFromWorldPosition">
+<area shape="rect" id="Node000001" title="Converts world coordinates to tile grid indices." alt="" coords="268,149,467,192"/>
+<area shape="poly" id="edge6_Node000001_Node000001" title=" " alt="" coords="409,136,393,130,367,128,343,130,328,135,322,141,324,148,319,149,317,139,325,130,342,125,367,123,394,125,411,131"/>
+<area shape="rect" id="Node000002" href="$class_entity_factory.html#a8f82170ea7a9b7976495c0bf702c2443" title=" " alt="" coords="5,29,220,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="320,143,272,114,219,86,190,75,192,70,221,82,275,109,323,138"/>
+<area shape="rect" id="Node000003" href="$class_entity_factory.html#a9079082b1eff4e5fbdf8f2dc7e586574" title=" " alt="" coords="20,120,205,163"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="252,160,205,155,205,149,252,155"/>
+<area shape="rect" id="Node000004" href="$class_world.html#a4d7316cbf430c3bdd51d17de27a52ed1" title=" " alt="" coords="14,187,211,213"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="252,187,212,191,211,186,252,181"/>
+<area shape="rect" id="Node000005" href="$class_world.html#a25dcc04db5e8877e2c0a1be1de20556b" title="Checks if a tile at a given position is passable." alt="" coords="38,261,187,288"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="300,201,149,263,147,258,298,196"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="154,16,138,10,112,8,88,10,73,15,68,21,70,28,64,29,62,19,71,10,87,5,113,3,140,5,156,11"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="154,107,138,101,112,99,88,101,73,105,68,111,70,119,64,120,62,110,71,101,87,95,113,93,140,96,156,102"/>
+<area shape="poly" id="edge8_Node000005_Node000005" title=" " alt="" coords="157,249,142,242,112,240,86,242,71,247,67,252,74,259,70,263,62,253,67,243,85,237,113,235,143,237,159,244"/>
+</map>

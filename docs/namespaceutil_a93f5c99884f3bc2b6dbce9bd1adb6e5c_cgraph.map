@@ -1,0 +1,23 @@
+<map id="util::AttachTimer" name="util::AttachTimer">
+<area shape="rect" id="Node000001" title="Attaches a new timer to an entity." alt="" coords="5,107,123,133"/>
+<area shape="rect" id="Node000002" href="$class_timer_manager.html#ab1044271acc729134b0579f22794f894" title="Creates a new timer and returns a handle to it." alt="" coords="177,5,361,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,104,121,76,169,48,201,35,203,40,172,53,124,81,85,108"/>
+<area shape="rect" id="Node000003" href="$namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="208,107,330,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,117,193,117,193,123,123,123"/>
+<area shape="rect" id="Node000005" href="$class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="428,56,594,83"/>
+<area shape="poly" id="edge11_Node000001_Node000005" title=" " alt="" coords="115,103,170,92,296,77,412,70,412,75,296,83,171,97,116,109"/>
+<area shape="rect" id="Node000008" href="$class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="426,208,595,235"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="81,132,119,164,145,181,172,194,231,210,294,220,355,225,410,225,410,231,354,230,293,226,230,216,170,198,142,185,116,169,77,136"/>
+<area shape="rect" id="Node000009" href="$class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="171,157,367,184"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="122,131,198,150,197,156,120,137"/>
+<area shape="rect" id="Node000004" href="$class_timer_manager.html#ab6fb7ec06a23498f60811ec3f2bce91b" title="Destroys a timer instance, returning it to the pool." alt="" coords="415,107,606,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="330,117,399,117,399,123,330,123"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="329,105,428,84,429,89,330,110"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="331,131,368,143,426,169,476,197,473,202,423,174,366,148,329,136"/>
+<area shape="rect" id="Node000006" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="654,157,852,184"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="573,81,607,92,666,119,718,147,715,152,664,124,605,97,571,86"/>
+<area shape="rect" id="Node000007" href="$class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="900,183,1108,209"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="852,178,884,181,884,187,852,183"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="596,214,884,199,884,205,596,220"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="368,168,639,168,639,173,368,173"/>
+</map>

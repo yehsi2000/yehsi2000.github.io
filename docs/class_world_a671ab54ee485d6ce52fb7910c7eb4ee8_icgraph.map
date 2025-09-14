@@ -1,0 +1,8 @@
+<map id="World::HasNoOcuupyingEntity" name="World::HasNoOcuupyingEntity">
+<area shape="rect" id="Node000001" title="Checks if a building can be placed at a given location." alt="" coords="268,47,467,73"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="412,34,397,28,367,25,340,27,326,32,322,37,329,44,325,48,317,38,322,28,339,22,367,20,398,23,414,29"/>
+<area shape="rect" id="Node000002" href="$class_entity_factory.html#ae3681320d7eb90a9b96bf4cdf744472f" title=" " alt="" coords="5,5,220,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="252,48,220,43,220,38,252,42"/>
+<area shape="rect" id="Node000003" href="$class_entity_factory.html#a3fc8596dceedb12c4130873888880b32" title=" " alt="" coords="20,72,205,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="252,78,205,84,205,79,252,72"/>
+</map>

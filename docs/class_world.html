@@ -101,77 +101,86 @@ Collaboration diagram for World:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_world__coll__graph.png" border="0" usemap="#a_world_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_world_coll__map" id="a_world_coll__map">
-<area shape="rect" title="Manages the game world, including chunk loading and tile data." alt="" coords="43,344,97,371"/>
-<area shape="rect" href="class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="35,245,105,272"/>
-<area shape="poly" title=" " alt="" coords="72,288,72,344,67,344,67,288"/>
-<area shape="rect" href="struct_input_state.html" title=" " alt="" coords="29,147,110,173"/>
-<area shape="poly" title=" " alt="" coords="72,189,72,245,67,245,67,189"/>
-<area shape="rect" href="struct_vec2f.html" title=" " alt="" coords="5,5,60,32"/>
-<area shape="poly" title=" " alt="" coords="36,47,40,83,50,122,62,145,58,147,45,124,35,84,31,48"/>
-<area shape="rect" href="struct_vec2.html" title=" " alt="" coords="83,5,134,32"/>
-<area shape="poly" title=" " alt="" coords="104,48,76,147,71,145,98,46"/>
+<area shape="rect" title="Manages the game world, including chunk loading and tile data." alt="" coords="267,301,321,328"/>
+<area shape="rect" href="class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="180,104,250,131"/>
+<area shape="poly" title=" " alt="" coords="230,144,234,154,292,300,287,302,229,156,225,146"/>
+<area shape="rect" href="class_entity_factory.html" title="A factory for creating pre&#45;configured entities." alt="" coords="103,203,202,229"/>
+<area shape="poly" title=" " alt="" coords="193,143,183,156,159,203,155,201,178,153,189,140"/>
+<area shape="rect" href="class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="218,5,336,32"/>
+<area shape="poly" title=" " alt="" coords="312,41,322,55,333,89,338,125,338,161,333,197,318,259,302,302,297,300,313,258,328,196,332,161,333,125,328,90,317,57,308,44"/>
+<area shape="poly" title=" " alt="" coords="232,42,219,57,213,81,215,103,210,104,208,80,214,55,228,39"/>
+<area shape="rect" href="class_world_asset_manager.html" title="A singleton for managing and caching world tile assets." alt="" coords="376,203,514,229"/>
+<area shape="poly" title=" " alt="" coords="416,241,358,280,318,303,316,298,355,275,413,236"/>
+<area shape="poly" title=" " alt="" coords="163,243,172,260,185,275,204,288,226,297,267,308,266,313,224,302,202,293,182,279,168,263,159,245"/>
+<area shape="rect" href="class_asset_manager.html" title="A singleton for managing and caching in&#45;game entity assets." alt="" coords="5,104,111,131"/>
+<area shape="poly" title=" " alt="" coords="62,145,66,162,74,177,89,190,107,200,104,204,86,195,70,180,61,164,57,147"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a44ab4f3a9bd342e3b0544da9e158e8ae" id="r_a44ab4f3a9bd342e3b0544da9e158e8ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44ab4f3a9bd342e3b0544da9e158e8ae">World</a> (SDL_Renderer *<a class="el" href="#ae5d447dea8c2874ef922e08954d1b883">renderer</a>, <a class="el" href="class_registry.html">Registry</a> *<a class="el" href="#a30171b0d8f73001e979eb68cadba114c">registry</a>, TTF_Font *<a class="el" href="#aa730d89a15a83e7120327cb3563332af">font</a>)</td></tr>
-<tr class="memitem:ae45b2d1dfcf9c15d79dbb19aa6dab2d9" id="r_ae45b2d1dfcf9c15d79dbb19aa6dab2d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae45b2d1dfcf9c15d79dbb19aa6dab2d9">Update</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> player)</td></tr>
-<tr class="memdesc:ae45b2d1dfcf9c15d79dbb19aa6dab2d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the world state, loading/unloading chunks around the player.  <br /></td></tr>
+<tr class="memitem:a62be7a1c73a7cf194941ab668b144277" id="r_a62be7a1c73a7cf194941ab668b144277"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62be7a1c73a7cf194941ab668b144277">World</a> (<a class="el" href="class_registry.html">Registry</a> *<a class="el" href="#a30171b0d8f73001e979eb68cadba114c">registry</a>, <a class="el" href="class_world_asset_manager.html">WorldAssetManager</a> *<a class="el" href="#afcd42fa007f4b57d947fc2c92a61b88f">worldAssetManager</a>, <a class="el" href="class_entity_factory.html">EntityFactory</a> *<a class="el" href="#a00296d4e63273d5a0265472395854bca">factory</a>, <a class="el" href="class_event_dispatcher.html">EventDispatcher</a> *<a class="el" href="#acce044f8ce43a1e6d448d8fc97ba8ddc">eventDispatcher</a>, TTF_Font *<a class="el" href="#aa730d89a15a83e7120327cb3563332af">font</a>, bool IsServer)</td></tr>
+<tr class="memitem:a8c73fba541a5817fff65147ba47cd827" id="r_a8c73fba541a5817fff65147ba47cd827"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c73fba541a5817fff65147ba47cd827">~World</a> ()</td></tr>
+<tr class="memitem:aec4c79eb3becec1110cc910bf1555181" id="r_aec4c79eb3becec1110cc910bf1555181"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec4c79eb3becec1110cc910bf1555181">Update</a> ()</td></tr>
+<tr class="memdesc:aec4c79eb3becec1110cc910bf1555181"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the world state, loading/unloading chunks around the player.  <br /></td></tr>
 <tr class="memitem:ac6a93e0a965e193413b3cc80cf17f5f2" id="r_ac6a93e0a965e193413b3cc80cf17f5f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_tile_data.html">TileData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6a93e0a965e193413b3cc80cf17f5f2">GetTileAtWorldPosition</a> (<a class="el" href="struct_vec2f.html">Vec2f</a> position)</td></tr>
 <tr class="memdesc:ac6a93e0a965e193413b3cc80cf17f5f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the tile data at a specific world position.  <br /></td></tr>
 <tr class="memitem:a4d7316cbf430c3bdd51d17de27a52ed1" id="r_a4d7316cbf430c3bdd51d17de27a52ed1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_tile_data.html">TileData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d7316cbf430c3bdd51d17de27a52ed1">GetTileAtWorldPosition</a> (float worldX, float worldY)</td></tr>
-<tr class="memitem:aab930ca8785b92299040410a6ce57bc9" id="r_aab930ca8785b92299040410a6ce57bc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab930ca8785b92299040410a6ce57bc9">GetTileIndexFromWorldPosition</a> (<a class="el" href="struct_vec2f.html">Vec2f</a> position)</td></tr>
-<tr class="memdesc:aab930ca8785b92299040410a6ce57bc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts world coordinates to tile grid indices.  <br /></td></tr>
-<tr class="memitem:a337d8618c242944dce03db6790d66ac7" id="r_a337d8618c242944dce03db6790d66ac7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a337d8618c242944dce03db6790d66ac7">GetTileIndexFromWorldPosition</a> (float worldX, float worldY)</td></tr>
+<tr class="memitem:a86ed24f1ddfc5f69d70246fcb62f5e95" id="r_a86ed24f1ddfc5f69d70246fcb62f5e95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86ed24f1ddfc5f69d70246fcb62f5e95">GetTileIndexFromWorldPosition</a> (<a class="el" href="struct_vec2f.html">Vec2f</a> position) const</td></tr>
+<tr class="memdesc:a86ed24f1ddfc5f69d70246fcb62f5e95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts world coordinates to tile grid indices.  <br /></td></tr>
+<tr class="memitem:a7bbd5719cf00521c639a84f603612cd6" id="r_a7bbd5719cf00521c639a84f603612cd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bbd5719cf00521c639a84f603612cd6">GetTileIndexFromWorldPosition</a> (float worldX, float worldY) const</td></tr>
 <tr class="memitem:a3a09c1dc06f0dcb4e264465cf515dcc4" id="r_a3a09c1dc06f0dcb4e264465cf515dcc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_tile_data.html">TileData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a09c1dc06f0dcb4e264465cf515dcc4">GetTileAtTileIndex</a> (<a class="el" href="struct_vec2.html">Vec2</a> tileIndex)</td></tr>
 <tr class="memdesc:a3a09c1dc06f0dcb4e264465cf515dcc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the tile data at a specific tile grid index.  <br /></td></tr>
 <tr class="memitem:a474aebaaa8cf138dc8511017acf6af29" id="r_a474aebaaa8cf138dc8511017acf6af29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_tile_data.html">TileData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a474aebaaa8cf138dc8511017acf6af29">GetTileAtTileIndex</a> (int tileX, int tileY)</td></tr>
-<tr class="memitem:a3ccf6511812d3316e3d8e433c344512c" id="r_a3ccf6511812d3316e3d8e433c344512c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ccf6511812d3316e3d8e433c344512c">CanPlaceBuilding</a> (<a class="el" href="struct_vec2.html">Vec2</a> tileIndex, int width, int height) const</td></tr>
-<tr class="memdesc:a3ccf6511812d3316e3d8e433c344512c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a building can be placed at a given location.  <br /></td></tr>
-<tr class="memitem:a549aac664c50f2f8e478fa7b6cca2b18" id="r_a549aac664c50f2f8e478fa7b6cca2b18"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a549aac664c50f2f8e478fa7b6cca2b18">CanPlaceBuilding</a> (int tileX, int tileY, int width, int height) const</td></tr>
-<tr class="memitem:a7c84c26e0fc51a696933573a4e79fcc2" id="r_a7c84c26e0fc51a696933573a4e79fcc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c84c26e0fc51a696933573a4e79fcc2">PlaceBuilding</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> entity, <a class="el" href="struct_vec2.html">Vec2</a> tileIndex, int width, int height)</td></tr>
-<tr class="memdesc:a7c84c26e0fc51a696933573a4e79fcc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks tiles as occupied by a building.  <br /></td></tr>
-<tr class="memitem:aaabd9e10fc53b6fb7571bc8f0a8cd12c" id="r_aaabd9e10fc53b6fb7571bc8f0a8cd12c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaabd9e10fc53b6fb7571bc8f0a8cd12c">PlaceBuilding</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> entity, int tileX, int tileY, int width, int height)</td></tr>
+<tr class="memitem:a671ab54ee485d6ce52fb7910c7eb4ee8" id="r_a671ab54ee485d6ce52fb7910c7eb4ee8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a671ab54ee485d6ce52fb7910c7eb4ee8">HasNoOcuupyingEntity</a> (<a class="el" href="struct_vec2.html">Vec2</a> tileIndex, int width, int height)</td></tr>
+<tr class="memdesc:a671ab54ee485d6ce52fb7910c7eb4ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a building can be placed at a given location.  <br /></td></tr>
+<tr class="memitem:af66bd44d890c478263254cbd9f01472c" id="r_af66bd44d890c478263254cbd9f01472c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af66bd44d890c478263254cbd9f01472c">HasNoOcuupyingEntity</a> (int tileX, int tileY, int width, int height)</td></tr>
+<tr class="memitem:a757ca1ab7dd99ca0080a96812ffb99b6" id="r_a757ca1ab7dd99ca0080a96812ffb99b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a757ca1ab7dd99ca0080a96812ffb99b6">OccupyTile</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> entity, <a class="el" href="struct_vec2.html">Vec2</a> tileIndex, int width, int height)</td></tr>
+<tr class="memdesc:a757ca1ab7dd99ca0080a96812ffb99b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks tiles as occupied by a building.  <br /></td></tr>
+<tr class="memitem:ae9163b44c3e2f460ff2f76de7f6ab1ec" id="r_ae9163b44c3e2f460ff2f76de7f6ab1ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9163b44c3e2f460ff2f76de7f6ab1ec">OccupyTile</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> entity, int tileX, int tileY, int width, int height)</td></tr>
 <tr class="memitem:aadb71bf8befb4d6473a27ef53a911e6e" id="r_aadb71bf8befb4d6473a27ef53a911e6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadb71bf8befb4d6473a27ef53a911e6e">RemoveBuilding</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> entity, const std::vector&lt; <a class="el" href="struct_vec2.html">Vec2</a> &gt; &amp;occupiedTiles)</td></tr>
 <tr class="memdesc:aadb71bf8befb4d6473a27ef53a911e6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees tiles previously occupied by a building.  <br /></td></tr>
-<tr class="memitem:ae92e0d0bc9acd3b1e879f158f00d2feb" id="r_ae92e0d0bc9acd3b1e879f158f00d2feb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae92e0d0bc9acd3b1e879f158f00d2feb">IsTileMovable</a> (<a class="el" href="struct_vec2f.html">Vec2f</a> worldPos)</td></tr>
-<tr class="memdesc:ae92e0d0bc9acd3b1e879f158f00d2feb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a tile at a given position is passable.  <br /></td></tr>
-<tr class="memitem:aeb8e0efb6252c05279ee2d8fcd067593" id="r_aeb8e0efb6252c05279ee2d8fcd067593"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb8e0efb6252c05279ee2d8fcd067593">IsTileMovable</a> (<a class="el" href="struct_vec2.html">Vec2</a> tileIdx)</td></tr>
+<tr class="memitem:a25dcc04db5e8877e2c0a1be1de20556b" id="r_a25dcc04db5e8877e2c0a1be1de20556b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25dcc04db5e8877e2c0a1be1de20556b">IsTilePassable</a> (<a class="el" href="struct_vec2f.html">Vec2f</a> worldPos)</td></tr>
+<tr class="memdesc:a25dcc04db5e8877e2c0a1be1de20556b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a tile at a given position is passable.  <br /></td></tr>
+<tr class="memitem:aea81b29c34e67686197ff26f915b87c4" id="r_aea81b29c34e67686197ff26f915b87c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea81b29c34e67686197ff26f915b87c4">IsTilePassable</a> (<a class="el" href="struct_vec2.html">Vec2</a> tileIdx)</td></tr>
+<tr class="memitem:a2482e36e1c324edfef072079abc9e454" id="r_a2482e36e1c324edfef072079abc9e454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2482e36e1c324edfef072079abc9e454">GeneratePlayer</a> (<a class="el" href="_packet_8h.html#aae8d0a6f6fd9c43abb45671cc2e6213b">clientid_t</a> clientID, <a class="el" href="struct_vec2f.html">Vec2f</a> worldPos={0.f, 0.f}, bool bIsLocalPlayer=false)</td></tr>
+<tr class="memitem:a9fc7258131b63cb11c929291927beeb3" id="r_a9fc7258131b63cb11c929291927beeb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fc7258131b63cb11c929291927beeb3">GetLocalPlayer</a> () const</td></tr>
+<tr class="memitem:afe4534fb28e31f4694e6f57779e9ca71" id="r_afe4534fb28e31f4694e6f57779e9ca71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe4534fb28e31f4694e6f57779e9ca71">GetPlayerByClientID</a> (<a class="el" href="_packet_8h.html#aae8d0a6f6fd9c43abb45671cc2e6213b">clientid_t</a> clientID) const</td></tr>
 <tr class="memitem:ae4d1021c81b720aa82cffb8e36aea353" id="r_ae4d1021c81b720aa82cffb8e36aea353"><td class="memItemLeft" align="right" valign="top">const std::map&lt; <a class="el" href="struct_chunk_coord.html">ChunkCoord</a>, <a class="el" href="class_chunk.html">Chunk</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4d1021c81b720aa82cffb8e36aea353">GetActiveChunks</a> () const</td></tr>
 <tr class="memitem:a40f92216ce5dce7f021a94aaa1685446" id="r_a40f92216ce5dce7f021a94aaa1685446"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_resource_node_component_8h.html#a271c8ed218cc794861b97e279cdb7498">rsrc_amt_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40f92216ce5dce7f021a94aaa1685446">GetMinironOreAmount</a> () const</td></tr>
 <tr class="memitem:a50b19dcb0785e3b3a8ac97c4c5e022d5" id="r_a50b19dcb0785e3b3a8ac97c4c5e022d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_resource_node_component_8h.html#a271c8ed218cc794861b97e279cdb7498">rsrc_amt_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50b19dcb0785e3b3a8ac97c4c5e022d5">GetMaxironOreAmount</a> () const</td></tr>
+<tr class="memitem:ac12d45c97be2d9f158bfbfffd5263175" id="r_ac12d45c97be2d9f158bfbfffd5263175"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac12d45c97be2d9f158bfbfffd5263175">GetViewDistance</a> () const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a6effd57244b7e457ebe97c39e2f41ff4" id="r_a6effd57244b7e457ebe97c39e2f41ff4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6effd57244b7e457ebe97c39e2f41ff4">LoadChunk</a> (int chunkX, int chunkY)</td></tr>
 <tr class="memitem:a51c0652a33b08264b5108b897673ff5f" id="r_a51c0652a33b08264b5108b897673ff5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51c0652a33b08264b5108b897673ff5f">GenerateChunk</a> (<a class="el" href="class_chunk.html">Chunk</a> &amp;chunk)</td></tr>
 <tr class="memitem:af3e6a23ef48822817468efafd5f37abf" id="r_af3e6a23ef48822817468efafd5f37abf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3e6a23ef48822817468efafd5f37abf">UnloadChunk</a> (<a class="el" href="class_chunk.html">Chunk</a> &amp;chunk)</td></tr>
-<tr class="memitem:a83e7bd3a5490d65748ab5c575ae23e5b" id="r_a83e7bd3a5490d65748ab5c575ae23e5b"><td class="memItemLeft" align="right" valign="top">SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83e7bd3a5490d65748ab5c575ae23e5b">CreateChunkTexture</a> (<a class="el" href="class_chunk.html">Chunk</a> &amp;chunk)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aa730d89a15a83e7120327cb3563332af" id="r_aa730d89a15a83e7120327cb3563332af"><td class="memItemLeft" align="right" valign="top">TTF_Font *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa730d89a15a83e7120327cb3563332af">font</a></td></tr>
-<tr class="memitem:ae5d447dea8c2874ef922e08954d1b883" id="r_ae5d447dea8c2874ef922e08954d1b883"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5d447dea8c2874ef922e08954d1b883">renderer</a></td></tr>
 <tr class="memitem:a30171b0d8f73001e979eb68cadba114c" id="r_a30171b0d8f73001e979eb68cadba114c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_registry.html">Registry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30171b0d8f73001e979eb68cadba114c">registry</a></td></tr>
+<tr class="memitem:afcd42fa007f4b57d947fc2c92a61b88f" id="r_afcd42fa007f4b57d947fc2c92a61b88f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_world_asset_manager.html">WorldAssetManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcd42fa007f4b57d947fc2c92a61b88f">worldAssetManager</a></td></tr>
+<tr class="memitem:acce044f8ce43a1e6d448d8fc97ba8ddc" id="r_acce044f8ce43a1e6d448d8fc97ba8ddc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acce044f8ce43a1e6d448d8fc97ba8ddc">eventDispatcher</a></td></tr>
+<tr class="memitem:a00296d4e63273d5a0265472395854bca" id="r_a00296d4e63273d5a0265472395854bca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_entity_factory.html">EntityFactory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00296d4e63273d5a0265472395854bca">factory</a></td></tr>
+<tr class="memitem:aac0ed4034b545a967205297847fff169" id="r_aac0ed4034b545a967205297847fff169"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0ed4034b545a967205297847fff169">localPlayer</a></td></tr>
+<tr class="memitem:ac59ed707a4aa3438a8b1a0d9c831e529" id="r_ac59ed707a4aa3438a8b1a0d9c831e529"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac59ed707a4aa3438a8b1a0d9c831e529">bIsServer</a></td></tr>
 <tr class="memitem:ad7e1e6e3d7cc2d7da651b4ce456269d4" id="r_ad7e1e6e3d7cc2d7da651b4ce456269d4"><td class="memItemLeft" align="right" valign="top">std::mt19937&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7e1e6e3d7cc2d7da651b4ce456269d4">randomGenerator</a></td></tr>
 <tr class="memitem:a0374b4c319a369af8fd08390d45c4407" id="r_a0374b4c319a369af8fd08390d45c4407"><td class="memItemLeft" align="right" valign="top">std::normal_distribution&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0374b4c319a369af8fd08390d45c4407">distribution</a></td></tr>
 <tr class="memitem:a82d2e548fae399bd07fa6b1395440475" id="r_a82d2e548fae399bd07fa6b1395440475"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="struct_chunk_coord.html">ChunkCoord</a>, <a class="el" href="class_chunk.html">Chunk</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82d2e548fae399bd07fa6b1395440475">activeChunks</a></td></tr>
 <tr class="memitem:aa10d78074ef113a76eb3d0b28000329a" id="r_aa10d78074ef113a76eb3d0b28000329a"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="struct_chunk_coord.html">ChunkCoord</a>, <a class="el" href="class_chunk.html">Chunk</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa10d78074ef113a76eb3d0b28000329a">chunkCache</a></td></tr>
+<tr class="memitem:ade5826b96092988aaba25075904fd9bf" id="r_ade5826b96092988aaba25075904fd9bf"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="_packet_8h.html#aae8d0a6f6fd9c43abb45671cc2e6213b">clientid_t</a>, <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5826b96092988aaba25075904fd9bf">clientPlayerMap</a></td></tr>
 <tr class="memitem:a3807add850c3b10823bce5ef517d8524" id="r_a3807add850c3b10823bce5ef517d8524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_resource_node_component_8h.html#a271c8ed218cc794861b97e279cdb7498">rsrc_amt_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3807add850c3b10823bce5ef517d8524">minironOreAmount</a></td></tr>
 <tr class="memitem:ac1f520fb6ab5b1fb8c191a91f414fad5" id="r_ac1f520fb6ab5b1fb8c191a91f414fad5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_resource_node_component_8h.html#a271c8ed218cc794861b97e279cdb7498">rsrc_amt_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1f520fb6ab5b1fb8c191a91f414fad5">maxironOreAmount</a> = 10000</td></tr>
 <tr class="memitem:ac64b04887beb3e898b2c70a50b0f30d8" id="r_ac64b04887beb3e898b2c70a50b0f30d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac64b04887beb3e898b2c70a50b0f30d8">viewDistance</a> = 2</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:aeba71b12a2630ebc6d43171457bed1a0" id="r_aeba71b12a2630ebc6d43171457bed1a0"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeba71b12a2630ebc6d43171457bed1a0">TestWorld</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages the game world, including chunk loading and tile data. </p>
 <p>Handles the procedural generation of the world, loading and unloading of chunks based on player proximity, and provides an interface for querying tile data and managing building placement. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a44ab4f3a9bd342e3b0544da9e158e8ae" name="a44ab4f3a9bd342e3b0544da9e158e8ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44ab4f3a9bd342e3b0544da9e158e8ae">&#9670;&#160;</a></span>World()</h2>
+<a id="a62be7a1c73a7cf194941ab668b144277" name="a62be7a1c73a7cf194941ab668b144277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62be7a1c73a7cf194941ab668b144277">&#9670;&#160;</a></span>World()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,139 +188,50 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">World::World </td>
           <td>(</td>
-          <td class="paramtype">SDL_Renderer *</td>          <td class="paramname"><span class="paramname"><em>renderer</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype"><a class="el" href="class_registry.html">Registry</a> *</td>          <td class="paramname"><span class="paramname"><em>registry</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">TTF_Font *</td>          <td class="paramname"><span class="paramname"><em>font</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="class_world_asset_manager.html">WorldAssetManager</a> *</td>          <td class="paramname"><span class="paramname"><em>worldAssetManager</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_entity_factory.html">EntityFactory</a> *</td>          <td class="paramname"><span class="paramname"><em>factory</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a> *</td>          <td class="paramname"><span class="paramname"><em>eventDispatcher</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TTF_Font *</td>          <td class="paramname"><span class="paramname"><em>font</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>IsServer</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_world_a44ab4f3a9bd342e3b0544da9e158e8ae_icgraph.png" border="0" usemap="#aclass_world_a44ab4f3a9bd342e3b0544da9e158e8ae_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_a44ab4f3a9bd342e3b0544da9e158e8ae_icgraph" id="aclass_world_a44ab4f3a9bd342e3b0544da9e158e8ae_icgraph">
-<area shape="rect" title=" " alt="" coords="219,5,314,32"/>
-<area shape="rect" href="class_world.html#a549aac664c50f2f8e478fa7b6cca2b18" title=" " alt="" coords="5,5,171,32"/>
-<area shape="poly" title=" " alt="" coords="203,21,171,21,171,16,203,16"/>
+<div class="center"><img src="class_world_a62be7a1c73a7cf194941ab668b144277_icgraph.png" border="0" usemap="#aclass_world_a62be7a1c73a7cf194941ab668b144277_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_a62be7a1c73a7cf194941ab668b144277_icgraph" id="aclass_world_a62be7a1c73a7cf194941ab668b144277_icgraph">
+<area shape="rect" title=" " alt="" coords="253,5,348,32"/>
+<area shape="rect" href="class_world.html#af66bd44d890c478263254cbd9f01472c" title=" " alt="" coords="5,5,205,32"/>
+<area shape="poly" title=" " alt="" coords="237,21,205,21,205,16,237,16"/>
 </map>
 </div>
 
 </div>
 </div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a549aac664c50f2f8e478fa7b6cca2b18" name="a549aac664c50f2f8e478fa7b6cca2b18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a549aac664c50f2f8e478fa7b6cca2b18">&#9670;&#160;</a></span>CanPlaceBuilding() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool World::CanPlaceBuilding </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tileX</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tileY</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;) const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_world_a549aac664c50f2f8e478fa7b6cca2b18_cgraph.png" border="0" usemap="#aclass_world_a549aac664c50f2f8e478fa7b6cca2b18_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_a549aac664c50f2f8e478fa7b6cca2b18_cgraph" id="aclass_world_a549aac664c50f2f8e478fa7b6cca2b18_cgraph">
-<area shape="rect" title=" " alt="" coords="5,55,171,81"/>
-<area shape="rect" href="class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="219,29,389,56"/>
-<area shape="poly" title=" " alt="" coords="171,56,203,52,203,57,171,61"/>
-<area shape="rect" href="class_world.html#a44ab4f3a9bd342e3b0544da9e158e8ae" title=" " alt="" coords="256,80,352,107"/>
-<area shape="poly" title=" " alt="" coords="171,75,241,83,240,89,171,80"/>
-<area shape="poly" title=" " alt="" coords="267,30,261,21,265,11,280,5,304,3,329,5,343,12,341,16,328,10,304,8,281,10,269,15,266,20,272,27"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a3ccf6511812d3316e3d8e433c344512c" name="a3ccf6511812d3316e3d8e433c344512c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ccf6511812d3316e3d8e433c344512c">&#9670;&#160;</a></span>CanPlaceBuilding() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool World::CanPlaceBuilding </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_vec2.html">Vec2</a></td>          <td class="paramname"><span class="paramname"><em>tileIndex</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;) const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Checks if a building can be placed at a given location. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">tileIndex</td><td>The top-left tile index for the building. </td></tr>
-    <tr><td class="paramname">width</td><td>The width of the building in tiles. </td></tr>
-    <tr><td class="paramname">height</td><td>The height of the building in tiles. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if the area is clear and buildable, false otherwise. </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_world_a3ccf6511812d3316e3d8e433c344512c_cgraph.png" border="0" usemap="#aclass_world_a3ccf6511812d3316e3d8e433c344512c_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_a3ccf6511812d3316e3d8e433c344512c_cgraph" id="aclass_world_a3ccf6511812d3316e3d8e433c344512c_cgraph">
-<area shape="rect" title="Checks if a building can be placed at a given location." alt="" coords="5,29,171,56"/>
-<area shape="poly" title=" " alt="" coords="59,30,54,21,58,11,69,5,88,3,108,5,119,12,116,16,106,10,88,8,71,10,62,15,60,20,64,28"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_world_a3ccf6511812d3316e3d8e433c344512c_icgraph.png" border="0" usemap="#aclass_world_a3ccf6511812d3316e3d8e433c344512c_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_a3ccf6511812d3316e3d8e433c344512c_icgraph" id="aclass_world_a3ccf6511812d3316e3d8e433c344512c_icgraph">
-<area shape="rect" title="Checks if a building can be placed at a given location." alt="" coords="230,43,395,69"/>
-<area shape="poly" title=" " alt="" coords="350,30,337,24,312,21,289,23,277,28,274,33,280,41,275,44,269,34,273,24,288,18,312,16,338,19,352,25"/>
-<area shape="rect" href="namespacefactory.html#afb051a88fa520dd405fa9b617102f984" title=" " alt="" coords="5,5,182,48"/>
-<area shape="poly" title=" " alt="" coords="214,46,182,41,182,36,215,40"/>
-<area shape="rect" href="namespacefactory.html#aeb6369c52248c80b2876a56befa07053" title=" " alt="" coords="9,72,178,99"/>
-<area shape="poly" title=" " alt="" coords="215,72,179,77,178,71,214,66"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a83e7bd3a5490d65748ab5c575ae23e5b" name="a83e7bd3a5490d65748ab5c575ae23e5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83e7bd3a5490d65748ab5c575ae23e5b">&#9670;&#160;</a></span>CreateChunkTexture()</h2>
+<a id="a8c73fba541a5817fff65147ba47cd827" name="a8c73fba541a5817fff65147ba47cd827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c73fba541a5817fff65147ba47cd827">&#9670;&#160;</a></span>~World()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,51 +240,22 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SDL_Texture * World::CreateChunkTexture </td>
+          <td class="memname">World::~World </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_chunk.html">Chunk</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>chunk</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_world_a83e7bd3a5490d65748ab5c575ae23e5b_cgraph.png" border="0" usemap="#aclass_world_a83e7bd3a5490d65748ab5c575ae23e5b_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_a83e7bd3a5490d65748ab5c575ae23e5b_cgraph" id="aclass_world_a83e7bd3a5490d65748ab5c575ae23e5b_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,188,83"/>
-<area shape="rect" href="class_asset_manager.html#afab05d67b6db163192514d93cd3302be" title=" " alt="" coords="236,5,410,32"/>
-<area shape="poly" title=" " alt="" coords="159,53,245,33,246,39,160,58"/>
-<area shape="rect" href="class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="268,56,378,83"/>
-<area shape="poly" title=" " alt="" coords="188,67,252,67,252,72,188,72"/>
-<area shape="rect" href="class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="241,107,404,133"/>
-<area shape="poly" title=" " alt="" coords="160,81,246,100,245,105,159,86"/>
-<area shape="rect" href="class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="458,107,655,133"/>
-<area shape="poly" title=" " alt="" coords="405,117,442,117,442,123,405,123"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_world_a83e7bd3a5490d65748ab5c575ae23e5b_icgraph.png" border="0" usemap="#aclass_world_a83e7bd3a5490d65748ab5c575ae23e5b_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_a83e7bd3a5490d65748ab5c575ae23e5b_icgraph" id="aclass_world_a83e7bd3a5490d65748ab5c575ae23e5b_icgraph">
-<area shape="rect" title=" " alt="" coords="535,5,718,32"/>
-<area shape="rect" href="class_world.html#a51c0652a33b08264b5108b897673ff5f" title=" " alt="" coords="334,5,487,32"/>
-<area shape="poly" title=" " alt="" coords="520,21,488,21,488,16,520,16"/>
-<area shape="rect" href="class_world.html#a6effd57244b7e457ebe97c39e2f41ff4" title=" " alt="" coords="158,5,286,32"/>
-<area shape="poly" title=" " alt="" coords="318,21,286,21,286,16,318,16"/>
-<area shape="rect" href="class_world.html#ae45b2d1dfcf9c15d79dbb19aa6dab2d9" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,5,110,32"/>
-<area shape="poly" title=" " alt="" coords="142,21,110,21,110,16,142,16"/>
-</map>
-</div>
 
 </div>
 </div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a51c0652a33b08264b5108b897673ff5f" name="a51c0652a33b08264b5108b897673ff5f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51c0652a33b08264b5108b897673ff5f">&#9670;&#160;</a></span>GenerateChunk()</h2>
 
@@ -392,20 +283,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_world_a51c0652a33b08264b5108b897673ff5f_cgraph.png" border="0" usemap="#aclass_world_a51c0652a33b08264b5108b897673ff5f_cgraph" loading="lazy" alt=""/></div>
 <map name="aclass_world_a51c0652a33b08264b5108b897673ff5f_cgraph" id="aclass_world_a51c0652a33b08264b5108b897673ff5f_cgraph">
-<area shape="rect" title=" " alt="" coords="5,68,159,95"/>
-<area shape="rect" href="class_world.html#a83e7bd3a5490d65748ab5c575ae23e5b" title=" " alt="" coords="207,43,389,69"/>
-<area shape="poly" title=" " alt="" coords="159,70,191,66,191,71,159,75"/>
-<area shape="rect" href="class_asset_manager.html#afab05d67b6db163192514d93cd3302be" title=" " alt="" coords="437,5,611,32"/>
-<area shape="poly" title=" " alt="" coords="108,65,153,45,206,28,261,19,317,13,421,11,422,16,317,19,262,24,207,33,155,50,111,70"/>
-<area shape="rect" href="class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="470,68,579,95"/>
-<area shape="poly" title=" " alt="" coords="159,79,454,79,454,84,159,84"/>
-<area shape="rect" href="class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="442,131,606,157"/>
-<area shape="poly" title=" " alt="" coords="159,89,427,128,426,133,159,95"/>
-<area shape="poly" title=" " alt="" coords="382,39,424,33,425,38,383,45"/>
-<area shape="poly" title=" " alt="" coords="390,64,454,71,454,76,389,69"/>
-<area shape="poly" title=" " alt="" coords="336,67,474,122,473,127,334,72"/>
-<area shape="rect" href="class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="659,131,857,157"/>
-<area shape="poly" title=" " alt="" coords="606,141,644,141,644,147,606,147"/>
+<area shape="rect" title=" " alt="" coords="5,5,159,32"/>
+<area shape="rect" href="class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="207,5,316,32"/>
+<area shape="poly" title=" " alt="" coords="159,16,191,16,191,21,159,21"/>
 </map>
 </div>
 <div class="dynheader">
@@ -416,8 +296,44 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="334,5,487,32"/>
 <area shape="rect" href="class_world.html#a6effd57244b7e457ebe97c39e2f41ff4" title=" " alt="" coords="158,5,286,32"/>
 <area shape="poly" title=" " alt="" coords="318,21,286,21,286,16,318,16"/>
-<area shape="rect" href="class_world.html#ae45b2d1dfcf9c15d79dbb19aa6dab2d9" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,5,110,32"/>
+<area shape="rect" href="class_world.html#aec4c79eb3becec1110cc910bf1555181" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,5,110,32"/>
 <area shape="poly" title=" " alt="" coords="142,21,110,21,110,16,142,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2482e36e1c324edfef072079abc9e454" name="a2482e36e1c324edfef072079abc9e454"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2482e36e1c324edfef072079abc9e454">&#9670;&#160;</a></span>GeneratePlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void World::GeneratePlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_packet_8h.html#aae8d0a6f6fd9c43abb45671cc2e6213b">clientid_t</a></td>          <td class="paramname"><span class="paramname"><em>clientID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_vec2f.html">Vec2f</a></td>          <td class="paramname"><span class="paramname"><em>worldPos</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{0.f,&#160;0.f}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>bIsLocalPlayer</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_world_a2482e36e1c324edfef072079abc9e454_icgraph.png" border="0" usemap="#aclass_world_a2482e36e1c324edfef072079abc9e454_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_a2482e36e1c324edfef072079abc9e454_icgraph" id="aclass_world_a2482e36e1c324edfef072079abc9e454_icgraph">
+<area shape="rect" title=" " alt="" coords="212,13,364,40"/>
+<area shape="rect" href="class_player_spawn_command.html#af2cb1f93e9d51baf7361c32a66e23160" title=" " alt="" coords="5,5,164,48"/>
+<area shape="poly" title=" " alt="" coords="196,29,164,29,164,24,196,24"/>
 </map>
 </div>
 
@@ -434,6 +350,31 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">const std::map&lt; <a class="el" href="struct_chunk_coord.html">ChunkCoord</a>, <a class="el" href="class_chunk.html">Chunk</a> &gt; &amp; World::GetActiveChunks </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9fc7258131b63cb11c929291927beeb3" name="a9fc7258131b63cb11c929291927beeb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fc7258131b63cb11c929291927beeb3">&#9670;&#160;</a></span>GetLocalPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> World::GetLocalPlayer </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -470,6 +411,16 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_world_a50b19dcb0785e3b3a8ac97c4c5e022d5_icgraph.png" border="0" usemap="#aclass_world_a50b19dcb0785e3b3a8ac97c4c5e022d5_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_a50b19dcb0785e3b3a8ac97c4c5e022d5_icgraph" id="aclass_world_a50b19dcb0785e3b3a8ac97c4c5e022d5_icgraph">
+<area shape="rect" title=" " alt="" coords="219,13,414,40"/>
+<area shape="rect" href="class_resource_mine_command.html#a26510fad53eaaa55bf4f34ce2064c263" title=" " alt="" coords="5,5,171,48"/>
+<area shape="poly" title=" " alt="" coords="203,29,171,29,171,24,203,24"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -495,6 +446,51 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_world_a40f92216ce5dce7f021a94aaa1685446_icgraph.png" border="0" usemap="#aclass_world_a40f92216ce5dce7f021a94aaa1685446_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_a40f92216ce5dce7f021a94aaa1685446_icgraph" id="aclass_world_a40f92216ce5dce7f021a94aaa1685446_icgraph">
+<area shape="rect" title=" " alt="" coords="219,13,410,40"/>
+<area shape="rect" href="class_resource_mine_command.html#a26510fad53eaaa55bf4f34ce2064c263" title=" " alt="" coords="5,5,171,48"/>
+<area shape="poly" title=" " alt="" coords="203,29,171,29,171,24,203,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afe4534fb28e31f4694e6f57779e9ca71" name="afe4534fb28e31f4694e6f57779e9ca71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe4534fb28e31f4694e6f57779e9ca71">&#9670;&#160;</a></span>GetPlayerByClientID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> World::GetPlayerByClientID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_packet_8h.html#aae8d0a6f6fd9c43abb45671cc2e6213b">clientid_t</a></td>          <td class="paramname"><span class="paramname"><em>clientID</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_world_afe4534fb28e31f4694e6f57779e9ca71_icgraph.png" border="0" usemap="#aclass_world_afe4534fb28e31f4694e6f57779e9ca71_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_afe4534fb28e31f4694e6f57779e9ca71_icgraph" id="aclass_world_afe4534fb28e31f4694e6f57779e9ca71_icgraph">
+<area shape="rect" title=" " alt="" coords="252,13,436,40"/>
+<area shape="rect" href="class_player_disconnected_command.html#af31be0c12d59ec7dafdd75c01f9a1096" title=" " alt="" coords="5,5,204,48"/>
+<area shape="poly" title=" " alt="" coords="236,29,204,29,204,24,236,24"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -541,7 +537,7 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A pointer to the <a class="el" href="struct_tile_data.html">TileData</a>, or nullptr if the chunk is not loaded. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the <a class="el" href="struct_tile_data.html" title="Contains the state and properties of a single tile in the game world.">TileData</a>, or nullptr if the chunk is not loaded. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -556,24 +552,20 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_world_a3a09c1dc06f0dcb4e264465cf515dcc4_icgraph.png" border="0" usemap="#aclass_world_a3a09c1dc06f0dcb4e264465cf515dcc4_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_world_a3a09c1dc06f0dcb4e264465cf515dcc4_icgraph" id="aclass_world_a3a09c1dc06f0dcb4e264465cf515dcc4_icgraph">
-<area shape="rect" title="Gets the tile data at a specific tile grid index." alt="" coords="434,157,604,184"/>
-<area shape="poly" title=" " alt="" coords="559,145,546,138,519,136,495,138,481,143,478,148,484,155,480,159,473,149,478,139,494,133,519,131,547,133,562,140"/>
-<area shape="rect" href="class_world.html#a549aac664c50f2f8e478fa7b6cca2b18" title=" " alt="" coords="205,5,370,32"/>
-<area shape="poly" title=" " alt="" coords="496,147,449,95,418,69,385,46,358,35,361,30,387,42,421,65,452,91,500,143"/>
-<area shape="rect" href="namespacefactory.html#aeb6369c52248c80b2876a56befa07053" title=" " alt="" coords="203,56,372,83"/>
-<area shape="poly" title=" " alt="" coords="484,151,438,123,385,97,351,86,353,81,387,92,440,118,486,146"/>
-<area shape="rect" href="class_world.html#a4d7316cbf430c3bdd51d17de27a52ed1" title=" " alt="" coords="189,107,386,133"/>
-<area shape="poly" title=" " alt="" coords="439,156,351,137,352,131,441,151"/>
-<area shape="rect" href="class_world.html#aeb8e0efb6252c05279ee2d8fcd067593" title=" " alt="" coords="216,157,359,184"/>
-<area shape="poly" title=" " alt="" coords="419,173,360,173,360,168,419,168"/>
-<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="211,208,364,251"/>
-<area shape="poly" title=" " alt="" coords="449,191,365,213,364,207,448,186"/>
-<area shape="rect" href="class_world.html#aaabd9e10fc53b6fb7571bc8f0a8cd12c" title=" " alt="" coords="217,275,358,301"/>
-<area shape="poly" title=" " alt="" coords="492,196,445,232,387,265,356,277,354,272,385,260,442,227,489,192"/>
-<area shape="rect" href="class_world.html#aadb71bf8befb4d6473a27ef53a911e6e" title="Frees tiles previously occupied by a building." alt="" coords="209,325,366,352"/>
-<area shape="poly" title=" " alt="" coords="503,198,456,258,424,289,387,316,362,327,360,322,385,311,420,285,452,254,499,195"/>
-<area shape="rect" href="class_interaction_system.html#a78be599c43f0cda96c72a64d392278c3" title=" " alt="" coords="5,208,141,251"/>
-<area shape="poly" title=" " alt="" coords="195,232,141,232,141,227,195,227"/>
+<area shape="rect" title="Gets the tile data at a specific tile grid index." alt="" coords="253,148,423,175"/>
+<area shape="poly" title=" " alt="" coords="378,136,365,129,338,127,313,129,300,133,297,139,303,146,299,149,292,139,296,129,312,123,338,121,366,124,381,131"/>
+<area shape="rect" href="class_entity_factory.html#a3fc8596dceedb12c4130873888880b32" title=" " alt="" coords="13,5,197,48"/>
+<area shape="poly" title=" " alt="" coords="309,139,262,100,203,62,179,51,181,46,206,58,265,96,312,135"/>
+<area shape="rect" href="class_world.html#a4d7316cbf430c3bdd51d17de27a52ed1" title=" " alt="" coords="6,72,204,99"/>
+<area shape="poly" title=" " alt="" coords="288,144,204,113,164,102,166,97,205,108,290,139"/>
+<area shape="rect" href="class_world.html#af66bd44d890c478263254cbd9f01472c" title=" " alt="" coords="5,123,205,149"/>
+<area shape="poly" title=" " alt="" coords="237,153,205,150,205,144,237,148"/>
+<area shape="rect" href="class_world.html#aea81b29c34e67686197ff26f915b87c4" title=" " alt="" coords="31,173,179,200"/>
+<area shape="poly" title=" " alt="" coords="237,175,180,181,179,176,237,170"/>
+<area shape="rect" href="class_world.html#ae9163b44c3e2f460ff2f76de7f6ab1ec" title=" " alt="" coords="41,224,169,251"/>
+<area shape="poly" title=" " alt="" coords="290,183,205,215,166,226,164,221,204,209,288,178"/>
+<area shape="rect" href="class_world.html#aadb71bf8befb4d6473a27ef53a911e6e" title="Frees tiles previously occupied by a building." alt="" coords="26,275,184,301"/>
+<area shape="poly" title=" " alt="" coords="314,187,266,227,206,265,176,277,174,272,203,260,263,223,310,183"/>
 </map>
 </div>
 
@@ -605,7 +597,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,71,203,97"/>
 <area shape="rect" href="class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="265,29,436,56"/>
 <area shape="poly" title=" " alt="" coords="187,67,252,56,253,62,188,73"/>
-<area shape="rect" href="class_world.html#aab930ca8785b92299040410a6ce57bc9" title="Converts world coordinates to tile grid indices." alt="" coords="251,104,450,147"/>
+<area shape="rect" href="class_world.html#a86ed24f1ddfc5f69d70246fcb62f5e95" title="Converts world coordinates to tile grid indices." alt="" coords="251,104,450,147"/>
 <area shape="poly" title=" " alt="" coords="188,95,236,103,235,109,187,101"/>
 <area shape="poly" title=" " alt="" coords="309,31,302,21,307,11,323,5,350,3,380,5,395,12,393,17,379,10,350,8,324,10,310,15,307,20,313,27"/>
 <area shape="poly" title=" " alt="" coords="304,104,302,94,310,85,326,79,350,77,377,80,392,86,390,91,375,85,350,83,327,85,313,89,307,95,309,103"/>
@@ -636,7 +628,7 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A pointer to the <a class="el" href="struct_tile_data.html">TileData</a>, or nullptr if the chunk is not loaded. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the <a class="el" href="struct_tile_data.html" title="Contains the state and properties of a single tile in the game world.">TileData</a>, or nullptr if the chunk is not loaded. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -651,15 +643,17 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_world_ac6a93e0a965e193413b3cc80cf17f5f2_icgraph.png" border="0" usemap="#aclass_world_ac6a93e0a965e193413b3cc80cf17f5f2_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_world_ac6a93e0a965e193413b3cc80cf17f5f2_icgraph" id="aclass_world_ac6a93e0a965e193413b3cc80cf17f5f2_icgraph">
-<area shape="rect" title="Gets the tile data at a specific world position." alt="" coords="5,29,203,56"/>
-<area shape="poly" title=" " alt="" coords="138,16,126,10,104,8,83,10,72,15,70,20,75,27,70,30,64,21,69,11,82,5,104,3,128,5,140,12"/>
+<area shape="rect" title="Gets the tile data at a specific world position." alt="" coords="253,29,450,56"/>
+<area shape="poly" title=" " alt="" coords="394,17,380,10,351,8,325,10,311,15,308,20,314,27,310,31,303,21,308,11,324,5,351,3,381,5,396,12"/>
+<area shape="rect" href="class_world.html#af66bd44d890c478263254cbd9f01472c" title=" " alt="" coords="5,29,205,56"/>
+<area shape="poly" title=" " alt="" coords="237,45,205,45,205,40,237,40"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a337d8618c242944dce03db6790d66ac7" name="a337d8618c242944dce03db6790d66ac7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a337d8618c242944dce03db6790d66ac7">&#9670;&#160;</a></span>GetTileIndexFromWorldPosition() <span class="overload">[1/2]</span></h2>
+<a id="a7bbd5719cf00521c639a84f603612cd6" name="a7bbd5719cf00521c639a84f603612cd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bbd5719cf00521c639a84f603612cd6">&#9670;&#160;</a></span>GetTileIndexFromWorldPosition() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -672,15 +666,15 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>worldY</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>worldY</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aab930ca8785b92299040410a6ce57bc9" name="aab930ca8785b92299040410a6ce57bc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab930ca8785b92299040410a6ce57bc9">&#9670;&#160;</a></span>GetTileIndexFromWorldPosition() <span class="overload">[2/2]</span></h2>
+<a id="a86ed24f1ddfc5f69d70246fcb62f5e95" name="a86ed24f1ddfc5f69d70246fcb62f5e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86ed24f1ddfc5f69d70246fcb62f5e95">&#9670;&#160;</a></span>GetTileIndexFromWorldPosition() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -689,7 +683,7 @@ Here is the caller graph for this function:</div>
           <td class="memname"><a class="el" href="struct_vec2.html">Vec2</a> World::GetTileIndexFromWorldPosition </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_vec2f.html">Vec2f</a></td>          <td class="paramname"><span class="paramname"><em>position</em></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -705,8 +699,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_world_aab930ca8785b92299040410a6ce57bc9_cgraph.png" border="0" usemap="#aclass_world_aab930ca8785b92299040410a6ce57bc9_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_aab930ca8785b92299040410a6ce57bc9_cgraph" id="aclass_world_aab930ca8785b92299040410a6ce57bc9_cgraph">
+<div class="center"><img src="class_world_a86ed24f1ddfc5f69d70246fcb62f5e95_cgraph.png" border="0" usemap="#aclass_world_a86ed24f1ddfc5f69d70246fcb62f5e95_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_a86ed24f1ddfc5f69d70246fcb62f5e95_cgraph" id="aclass_world_a86ed24f1ddfc5f69d70246fcb62f5e95_cgraph">
 <area shape="rect" title="Converts world coordinates to tile grid indices." alt="" coords="5,29,205,72"/>
 <area shape="poly" title=" " alt="" coords="67,29,65,19,72,10,85,5,105,3,127,5,139,11,137,16,125,10,105,8,86,10,75,15,70,21,72,28"/>
 </map>
@@ -714,39 +708,165 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_world_aab930ca8785b92299040410a6ce57bc9_icgraph.png" border="0" usemap="#aclass_world_aab930ca8785b92299040410a6ce57bc9_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_aab930ca8785b92299040410a6ce57bc9_icgraph" id="aclass_world_aab930ca8785b92299040410a6ce57bc9_icgraph">
-<area shape="rect" title="Converts world coordinates to tile grid indices." alt="" coords="665,137,865,180"/>
-<area shape="poly" title=" " alt="" coords="805,124,790,118,765,116,742,118,727,123,722,129,724,136,718,137,717,127,724,118,741,113,765,111,791,113,807,119"/>
-<area shape="rect" href="namespacefactory.html#a5ce18f8720b3dd57daf996cf93857602" title=" " alt="" coords="430,29,607,72"/>
-<area shape="poly" title=" " alt="" coords="710,132,616,86,587,75,589,70,618,82,713,127"/>
-<area shape="rect" href="namespacefactory.html#ab8ddcd28f448d5efac3dc444c13dbf4f" title=" " alt="" coords="434,120,603,147"/>
-<area shape="poly" title=" " alt="" coords="650,150,603,145,604,139,650,144"/>
-<area shape="rect" href="class_world.html#a4d7316cbf430c3bdd51d17de27a52ed1" title=" " alt="" coords="420,171,617,197"/>
-<area shape="poly" title=" " alt="" coords="650,173,618,176,617,171,650,168"/>
-<area shape="rect" href="class_world.html#ae92e0d0bc9acd3b1e879f158f00d2feb" title="Checks if a tile at a given position is passable." alt="" coords="447,245,590,272"/>
-<area shape="poly" title=" " alt="" coords="697,189,555,247,553,242,695,184"/>
-<area shape="poly" title=" " alt="" coords="557,16,542,10,519,8,497,10,483,15,478,21,480,28,474,29,473,19,480,10,495,5,519,3,544,5,559,11"/>
-<area shape="rect" href="class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="199,71,372,113"/>
-<area shape="poly" title=" " alt="" coords="416,72,373,79,372,74,415,66"/>
-<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="5,79,151,105"/>
-<area shape="poly" title=" " alt="" coords="183,95,151,95,151,89,183,89"/>
-<area shape="poly" title=" " alt="" coords="424,119,372,110,373,105,425,114"/>
-<area shape="poly" title=" " alt="" coords="559,108,545,101,519,99,494,101,481,105,478,111,484,118,479,121,472,111,477,101,493,95,519,93,547,96,561,103"/>
-<area shape="poly" title=" " alt="" coords="559,233,545,226,519,224,494,226,481,231,478,236,484,243,479,247,472,237,477,227,493,221,519,219,547,221,561,228"/>
+<div class="center"><img src="class_world_a86ed24f1ddfc5f69d70246fcb62f5e95_icgraph.png" border="0" usemap="#aclass_world_a86ed24f1ddfc5f69d70246fcb62f5e95_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_a86ed24f1ddfc5f69d70246fcb62f5e95_icgraph" id="aclass_world_a86ed24f1ddfc5f69d70246fcb62f5e95_icgraph">
+<area shape="rect" title="Converts world coordinates to tile grid indices." alt="" coords="268,149,467,192"/>
+<area shape="poly" title=" " alt="" coords="409,136,393,130,367,128,343,130,328,135,322,141,324,148,319,149,317,139,325,130,342,125,367,123,394,125,411,131"/>
+<area shape="rect" href="class_entity_factory.html#a8f82170ea7a9b7976495c0bf702c2443" title=" " alt="" coords="5,29,220,72"/>
+<area shape="poly" title=" " alt="" coords="320,143,272,114,219,86,190,75,192,70,221,82,275,109,323,138"/>
+<area shape="rect" href="class_entity_factory.html#a9079082b1eff4e5fbdf8f2dc7e586574" title=" " alt="" coords="20,120,205,163"/>
+<area shape="poly" title=" " alt="" coords="252,160,205,155,205,149,252,155"/>
+<area shape="rect" href="class_world.html#a4d7316cbf430c3bdd51d17de27a52ed1" title=" " alt="" coords="14,187,211,213"/>
+<area shape="poly" title=" " alt="" coords="252,187,212,191,211,186,252,181"/>
+<area shape="rect" href="class_world.html#a25dcc04db5e8877e2c0a1be1de20556b" title="Checks if a tile at a given position is passable." alt="" coords="38,261,187,288"/>
+<area shape="poly" title=" " alt="" coords="300,201,149,263,147,258,298,196"/>
+<area shape="poly" title=" " alt="" coords="154,16,138,10,112,8,88,10,73,15,68,21,70,28,64,29,62,19,71,10,87,5,113,3,140,5,156,11"/>
+<area shape="poly" title=" " alt="" coords="154,107,138,101,112,99,88,101,73,105,68,111,70,119,64,120,62,110,71,101,87,95,113,93,140,96,156,102"/>
+<area shape="poly" title=" " alt="" coords="157,249,142,242,112,240,86,242,71,247,67,252,74,259,70,263,62,253,67,243,85,237,113,235,143,237,159,244"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="aeb8e0efb6252c05279ee2d8fcd067593" name="aeb8e0efb6252c05279ee2d8fcd067593"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb8e0efb6252c05279ee2d8fcd067593">&#9670;&#160;</a></span>IsTileMovable() <span class="overload">[1/2]</span></h2>
+<a id="ac12d45c97be2d9f158bfbfffd5263175" name="ac12d45c97be2d9f158bfbfffd5263175"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac12d45c97be2d9f158bfbfffd5263175">&#9670;&#160;</a></span>GetViewDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int World::GetViewDistance </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af66bd44d890c478263254cbd9f01472c" name="af66bd44d890c478263254cbd9f01472c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af66bd44d890c478263254cbd9f01472c">&#9670;&#160;</a></span>HasNoOcuupyingEntity() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool World::IsTileMovable </td>
+          <td class="memname">bool World::HasNoOcuupyingEntity </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tileX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tileY</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_world_af66bd44d890c478263254cbd9f01472c_cgraph.png" border="0" usemap="#aclass_world_af66bd44d890c478263254cbd9f01472c_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_af66bd44d890c478263254cbd9f01472c_cgraph" id="aclass_world_af66bd44d890c478263254cbd9f01472c_cgraph">
+<area shape="rect" title=" " alt="" coords="5,104,205,131"/>
+<area shape="rect" href="class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="266,29,436,56"/>
+<area shape="poly" title=" " alt="" coords="144,101,252,65,278,58,280,63,253,71,146,106"/>
+<area shape="rect" href="class_world.html#ac6a93e0a965e193413b3cc80cf17f5f2" title="Gets the tile data at a specific world position." alt="" coords="253,104,450,131"/>
+<area shape="poly" title=" " alt="" coords="205,115,237,115,237,120,205,120"/>
+<area shape="rect" href="class_world.html#a62be7a1c73a7cf194941ab668b144277" title=" " alt="" coords="304,155,399,181"/>
+<area shape="poly" title=" " alt="" coords="174,129,289,153,288,158,173,134"/>
+<area shape="poly" title=" " alt="" coords="310,31,303,21,308,11,324,5,351,3,381,5,396,12,394,17,380,10,351,8,325,10,311,15,308,20,314,27"/>
+<area shape="poly" title=" " alt="" coords="310,105,303,95,308,85,324,79,351,77,381,80,396,87,394,92,380,85,351,83,325,85,311,89,308,95,314,102"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a671ab54ee485d6ce52fb7910c7eb4ee8" name="a671ab54ee485d6ce52fb7910c7eb4ee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a671ab54ee485d6ce52fb7910c7eb4ee8">&#9670;&#160;</a></span>HasNoOcuupyingEntity() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool World::HasNoOcuupyingEntity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_vec2.html">Vec2</a></td>          <td class="paramname"><span class="paramname"><em>tileIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if a building can be placed at a given location. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tileIndex</td><td>The top-left tile index for the building. </td></tr>
+    <tr><td class="paramname">width</td><td>The width of the building in tiles. </td></tr>
+    <tr><td class="paramname">height</td><td>The height of the building in tiles. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the area is clear and buildable, false otherwise. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_world_a671ab54ee485d6ce52fb7910c7eb4ee8_cgraph.png" border="0" usemap="#aclass_world_a671ab54ee485d6ce52fb7910c7eb4ee8_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_a671ab54ee485d6ce52fb7910c7eb4ee8_cgraph" id="aclass_world_a671ab54ee485d6ce52fb7910c7eb4ee8_cgraph">
+<area shape="rect" title="Checks if a building can be placed at a given location." alt="" coords="5,29,205,56"/>
+<area shape="poly" title=" " alt="" coords="71,30,65,21,69,11,83,5,105,3,129,5,141,12,139,16,127,10,105,8,84,10,73,15,70,20,76,27"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_world_a671ab54ee485d6ce52fb7910c7eb4ee8_icgraph.png" border="0" usemap="#aclass_world_a671ab54ee485d6ce52fb7910c7eb4ee8_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_a671ab54ee485d6ce52fb7910c7eb4ee8_icgraph" id="aclass_world_a671ab54ee485d6ce52fb7910c7eb4ee8_icgraph">
+<area shape="rect" title="Checks if a building can be placed at a given location." alt="" coords="268,47,467,73"/>
+<area shape="poly" title=" " alt="" coords="412,34,397,28,367,25,340,27,326,32,322,37,329,44,325,48,317,38,322,28,339,22,367,20,398,23,414,29"/>
+<area shape="rect" href="class_entity_factory.html#ae3681320d7eb90a9b96bf4cdf744472f" title=" " alt="" coords="5,5,220,48"/>
+<area shape="poly" title=" " alt="" coords="252,48,220,43,220,38,252,42"/>
+<area shape="rect" href="class_entity_factory.html#a3fc8596dceedb12c4130873888880b32" title=" " alt="" coords="20,72,205,115"/>
+<area shape="poly" title=" " alt="" coords="252,78,205,84,205,79,252,72"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aea81b29c34e67686197ff26f915b87c4" name="aea81b29c34e67686197ff26f915b87c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea81b29c34e67686197ff26f915b87c4">&#9670;&#160;</a></span>IsTilePassable() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool World::IsTilePassable </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_vec2.html">Vec2</a></td>          <td class="paramname"><span class="paramname"><em>tileIdx</em></span></td><td>)</td>
           <td></td>
@@ -756,25 +876,25 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_world_aeb8e0efb6252c05279ee2d8fcd067593_cgraph.png" border="0" usemap="#aclass_world_aeb8e0efb6252c05279ee2d8fcd067593_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_aeb8e0efb6252c05279ee2d8fcd067593_cgraph" id="aclass_world_aeb8e0efb6252c05279ee2d8fcd067593_cgraph">
-<area shape="rect" title=" " alt="" coords="5,29,149,56"/>
-<area shape="rect" href="class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="197,29,367,56"/>
-<area shape="poly" title=" " alt="" coords="149,40,181,40,181,45,149,45"/>
-<area shape="poly" title=" " alt="" coords="247,30,241,21,245,11,259,5,282,3,306,5,319,12,317,16,305,10,282,8,260,10,249,15,246,20,251,27"/>
+<div class="center"><img src="class_world_aea81b29c34e67686197ff26f915b87c4_cgraph.png" border="0" usemap="#aclass_world_aea81b29c34e67686197ff26f915b87c4_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_aea81b29c34e67686197ff26f915b87c4_cgraph" id="aclass_world_aea81b29c34e67686197ff26f915b87c4_cgraph">
+<area shape="rect" title=" " alt="" coords="5,29,154,56"/>
+<area shape="rect" href="class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="202,29,372,56"/>
+<area shape="poly" title=" " alt="" coords="154,40,186,40,186,45,154,45"/>
+<area shape="poly" title=" " alt="" coords="252,30,245,21,250,11,264,5,287,3,312,5,325,12,322,16,310,10,287,8,265,10,253,15,251,20,256,27"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ae92e0d0bc9acd3b1e879f158f00d2feb" name="ae92e0d0bc9acd3b1e879f158f00d2feb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae92e0d0bc9acd3b1e879f158f00d2feb">&#9670;&#160;</a></span>IsTileMovable() <span class="overload">[2/2]</span></h2>
+<a id="a25dcc04db5e8877e2c0a1be1de20556b" name="a25dcc04db5e8877e2c0a1be1de20556b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25dcc04db5e8877e2c0a1be1de20556b">&#9670;&#160;</a></span>IsTilePassable() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool World::IsTileMovable </td>
+          <td class="memname">bool World::IsTilePassable </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_vec2f.html">Vec2f</a></td>          <td class="paramname"><span class="paramname"><em>worldPos</em></span></td><td>)</td>
           <td></td>
@@ -793,22 +913,22 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_world_ae92e0d0bc9acd3b1e879f158f00d2feb_cgraph.png" border="0" usemap="#aclass_world_ae92e0d0bc9acd3b1e879f158f00d2feb_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_ae92e0d0bc9acd3b1e879f158f00d2feb_cgraph" id="aclass_world_ae92e0d0bc9acd3b1e879f158f00d2feb_cgraph">
-<area shape="rect" title="Checks if a tile at a given position is passable." alt="" coords="5,37,149,64"/>
-<area shape="poly" title=" " alt="" coords="40,38,33,29,38,19,53,13,77,11,103,13,117,20,115,24,102,18,77,16,54,18,41,23,39,28,44,35"/>
-<area shape="rect" href="class_world.html#aab930ca8785b92299040410a6ce57bc9" title="Converts world coordinates to tile grid indices." alt="" coords="197,29,396,72"/>
-<area shape="poly" title=" " alt="" coords="149,48,181,48,181,53,149,53"/>
-<area shape="poly" title=" " alt="" coords="255,29,253,19,260,10,274,5,296,3,320,5,334,11,332,16,318,10,296,8,276,10,263,15,258,21,260,28"/>
+<div class="center"><img src="class_world_a25dcc04db5e8877e2c0a1be1de20556b_cgraph.png" border="0" usemap="#aclass_world_a25dcc04db5e8877e2c0a1be1de20556b_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_a25dcc04db5e8877e2c0a1be1de20556b_cgraph" id="aclass_world_a25dcc04db5e8877e2c0a1be1de20556b_cgraph">
+<area shape="rect" title="Checks if a tile at a given position is passable." alt="" coords="5,37,154,64"/>
+<area shape="poly" title=" " alt="" coords="42,38,35,29,40,19,55,13,80,11,106,13,120,20,118,24,104,18,79,16,56,18,44,23,41,28,46,35"/>
+<area shape="rect" href="class_world.html#a86ed24f1ddfc5f69d70246fcb62f5e95" title="Converts world coordinates to tile grid indices." alt="" coords="202,29,401,72"/>
+<area shape="poly" title=" " alt="" coords="154,48,186,48,186,53,154,53"/>
+<area shape="poly" title=" " alt="" coords="259,29,257,19,265,10,279,5,301,3,325,5,339,11,337,16,324,10,301,8,280,10,268,15,263,21,264,28"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_world_ae92e0d0bc9acd3b1e879f158f00d2feb_icgraph.png" border="0" usemap="#aclass_world_ae92e0d0bc9acd3b1e879f158f00d2feb_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_ae92e0d0bc9acd3b1e879f158f00d2feb_icgraph" id="aclass_world_ae92e0d0bc9acd3b1e879f158f00d2feb_icgraph">
-<area shape="rect" title="Checks if a tile at a given position is passable." alt="" coords="5,29,149,56"/>
-<area shape="poly" title=" " alt="" coords="101,16,93,10,77,8,62,10,55,14,53,20,57,28,52,30,48,21,51,11,61,5,77,3,95,5,104,12"/>
+<div class="center"><img src="class_world_a25dcc04db5e8877e2c0a1be1de20556b_icgraph.png" border="0" usemap="#aclass_world_a25dcc04db5e8877e2c0a1be1de20556b_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_a25dcc04db5e8877e2c0a1be1de20556b_icgraph" id="aclass_world_a25dcc04db5e8877e2c0a1be1de20556b_icgraph">
+<area shape="rect" title="Checks if a tile at a given position is passable." alt="" coords="5,29,154,56"/>
+<area shape="poly" title=" " alt="" coords="104,16,96,10,79,8,64,10,56,14,54,20,58,28,54,30,49,21,52,11,63,5,80,3,98,5,107,12"/>
 </map>
 </div>
 
@@ -845,23 +965,12 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_world_a6effd57244b7e457ebe97c39e2f41ff4_cgraph.png" border="0" usemap="#aclass_world_a6effd57244b7e457ebe97c39e2f41ff4_cgraph" loading="lazy" alt=""/></div>
 <map name="aclass_world_a6effd57244b7e457ebe97c39e2f41ff4_cgraph" id="aclass_world_a6effd57244b7e457ebe97c39e2f41ff4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,137,134,163"/>
-<area shape="rect" href="class_world.html#a51c0652a33b08264b5108b897673ff5f" title=" " alt="" coords="182,86,335,113"/>
-<area shape="poly" title=" " alt="" coords="121,133,191,115,192,120,123,139"/>
-<area shape="rect" href="class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="646,137,755,163"/>
-<area shape="poly" title=" " alt="" coords="134,147,631,147,631,153,134,153"/>
-<area shape="rect" href="class_world.html#a83e7bd3a5490d65748ab5c575ae23e5b" title=" " alt="" coords="383,35,565,62"/>
-<area shape="poly" title=" " alt="" coords="318,83,399,63,400,69,319,88"/>
-<area shape="rect" href="class_asset_manager.html#afab05d67b6db163192514d93cd3302be" title=" " alt="" coords="613,86,788,113"/>
-<area shape="poly" title=" " alt="" coords="335,97,598,97,598,102,335,102"/>
-<area shape="poly" title=" " alt="" coords="336,105,631,139,630,145,335,111"/>
-<area shape="rect" href="class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="619,10,782,37"/>
-<area shape="poly" title=" " alt="" coords="274,83,320,50,350,33,382,21,438,9,496,4,603,7,603,13,496,10,439,14,384,26,352,38,323,54,277,88"/>
-<area shape="poly" title=" " alt="" coords="538,60,624,79,622,85,537,65"/>
-<area shape="poly" title=" " alt="" coords="499,60,550,91,614,122,632,129,630,134,612,127,548,95,496,65"/>
-<area shape="poly" title=" " alt="" coords="566,36,603,32,604,37,566,41"/>
-<area shape="rect" href="class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="836,10,1033,37"/>
-<area shape="poly" title=" " alt="" coords="783,21,820,21,820,26,783,26"/>
+<area shape="rect" title=" " alt="" coords="5,31,134,57"/>
+<area shape="rect" href="class_world.html#a51c0652a33b08264b5108b897673ff5f" title=" " alt="" coords="182,5,335,32"/>
+<area shape="poly" title=" " alt="" coords="134,33,166,28,167,34,134,38"/>
+<area shape="rect" href="class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="383,31,492,57"/>
+<area shape="poly" title=" " alt="" coords="134,41,368,41,368,47,134,47"/>
+<area shape="poly" title=" " alt="" coords="336,27,368,32,367,37,335,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -870,21 +979,21 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_world_a6effd57244b7e457ebe97c39e2f41ff4_icgraph.png" border="0" usemap="#aclass_world_a6effd57244b7e457ebe97c39e2f41ff4_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_world_a6effd57244b7e457ebe97c39e2f41ff4_icgraph" id="aclass_world_a6effd57244b7e457ebe97c39e2f41ff4_icgraph">
 <area shape="rect" title=" " alt="" coords="158,5,286,32"/>
-<area shape="rect" href="class_world.html#ae45b2d1dfcf9c15d79dbb19aa6dab2d9" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,5,110,32"/>
+<area shape="rect" href="class_world.html#aec4c79eb3becec1110cc910bf1555181" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,5,110,32"/>
 <area shape="poly" title=" " alt="" coords="142,21,110,21,110,16,142,16"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="aaabd9e10fc53b6fb7571bc8f0a8cd12c" name="aaabd9e10fc53b6fb7571bc8f0a8cd12c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaabd9e10fc53b6fb7571bc8f0a8cd12c">&#9670;&#160;</a></span>PlaceBuilding() <span class="overload">[1/2]</span></h2>
+<a id="ae9163b44c3e2f460ff2f76de7f6ab1ec" name="ae9163b44c3e2f460ff2f76de7f6ab1ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9163b44c3e2f460ff2f76de7f6ab1ec">&#9670;&#160;</a></span>OccupyTile() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void World::PlaceBuilding </td>
+          <td class="memname">void World::OccupyTile </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
         </tr>
@@ -913,25 +1022,25 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_world_aaabd9e10fc53b6fb7571bc8f0a8cd12c_cgraph.png" border="0" usemap="#aclass_world_aaabd9e10fc53b6fb7571bc8f0a8cd12c_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_aaabd9e10fc53b6fb7571bc8f0a8cd12c_cgraph" id="aclass_world_aaabd9e10fc53b6fb7571bc8f0a8cd12c_cgraph">
-<area shape="rect" title=" " alt="" coords="5,29,147,56"/>
-<area shape="rect" href="class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="195,29,365,56"/>
-<area shape="poly" title=" " alt="" coords="147,40,179,40,179,45,147,45"/>
-<area shape="poly" title=" " alt="" coords="245,30,239,21,243,11,257,5,280,3,304,5,317,12,315,16,303,10,280,8,259,10,247,15,244,20,250,27"/>
+<div class="center"><img src="class_world_ae9163b44c3e2f460ff2f76de7f6ab1ec_cgraph.png" border="0" usemap="#aclass_world_ae9163b44c3e2f460ff2f76de7f6ab1ec_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_ae9163b44c3e2f460ff2f76de7f6ab1ec_cgraph" id="aclass_world_ae9163b44c3e2f460ff2f76de7f6ab1ec_cgraph">
+<area shape="rect" title=" " alt="" coords="5,29,134,56"/>
+<area shape="rect" href="class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="182,29,352,56"/>
+<area shape="poly" title=" " alt="" coords="134,40,166,40,166,45,134,45"/>
+<area shape="poly" title=" " alt="" coords="233,30,227,21,231,11,245,5,267,3,290,5,303,12,300,16,289,10,267,8,246,10,235,15,233,20,238,27"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a7c84c26e0fc51a696933573a4e79fcc2" name="a7c84c26e0fc51a696933573a4e79fcc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c84c26e0fc51a696933573a4e79fcc2">&#9670;&#160;</a></span>PlaceBuilding() <span class="overload">[2/2]</span></h2>
+<a id="a757ca1ab7dd99ca0080a96812ffb99b6" name="a757ca1ab7dd99ca0080a96812ffb99b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a757ca1ab7dd99ca0080a96812ffb99b6">&#9670;&#160;</a></span>OccupyTile() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void World::PlaceBuilding </td>
+          <td class="memname">void World::OccupyTile </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
         </tr>
@@ -966,23 +1075,23 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_world_a7c84c26e0fc51a696933573a4e79fcc2_cgraph.png" border="0" usemap="#aclass_world_a7c84c26e0fc51a696933573a4e79fcc2_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_a7c84c26e0fc51a696933573a4e79fcc2_cgraph" id="aclass_world_a7c84c26e0fc51a696933573a4e79fcc2_cgraph">
-<area shape="rect" title="Marks tiles as occupied by a building." alt="" coords="5,29,147,56"/>
-<area shape="poly" title=" " alt="" coords="51,30,47,21,50,11,60,5,76,3,93,5,103,12,99,16,91,10,76,8,62,10,54,14,52,20,56,28"/>
+<div class="center"><img src="class_world_a757ca1ab7dd99ca0080a96812ffb99b6_cgraph.png" border="0" usemap="#aclass_world_a757ca1ab7dd99ca0080a96812ffb99b6_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_a757ca1ab7dd99ca0080a96812ffb99b6_cgraph" id="aclass_world_a757ca1ab7dd99ca0080a96812ffb99b6_cgraph">
+<area shape="rect" title="Marks tiles as occupied by a building." alt="" coords="5,29,134,56"/>
+<area shape="poly" title=" " alt="" coords="47,30,43,21,46,11,55,5,70,3,85,5,94,12,91,16,83,10,69,8,57,10,50,14,48,20,52,28"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_world_a7c84c26e0fc51a696933573a4e79fcc2_icgraph.png" border="0" usemap="#aclass_world_a7c84c26e0fc51a696933573a4e79fcc2_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_a7c84c26e0fc51a696933573a4e79fcc2_icgraph" id="aclass_world_a7c84c26e0fc51a696933573a4e79fcc2_icgraph">
-<area shape="rect" title="Marks tiles as occupied by a building." alt="" coords="230,43,371,69"/>
-<area shape="poly" title=" " alt="" coords="336,30,323,24,300,21,279,23,267,28,264,33,270,41,265,44,259,34,263,24,277,18,300,16,325,19,338,25"/>
-<area shape="rect" href="namespacefactory.html#afb051a88fa520dd405fa9b617102f984" title=" " alt="" coords="5,5,182,48"/>
-<area shape="poly" title=" " alt="" coords="214,46,182,42,183,37,215,41"/>
-<area shape="rect" href="namespacefactory.html#aeb6369c52248c80b2876a56befa07053" title=" " alt="" coords="9,72,178,99"/>
-<area shape="poly" title=" " alt="" coords="215,71,179,76,178,71,214,66"/>
+<div class="center"><img src="class_world_a757ca1ab7dd99ca0080a96812ffb99b6_icgraph.png" border="0" usemap="#aclass_world_a757ca1ab7dd99ca0080a96812ffb99b6_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_a757ca1ab7dd99ca0080a96812ffb99b6_icgraph" id="aclass_world_a757ca1ab7dd99ca0080a96812ffb99b6_icgraph">
+<area shape="rect" title="Marks tiles as occupied by a building." alt="" coords="268,47,396,73"/>
+<area shape="poly" title=" " alt="" coords="369,34,356,28,332,25,309,27,296,32,293,37,299,45,295,48,288,38,293,28,308,22,332,20,358,23,372,29"/>
+<area shape="rect" href="class_entity_factory.html#ae3681320d7eb90a9b96bf4cdf744472f" title=" " alt="" coords="5,5,220,48"/>
+<area shape="poly" title=" " alt="" coords="252,51,220,46,220,40,253,45"/>
+<area shape="rect" href="class_entity_factory.html#a3fc8596dceedb12c4130873888880b32" title=" " alt="" coords="20,72,205,115"/>
+<area shape="poly" title=" " alt="" coords="253,75,205,82,205,77,252,69"/>
 </map>
 </div>
 
@@ -1067,15 +1176,15 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_world_af3e6a23ef48822817468efafd5f37abf_icgraph.png" border="0" usemap="#aclass_world_af3e6a23ef48822817468efafd5f37abf_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_world_af3e6a23ef48822817468efafd5f37abf_icgraph" id="aclass_world_af3e6a23ef48822817468efafd5f37abf_icgraph">
 <area shape="rect" title=" " alt="" coords="158,5,299,32"/>
-<area shape="rect" href="class_world.html#ae45b2d1dfcf9c15d79dbb19aa6dab2d9" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,5,110,32"/>
+<area shape="rect" href="class_world.html#aec4c79eb3becec1110cc910bf1555181" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,5,110,32"/>
 <area shape="poly" title=" " alt="" coords="142,21,110,21,110,16,142,16"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ae45b2d1dfcf9c15d79dbb19aa6dab2d9" name="ae45b2d1dfcf9c15d79dbb19aa6dab2d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae45b2d1dfcf9c15d79dbb19aa6dab2d9">&#9670;&#160;</a></span>Update()</h2>
+<a id="aec4c79eb3becec1110cc910bf1555181" name="aec4c79eb3becec1110cc910bf1555181"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec4c79eb3becec1110cc910bf1555181">&#9670;&#160;</a></span>Update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1083,7 +1192,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void World::Update </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a></td>          <td class="paramname"><span class="paramname"><em>player</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1099,55 +1208,21 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_world_ae45b2d1dfcf9c15d79dbb19aa6dab2d9_cgraph.png" border="0" usemap="#aclass_world_ae45b2d1dfcf9c15d79dbb19aa6dab2d9_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_world_ae45b2d1dfcf9c15d79dbb19aa6dab2d9_cgraph" id="aclass_world_ae45b2d1dfcf9c15d79dbb19aa6dab2d9_cgraph">
-<area shape="rect" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,31,110,57"/>
+<div class="center"><img src="class_world_aec4c79eb3becec1110cc910bf1555181_cgraph.png" border="0" usemap="#aclass_world_aec4c79eb3becec1110cc910bf1555181_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_world_aec4c79eb3becec1110cc910bf1555181_cgraph" id="aclass_world_aec4c79eb3becec1110cc910bf1555181_cgraph">
+<area shape="rect" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,81,110,108"/>
 <area shape="rect" href="class_world.html#a6effd57244b7e457ebe97c39e2f41ff4" title=" " alt="" coords="158,56,286,83"/>
-<area shape="poly" title=" " alt="" coords="110,49,143,54,142,60,110,55"/>
-<area shape="rect" href="class_world.html#af3e6a23ef48822817468efafd5f37abf" title=" " alt="" coords="340,5,481,32"/>
-<area shape="poly" title=" " alt="" coords="110,38,324,22,325,27,110,43"/>
-<area shape="rect" href="class_world.html#a51c0652a33b08264b5108b897673ff5f" title=" " alt="" coords="334,157,487,184"/>
-<area shape="poly" title=" " alt="" coords="250,81,372,147,370,152,247,86"/>
-<area shape="rect" href="class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="798,81,908,108"/>
-<area shape="poly" title=" " alt="" coords="286,69,783,89,783,95,286,75"/>
-<area shape="rect" href="class_world.html#a83e7bd3a5490d65748ab5c575ae23e5b" title=" " alt="" coords="535,157,718,184"/>
-<area shape="poly" title=" " alt="" coords="488,168,520,168,520,173,488,173"/>
-<area shape="rect" href="class_asset_manager.html#afab05d67b6db163192514d93cd3302be" title=" " alt="" coords="766,245,940,272"/>
-<area shape="poly" title=" " alt="" coords="453,182,536,205,646,227,750,243,750,249,645,232,535,211,452,187"/>
-<area shape="poly" title=" " alt="" coords="477,154,535,143,782,102,783,107,536,148,478,159"/>
-<area shape="rect" href="class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="771,183,934,209"/>
-<area shape="poly" title=" " alt="" coords="468,182,536,193,650,199,756,198,756,204,649,205,535,199,467,187"/>
-<area shape="poly" title=" " alt="" coords="664,182,803,237,801,242,662,187"/>
-<area shape="poly" title=" " alt="" coords="668,154,795,111,797,116,670,159"/>
-<area shape="poly" title=" " alt="" coords="718,178,756,182,755,188,718,184"/>
-<area shape="rect" href="class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="988,183,1185,209"/>
-<area shape="poly" title=" " alt="" coords="935,193,972,193,972,199,935,199"/>
-<area shape="poly" title=" " alt="" coords="482,19,594,29,718,48,803,73,801,78,717,53,593,34,482,24"/>
+<area shape="poly" title=" " alt="" coords="110,84,142,79,143,84,110,89"/>
+<area shape="rect" href="class_world.html#af3e6a23ef48822817468efafd5f37abf" title=" " alt="" coords="340,107,481,133"/>
+<area shape="poly" title=" " alt="" coords="110,96,325,111,324,117,110,101"/>
+<area shape="rect" href="class_world.html#a51c0652a33b08264b5108b897673ff5f" title=" " alt="" coords="334,5,487,32"/>
+<area shape="poly" title=" " alt="" coords="274,53,343,34,344,39,275,58"/>
+<area shape="rect" href="class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="535,56,645,83"/>
+<area shape="poly" title=" " alt="" coords="286,67,520,67,520,72,286,72"/>
+<area shape="poly" title=" " alt="" coords="461,30,526,49,525,54,460,35"/>
+<area shape="poly" title=" " alt="" coords="460,103,525,85,526,90,461,109"/>
 </map>
 </div>
-
-</div>
-</div>
-<a name="doc-related-members" id="doc-related-members"></a><h2 id="header-doc-related-members" class="groupheader">Friends And Related Symbol Documentation</h2>
-<a id="aeba71b12a2630ebc6d43171457bed1a0" name="aeba71b12a2630ebc6d43171457bed1a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeba71b12a2630ebc6d43171457bed1a0">&#9670;&#160;</a></span>TestWorld</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class TestWorld</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel friend">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -1163,6 +1238,28 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">std::map&lt;<a class="el" href="struct_chunk_coord.html">ChunkCoord</a>, <a class="el" href="class_chunk.html">Chunk</a>&gt; World::activeChunks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac59ed707a4aa3438a8b1a0d9c831e529" name="ac59ed707a4aa3438a8b1a0d9c831e529"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac59ed707a4aa3438a8b1a0d9c831e529">&#9670;&#160;</a></span>bIsServer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool World::bIsServer</td>
         </tr>
       </table>
   </td>
@@ -1196,6 +1293,28 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="ade5826b96092988aaba25075904fd9bf" name="ade5826b96092988aaba25075904fd9bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade5826b96092988aaba25075904fd9bf">&#9670;&#160;</a></span>clientPlayerMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;<a class="el" href="_packet_8h.html#aae8d0a6f6fd9c43abb45671cc2e6213b">clientid_t</a>, <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a>&gt; World::clientPlayerMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0374b4c319a369af8fd08390d45c4407" name="a0374b4c319a369af8fd08390d45c4407"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0374b4c319a369af8fd08390d45c4407">&#9670;&#160;</a></span>distribution</h2>
 
@@ -1218,6 +1337,50 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="acce044f8ce43a1e6d448d8fc97ba8ddc" name="acce044f8ce43a1e6d448d8fc97ba8ddc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acce044f8ce43a1e6d448d8fc97ba8ddc">&#9670;&#160;</a></span>eventDispatcher</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a>* World::eventDispatcher</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00296d4e63273d5a0265472395854bca" name="a00296d4e63273d5a0265472395854bca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00296d4e63273d5a0265472395854bca">&#9670;&#160;</a></span>factory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_entity_factory.html">EntityFactory</a>* World::factory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa730d89a15a83e7120327cb3563332af" name="aa730d89a15a83e7120327cb3563332af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa730d89a15a83e7120327cb3563332af">&#9670;&#160;</a></span>font</h2>
 
@@ -1229,6 +1392,28 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">TTF_Font* World::font</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac0ed4034b545a967205297847fff169" name="aac0ed4034b545a967205297847fff169"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac0ed4034b545a967205297847fff169">&#9670;&#160;</a></span>localPlayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> World::localPlayer</td>
         </tr>
       </table>
   </td>
@@ -1328,28 +1513,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ae5d447dea8c2874ef922e08954d1b883" name="ae5d447dea8c2874ef922e08954d1b883"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5d447dea8c2874ef922e08954d1b883">&#9670;&#160;</a></span>renderer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">SDL_Renderer* World::renderer</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac64b04887beb3e898b2c70a50b0f30d8" name="ac64b04887beb3e898b2c70a50b0f30d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac64b04887beb3e898b2c70a50b0f30d8">&#9670;&#160;</a></span>viewDistance</h2>
 
@@ -1361,6 +1524,28 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">int World::viewDistance = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afcd42fa007f4b57d947fc2c92a61b88f" name="afcd42fa007f4b57d947fc2c92a61b88f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcd42fa007f4b57d947fc2c92a61b88f">&#9670;&#160;</a></span>worldAssetManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_world_asset_manager.html">WorldAssetManager</a>* World::worldAssetManager</td>
         </tr>
       </table>
   </td>

@@ -1,9 +1,14 @@
 <map id="TimerExpireSystem" name="TimerExpireSystem">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,301,142,328"/>
-<area shape="rect" id="Node000002" href="$class_g_engine.html" title="The main engine class that drives the game." alt="" coords="38,203,109,229"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,245,76,301,71,301,71,245"/>
-<area shape="rect" id="Node000003" href="$class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re..." alt="" coords="25,104,122,131"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,146,76,202,71,202,71,146"/>
-<area shape="rect" id="Node000004" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="14,5,133,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="76,48,76,104,71,104,71,48"/>
+<area shape="rect" id="Node000001" title="Check expired timer and execute corresponding logic for each kind of TimerID." alt="" coords="184,203,321,229"/>
+<area shape="rect" id="Node000002" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,46,33,66,24,87,21,109,28,129,59,161,99,184,142,199,184,207,183,212,141,204,97,189,56,165,23,132,15,110,19,86,29,63,41,43"/>
+<area shape="rect" id="Node000004" href="$class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="140,104,210,131"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="92,40,162,101,159,105,88,44"/>
+<area shape="rect" id="Node000003" href="$class_command_queue.html" title="A queue for deferred execution of commands." alt="" coords="234,104,354,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="285,146,260,203,255,201,280,144"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="191,143,214,177,238,200,235,204,210,180,187,146"/>
+<area shape="rect" id="Node000005" href="$class_timer_manager.html" title="Manages the lifecycle of all TimerInstance objects in the game, centralizing the logic and memory man..." alt="" coords="378,104,482,131"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="419,146,405,164,387,181,356,197,322,208,320,203,354,192,384,176,401,161,414,143"/>
+<area shape="rect" id="Node000006" href="$class_object_pool.html" title=" " alt="" coords="334,5,526,32"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="432,48,432,104,427,104,427,48"/>
 </map>

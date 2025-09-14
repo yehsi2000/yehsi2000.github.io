@@ -119,32 +119,40 @@ $(function(){initNavTree('_math_util_8h_source.html','',''); });
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>}</div>
 </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordtype">double</span> <a class="code hl_function" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e">dist</a>(<a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> a, <a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> b);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">double</span> <a class="code hl_function" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e">dist</a>(<a class="code hl_struct" href="struct_vec2.html">Vec2</a> a, <a class="code hl_struct" href="struct_vec2.html">Vec2</a> b);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">double</span> <a class="code hl_function" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e">dist</a>(<a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> d);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keywordtype">double</span> <a class="code hl_function" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e">dist</a>(<a class="code hl_struct" href="struct_vec2.html">Vec2</a> d);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="namespaceutil.html#af0a98b5802180c77742ccb41739e7f47">   33</a></span><a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> <a class="code hl_function" href="namespaceutil.html#afa20b18579418c2538138ee35ef98a09">WorldToScreen</a>(<a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> worldPos, <a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> cameraPos, <span class="keywordtype">int</span> screenWidth,</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>                    <span class="keywordtype">int</span> screenHeight);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="namespaceutil.html#ab8dd8c05aa220c410463a624e3ac273d">   26</a></span>T <a class="code hl_function" href="namespaceutil.html#ab8dd8c05aa220c410463a624e3ac273d">Lerp</a>(T a, T b, <span class="keywordtype">float</span> t) {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keywordflow">return</span> a + (b - a) * t;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>}</div>
+</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keywordtype">double</span> <a class="code hl_function" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e">dist</a>(<a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> a, <a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> b);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">double</span> <a class="code hl_function" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e">dist</a>(<a class="code hl_struct" href="struct_vec2.html">Vec2</a> a, <a class="code hl_struct" href="struct_vec2.html">Vec2</a> b);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keywordtype">double</span> <a class="code hl_function" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e">dist</a>(<a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> d);</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="namespaceutil.html#aa6a70c52a09e8e0a04941c33f6c32c94">   36</a></span><a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> <a class="code hl_function" href="namespaceutil.html#a692e292fc7d66338daeb578a05495795">ScreenToWorld</a>(<a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> screenPos, <a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> cameraPos, <span class="keywordtype">int</span> screenWidth,</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                    <span class="keywordtype">int</span> screenHeight);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}  <span class="comment">// namespace util</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keywordtype">double</span> <a class="code hl_function" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e">dist</a>(<a class="code hl_struct" href="struct_vec2.html">Vec2</a> d);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="namespaceutil.html#af0a98b5802180c77742ccb41739e7f47">   38</a></span><a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> <a class="code hl_function" href="namespaceutil.html#afa20b18579418c2538138ee35ef98a09">WorldToScreen</a>(<a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> worldPos, <a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> cameraPos, <span class="keywordtype">int</span> screenWidth,</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                    <span class="keywordtype">int</span> screenHeight);</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#endif </span><span class="comment">/* UTIL_MATHUTIL_ */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="namespaceutil.html#aa6a70c52a09e8e0a04941c33f6c32c94">   41</a></span><a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> <a class="code hl_function" href="namespaceutil.html#a692e292fc7d66338daeb578a05495795">ScreenToWorld</a>(<a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> screenPos, <a class="code hl_struct" href="struct_vec2f.html">Vec2f</a> cameraPos, <span class="keywordtype">int</span> screenWidth,</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                    <span class="keywordtype">int</span> screenHeight);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}  <span class="comment">// namespace util</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif </span><span class="comment">/* UTIL_MATHUTIL_ */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="a_type_8h_html"><div class="ttname"><a href="_type_8h.html">Type.h</a></div></div>
 <div class="ttc" id="anamespaceutil_html"><div class="ttname"><a href="namespaceutil.html">util</a></div><div class="ttdef"><b>Definition</b> AnimUtil.h:7</div></div>
 <div class="ttc" id="anamespaceutil_html_a07b5eb744ea4ae7b1ad280067c1ae8e6"><div class="ttname"><a href="namespaceutil.html#a07b5eb744ea4ae7b1ad280067c1ae8e6">util::map_range</a></div><div class="ttdeci">T map_range(T value, T start, T end, T mapped_start, T mapped_end)</div><div class="ttdef"><b>Definition</b> MathUtil.h:9</div></div>
 <div class="ttc" id="anamespaceutil_html_a692e292fc7d66338daeb578a05495795"><div class="ttname"><a href="namespaceutil.html#a692e292fc7d66338daeb578a05495795">util::ScreenToWorld</a></div><div class="ttdeci">Vec2f ScreenToWorld(Vec2f screenPos, Vec2f cameraPos, Vec2 screenSize, float zoom=1.0f)</div><div class="ttdef"><b>Definition</b> CameraUtil.cpp:39</div></div>
 <div class="ttc" id="anamespaceutil_html_ab5f2a919fe1c5db6b0eb3f715ac66d3e"><div class="ttname"><a href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e">util::dist</a></div><div class="ttdeci">double dist(Vec2f a, Vec2f b)</div><div class="ttdef"><b>Definition</b> MathUtil.cpp:8</div></div>
+<div class="ttc" id="anamespaceutil_html_ab8dd8c05aa220c410463a624e3ac273d"><div class="ttname"><a href="namespaceutil.html#ab8dd8c05aa220c410463a624e3ac273d">util::Lerp</a></div><div class="ttdeci">T Lerp(T a, T b, float t)</div><div class="ttdef"><b>Definition</b> MathUtil.h:26</div></div>
 <div class="ttc" id="anamespaceutil_html_aecb4f8d4661b539e61bb05035d0f0c92"><div class="ttname"><a href="namespaceutil.html#aecb4f8d4661b539e61bb05035d0f0c92">util::clamp</a></div><div class="ttdeci">T clamp(T value, T min, T max)</div><div class="ttdef"><b>Definition</b> MathUtil.h:19</div></div>
 <div class="ttc" id="anamespaceutil_html_afa20b18579418c2538138ee35ef98a09"><div class="ttname"><a href="namespaceutil.html#afa20b18579418c2538138ee35ef98a09">util::WorldToScreen</a></div><div class="ttdeci">Vec2f WorldToScreen(Vec2f worldPos, Vec2f cameraPos, Vec2 screenSize, float zoom=1.0f)</div><div class="ttdef"><b>Definition</b> CameraUtil.cpp:33</div></div>
-<div class="ttc" id="astruct_vec2_html"><div class="ttname"><a href="struct_vec2.html">Vec2</a></div><div class="ttdef"><b>Definition</b> Type.h:8</div></div>
-<div class="ttc" id="astruct_vec2f_html"><div class="ttname"><a href="struct_vec2f.html">Vec2f</a></div><div class="ttdef"><b>Definition</b> Type.h:34</div></div>
+<div class="ttc" id="astruct_vec2_html"><div class="ttname"><a href="struct_vec2.html">Vec2</a></div><div class="ttdoc">A 2D vector of integers.</div><div class="ttdef"><b>Definition</b> Type.h:13</div></div>
+<div class="ttc" id="astruct_vec2f_html"><div class="ttname"><a href="struct_vec2f.html">Vec2f</a></div><div class="ttdoc">A 2D vector of floats.</div><div class="ttdef"><b>Definition</b> Type.h:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

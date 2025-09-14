@@ -1,23 +1,8 @@
 <map id="UISystem::Inventory" name="UISystem::Inventory">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,148,133"/>
-<area shape="rect" id="Node000002" href="$class_item_database.html#a5d13ed9b8c60c2593baabd6f2d41f905" title=" " alt="" coords="214,5,344,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,104,138,73,194,42,210,35,212,40,197,46,141,78,97,108"/>
-<area shape="rect" id="Node000003" href="$class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="196,56,362,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="132,103,207,84,208,90,134,109"/>
-<area shape="rect" id="Node000006" href="$class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="424,107,593,133"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="148,117,409,117,409,123,148,123"/>
-<area shape="rect" id="Node000007" href="$class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="197,157,360,184"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="134,131,208,150,207,156,132,137"/>
-<area shape="rect" id="Node000009" href="$class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="199,220,359,247"/>
-<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="99,132,197,194,232,211,229,216,194,198,96,136"/>
-<area shape="rect" id="Node000004" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="410,56,607,83"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="362,67,394,67,394,72,362,72"/>
-<area shape="rect" id="Node000005" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="655,81,885,108"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="608,76,640,79,639,85,608,82"/>
-<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="594,109,640,105,640,110,594,114"/>
-<area shape="rect" id="Node000008" href="$class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="410,157,607,184"/>
-<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="361,168,394,168,394,173,361,173"/>
-<area shape="rect" id="Node000010" href="$class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="412,232,605,259"/>
-<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="360,235,397,237,396,242,359,240"/>
-<area shape="poly" id="edge11_Node000010_Node000010" title=" " alt="" coords="470,233,463,223,468,213,483,207,509,205,536,208,551,215,549,220,535,213,509,211,484,213,471,217,468,223,474,230"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,148,56"/>
+<area shape="rect" id="Node000002" href="$class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="196,29,356,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,40,180,40,180,45,148,45"/>
+<area shape="rect" id="Node000003" href="$class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="404,29,597,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="356,40,388,40,388,45,356,45"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="463,30,456,21,461,11,476,5,501,3,527,5,542,12,539,17,526,10,501,8,477,10,464,15,461,20,467,27"/>
 </map>

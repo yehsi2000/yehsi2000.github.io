@@ -1,0 +1,11 @@
+<map id="EntityFactory::CreateAssemblingMachine" name="EntityFactory::CreateAssemblingMachine">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,220,115"/>
+<area shape="rect" id="Node000002" href="$namespaceutil.html#ae3383a10be16eab71a2adc41b2272d9f" title=" " alt="" coords="304,5,431,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,69,267,41,295,34,296,39,268,47,180,74"/>
+<area shape="rect" id="Node000003" href="$class_world.html#a671ab54ee485d6ce52fb7910c7eb4ee8" title="Checks if a building can be placed at a given location." alt="" coords="268,80,467,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,91,252,91,252,96,220,96"/>
+<area shape="rect" id="Node000004" href="$class_world.html#a757ca1ab7dd99ca0080a96812ffb99b6" title="Marks tiles as occupied by a building." alt="" coords="303,155,432,181"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="189,113,305,147,304,152,187,118"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="325,81,317,71,322,61,339,55,367,53,398,56,414,63,412,68,397,61,367,59,340,61,326,66,322,71,329,78"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="325,156,317,146,322,136,339,130,367,128,398,131,414,137,412,142,397,136,367,133,340,135,326,140,322,145,329,152"/>
+</map>

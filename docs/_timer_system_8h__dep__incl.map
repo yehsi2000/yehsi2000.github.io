@@ -1,7 +1,9 @@
 <map id="include/System/TimerSystem.h" name="include/System/TimerSystem.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="77,5,281,32"/>
-<area shape="rect" id="Node000002" href="$_g_engine_8cpp.html" title=" " alt="" coords="5,80,156,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,44,99,82,96,77,148,39"/>
-<area shape="rect" id="Node000003" href="$_timer_system_8cpp.html" title=" " alt="" coords="180,80,376,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,39,262,77,259,82,207,44"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="234,5,438,32"/>
+<area shape="rect" id="Node000002" href="$_client_state_8cpp.html" title=" " alt="" coords="5,80,209,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="283,40,148,82,146,77,281,35"/>
+<area shape="rect" id="Node000003" href="$_server_state_8cpp.html" title=" " alt="" coords="233,80,440,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="339,48,339,80,334,80,334,48"/>
+<area shape="rect" id="Node000004" href="$_timer_system_8cpp.html" title=" " alt="" coords="464,80,659,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="391,35,523,77,521,82,389,40"/>
 </map>

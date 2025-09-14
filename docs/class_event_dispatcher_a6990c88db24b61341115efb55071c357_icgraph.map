@@ -1,5 +1,7 @@
 <map id="EventDispatcher::Publish" name="EventDispatcher::Publish">
-<area shape="rect" id="Node000001" title="Publishes an event to all subscribed listeners immediately." alt="" coords="219,13,388,40"/>
-<area shape="rect" id="Node000002" href="$class_resource_mine_command.html#aa286cd0a089ae22bb03599f7d6aabeb6" title=" " alt="" coords="5,5,171,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,29,171,29,171,24,203,24"/>
+<area shape="rect" id="Node000001" title="Publishes an event to all subscribed listeners immediately." alt="" coords="252,47,421,73"/>
+<area shape="rect" id="Node000002" href="$class_player_disconnected_command.html#af31be0c12d59ec7dafdd75c01f9a1096" title=" " alt="" coords="5,5,204,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,48,204,44,204,38,237,43"/>
+<area shape="rect" id="Node000003" href="$class_resource_mine_command.html#a26510fad53eaaa55bf4f34ce2064c263" title=" " alt="" coords="22,72,187,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,77,188,84,187,79,236,72"/>
 </map>

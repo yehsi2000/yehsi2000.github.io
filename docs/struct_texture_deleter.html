@@ -92,13 +92,19 @@ $(function(){initNavTree('struct_texture_deleter.html','','struct_texture_delete
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_asset_manager_8h_source.html">AssetManager.h</a>&gt;</code></p>
+<p>A custom deleter for SDL_Texture smart pointers.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_texture_deleter_8h_source.html">TextureDeleter.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a51c9433df026ead8f62111fdc38f5193" id="r_a51c9433df026ead8f62111fdc38f5193"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51c9433df026ead8f62111fdc38f5193">operator()</a> (SDL_Texture *texture) const</td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A custom deleter for SDL_Texture smart pointers. </p>
+<p>This functor is designed to be used with std::unique_ptr to ensure that SDL_DestroyTexture is called automatically when the smart pointer goes out of scope. This helps prevent resource leaks by simplifying texture memory management. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a51c9433df026ead8f62111fdc38f5193" name="a51c9433df026ead8f62111fdc38f5193"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51c9433df026ead8f62111fdc38f5193">&#9670;&#160;</a></span>operator()()</h2>
 
@@ -125,7 +131,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/Core/<a class="el" href="_asset_manager_8h_source.html">AssetManager.h</a></li>
+<li>include/Core/<a class="el" href="_texture_deleter_8h_source.html">TextureDeleter.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

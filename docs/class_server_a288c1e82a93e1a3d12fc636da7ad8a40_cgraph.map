@@ -1,0 +1,6 @@
+<map id="Server::Init" name="Server::Init">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,91,56"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="23,30,19,21,22,11,32,5,48,3,66,5,75,12,72,16,64,10,48,8,33,10,26,14,24,20,28,28"/>
+<area shape="rect" id="Node000002" href="$class_server.html#ad5ec9462b520e59f7ea831e157ee5e59" title=" " alt="" coords="139,29,244,56"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="91,40,123,40,123,45,91,45"/>
+</map>

@@ -1,51 +1,49 @@
 <map id="UISystem::Update" name="UISystem::Update">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,309,136,335"/>
-<area shape="rect" id="Node000002" href="$class_u_i_system.html#a5d7944c7ca3deb191c9c4758dbf17823" title=" " alt="" coords="184,182,403,209"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,306,253,214,256,219,97,310"/>
-<area shape="rect" id="Node000015" href="$class_u_i_system.html#ab42a93e4647c6a9550f070b5abd37d39" title=" " alt="" coords="222,385,364,411"/>
-<area shape="poly" id="edge19_Node000001_Node000015" title=" " alt="" coords="113,333,238,376,236,381,111,338"/>
-<area shape="rect" id="Node000018" href="$class_u_i_system.html#a816f6fd73e1c0043c51cbac24436d6ca" title=" " alt="" coords="212,309,375,335"/>
-<area shape="poly" id="edge26_Node000001_Node000018" title=" " alt="" coords="136,319,196,319,196,325,136,325"/>
-<area shape="rect" id="Node000003" href="$class_u_i_system.html#a383081863786c7b8fdadba4340682ab7" title=" " alt="" coords="451,90,656,133"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="336,179,470,135,472,140,338,184"/>
-<area shape="rect" id="Node000004" href="$class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="720,258,886,285"/>
-<area shape="poly" id="edge10_Node000002_Node000004" title=" " alt="" coords="403,179,526,176,592,181,657,193,689,203,720,217,771,247,769,251,717,221,687,208,656,198,592,186,526,181,404,184"/>
-<area shape="rect" id="Node000007" href="$class_recipe_database.html#a82b048daff6f46a9e4f18cfa179d2a74" title=" " alt="" coords="715,43,891,70"/>
-<area shape="poly" id="edge16_Node000002_Node000007" title=" " alt="" coords="300,180,321,146,354,102,397,58,423,39,450,25,489,12,530,5,571,3,612,5,689,18,752,35,750,40,688,23,612,10,571,8,530,10,490,17,452,30,425,44,401,62,358,105,325,149,304,183"/>
-<area shape="rect" id="Node000009" href="$class_recipe_database.html#a46dcedb5aee9db8e2c5d20f67ac457a9" title=" " alt="" coords="482,39,626,66"/>
-<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="307,179,366,129,406,100,450,75,466,69,468,74,452,80,409,105,369,133,311,183"/>
-<area shape="rect" id="Node000010" href="$class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="472,309,635,335"/>
-<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="324,207,512,299,509,304,322,211"/>
-<area shape="rect" id="Node000012" href="$class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="474,359,634,386"/>
-<area shape="poly" id="edge13_Node000002_Node000012" title=" " alt="" coords="312,207,405,295,427,322,437,334,452,345,463,351,461,355,450,349,433,338,423,326,401,298,308,211"/>
-<area shape="rect" id="Node000014" href="$class_registry.html#a1fe75e6a9c525a9dc4775bbdf1b29dde" title="Creates a view of all entities that have a given set of components." alt="" coords="501,207,606,234"/>
-<area shape="poly" id="edge17_Node000002_Node000014" title=" " alt="" coords="404,203,486,211,485,217,403,209"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="620,131,658,149,725,197,779,245,775,249,722,201,655,153,618,135"/>
-<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="654,87,723,71,724,76,655,92"/>
-<area shape="rect" id="Node000005" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="963,258,1160,285"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="887,269,947,269,947,274,887,274"/>
-<area shape="rect" id="Node000006" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="1221,385,1450,411"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1093,283,1292,375,1290,380,1091,287"/>
-<area shape="rect" id="Node000008" href="$class_recipe_database.html#a2d755812dc754750f55653297cd72384" title=" " alt="" coords="950,43,1173,70"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="891,54,934,54,934,59,891,59"/>
-<area shape="poly" id="edge8_Node000008_Node000008" title=" " alt="" coords="1018,44,1010,34,1016,25,1033,19,1061,17,1092,19,1109,26,1106,31,1091,24,1061,22,1034,24,1019,29,1016,34,1022,41"/>
-<area shape="rect" id="Node000011" href="$class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="704,309,902,335"/>
-<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="636,319,689,319,689,325,636,325"/>
-<area shape="rect" id="Node000013" href="$class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="706,383,900,410"/>
-<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="635,378,691,383,691,388,634,383"/>
-<area shape="poly" id="edge15_Node000013_Node000013" title=" " alt="" coords="761,384,754,374,759,365,776,359,803,357,833,359,849,366,846,371,832,364,803,362,777,364,762,369,759,374,765,381"/>
-<area shape="poly" id="edge18_Node000014_Node000005" title=" " alt="" coords="607,220,741,228,902,243,966,252,966,257,901,248,740,234,607,226"/>
-<area shape="poly" id="edge21_Node000015_Node000004" title=" " alt="" coords="320,409,384,440,426,456,472,469,520,477,568,477,613,468,655,446,670,430,678,413,680,375,681,335,688,314,702,295,706,291,710,295,706,298,692,317,686,335,685,375,683,415,675,433,658,451,615,473,568,483,519,482,471,474,424,461,382,445,317,414"/>
-<area shape="poly" id="edge24_Node000015_Node000010" title=" " alt="" coords="334,381,450,345,478,337,480,342,452,350,336,387"/>
-<area shape="poly" id="edge25_Node000015_Node000012" title=" " alt="" coords="365,388,457,379,458,384,365,394"/>
-<area shape="rect" id="Node000016" href="$class_item_database.html#a5d13ed9b8c60c2593baabd6f2d41f905" title=" " alt="" coords="489,410,618,437"/>
-<area shape="poly" id="edge20_Node000015_Node000016" title=" " alt="" coords="365,402,474,413,473,418,365,407"/>
-<area shape="rect" id="Node000017" href="$class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="977,410,1146,437"/>
-<area shape="poly" id="edge22_Node000015_Node000017" title=" " alt="" coords="314,409,373,449,411,469,452,483,528,498,607,503,685,501,762,493,900,468,1004,439,1006,444,902,473,763,499,686,506,606,508,527,503,450,488,409,474,370,454,311,414"/>
-<area shape="poly" id="edge23_Node000017_Node000006" title=" " alt="" coords="1146,413,1205,407,1205,413,1147,418"/>
-<area shape="poly" id="edge28_Node000018_Node000004" title=" " alt="" coords="372,305,451,294,583,281,704,273,704,279,583,287,451,299,373,310"/>
-<area shape="poly" id="edge29_Node000018_Node000010" title=" " alt="" coords="375,319,456,319,456,325,375,325"/>
-<area shape="poly" id="edge30_Node000018_Node000012" title=" " alt="" coords="366,333,467,353,466,358,365,338"/>
-<area shape="poly" id="edge31_Node000018_Node000014" title=" " alt="" coords="322,306,450,250,489,236,491,241,452,255,324,311"/>
-<area shape="poly" id="edge27_Node000018_Node000016" title=" " alt="" coords="326,333,404,370,428,384,452,395,475,403,473,408,450,400,425,388,402,375,324,338"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,244,136,271"/>
+<area shape="rect" id="Node000002" href="$class_u_i_system.html#a5d7944c7ca3deb191c9c4758dbf17823" title=" " alt="" coords="184,117,403,144"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,242,122,198,151,174,182,154,196,147,198,152,185,158,154,178,126,202,85,245"/>
+<area shape="rect" id="Node000009" href="$class_u_i_system.html#a0728eb127207bcceeb9cea6a740db4bb" title=" " alt="" coords="221,269,366,296"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="136,262,206,270,205,275,136,267"/>
+<area shape="rect" id="Node000011" href="$class_u_i_system.html#a5e092b68a655be3abba91c5648458221" title=" " alt="" coords="212,320,375,347"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="99,269,185,305,210,313,208,318,183,311,97,274"/>
+<area shape="rect" id="Node000012" href="$class_u_i_system.html#ab42a93e4647c6a9550f070b5abd37d39" title=" " alt="" coords="222,168,364,195"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="97,241,183,204,208,196,210,202,185,209,99,246"/>
+<area shape="rect" id="Node000013" href="$class_u_i_system.html#a3851efbe02b07d3140feec0aaa17fab7" title=" " alt="" coords="188,371,399,397"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="85,269,126,313,154,336,185,356,198,363,196,367,182,361,151,341,122,317,81,273"/>
+<area shape="rect" id="Node000020" href="$class_u_i_system.html#a816f6fd73e1c0043c51cbac24436d6ca" title=" " alt="" coords="212,219,375,245"/>
+<area shape="poly" id="edge24_Node000001_Node000020" title=" " alt="" coords="136,247,196,240,197,246,136,253"/>
+<area shape="rect" id="Node000003" href="$class_u_i_system.html#a383081863786c7b8fdadba4340682ab7" title=" " alt="" coords="451,51,656,93"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="355,114,441,95,442,100,356,119"/>
+<area shape="rect" id="Node000004" href="$class_recipe_database.html#a82b048daff6f46a9e4f18cfa179d2a74" title=" " alt="" coords="713,29,889,56"/>
+<area shape="poly" id="edge10_Node000002_Node000004" title=" " alt="" coords="310,115,369,73,408,52,450,36,513,24,578,19,641,20,698,24,698,30,641,25,578,24,514,29,452,41,410,57,372,78,313,119"/>
+<area shape="rect" id="Node000006" href="$class_recipe_database.html#a46dcedb5aee9db8e2c5d20f67ac457a9" title=" " alt="" coords="482,117,626,144"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="404,128,466,128,466,133,404,133"/>
+<area shape="rect" id="Node000007" href="$class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="474,168,634,195"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="366,142,467,162,466,167,365,147"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="657,57,698,52,698,58,657,62"/>
+<area shape="rect" id="Node000005" href="$class_recipe_database.html#a2d755812dc754750f55653297cd72384" title=" " alt="" coords="946,29,1169,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="889,40,930,40,930,45,889,45"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="1015,31,1007,21,1012,11,1029,5,1057,3,1088,5,1104,12,1102,17,1087,10,1057,8,1030,10,1015,15,1012,20,1019,27"/>
+<area shape="rect" id="Node000008" href="$class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="704,168,898,195"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="634,179,689,179,689,184,634,184"/>
+<area shape="poly" id="edge9_Node000008_Node000008" title=" " alt="" coords="760,169,752,159,757,149,774,143,801,141,831,144,846,151,844,156,830,149,801,147,775,149,761,153,757,159,764,166"/>
+<area shape="rect" id="Node000010" href="$class_u_i_system.html#a5c7e2ee38f4f3820b87baf3b680c2b33" title=" " alt="" coords="480,269,627,296"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="366,280,465,280,465,285,366,285"/>
+<area shape="poly" id="edge15_Node000012_Node000007" title=" " alt="" coords="365,179,458,179,458,184,365,184"/>
+<area shape="rect" id="Node000014" href="$namespaceutil.html#acbb2b740a2214771587a3408dfdb7969" title=" " alt="" coords="474,345,634,372"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="399,371,458,365,458,371,400,376"/>
+<area shape="rect" id="Node000019" href="$namespaceutil.html#a692e292fc7d66338daeb578a05495795" title=" " alt="" coords="486,396,621,423"/>
+<area shape="poly" id="edge23_Node000013_Node000019" title=" " alt="" coords="400,392,471,399,471,404,399,397"/>
+<area shape="rect" id="Node000015" href="$class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="718,320,884,347"/>
+<area shape="poly" id="edge18_Node000014_Node000015" title=" " alt="" coords="634,348,702,341,703,346,635,353"/>
+<area shape="rect" id="Node000018" href="$class_registry.html#a1fe75e6a9c525a9dc4775bbdf1b29dde" title="Creates a view of all entities that have a given set of components." alt="" coords="748,371,854,397"/>
+<area shape="poly" id="edge21_Node000014_Node000018" title=" " alt="" coords="635,364,733,374,733,380,634,370"/>
+<area shape="rect" id="Node000016" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="959,345,1156,372"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="885,339,943,345,943,350,884,344"/>
+<area shape="rect" id="Node000017" href="$class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="1217,345,1425,372"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="1157,356,1202,356,1202,361,1157,361"/>
+<area shape="poly" id="edge22_Node000018_Node000016" title=" " alt="" coords="854,376,943,367,944,373,855,381"/>
+<area shape="poly" id="edge26_Node000020_Node000007" title=" " alt="" coords="365,215,466,196,467,201,366,221"/>
+<area shape="rect" id="Node000021" href="$class_item_database.html#a5d13ed9b8c60c2593baabd6f2d41f905" title=" " alt="" coords="489,219,618,245"/>
+<area shape="poly" id="edge25_Node000020_Node000021" title=" " alt="" coords="375,229,473,229,473,235,375,235"/>
 </map>

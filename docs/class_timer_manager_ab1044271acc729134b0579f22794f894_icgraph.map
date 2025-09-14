@@ -1,0 +1,23 @@
+<map id="TimerManager::CreateTimer" name="TimerManager::CreateTimer">
+<area shape="rect" id="Node000001" title="Creates a new timer and returns a handle to it." alt="" coords="904,97,1088,124"/>
+<area shape="rect" id="Node000002" href="$namespaceutil.html#a93f5c99884f3bc2b6dbce9bd1adb6e5c" title="Attaches a new timer to an entity." alt="" coords="738,97,856,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="888,113,856,113,856,108,888,108"/>
+<area shape="rect" id="Node000003" href="$class_interaction_system.html#a2efec3ba0f55f346d55e19758cf7ea0a" title=" " alt="" coords="476,15,690,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="741,94,645,60,647,55,743,89"/>
+<area shape="rect" id="Node000006" href="$class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="492,89,675,132"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="723,113,675,113,675,108,723,108"/>
+<area shape="rect" id="Node000010" href="$class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="516,172,651,215"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="747,133,642,174,640,169,745,128"/>
+<area shape="rect" id="Node000004" href="$class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="260,5,413,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="460,34,414,32,414,27,460,29"/>
+<area shape="rect" id="Node000005" href="$class_interaction_system.html#a33989daebe85772690119e7c1f3a0068" title=" " alt="" coords="33,5,169,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="244,29,169,29,169,24,244,24"/>
+<area shape="rect" id="Node000007" href="$class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="245,72,428,115"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="476,106,428,102,429,97,476,100"/>
+<area shape="rect" id="Node000009" href="$class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="245,139,428,181"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="476,135,429,144,428,139,475,129"/>
+<area shape="rect" id="Node000008" href="$class_assembling_machine_system.html#aebda3fbbbe3b7d87381ef655df76a243" title=" " alt="" coords="5,72,197,115"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="229,96,197,96,197,91,229,91"/>
+<area shape="rect" id="Node000011" href="$class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="269,205,404,248"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="501,207,405,220,404,215,500,202"/>
+</map>

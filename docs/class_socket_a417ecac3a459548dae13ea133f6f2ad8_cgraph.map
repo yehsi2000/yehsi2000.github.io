@@ -1,0 +1,17 @@
+<map id="Socket::operator=" name="Socket::operator=">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,156,131,183"/>
+<area shape="rect" id="Node000002" href="$class_socket.html#a4c8ced9a8ce58834191b3b4f2033b173" title=" " alt="" coords="186,5,290,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,154,116,101,145,70,177,42,184,37,187,42,180,46,148,74,120,104,80,157"/>
+<area shape="rect" id="Node000003" href="$class_socket.html#a2ef89059a38fd29db9f8cce6a34f5df7" title=" " alt="" coords="179,56,298,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="86,153,127,124,177,92,187,87,190,92,180,97,130,128,89,158"/>
+<area shape="rect" id="Node000004" href="$class_socket.html#a1581fd48d65dc8ae82e500d60baada77" title=" " alt="" coords="194,131,282,157"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="131,157,178,150,179,155,132,163"/>
+<area shape="rect" id="Node000005" href="$class_socket.html#a7c3256c4fc6e2c603df73201049fae5a" title=" " alt="" coords="346,156,457,183"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="131,167,330,167,330,172,131,172"/>
+<area shape="rect" id="Node000006" href="$class_socket.html#aad0b5994030668016c25d7f3c14bb25f" title=" " alt="" coords="179,232,298,259"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="101,181,194,223,191,228,99,186"/>
+<area shape="rect" id="Node000007" href="$class_socket.html#a1d968efc9b9009ac7e4933f814b3d18b" title=" " alt="" coords="188,283,288,309"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="83,181,124,223,180,268,188,273,185,278,177,273,120,227,79,185"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="210,131,205,122,209,112,220,106,238,104,258,107,269,113,266,118,256,112,238,109,222,111,213,116,210,121,215,129"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="284,148,332,156,331,161,283,153"/>
+</map>

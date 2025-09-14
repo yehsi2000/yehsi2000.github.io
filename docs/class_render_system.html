@@ -92,31 +92,40 @@ $(function(){initNavTree('class_render_system.html','','class_render_system-memb
 </div><!--header-->
 <div class="contents">
 
+<p>Responsible for rendering every entity, chunk and text.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_render_system_8h_source.html">RenderSystem.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for RenderSystem:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_render_system__coll__graph.png" border="0" usemap="#a_render_system_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_render_system_coll__map" id="a_render_system_coll__map">
-<area shape="rect" title=" " alt="" coords="16,443,124,469"/>
-<area shape="rect" href="class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="35,245,105,272"/>
-<area shape="poly" title=" " alt="" coords="69,288,64,344,66,399,71,442,65,443,60,399,59,344,64,287"/>
-<area shape="rect" href="class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="124,344,178,371"/>
-<area shape="poly" title=" " alt="" coords="92,282,143,342,139,345,88,286"/>
-<area shape="rect" href="struct_input_state.html" title=" " alt="" coords="29,147,110,173"/>
-<area shape="poly" title=" " alt="" coords="72,189,72,245,67,245,67,189"/>
-<area shape="rect" href="struct_vec2f.html" title=" " alt="" coords="5,5,60,32"/>
-<area shape="poly" title=" " alt="" coords="36,47,40,83,50,122,62,145,58,147,45,124,35,84,31,48"/>
-<area shape="rect" href="struct_vec2.html" title=" " alt="" coords="83,5,134,32"/>
-<area shape="poly" title=" " alt="" coords="104,48,76,147,71,145,98,46"/>
-<area shape="poly" title=" " alt="" coords="133,384,82,444,78,441,129,381"/>
+<area shape="rect" title="Responsible for rendering every entity, chunk and text." alt="" coords="304,400,413,427"/>
+<area shape="rect" href="class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="289,104,359,131"/>
+<area shape="poly" title=" " alt="" coords="346,142,364,169,378,202,393,250,400,289,398,329,386,377,372,401,368,398,381,375,393,328,395,290,387,251,373,204,359,172,341,145"/>
+<area shape="rect" href="class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="287,301,342,328"/>
+<area shape="poly" title=" " alt="" coords="325,146,318,301,312,301,320,145"/>
+<area shape="rect" href="class_entity_factory.html" title="A factory for creating pre&#45;configured entities." alt="" coords="168,203,267,229"/>
+<area shape="poly" title=" " alt="" coords="276,137,247,157,231,180,223,203,218,201,227,177,243,153,273,132"/>
+<area shape="rect" href="class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="335,5,454,32"/>
+<area shape="poly" title=" " alt="" coords="366,44,354,58,339,82,330,105,325,103,335,79,349,54,363,40"/>
+<area shape="poly" title=" " alt="" coords="443,39,456,54,463,61,473,65,499,68,527,68,552,72,560,79,564,90,563,106,556,126,522,186,454,279,435,291,406,301,342,313,341,307,405,296,433,287,450,275,517,184,551,124,558,105,559,91,556,82,549,77,527,73,499,73,471,70,460,66,453,58,439,42"/>
+<area shape="poly" title=" " alt="" coords="329,341,355,399,350,401,324,343"/>
+<area shape="rect" href="class_world_asset_manager.html" title="A singleton for managing and caching world tile assets." alt="" coords="5,203,144,229"/>
+<area shape="poly" title=" " alt="" coords="84,243,92,261,105,275,138,289,187,299,287,309,287,314,187,304,136,294,102,280,88,264,79,245"/>
+<area shape="poly" title=" " alt="" coords="229,243,238,260,250,275,268,290,288,301,285,305,265,294,246,279,233,263,224,245"/>
+<area shape="rect" href="class_asset_manager.html" title="A singleton for managing and caching in&#45;game entity assets." alt="" coords="70,104,175,131"/>
+<area shape="poly" title=" " alt="" coords="120,146,121,162,127,177,145,194,168,204,166,209,142,198,122,180,116,163,115,146"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6659f2094fd014a39b252e1e655a2b1b" id="r_a6659f2094fd014a39b252e1e655a2b1b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6659f2094fd014a39b252e1e655a2b1b">RenderSystem</a> (<a class="el" href="class_registry.html">Registry</a> *r, SDL_Renderer *render, <a class="el" href="class_world.html">World</a> *<a class="el" href="#aa6c43ca34d9829f9557b2fb1f879c32c">world</a>, TTF_Font *f)</td></tr>
+<tr class="memitem:a097ef183b9a1bb63e064a53c5eb45030" id="r_a097ef183b9a1bb63e064a53c5eb45030"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a097ef183b9a1bb63e064a53c5eb45030">RenderSystem</a> (const <a class="el" href="struct_system_context.html">SystemContext</a> &amp;context, SDL_Renderer *<a class="el" href="#aa1f2ecd804fc82061ff86298ca57b6eb">renderer</a>, TTF_Font *f)</td></tr>
+<tr class="memitem:a1838cd6142b9ba29bf086fd146d11f38" id="r_a1838cd6142b9ba29bf086fd146d11f38"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1838cd6142b9ba29bf086fd146d11f38">~RenderSystem</a> ()</td></tr>
 <tr class="memitem:a97fcc27c66536abe727702c8f320b4bf" id="r_a97fcc27c66536abe727702c8f320b4bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97fcc27c66536abe727702c8f320b4bf">Update</a> ()</td></tr>
+<tr class="memitem:a45f3a1757abc0e36d8aedc1bf070c49c" id="r_a45f3a1757abc0e36d8aedc1bf070c49c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45f3a1757abc0e36d8aedc1bf070c49c">OnEntityDestroyed</a> (const <a class="el" href="struct_entity_destroyed_event.html">EntityDestroyedEvent</a> &amp;event)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -125,7 +134,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:abd3b88ce8a38d17aaaa6604c0d057657" id="r_abd3b88ce8a38d17aaaa6604c0d057657"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd3b88ce8a38d17aaaa6604c0d057657">RenderBuildingPreviews</a> (<a class="el" href="struct_vec2f.html">Vec2f</a> cameraPos, <a class="el" href="struct_vec2.html">Vec2</a> screenSize, float zoom)</td></tr>
 <tr class="memitem:a50afadea34b6dcfd335167b17bea3927" id="r_a50afadea34b6dcfd335167b17bea3927"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50afadea34b6dcfd335167b17bea3927">RenderTexts</a> (<a class="el" href="struct_vec2f.html">Vec2f</a> cameraPos, <a class="el" href="struct_vec2.html">Vec2</a> screenSize, float zoom)</td></tr>
 <tr class="memitem:a23859816576c2ec88f799dcb5dfd8fc0" id="r_a23859816576c2ec88f799dcb5dfd8fc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23859816576c2ec88f799dcb5dfd8fc0">RenderDebugRect</a> (<a class="el" href="struct_vec2f.html">Vec2f</a> cameraPos, <a class="el" href="struct_vec2.html">Vec2</a> screenSize, float zoom)</td></tr>
-<tr class="memitem:a403af2042ae265f6530abf693119f51e" id="r_a403af2042ae265f6530abf693119f51e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a403af2042ae265f6530abf693119f51e">isOffScreen</a> (<a class="el" href="struct_vec2f.html">Vec2f</a> screenPos, <a class="el" href="struct_vec2.html">Vec2</a> screenSize, <a class="el" href="struct_vec2f.html">Vec2f</a> entitySize)</td></tr>
+<tr class="memitem:abdecce4a86718b1b223be7d90ddcb6db" id="r_abdecce4a86718b1b223be7d90ddcb6db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdecce4a86718b1b223be7d90ddcb6db">IsOffScreen</a> (<a class="el" href="struct_vec2f.html">Vec2f</a> screenPos, <a class="el" href="struct_vec2.html">Vec2</a> screenSize, <a class="el" href="struct_vec2f.html">Vec2f</a> entitySize)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -133,10 +142,13 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa1f2ecd804fc82061ff86298ca57b6eb" id="r_aa1f2ecd804fc82061ff86298ca57b6eb"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1f2ecd804fc82061ff86298ca57b6eb">renderer</a></td></tr>
 <tr class="memitem:aa6c43ca34d9829f9557b2fb1f879c32c" id="r_aa6c43ca34d9829f9557b2fb1f879c32c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6c43ca34d9829f9557b2fb1f879c32c">world</a></td></tr>
 <tr class="memitem:ae20039b90521d0f167e736eb1a519087" id="r_ae20039b90521d0f167e736eb1a519087"><td class="memItemLeft" align="right" valign="top">TTF_Font *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae20039b90521d0f167e736eb1a519087">font</a></td></tr>
+<tr class="memitem:a28cf1b4e1304980308ca7bd656acc7bf" id="r_a28cf1b4e1304980308ca7bd656acc7bf"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_event_handle.html">EventHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28cf1b4e1304980308ca7bd656acc7bf">entityDestroyedEventHandle</a></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6659f2094fd014a39b252e1e655a2b1b" name="a6659f2094fd014a39b252e1e655a2b1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6659f2094fd014a39b252e1e655a2b1b">&#9670;&#160;</a></span>RenderSystem()</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Responsible for rendering every entity, chunk and text. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a097ef183b9a1bb63e064a53c5eb45030" name="a097ef183b9a1bb63e064a53c5eb45030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a097ef183b9a1bb63e064a53c5eb45030">&#9670;&#160;</a></span>RenderSystem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144,17 +156,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">RenderSystem::RenderSystem </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_registry.html">Registry</a> *</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="struct_system_context.html">SystemContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">SDL_Renderer *</td>          <td class="paramname"><span class="paramname"><em>render</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_world.html">World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+          <td class="paramtype">SDL_Renderer *</td>          <td class="paramname"><span class="paramname"><em>renderer</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -163,12 +170,41 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_render_system_a097ef183b9a1bb63e064a53c5eb45030_cgraph.png" border="0" usemap="#aclass_render_system_a097ef183b9a1bb63e064a53c5eb45030_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_render_system_a097ef183b9a1bb63e064a53c5eb45030_cgraph" id="aclass_render_system_a097ef183b9a1bb63e064a53c5eb45030_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,209,57"/>
+<area shape="rect" href="class_render_system.html#a45f3a1757abc0e36d8aedc1bf070c49c" title=" " alt="" coords="257,5,484,32"/>
+<area shape="poly" title=" " alt="" coords="209,32,241,28,241,34,209,37"/>
+<area shape="rect" href="class_event_dispatcher.html#a21f7ebec8a4a83701c53c6d31c815c8e" title="Subscribes a callback function to a specific event type." alt="" coords="278,56,462,83"/>
+<area shape="poly" title=" " alt="" coords="209,51,263,56,263,62,209,56"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1838cd6142b9ba29bf086fd146d11f38" name="a1838cd6142b9ba29bf086fd146d11f38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1838cd6142b9ba29bf086fd146d11f38">&#9670;&#160;</a></span>~RenderSystem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RenderSystem::~RenderSystem </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a403af2042ae265f6530abf693119f51e" name="a403af2042ae265f6530abf693119f51e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a403af2042ae265f6530abf693119f51e">&#9670;&#160;</a></span>isOffScreen()</h2>
+<a id="abdecce4a86718b1b223be7d90ddcb6db" name="abdecce4a86718b1b223be7d90ddcb6db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdecce4a86718b1b223be7d90ddcb6db">&#9670;&#160;</a></span>IsOffScreen()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,7 +213,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool RenderSystem::isOffScreen </td>
+          <td class="memname">bool RenderSystem::IsOffScreen </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_vec2f.html">Vec2f</a></td>          <td class="paramname"><span class="paramname"><em>screenPos</em></span>, </td>
         </tr>
@@ -201,19 +237,46 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_render_system_a403af2042ae265f6530abf693119f51e_icgraph.png" border="0" usemap="#aclass_render_system_a403af2042ae265f6530abf693119f51e_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_render_system_a403af2042ae265f6530abf693119f51e_icgraph" id="aclass_render_system_a403af2042ae265f6530abf693119f51e_icgraph">
-<area shape="rect" title=" " alt="" coords="463,56,647,83"/>
+<div class="center"><img src="class_render_system_abdecce4a86718b1b223be7d90ddcb6db_icgraph.png" border="0" usemap="#aclass_render_system_abdecce4a86718b1b223be7d90ddcb6db_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_render_system_abdecce4a86718b1b223be7d90ddcb6db_icgraph" id="aclass_render_system_abdecce4a86718b1b223be7d90ddcb6db_icgraph">
+<area shape="rect" title=" " alt="" coords="463,56,648,83"/>
 <area shape="rect" href="class_render_system.html#a8937c17e5302a4ef9a3e772ca65e7b37" title=" " alt="" coords="212,5,415,32"/>
-<area shape="poly" title=" " alt="" coords="472,55,380,35,381,30,473,50"/>
+<area shape="poly" title=" " alt="" coords="473,55,380,35,381,30,474,50"/>
 <area shape="rect" href="class_render_system.html#ae29e773d10ae4964b76915f9579fc202" title=" " alt="" coords="212,56,414,83"/>
 <area shape="poly" title=" " alt="" coords="447,72,415,72,415,67,447,67"/>
 <area shape="rect" href="class_render_system.html#a50afadea34b6dcfd335167b17bea3927" title=" " alt="" coords="218,107,408,133"/>
-<area shape="poly" title=" " alt="" coords="473,89,381,109,380,103,472,84"/>
+<area shape="poly" title=" " alt="" coords="474,89,381,109,380,103,473,84"/>
 <area shape="rect" href="class_render_system.html#a97fcc27c66536abe727702c8f320b4bf" title=" " alt="" coords="5,56,164,83"/>
 <area shape="poly" title=" " alt="" coords="235,39,149,58,147,53,234,33"/>
 <area shape="poly" title=" " alt="" coords="197,72,164,72,164,67,197,67"/>
 <area shape="poly" title=" " alt="" coords="234,105,147,86,149,81,235,100"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a45f3a1757abc0e36d8aedc1bf070c49c" name="a45f3a1757abc0e36d8aedc1bf070c49c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45f3a1757abc0e36d8aedc1bf070c49c">&#9670;&#160;</a></span>OnEntityDestroyed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RenderSystem::OnEntityDestroyed </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_entity_destroyed_event.html">EntityDestroyedEvent</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_render_system_a45f3a1757abc0e36d8aedc1bf070c49c_icgraph.png" border="0" usemap="#aclass_render_system_a45f3a1757abc0e36d8aedc1bf070c49c_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_render_system_a45f3a1757abc0e36d8aedc1bf070c49c_icgraph" id="aclass_render_system_a45f3a1757abc0e36d8aedc1bf070c49c_icgraph">
+<area shape="rect" title=" " alt="" coords="257,5,484,32"/>
+<area shape="rect" href="class_render_system.html#a097ef183b9a1bb63e064a53c5eb45030" title=" " alt="" coords="5,5,209,32"/>
+<area shape="poly" title=" " alt="" coords="241,21,209,21,209,16,241,16"/>
 </map>
 </div>
 
@@ -310,10 +373,10 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_render_system_a8937c17e5302a4ef9a3e772ca65e7b37_cgraph.png" border="0" usemap="#aclass_render_system_a8937c17e5302a4ef9a3e772ca65e7b37_cgraph" loading="lazy" alt=""/></div>
 <map name="aclass_render_system_a8937c17e5302a4ef9a3e772ca65e7b37_cgraph" id="aclass_render_system_a8937c17e5302a4ef9a3e772ca65e7b37_cgraph">
 <area shape="rect" title=" " alt="" coords="5,31,209,57"/>
-<area shape="rect" href="class_render_system.html#a403af2042ae265f6530abf693119f51e" title=" " alt="" coords="257,5,441,32"/>
-<area shape="poly" title=" " alt="" coords="209,31,241,27,241,33,209,36"/>
+<area shape="rect" href="class_render_system.html#abdecce4a86718b1b223be7d90ddcb6db" title=" " alt="" coords="257,5,442,32"/>
+<area shape="poly" title=" " alt="" coords="209,31,241,27,242,33,210,36"/>
 <area shape="rect" href="namespaceutil.html#afa20b18579418c2538138ee35ef98a09" title=" " alt="" coords="282,56,416,83"/>
-<area shape="poly" title=" " alt="" coords="209,52,266,58,266,63,209,57"/>
+<area shape="poly" title=" " alt="" coords="210,52,267,58,266,63,209,57"/>
 </map>
 </div>
 <div class="dynheader">
@@ -420,10 +483,10 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_render_system_ae29e773d10ae4964b76915f9579fc202_cgraph.png" border="0" usemap="#aclass_render_system_ae29e773d10ae4964b76915f9579fc202_cgraph" loading="lazy" alt=""/></div>
 <map name="aclass_render_system_ae29e773d10ae4964b76915f9579fc202_cgraph" id="aclass_render_system_ae29e773d10ae4964b76915f9579fc202_cgraph">
 <area shape="rect" title=" " alt="" coords="5,31,208,57"/>
-<area shape="rect" href="class_render_system.html#a403af2042ae265f6530abf693119f51e" title=" " alt="" coords="256,5,440,32"/>
-<area shape="poly" title=" " alt="" coords="208,31,240,27,241,33,208,36"/>
-<area shape="rect" href="namespaceutil.html#afa20b18579418c2538138ee35ef98a09" title=" " alt="" coords="281,56,415,83"/>
-<area shape="poly" title=" " alt="" coords="208,52,265,58,265,63,208,57"/>
+<area shape="rect" href="class_render_system.html#abdecce4a86718b1b223be7d90ddcb6db" title=" " alt="" coords="256,5,441,32"/>
+<area shape="poly" title=" " alt="" coords="208,31,240,27,241,33,209,36"/>
+<area shape="rect" href="namespaceutil.html#afa20b18579418c2538138ee35ef98a09" title=" " alt="" coords="281,56,416,83"/>
+<area shape="poly" title=" " alt="" coords="209,52,266,58,265,63,208,57"/>
 </map>
 </div>
 <div class="dynheader">
@@ -476,10 +539,10 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_render_system_a50afadea34b6dcfd335167b17bea3927_cgraph.png" border="0" usemap="#aclass_render_system_a50afadea34b6dcfd335167b17bea3927_cgraph" loading="lazy" alt=""/></div>
 <map name="aclass_render_system_a50afadea34b6dcfd335167b17bea3927_cgraph" id="aclass_render_system_a50afadea34b6dcfd335167b17bea3927_cgraph">
 <area shape="rect" title=" " alt="" coords="5,31,196,57"/>
-<area shape="rect" href="class_render_system.html#a403af2042ae265f6530abf693119f51e" title=" " alt="" coords="244,5,428,32"/>
+<area shape="rect" href="class_render_system.html#abdecce4a86718b1b223be7d90ddcb6db" title=" " alt="" coords="244,5,429,32"/>
 <area shape="poly" title=" " alt="" coords="196,31,228,28,228,33,196,36"/>
-<area shape="rect" href="namespaceutil.html#afa20b18579418c2538138ee35ef98a09" title=" " alt="" coords="269,56,403,83"/>
-<area shape="poly" title=" " alt="" coords="196,52,253,58,253,63,196,57"/>
+<area shape="rect" href="namespaceutil.html#afa20b18579418c2538138ee35ef98a09" title=" " alt="" coords="269,56,404,83"/>
+<area shape="poly" title=" " alt="" coords="196,52,254,58,253,63,196,57"/>
 </map>
 </div>
 <div class="dynheader">
@@ -529,26 +592,26 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="104,190,151,225,213,260,232,267,230,272,211,265,148,230,101,195"/>
 <area shape="rect" href="class_render_system.html#a50afadea34b6dcfd335167b17bea3927" title=" " alt="" coords="229,325,419,352"/>
 <area shape="poly" title=" " alt="" coords="97,191,142,250,175,283,213,311,225,317,222,322,210,316,171,287,138,253,93,194"/>
-<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="493,5,659,32"/>
+<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="494,5,660,32"/>
 <area shape="poly" title=" " alt="" coords="394,53,491,33,492,38,395,58"/>
 <area shape="rect" href="class_registry.html#a1fe75e6a9c525a9dc4775bbdf1b29dde" title="Creates a view of all entities that have a given set of components." alt="" coords="524,56,629,83"/>
-<area shape="poly" title=" " alt="" coords="405,67,508,67,508,72,405,72"/>
-<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="716,31,914,57"/>
-<area shape="poly" title=" " alt="" coords="660,25,701,29,701,35,659,30"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="962,31,1191,57"/>
-<area shape="poly" title=" " alt="" coords="914,41,946,41,946,47,914,47"/>
-<area shape="poly" title=" " alt="" coords="629,61,700,53,701,59,630,66"/>
-<area shape="poly" title=" " alt="" coords="397,16,478,16,478,21,397,21"/>
+<area shape="poly" title=" " alt="" coords="405,67,509,67,509,72,405,72"/>
+<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="717,31,915,57"/>
+<area shape="poly" title=" " alt="" coords="660,25,702,29,701,35,660,30"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="963,31,1171,57"/>
+<area shape="poly" title=" " alt="" coords="915,41,947,41,947,47,915,47"/>
+<area shape="poly" title=" " alt="" coords="630,61,702,53,702,59,630,66"/>
+<area shape="poly" title=" " alt="" coords="398,16,478,16,478,21,398,21"/>
 <area shape="poly" title=" " alt="" coords="395,30,509,53,508,59,394,35"/>
-<area shape="rect" href="namespaceutil.html#afa20b18579418c2538138ee35ef98a09" title=" " alt="" coords="509,224,643,251"/>
-<area shape="poly" title=" " alt="" coords="419,198,501,217,500,222,418,203"/>
-<area shape="poly" title=" " alt="" coords="426,235,493,235,493,240,426,240"/>
-<area shape="rect" href="class_render_system.html#a403af2042ae265f6530abf693119f51e" title=" " alt="" coords="484,275,668,301"/>
+<area shape="rect" href="namespaceutil.html#afa20b18579418c2538138ee35ef98a09" title=" " alt="" coords="510,224,644,251"/>
+<area shape="poly" title=" " alt="" coords="419,198,502,217,500,222,418,203"/>
+<area shape="poly" title=" " alt="" coords="426,235,494,235,494,240,426,240"/>
+<area shape="rect" href="class_render_system.html#abdecce4a86718b1b223be7d90ddcb6db" title=" " alt="" coords="484,275,669,301"/>
 <area shape="poly" title=" " alt="" coords="395,249,492,268,491,274,394,254"/>
-<area shape="poly" title=" " alt="" coords="403,131,437,143,498,176,548,212,545,216,495,181,435,148,402,136"/>
-<area shape="poly" title=" " alt="" coords="394,271,493,251,494,256,395,277"/>
-<area shape="poly" title=" " alt="" coords="426,285,468,285,468,291,426,291"/>
-<area shape="poly" title=" " alt="" coords="409,322,435,311,449,299,458,287,467,273,483,260,493,255,496,259,485,265,471,277,462,290,453,303,437,316,411,327"/>
+<area shape="poly" title=" " alt="" coords="403,131,437,143,498,176,549,212,545,216,495,181,435,148,402,136"/>
+<area shape="poly" title=" " alt="" coords="394,271,494,251,495,256,395,277"/>
+<area shape="poly" title=" " alt="" coords="425,285,468,285,468,291,425,291"/>
+<area shape="poly" title=" " alt="" coords="409,322,435,311,449,299,458,287,467,273,483,260,494,254,496,259,485,265,471,277,462,290,453,303,437,316,411,327"/>
 <area shape="poly" title=" " alt="" coords="394,322,491,302,492,308,395,327"/>
 </map>
 </div>
@@ -556,6 +619,28 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a28cf1b4e1304980308ca7bd656acc7bf" name="a28cf1b4e1304980308ca7bd656acc7bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28cf1b4e1304980308ca7bd656acc7bf">&#9670;&#160;</a></span>entityDestroyedEventHandle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_event_handle.html">EventHandle</a>&gt; RenderSystem::entityDestroyedEventHandle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae20039b90521d0f167e736eb1a519087" name="ae20039b90521d0f167e736eb1a519087"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae20039b90521d0f167e736eb1a519087">&#9670;&#160;</a></span>font</h2>
 

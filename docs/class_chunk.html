@@ -92,6 +92,9 @@ $(function(){initNavTree('class_chunk.html','','class_chunk-members'); });
 </div><!--header-->
 <div class="contents">
 
+<p>Represents a segment of the game world.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_chunk_8h_source.html">Chunk.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -99,6 +102,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac77d3f21f948ed81d6d893033f32e676" id="r_ac77d3f21f948ed81d6d893033f32e676"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac77d3f21f948ed81d6d893033f32e676">Chunk</a> (int _chunkX, int _chunkY)</td></tr>
 <tr class="memitem:a57c6b8418e4969336e24b3c499099793" id="r_a57c6b8418e4969336e24b3c499099793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57c6b8418e4969336e24b3c499099793">GetLocalTileIndex</a> (int worldTileX, int worldTileY) const</td></tr>
 <tr class="memitem:a82df33003a727351b30b5d35edc89d64" id="r_a82df33003a727351b30b5d35edc89d64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_tile_data.html">TileData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82df33003a727351b30b5d35edc89d64">GetTile</a> (int localX, int localY)</td></tr>
+<tr class="memitem:aa4adcb0523cfede2488f083226c1d882" id="r_aa4adcb0523cfede2488f083226c1d882"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_tile_data.html">TileData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4adcb0523cfede2488f083226c1d882">GetTile</a> (int localX, int localY) const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -110,7 +114,10 @@ Public Attributes</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a500f8fa5ca6930ab5162c7600b45304c" id="r_a500f8fa5ca6930ab5162c7600b45304c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_tile_data.html">TileData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a500f8fa5ca6930ab5162c7600b45304c">tiles</a></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Represents a segment of the game world. </p>
+<p>The world is divided into chunks to manage memory and performance. Each chunk contains a grid of tiles and is responsible for the entities and resources within its boundaries. Chunks are loaded and unloaded dynamically based on player proximity. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac77d3f21f948ed81d6d893033f32e676" name="ac77d3f21f948ed81d6d893033f32e676"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac77d3f21f948ed81d6d893033f32e676">&#9670;&#160;</a></span>Chunk()</h2>
 
@@ -155,7 +162,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a82df33003a727351b30b5d35edc89d64" name="a82df33003a727351b30b5d35edc89d64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82df33003a727351b30b5d35edc89d64">&#9670;&#160;</a></span>GetTile()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a82df33003a727351b30b5d35edc89d64">&#9670;&#160;</a></span>GetTile() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,22 +184,42 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_chunk_a82df33003a727351b30b5d35edc89d64_icgraph.png" border="0" usemap="#aclass_chunk_a82df33003a727351b30b5d35edc89d64_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_chunk_a82df33003a727351b30b5d35edc89d64_icgraph" id="aclass_chunk_a82df33003a727351b30b5d35edc89d64_icgraph">
-<area shape="rect" title=" " alt="" coords="766,81,875,108"/>
-<area shape="rect" href="class_world.html#a83e7bd3a5490d65748ab5c575ae23e5b" title=" " alt="" coords="535,5,718,32"/>
-<area shape="poly" title=" " alt="" coords="774,77,717,53,668,35,670,30,719,48,776,72"/>
-<area shape="rect" href="class_world.html#a51c0652a33b08264b5108b897673ff5f" title=" " alt="" coords="334,56,487,83"/>
-<area shape="poly" title=" " alt="" coords="750,93,488,77,488,71,750,88"/>
-<area shape="rect" href="class_world.html#a6effd57244b7e457ebe97c39e2f41ff4" title=" " alt="" coords="158,107,286,133"/>
-<area shape="poly" title=" " alt="" coords="750,100,286,120,286,115,750,95"/>
-<area shape="rect" href="class_world.html#af3e6a23ef48822817468efafd5f37abf" title=" " alt="" coords="340,157,481,184"/>
-<area shape="poly" title=" " alt="" coords="780,118,718,141,657,155,594,164,482,172,481,167,593,158,656,149,717,136,778,113"/>
-<area shape="poly" title=" " alt="" coords="552,39,471,58,470,53,551,34"/>
-<area shape="poly" title=" " alt="" coords="344,90,275,109,274,103,343,85"/>
-<area shape="rect" href="class_world.html#ae45b2d1dfcf9c15d79dbb19aa6dab2d9" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,132,110,159"/>
-<area shape="poly" title=" " alt="" coords="142,135,111,140,110,135,141,130"/>
-<area shape="poly" title=" " alt="" coords="324,167,110,152,110,146,325,162"/>
+<area shape="rect" title=" " alt="" coords="548,97,658,124"/>
+<area shape="rect" href="class_world_asset_manager.html#ad44328bab3c4c0f2e061c84cb42353e9" title=" " alt="" coords="350,5,497,48"/>
+<area shape="poly" title=" " alt="" coords="560,92,499,62,474,51,477,46,501,58,563,88"/>
+<area shape="rect" href="class_world.html#a51c0652a33b08264b5108b897673ff5f" title=" " alt="" coords="347,72,500,99"/>
+<area shape="poly" title=" " alt="" coords="532,103,500,99,501,94,533,98"/>
+<area shape="rect" href="class_world.html#a6effd57244b7e457ebe97c39e2f41ff4" title=" " alt="" coords="164,123,292,149"/>
+<area shape="poly" title=" " alt="" coords="533,118,293,134,292,129,533,113"/>
+<area shape="rect" href="class_world.html#af3e6a23ef48822817468efafd5f37abf" title=" " alt="" coords="158,173,299,200"/>
+<area shape="poly" title=" " alt="" coords="534,129,501,136,300,176,299,171,500,131,533,124"/>
+<area shape="poly" title=" " alt="" coords="355,106,283,125,282,119,354,101"/>
+<area shape="rect" href="class_world.html#aec4c79eb3becec1110cc910bf1555181" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,148,110,175"/>
+<area shape="poly" title=" " alt="" coords="149,150,111,156,110,151,148,145"/>
+<area shape="poly" title=" " alt="" coords="142,177,110,172,111,166,143,171"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="aa4adcb0523cfede2488f083226c1d882" name="aa4adcb0523cfede2488f083226c1d882"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4adcb0523cfede2488f083226c1d882">&#9670;&#160;</a></span>GetTile() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_tile_data.html">TileData</a> * Chunk::GetTile </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>localX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>localY</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

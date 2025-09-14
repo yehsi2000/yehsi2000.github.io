@@ -92,31 +92,31 @@ $(function(){initNavTree('class_timer_system.html','','class_timer_system-member
 </div><!--header-->
 <div class="contents">
 
+<p>System responsible for updating the elapsed time of all active timers.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_timer_system_8h_source.html">TimerSystem.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for TimerSystem:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_timer_system__coll__graph.png" border="0" usemap="#a_timer_system_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_timer_system_coll__map" id="a_timer_system_coll__map">
-<area shape="rect" title=" " alt="" coords="106,344,205,371"/>
-<area shape="rect" href="class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="65,245,136,272"/>
-<area shape="poly" title=" " alt="" coords="114,285,132,319,148,342,143,345,127,321,110,287"/>
-<area shape="rect" href="struct_input_state.html" title=" " alt="" coords="29,147,110,173"/>
-<area shape="poly" title=" " alt="" coords="81,187,99,244,94,246,76,189"/>
-<area shape="rect" href="struct_vec2f.html" title=" " alt="" coords="5,5,60,32"/>
-<area shape="poly" title=" " alt="" coords="36,47,40,83,50,122,62,145,58,147,45,124,35,84,31,48"/>
-<area shape="rect" href="struct_vec2.html" title=" " alt="" coords="83,5,134,32"/>
-<area shape="poly" title=" " alt="" coords="104,48,76,147,71,145,98,46"/>
-<area shape="rect" href="class_timer_manager.html" title="Manages the lifecycle of all TimerInstance objects in the game, centralizing the logic and memory man..." alt="" coords="172,245,277,272"/>
-<area shape="poly" title=" " alt="" coords="209,287,166,345,162,342,204,283"/>
-<area shape="rect" href="class_object_pool.html" title=" " alt="" coords="134,147,326,173"/>
-<area shape="poly" title=" " alt="" coords="231,189,228,245,223,245,226,189"/>
+<area shape="rect" title="System responsible for updating the elapsed time of all active timers." alt="" coords="103,203,202,229"/>
+<area shape="rect" href="class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="63,104,133,131"/>
+<area shape="poly" title=" " alt="" coords="113,144,132,177,146,201,142,204,127,180,109,146"/>
+<area shape="rect" href="class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
+<area shape="poly" title=" " alt="" coords="76,46,96,103,91,105,71,48"/>
+<area shape="rect" href="class_timer_manager.html" title="Manages the lifecycle of all TimerInstance objects in the game, centralizing the logic and memory man..." alt="" coords="174,104,278,131"/>
+<area shape="poly" title=" " alt="" coords="210,145,183,180,164,204,160,200,178,177,205,142"/>
+<area shape="rect" href="class_object_pool.html" title=" " alt="" coords="148,5,339,32"/>
+<area shape="poly" title=" " alt="" coords="241,48,231,104,225,103,236,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a775c4784d26d66258377155eab23f328" id="r_a775c4784d26d66258377155eab23f328"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a775c4784d26d66258377155eab23f328">TimerSystem</a> (<a class="el" href="class_registry.html">Registry</a> *<a class="el" href="#a06d7419270eedba55ade1c9ffb4a3d37">registry</a>, <a class="el" href="class_timer_manager.html">TimerManager</a> *<a class="el" href="#ae22f1aeffe3424b55f9f1ec1d1e17209">timerManager</a>)</td></tr>
+<tr class="memitem:a75307b612ddcca40e73cc1b3cc51025c" id="r_a75307b612ddcca40e73cc1b3cc51025c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75307b612ddcca40e73cc1b3cc51025c">TimerSystem</a> (const <a class="el" href="struct_system_context.html">SystemContext</a> &amp;context)</td></tr>
+<tr class="memitem:aeda1425799761092dcd0b6561008eaeb" id="r_aeda1425799761092dcd0b6561008eaeb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeda1425799761092dcd0b6561008eaeb">~TimerSystem</a> ()</td></tr>
 <tr class="memitem:ad3573fcd4f2024a762b5214c8a50c578" id="r_ad3573fcd4f2024a762b5214c8a50c578"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3573fcd4f2024a762b5214c8a50c578">Update</a> (float deltaTime)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -124,9 +124,11 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a06d7419270eedba55ade1c9ffb4a3d37" id="r_a06d7419270eedba55ade1c9ffb4a3d37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_registry.html">Registry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06d7419270eedba55ade1c9ffb4a3d37">registry</a></td></tr>
 <tr class="memitem:ae22f1aeffe3424b55f9f1ec1d1e17209" id="r_ae22f1aeffe3424b55f9f1ec1d1e17209"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_timer_manager.html">TimerManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae22f1aeffe3424b55f9f1ec1d1e17209">timerManager</a></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a775c4784d26d66258377155eab23f328" name="a775c4784d26d66258377155eab23f328"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a775c4784d26d66258377155eab23f328">&#9670;&#160;</a></span>TimerSystem()</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>System responsible for updating the elapsed time of all active timers. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a75307b612ddcca40e73cc1b3cc51025c" name="a75307b612ddcca40e73cc1b3cc51025c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75307b612ddcca40e73cc1b3cc51025c">&#9670;&#160;</a></span>TimerSystem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -134,14 +136,35 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">TimerSystem::TimerSystem </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_registry.html">Registry</a> *</td>          <td class="paramname"><span class="paramname"><em>registry</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="struct_system_context.html">SystemContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_timer_manager.html">TimerManager</a> *</td>          <td class="paramname"><span class="paramname"><em>timerManager</em></span>&#160;)</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeda1425799761092dcd0b6561008eaeb" name="aeda1425799761092dcd0b6561008eaeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeda1425799761092dcd0b6561008eaeb">&#9670;&#160;</a></span>~TimerSystem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TimerSystem::~TimerSystem </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

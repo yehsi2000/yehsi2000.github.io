@@ -92,30 +92,38 @@ $(function(){initNavTree('class_resource_node_system.html','','class_resource_no
 </div><!--header-->
 <div class="contents">
 
+<p>Responsible for updating every resource node's info inside the world.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_resource_node_system_8h_source.html">ResourceNodeSystem.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for ResourceNodeSystem:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_resource_node_system__coll__graph.png" border="0" usemap="#a_resource_node_system_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_resource_node_system_coll__map" id="a_resource_node_system_coll__map">
-<area shape="rect" title=" " alt="" coords="5,443,159,469"/>
-<area shape="rect" href="class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="47,245,117,272"/>
-<area shape="poly" title=" " alt="" coords="81,288,76,344,78,399,83,442,77,443,72,399,71,344,76,287"/>
-<area shape="rect" href="class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="136,344,190,371"/>
-<area shape="poly" title=" " alt="" coords="104,282,155,342,151,345,100,286"/>
-<area shape="rect" href="struct_input_state.html" title=" " alt="" coords="41,147,123,173"/>
-<area shape="poly" title=" " alt="" coords="85,189,85,245,79,245,79,189"/>
-<area shape="rect" href="struct_vec2f.html" title=" " alt="" coords="18,5,72,32"/>
-<area shape="poly" title=" " alt="" coords="48,47,52,83,62,122,75,145,70,147,57,124,47,84,43,48"/>
-<area shape="rect" href="struct_vec2.html" title=" " alt="" coords="96,5,146,32"/>
-<area shape="poly" title=" " alt="" coords="116,48,88,147,83,145,111,46"/>
-<area shape="poly" title=" " alt="" coords="145,384,94,444,90,441,141,381"/>
+<area shape="rect" title="Responsible for updating every resource node&#39;s info inside the world." alt="" coords="282,400,435,427"/>
+<area shape="rect" href="class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="289,104,359,131"/>
+<area shape="poly" title=" " alt="" coords="346,142,364,169,378,202,393,250,400,289,398,329,386,377,372,401,368,398,381,375,393,328,395,290,387,251,373,204,359,172,341,145"/>
+<area shape="rect" href="class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="287,301,342,328"/>
+<area shape="poly" title=" " alt="" coords="325,146,318,301,312,301,320,145"/>
+<area shape="rect" href="class_entity_factory.html" title="A factory for creating pre&#45;configured entities." alt="" coords="168,203,267,229"/>
+<area shape="poly" title=" " alt="" coords="276,137,247,157,231,180,223,203,218,201,227,177,243,153,273,132"/>
+<area shape="rect" href="class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="335,5,454,32"/>
+<area shape="poly" title=" " alt="" coords="366,44,354,58,339,82,330,105,325,103,335,79,349,54,363,40"/>
+<area shape="poly" title=" " alt="" coords="443,39,456,54,463,61,473,65,499,68,527,68,552,72,560,79,564,90,563,106,556,126,522,186,454,279,435,291,406,301,342,313,341,307,405,296,433,287,450,275,517,184,551,124,558,105,559,91,556,82,549,77,527,73,499,73,471,70,460,66,453,58,439,42"/>
+<area shape="poly" title=" " alt="" coords="329,341,355,399,350,401,324,343"/>
+<area shape="rect" href="class_world_asset_manager.html" title="A singleton for managing and caching world tile assets." alt="" coords="5,203,144,229"/>
+<area shape="poly" title=" " alt="" coords="84,243,92,261,105,275,138,289,187,299,287,309,287,314,187,304,136,294,102,280,88,264,79,245"/>
+<area shape="poly" title=" " alt="" coords="229,243,238,260,250,275,268,290,288,301,285,305,265,294,246,279,233,263,224,245"/>
+<area shape="rect" href="class_asset_manager.html" title="A singleton for managing and caching in&#45;game entity assets." alt="" coords="70,104,175,131"/>
+<area shape="poly" title=" " alt="" coords="120,146,121,162,127,177,145,194,168,204,166,209,142,198,122,180,116,163,115,146"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:addb435757d24ae054ea1b0435edb48b5" id="r_addb435757d24ae054ea1b0435edb48b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addb435757d24ae054ea1b0435edb48b5">ResourceNodeSystem</a> (<a class="el" href="class_registry.html">Registry</a> *r, <a class="el" href="class_world.html">World</a> *<a class="el" href="#a2fd58a1f98146f17b47a63855b9bcc76">world</a>)</td></tr>
+<tr class="memitem:ae2f143a9110937ea9dd8ed7aee21cd27" id="r_ae2f143a9110937ea9dd8ed7aee21cd27"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2f143a9110937ea9dd8ed7aee21cd27">ResourceNodeSystem</a> (const <a class="el" href="struct_system_context.html">SystemContext</a> &amp;context)</td></tr>
+<tr class="memitem:a8932ea8c3e26a66f248203760a574066" id="r_a8932ea8c3e26a66f248203760a574066"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8932ea8c3e26a66f248203760a574066">~ResourceNodeSystem</a> ()</td></tr>
 <tr class="memitem:a84aafe7f509624c61473d3f77e2e8e64" id="r_a84aafe7f509624c61473d3f77e2e8e64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84aafe7f509624c61473d3f77e2e8e64">Update</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -123,9 +131,11 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:adfc6a28f5b0bb0d7ca1a70cae84a3d8d" id="r_adfc6a28f5b0bb0d7ca1a70cae84a3d8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_registry.html">Registry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfc6a28f5b0bb0d7ca1a70cae84a3d8d">registry</a></td></tr>
 <tr class="memitem:a2fd58a1f98146f17b47a63855b9bcc76" id="r_a2fd58a1f98146f17b47a63855b9bcc76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fd58a1f98146f17b47a63855b9bcc76">world</a></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="addb435757d24ae054ea1b0435edb48b5" name="addb435757d24ae054ea1b0435edb48b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addb435757d24ae054ea1b0435edb48b5">&#9670;&#160;</a></span>ResourceNodeSystem()</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Responsible for updating every resource node's info inside the world. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ae2f143a9110937ea9dd8ed7aee21cd27" name="ae2f143a9110937ea9dd8ed7aee21cd27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2f143a9110937ea9dd8ed7aee21cd27">&#9670;&#160;</a></span>ResourceNodeSystem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133,14 +143,35 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ResourceNodeSystem::ResourceNodeSystem </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_registry.html">Registry</a> *</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="struct_system_context.html">SystemContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_world.html">World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>&#160;)</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8932ea8c3e26a66f248203760a574066" name="a8932ea8c3e26a66f248203760a574066"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8932ea8c3e26a66f248203760a574066">&#9670;&#160;</a></span>~ResourceNodeSystem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ResourceNodeSystem::~ResourceNodeSystem </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

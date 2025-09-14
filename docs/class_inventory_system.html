@@ -98,20 +98,21 @@ Collaboration diagram for InventorySystem:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_inventory_system__coll__graph.png" border="0" usemap="#a_inventory_system_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_inventory_system_coll__map" id="a_inventory_system_coll__map">
-<area shape="rect" title=" " alt="" coords="5,341,126,368"/>
-<area shape="rect" href="class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re..." alt="" coords="17,104,114,131"/>
-<area shape="poly" title=" " alt="" coords="64,146,59,203,59,269,66,341,61,341,54,269,54,203,59,146"/>
-<area shape="rect" href="class_g_engine.html" title="The main engine class that drives the game." alt="" coords="204,223,276,249"/>
-<area shape="poly" title=" " alt="" coords="99,138,223,220,220,224,96,142"/>
-<area shape="rect" href="class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="6,5,125,32"/>
-<area shape="poly" title=" " alt="" coords="68,48,68,104,63,104,63,48"/>
-<area shape="poly" title=" " alt="" coords="210,261,86,343,83,338,207,256"/>
+<area shape="rect" title=" " alt="" coords="146,203,266,229"/>
+<area shape="rect" href="class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="171,104,241,131"/>
+<area shape="poly" title=" " alt="" coords="208,146,208,202,203,202,203,146"/>
+<area shape="rect" href="class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
+<area shape="poly" title=" " alt="" coords="57,48,50,88,51,110,58,129,78,154,104,174,132,189,159,200,157,204,129,193,101,178,75,158,54,132,46,111,44,88,52,47"/>
+<area shape="poly" title=" " alt="" coords="97,39,189,101,186,106,94,43"/>
+<area shape="rect" href="class_command_queue.html" title="A queue for deferred execution of commands." alt="" coords="265,104,384,131"/>
+<area shape="poly" title=" " alt="" coords="304,144,263,181,229,204,226,200,260,177,301,140"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a022f699453e82ae1f117d623933b1439" id="r_a022f699453e82ae1f117d623933b1439"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a022f699453e82ae1f117d623933b1439">InventorySystem</a> (<a class="el" href="class_g_engine.html">GEngine</a> *<a class="el" href="#aaad50cb764809563366e17cde131538e">engine</a>)</td></tr>
+<tr class="memitem:a634bc45afcc1850c5399d5f31a6fda14" id="r_a634bc45afcc1850c5399d5f31a6fda14"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a634bc45afcc1850c5399d5f31a6fda14">InventorySystem</a> (const <a class="el" href="struct_system_context.html">SystemContext</a> &amp;context)</td></tr>
+<tr class="memitem:aa7db45ce93681fa014084ff0c7490bc9" id="r_aa7db45ce93681fa014084ff0c7490bc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7db45ce93681fa014084ff0c7490bc9">~InventorySystem</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -121,14 +122,16 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a1189a6bbf473da1a874c2038208b21c3" id="r_a1189a6bbf473da1a874c2038208b21c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_event_handle.html">EventHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1189a6bbf473da1a874c2038208b21c3">addEventHandle</a></td></tr>
-<tr class="memitem:ad19b1a99544dec75921ca261bbc52fe4" id="r_ad19b1a99544dec75921ca261bbc52fe4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_event_handle.html">EventHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad19b1a99544dec75921ca261bbc52fe4">consumeEventHandle</a></td></tr>
-<tr class="memitem:acf9a63eac086784a8d4b5726e38a5804" id="r_acf9a63eac086784a8d4b5726e38a5804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_event_handle.html">EventHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf9a63eac086784a8d4b5726e38a5804">moveEventHandle</a></td></tr>
-<tr class="memitem:aaad50cb764809563366e17cde131538e" id="r_aaad50cb764809563366e17cde131538e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_g_engine.html">GEngine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaad50cb764809563366e17cde131538e">engine</a></td></tr>
+<tr class="memitem:a066baa5a8f6afbc04aeff9b6f20de9d6" id="r_a066baa5a8f6afbc04aeff9b6f20de9d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_registry.html">Registry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a066baa5a8f6afbc04aeff9b6f20de9d6">registry</a></td></tr>
+<tr class="memitem:a338d944beb7915aed57adc0b3dc82c4c" id="r_a338d944beb7915aed57adc0b3dc82c4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a338d944beb7915aed57adc0b3dc82c4c">eventDispatcher</a></td></tr>
+<tr class="memitem:a5cd482e740c02d8a6938b8455c49743e" id="r_a5cd482e740c02d8a6938b8455c49743e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_command_queue.html">CommandQueue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cd482e740c02d8a6938b8455c49743e">commandQueue</a></td></tr>
+<tr class="memitem:a5c52284782d5b9244f98b203fa665f4b" id="r_a5c52284782d5b9244f98b203fa665f4b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_event_handle.html">EventHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c52284782d5b9244f98b203fa665f4b">addEventHandle</a></td></tr>
+<tr class="memitem:ad828b367c9977f8491a2dae0ebe2fbcd" id="r_ad828b367c9977f8491a2dae0ebe2fbcd"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_event_handle.html">EventHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad828b367c9977f8491a2dae0ebe2fbcd">consumeEventHandle</a></td></tr>
+<tr class="memitem:a1dc8b34af6f17ef1dba2a165d5cd42f2" id="r_a1dc8b34af6f17ef1dba2a165d5cd42f2"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_event_handle.html">EventHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dc8b34af6f17ef1dba2a165d5cd42f2">moveEventHandle</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a022f699453e82ae1f117d623933b1439" name="a022f699453e82ae1f117d623933b1439"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a022f699453e82ae1f117d623933b1439">&#9670;&#160;</a></span>InventorySystem()</h2>
+<a id="a634bc45afcc1850c5399d5f31a6fda14" name="a634bc45afcc1850c5399d5f31a6fda14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a634bc45afcc1850c5399d5f31a6fda14">&#9670;&#160;</a></span>InventorySystem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,7 +139,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">InventorySystem::InventorySystem </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_g_engine.html">GEngine</a> *</td>          <td class="paramname"><span class="paramname"><em>engine</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_system_context.html">SystemContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -144,19 +147,42 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_inventory_system_a022f699453e82ae1f117d623933b1439_cgraph.png" border="0" usemap="#aclass_inventory_system_a022f699453e82ae1f117d623933b1439_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_inventory_system_a022f699453e82ae1f117d623933b1439_cgraph" id="aclass_inventory_system_a022f699453e82ae1f117d623933b1439_cgraph">
-<area shape="rect" title=" " alt="" coords="5,23,188,65"/>
-<area shape="rect" href="class_inventory_system.html#a747f4c853baefbdad883af4a6b029948" title=" " alt="" coords="236,31,413,57"/>
-<area shape="poly" title=" " alt="" coords="188,41,220,41,220,47,188,47"/>
-<area shape="rect" href="class_command_queue.html#aed4702e51ab2e3eb042886487a29f45a" title=" " alt="" coords="461,5,639,32"/>
-<area shape="poly" title=" " alt="" coords="413,31,445,28,446,33,414,37"/>
-<area shape="rect" href="class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="466,56,635,83"/>
-<area shape="poly" title=" " alt="" coords="414,51,451,55,450,61,413,57"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="687,56,917,83"/>
-<area shape="poly" title=" " alt="" coords="635,67,672,67,672,72,635,72"/>
+<div class="center"><img src="class_inventory_system_a634bc45afcc1850c5399d5f31a6fda14_cgraph.png" border="0" usemap="#aclass_inventory_system_a634bc45afcc1850c5399d5f31a6fda14_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_inventory_system_a634bc45afcc1850c5399d5f31a6fda14_cgraph" id="aclass_inventory_system_a634bc45afcc1850c5399d5f31a6fda14_cgraph">
+<area shape="rect" title=" " alt="" coords="5,48,188,91"/>
+<area shape="rect" href="class_inventory_system.html#a747f4c853baefbdad883af4a6b029948" title=" " alt="" coords="252,5,430,32"/>
+<area shape="poly" title=" " alt="" coords="188,48,258,33,259,38,189,53"/>
+<area shape="rect" href="class_inventory_system.html#ad7f905ff3a6f38d809afca09b7d8636a" title=" " alt="" coords="236,56,446,83"/>
+<area shape="poly" title=" " alt="" coords="188,67,220,67,220,72,188,72"/>
+<area shape="rect" href="class_inventory_system.html#a8f2586536ab6779548d069e15a56c6ad" title=" " alt="" coords="248,107,434,133"/>
+<area shape="poly" title=" " alt="" coords="189,86,259,100,258,106,188,91"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="aa7db45ce93681fa014084ff0c7490bc9" name="aa7db45ce93681fa014084ff0c7490bc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7db45ce93681fa014084ff0c7490bc9">&#9670;&#160;</a></span>~InventorySystem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">InventorySystem::~InventorySystem </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -184,26 +210,12 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_inventory_system_a747f4c853baefbdad883af4a6b029948_cgraph.png" border="0" usemap="#aclass_inventory_system_a747f4c853baefbdad883af4a6b029948_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_inventory_system_a747f4c853baefbdad883af4a6b029948_cgraph" id="aclass_inventory_system_a747f4c853baefbdad883af4a6b029948_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,183,57"/>
-<area shape="rect" href="class_command_queue.html#aed4702e51ab2e3eb042886487a29f45a" title=" " alt="" coords="231,5,409,32"/>
-<area shape="poly" title=" " alt="" coords="183,31,215,28,215,33,183,37"/>
-<area shape="rect" href="class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="235,56,404,83"/>
-<area shape="poly" title=" " alt="" coords="183,51,220,55,220,61,183,57"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="457,56,686,83"/>
-<area shape="poly" title=" " alt="" coords="405,67,441,67,441,72,405,72"/>
-</map>
-</div>
-<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_inventory_system_a747f4c853baefbdad883af4a6b029948_icgraph.png" border="0" usemap="#aclass_inventory_system_a747f4c853baefbdad883af4a6b029948_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_inventory_system_a747f4c853baefbdad883af4a6b029948_icgraph" id="aclass_inventory_system_a747f4c853baefbdad883af4a6b029948_icgraph">
 <area shape="rect" title=" " alt="" coords="236,13,413,40"/>
-<area shape="rect" href="class_inventory_system.html#a022f699453e82ae1f117d623933b1439" title=" " alt="" coords="5,5,188,48"/>
+<area shape="rect" href="class_inventory_system.html#a634bc45afcc1850c5399d5f31a6fda14" title=" " alt="" coords="5,5,188,48"/>
 <area shape="poly" title=" " alt="" coords="220,29,188,29,188,24,220,24"/>
 </map>
 </div>
@@ -233,22 +245,13 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Here is the call graph for this function:</div>
+Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_inventory_system_ad7f905ff3a6f38d809afca09b7d8636a_cgraph.png" border="0" usemap="#aclass_inventory_system_ad7f905ff3a6f38d809afca09b7d8636a_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_inventory_system_ad7f905ff3a6f38d809afca09b7d8636a_cgraph" id="aclass_inventory_system_ad7f905ff3a6f38d809afca09b7d8636a_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,216,83"/>
-<area shape="rect" href="class_command_queue.html#aed4702e51ab2e3eb042886487a29f45a" title=" " alt="" coords="264,5,442,32"/>
-<area shape="poly" title=" " alt="" coords="177,53,270,33,271,38,179,58"/>
-<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="270,56,436,83"/>
-<area shape="poly" title=" " alt="" coords="216,67,254,67,254,72,216,72"/>
-<area shape="rect" href="class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="504,107,673,133"/>
-<area shape="poly" title=" " alt="" coords="188,81,264,92,489,112,488,117,263,97,187,86"/>
-<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="490,56,687,83"/>
-<area shape="poly" title=" " alt="" coords="436,67,474,67,474,72,436,72"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="735,81,965,108"/>
-<area shape="poly" title=" " alt="" coords="688,76,720,79,719,85,688,82"/>
-<area shape="poly" title=" " alt="" coords="674,109,720,105,720,110,674,114"/>
+<div class="center"><img src="class_inventory_system_ad7f905ff3a6f38d809afca09b7d8636a_icgraph.png" border="0" usemap="#aclass_inventory_system_ad7f905ff3a6f38d809afca09b7d8636a_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_inventory_system_ad7f905ff3a6f38d809afca09b7d8636a_icgraph" id="aclass_inventory_system_ad7f905ff3a6f38d809afca09b7d8636a_icgraph">
+<area shape="rect" title=" " alt="" coords="236,13,446,40"/>
+<area shape="rect" href="class_inventory_system.html#a634bc45afcc1850c5399d5f31a6fda14" title=" " alt="" coords="5,5,188,48"/>
+<area shape="poly" title=" " alt="" coords="220,29,188,29,188,24,220,24"/>
 </map>
 </div>
 
@@ -277,30 +280,21 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Here is the call graph for this function:</div>
+Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_inventory_system_a8f2586536ab6779548d069e15a56c6ad_cgraph.png" border="0" usemap="#aclass_inventory_system_a8f2586536ab6779548d069e15a56c6ad_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_inventory_system_a8f2586536ab6779548d069e15a56c6ad_cgraph" id="aclass_inventory_system_a8f2586536ab6779548d069e15a56c6ad_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,192,83"/>
-<area shape="rect" href="class_command_queue.html#aed4702e51ab2e3eb042886487a29f45a" title=" " alt="" coords="240,5,418,32"/>
-<area shape="poly" title=" " alt="" coords="162,53,249,33,251,39,163,58"/>
-<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="246,56,412,83"/>
-<area shape="poly" title=" " alt="" coords="192,67,230,67,230,72,192,72"/>
-<area shape="rect" href="class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="480,107,649,133"/>
-<area shape="poly" title=" " alt="" coords="169,81,240,92,356,104,465,112,464,118,356,110,239,97,169,86"/>
-<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="466,56,663,83"/>
-<area shape="poly" title=" " alt="" coords="412,67,450,67,450,72,412,72"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="711,81,941,108"/>
-<area shape="poly" title=" " alt="" coords="664,76,696,79,695,85,664,82"/>
-<area shape="poly" title=" " alt="" coords="650,109,696,105,696,110,650,114"/>
+<div class="center"><img src="class_inventory_system_a8f2586536ab6779548d069e15a56c6ad_icgraph.png" border="0" usemap="#aclass_inventory_system_a8f2586536ab6779548d069e15a56c6ad_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_inventory_system_a8f2586536ab6779548d069e15a56c6ad_icgraph" id="aclass_inventory_system_a8f2586536ab6779548d069e15a56c6ad_icgraph">
+<area shape="rect" title=" " alt="" coords="236,13,422,40"/>
+<area shape="rect" href="class_inventory_system.html#a634bc45afcc1850c5399d5f31a6fda14" title=" " alt="" coords="5,5,188,48"/>
+<area shape="poly" title=" " alt="" coords="220,29,188,29,188,24,220,24"/>
 </map>
 </div>
 
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a1189a6bbf473da1a874c2038208b21c3" name="a1189a6bbf473da1a874c2038208b21c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1189a6bbf473da1a874c2038208b21c3">&#9670;&#160;</a></span>addEventHandle</h2>
+<a id="a5c52284782d5b9244f98b203fa665f4b" name="a5c52284782d5b9244f98b203fa665f4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c52284782d5b9244f98b203fa665f4b">&#9670;&#160;</a></span>addEventHandle</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,7 +303,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_handle.html">EventHandle</a> InventorySystem::addEventHandle</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_event_handle.html">EventHandle</a>&gt; InventorySystem::addEventHandle</td>
         </tr>
       </table>
   </td>
@@ -321,8 +315,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ad19b1a99544dec75921ca261bbc52fe4" name="ad19b1a99544dec75921ca261bbc52fe4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad19b1a99544dec75921ca261bbc52fe4">&#9670;&#160;</a></span>consumeEventHandle</h2>
+<a id="a5cd482e740c02d8a6938b8455c49743e" name="a5cd482e740c02d8a6938b8455c49743e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cd482e740c02d8a6938b8455c49743e">&#9670;&#160;</a></span>commandQueue</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -331,7 +325,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_handle.html">EventHandle</a> InventorySystem::consumeEventHandle</td>
+          <td class="memname"><a class="el" href="class_command_queue.html">CommandQueue</a>* InventorySystem::commandQueue</td>
         </tr>
       </table>
   </td>
@@ -343,8 +337,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aaad50cb764809563366e17cde131538e" name="aaad50cb764809563366e17cde131538e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaad50cb764809563366e17cde131538e">&#9670;&#160;</a></span>engine</h2>
+<a id="ad828b367c9977f8491a2dae0ebe2fbcd" name="ad828b367c9977f8491a2dae0ebe2fbcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad828b367c9977f8491a2dae0ebe2fbcd">&#9670;&#160;</a></span>consumeEventHandle</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,7 +347,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_g_engine.html">GEngine</a>* InventorySystem::engine</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_event_handle.html">EventHandle</a>&gt; InventorySystem::consumeEventHandle</td>
         </tr>
       </table>
   </td>
@@ -365,8 +359,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="acf9a63eac086784a8d4b5726e38a5804" name="acf9a63eac086784a8d4b5726e38a5804"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf9a63eac086784a8d4b5726e38a5804">&#9670;&#160;</a></span>moveEventHandle</h2>
+<a id="a338d944beb7915aed57adc0b3dc82c4c" name="a338d944beb7915aed57adc0b3dc82c4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a338d944beb7915aed57adc0b3dc82c4c">&#9670;&#160;</a></span>eventDispatcher</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -375,7 +369,51 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_handle.html">EventHandle</a> InventorySystem::moveEventHandle</td>
+          <td class="memname"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a>* InventorySystem::eventDispatcher</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1dc8b34af6f17ef1dba2a165d5cd42f2" name="a1dc8b34af6f17ef1dba2a165d5cd42f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dc8b34af6f17ef1dba2a165d5cd42f2">&#9670;&#160;</a></span>moveEventHandle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_event_handle.html">EventHandle</a>&gt; InventorySystem::moveEventHandle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a066baa5a8f6afbc04aeff9b6f20de9d6" name="a066baa5a8f6afbc04aeff9b6f20de9d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a066baa5a8f6afbc04aeff9b6f20de9d6">&#9670;&#160;</a></span>registry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_registry.html">Registry</a>* InventorySystem::registry</td>
         </tr>
       </table>
   </td>

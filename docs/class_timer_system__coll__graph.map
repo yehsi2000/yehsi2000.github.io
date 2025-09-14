@@ -1,15 +1,11 @@
 <map id="TimerSystem" name="TimerSystem">
-<area shape="rect" id="Node000001" title=" " alt="" coords="106,344,205,371"/>
-<area shape="rect" id="Node000002" href="$class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="65,245,136,272"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,285,132,319,148,342,143,345,127,321,110,287"/>
-<area shape="rect" id="Node000003" href="$struct_input_state.html" title=" " alt="" coords="29,147,110,173"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="81,187,99,244,94,246,76,189"/>
-<area shape="rect" id="Node000004" href="$struct_vec2f.html" title=" " alt="" coords="5,5,60,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="36,47,40,83,50,122,62,145,58,147,45,124,35,84,31,48"/>
-<area shape="rect" id="Node000005" href="$struct_vec2.html" title=" " alt="" coords="83,5,134,32"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="104,48,76,147,71,145,98,46"/>
-<area shape="rect" id="Node000006" href="$class_timer_manager.html" title="Manages the lifecycle of all TimerInstance objects in the game, centralizing the logic and memory man..." alt="" coords="172,245,277,272"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="209,287,166,345,162,342,204,283"/>
-<area shape="rect" id="Node000007" href="$class_object_pool.html" title=" " alt="" coords="134,147,326,173"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="231,189,228,245,223,245,226,189"/>
+<area shape="rect" id="Node000001" title="System responsible for updating the elapsed time of all active timers." alt="" coords="103,203,202,229"/>
+<area shape="rect" id="Node000002" href="$class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="63,104,133,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,144,132,177,146,201,142,204,127,180,109,146"/>
+<area shape="rect" id="Node000003" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,46,96,103,91,105,71,48"/>
+<area shape="rect" id="Node000004" href="$class_timer_manager.html" title="Manages the lifecycle of all TimerInstance objects in the game, centralizing the logic and memory man..." alt="" coords="174,104,278,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="210,145,183,180,164,204,160,200,178,177,205,142"/>
+<area shape="rect" id="Node000005" href="$class_object_pool.html" title=" " alt="" coords="148,5,339,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="241,48,231,104,225,103,236,47"/>
 </map>

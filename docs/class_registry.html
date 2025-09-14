@@ -101,19 +101,15 @@ Collaboration diagram for Registry:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_registry__coll__graph.png" border="0" usemap="#a_registry_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_registry_coll__map" id="a_registry_coll__map">
-<area shape="rect" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="35,245,105,272"/>
-<area shape="rect" href="struct_input_state.html" title=" " alt="" coords="29,147,110,173"/>
-<area shape="poly" title=" " alt="" coords="72,189,72,245,67,245,67,189"/>
-<area shape="rect" href="struct_vec2f.html" title=" " alt="" coords="5,5,60,32"/>
-<area shape="poly" title=" " alt="" coords="36,47,40,83,50,122,62,145,58,147,45,124,35,84,31,48"/>
-<area shape="rect" href="struct_vec2.html" title=" " alt="" coords="83,5,134,32"/>
-<area shape="poly" title=" " alt="" coords="104,48,76,147,71,145,98,46"/>
+<area shape="rect" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="29,104,100,131"/>
+<area shape="rect" href="class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
+<area shape="poly" title=" " alt="" coords="67,48,67,104,62,104,62,48"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acb15d8aa051bf36ea92a86ee6c00bc3c" id="r_acb15d8aa051bf36ea92a86ee6c00bc3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb15d8aa051bf36ea92a86ee6c00bc3c">Registry</a> ()</td></tr>
+<tr class="memitem:af6d1679d6378379a57def532d75f695c" id="r_af6d1679d6378379a57def532d75f695c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6d1679d6378379a57def532d75f695c">Registry</a> (<a class="el" href="class_event_dispatcher.html">EventDispatcher</a> *dispatcher)</td></tr>
 <tr class="memitem:aaec7ed69f07cc2191b2c88f92bb08602" id="r_aaec7ed69f07cc2191b2c88f92bb08602"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaec7ed69f07cc2191b2c88f92bb08602">CreateEntity</a> ()</td></tr>
 <tr class="memdesc:aaec7ed69f07cc2191b2c88f92bb08602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new entity.  <br /></td></tr>
 <tr class="memitem:a5f364038c494cb9be88bd14e327c294b" id="r_a5f364038c494cb9be88bd14e327c294b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f364038c494cb9be88bd14e327c294b">DestroyEntity</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> entity)</td></tr>
@@ -142,12 +138,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad87ef73546637eb0d2439fe0643d3365" id="r_ad87ef73546637eb0d2439fe0643d3365"><td class="memTemplParams" colspan="2">template&lt;typename T, typename Func&gt; </td></tr>
 <tr class="memitem:ad87ef73546637eb0d2439fe0643d3365 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad87ef73546637eb0d2439fe0643d3365">forEach</a> (Func func)</td></tr>
 <tr class="memdesc:ad87ef73546637eb0d2439fe0643d3365"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates over all entities with a specific component.  <br /></td></tr>
-<tr class="memitem:a33d5a37aef721de0fd2ce3f8afc85ca6" id="r_a33d5a37aef721de0fd2ce3f8afc85ca6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_input_state.html">InputState</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33d5a37aef721de0fd2ce3f8afc85ca6">GetInputState</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a1067c48ae27e6a497ac42bdfc09d62a3" id="r_a1067c48ae27e6a497ac42bdfc09d62a3"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:a1067c48ae27e6a497ac42bdfc09d62a3 template"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1067c48ae27e6a497ac42bdfc09d62a3">GetComponentTypeName</a> ()</td></tr>
+<tr class="memitem:a3ca9d68512bb2048ac5b2f558c5b700c" id="r_a3ca9d68512bb2048ac5b2f558c5b700c"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a3ca9d68512bb2048ac5b2f558c5b700c template"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ca9d68512bb2048ac5b2f558c5b700c">GetComponentTypeID</a> ()</td></tr>
 <tr class="memitem:af4d70dc9cca0ded5ca3a8fb554ffccc9" id="r_af4d70dc9cca0ded5ca3a8fb554ffccc9"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:af4d70dc9cca0ded5ca3a8fb554ffccc9 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_component_array.html">ComponentArray</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4d70dc9cca0ded5ca3a8fb554ffccc9">GetComponentArray</a> ()</td></tr>
 <tr class="memitem:a46a6d34891618cd03ace49f817943555" id="r_a46a6d34891618cd03ace49f817943555"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -156,16 +151,17 @@ Private Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ad0c25e16f923f79a962373116c7bf31b" id="r_ad0c25e16f923f79a962373116c7bf31b"><td class="memItemLeft" align="right" valign="top">std::queue&lt; <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0c25e16f923f79a962373116c7bf31b">availableEntities</a> {}</td></tr>
-<tr class="memitem:a88ec8570446179f40f344b6bc06e3dcf" id="r_a88ec8570446179f40f344b6bc06e3dcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_input_state.html">InputState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88ec8570446179f40f344b6bc06e3dcf">inputState</a></td></tr>
 <tr class="memitem:a7a445c11aeaddef0cb2e52cc61620ce1" id="r_a7a445c11aeaddef0cb2e52cc61620ce1"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a445c11aeaddef0cb2e52cc61620ce1">livingEntityCount</a> = 0</td></tr>
-<tr class="memitem:afd2e8ea7d506a359506bb56a4dfd7fcb" id="r_afd2e8ea7d506a359506bb56a4dfd7fcb"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; const char *, std::unique_ptr&lt; <a class="el" href="class_i_component_array.html">IComponentArray</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd2e8ea7d506a359506bb56a4dfd7fcb">componentArrays</a> {}</td></tr>
+<tr class="memitem:ad02fe782a0fffb696d3ce9eed1a80322" id="r_ad02fe782a0fffb696d3ce9eed1a80322"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad02fe782a0fffb696d3ce9eed1a80322">COMPONENT_ID</a> = 0</td></tr>
+<tr class="memitem:a7e88e3e9fd3cb31f24f360497945ca44" id="r_a7e88e3e9fd3cb31f24f360497945ca44"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="class_i_component_array.html">IComponentArray</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e88e3e9fd3cb31f24f360497945ca44">componentArrays</a> {}</td></tr>
+<tr class="memitem:a6e8114ac47b69e9f3c348094f3e45512" id="r_a6e8114ac47b69e9f3c348094f3e45512"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e8114ac47b69e9f3c348094f3e45512">eventDispatcher</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The core of the Entity-Component-System (ECS) architecture. </p>
 <p>Manages the lifecycle of all entities and the storage of their components. Systems use the <a class="el" href="class_registry.html" title="The core of the Entity-Component-System (ECS) architecture.">Registry</a> to query for entities that possess specific sets of components. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acb15d8aa051bf36ea92a86ee6c00bc3c" name="acb15d8aa051bf36ea92a86ee6c00bc3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb15d8aa051bf36ea92a86ee6c00bc3c">&#9670;&#160;</a></span>Registry()</h2>
+<a id="af6d1679d6378379a57def532d75f695c" name="af6d1679d6378379a57def532d75f695c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6d1679d6378379a57def532d75f695c">&#9670;&#160;</a></span>Registry()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,7 +172,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">Registry::Registry </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a> *</td>          <td class="paramname"><span class="paramname"><em>dispatcher</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -241,22 +237,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Adds a component to an entity." alt="" coords="5,5,174,32"/>
 <area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="222,5,419,32"/>
 <area shape="poly" title=" " alt="" coords="174,16,206,16,206,21,174,21"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="467,5,696,32"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="467,5,675,32"/>
 <area shape="poly" title=" " alt="" coords="419,16,451,16,451,21,419,21"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_registry_ae939ff1b510d101fd03f48d8ec62fb39_icgraph.png" border="0" usemap="#aclass_registry_ae939ff1b510d101fd03f48d8ec62fb39_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_registry_ae939ff1b510d101fd03f48d8ec62fb39_icgraph" id="aclass_registry_ae939ff1b510d101fd03f48d8ec62fb39_icgraph">
-<area shape="rect" title="Adds a component to an entity." alt="" coords="440,31,608,57"/>
-<area shape="rect" href="namespacefactory.html#aeb6369c52248c80b2876a56befa07053" title=" " alt="" coords="223,5,392,32"/>
-<area shape="poly" title=" " alt="" coords="424,35,392,31,393,26,425,30"/>
-<area shape="rect" href="namespacefactory.html#ac986ddace9df2128cf45e161027b0038" title=" " alt="" coords="235,56,380,83"/>
-<area shape="poly" title=" " alt="" coords="425,58,381,63,380,58,424,53"/>
-<area shape="rect" href="class_g_engine.html#a11640a2dfd6e7a30dbe27711d3a51945" title=" " alt="" coords="5,56,175,83"/>
-<area shape="poly" title=" " alt="" coords="220,72,175,72,175,67,220,67"/>
 </map>
 </div>
 
@@ -286,30 +268,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Creates a new entity. </p>
-<p>Acquires a unique <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> from the pool of available IDs. </p><dl class="section return"><dt>Returns</dt><dd>The ID of the newly created entity. </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_registry_aaec7ed69f07cc2191b2c88f92bb08602_icgraph.png" border="0" usemap="#aclass_registry_aaec7ed69f07cc2191b2c88f92bb08602_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_registry_aaec7ed69f07cc2191b2c88f92bb08602_icgraph" id="aclass_registry_aaec7ed69f07cc2191b2c88f92bb08602_icgraph">
-<area shape="rect" title="Creates a new entity." alt="" coords="460,123,611,149"/>
-<area shape="rect" href="namespacefactory.html#afb051a88fa520dd405fa9b617102f984" title=" " alt="" coords="229,5,406,48"/>
-<area shape="poly" title=" " alt="" coords="501,116,459,89,411,62,385,51,387,46,413,58,462,84,504,111"/>
-<area shape="rect" href="namespacefactory.html#aeb6369c52248c80b2876a56befa07053" title=" " alt="" coords="233,72,402,99"/>
-<area shape="poly" title=" " alt="" coords="459,121,377,102,379,97,461,116"/>
-<area shape="rect" href="namespacefactory.html#ac986ddace9df2128cf45e161027b0038" title=" " alt="" coords="245,123,390,149"/>
-<area shape="poly" title=" " alt="" coords="445,139,390,139,390,133,445,133"/>
-<area shape="rect" href="class_input_system.html#a718a5d69acb0a2d662dd0c52c217058a" title=" " alt="" coords="223,173,412,216"/>
-<area shape="poly" title=" " alt="" coords="469,156,400,175,399,170,468,151"/>
-<area shape="rect" href="class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="231,240,404,283"/>
-<area shape="poly" title=" " alt="" coords="510,162,466,196,413,230,389,242,386,237,411,226,463,192,506,157"/>
-<area shape="rect" href="class_g_engine.html#a11640a2dfd6e7a30dbe27711d3a51945" title=" " alt="" coords="5,123,175,149"/>
-<area shape="poly" title=" " alt="" coords="229,139,175,139,175,133,229,133"/>
-<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="17,215,163,241"/>
-<area shape="poly" title=" " alt="" coords="208,213,163,220,163,215,207,208"/>
-<area shape="poly" title=" " alt="" coords="215,249,163,241,164,236,216,244"/>
-</map>
-</div>
+<p>Acquires a unique <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb" title="A unique identifier for an entity in the game world.">EntityID</a> from the pool of available IDs. </p><dl class="section return"><dt>Returns</dt><dd>The ID of the newly created entity. </dd></dl>
 
 </div>
 </div>
@@ -348,17 +307,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_registry_a5f364038c494cb9be88bd14e327c294b_icgraph.png" border="0" usemap="#aclass_registry_a5f364038c494cb9be88bd14e327c294b_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_registry_a5f364038c494cb9be88bd14e327c294b_icgraph" id="aclass_registry_a5f364038c494cb9be88bd14e327c294b_icgraph">
-<area shape="rect" title="Destroys an entity." alt="" coords="680,72,839,99"/>
-<area shape="rect" href="class_input_system.html#ab3dc718a2fe77994676bc756b2f642c8" title=" " alt="" coords="436,64,632,107"/>
-<area shape="poly" title=" " alt="" coords="665,88,633,88,633,83,665,83"/>
-<area shape="rect" href="class_input_system.html#a718a5d69acb0a2d662dd0c52c217058a" title=" " alt="" coords="199,5,388,48"/>
-<area shape="poly" title=" " alt="" coords="428,62,383,51,385,46,430,57"/>
-<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="5,72,151,99"/>
-<area shape="poly" title=" " alt="" coords="421,88,151,88,151,83,421,83"/>
-<area shape="rect" href="class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="207,123,380,165"/>
-<area shape="poly" title=" " alt="" coords="430,113,381,125,380,120,428,108"/>
-<area shape="poly" title=" " alt="" coords="199,55,130,74,129,69,198,50"/>
-<area shape="poly" title=" " alt="" coords="198,121,129,102,130,97,199,116"/>
+<area shape="rect" title="Destroys an entity." alt="" coords="252,13,410,40"/>
+<area shape="rect" href="class_player_disconnected_command.html#af31be0c12d59ec7dafdd75c01f9a1096" title=" " alt="" coords="5,5,204,48"/>
+<area shape="poly" title=" " alt="" coords="236,29,204,29,204,24,236,24"/>
 </map>
 </div>
 
@@ -416,7 +367,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Constructs a component in&#45;place for an entity." alt="" coords="5,5,202,32"/>
 <area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="250,5,447,32"/>
 <area shape="poly" title=" " alt="" coords="202,16,234,16,234,21,202,21"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="495,5,724,32"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="495,5,703,32"/>
 <area shape="poly" title=" " alt="" coords="447,16,479,16,479,21,447,21"/>
 </map>
 </div>
@@ -425,38 +376,27 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_registry_a0299624547ca4be52c5a3fb42a31e90a_icgraph.png" border="0" usemap="#aclass_registry_a0299624547ca4be52c5a3fb42a31e90a_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_registry_a0299624547ca4be52c5a3fb42a31e90a_icgraph" id="aclass_registry_a0299624547ca4be52c5a3fb42a31e90a_icgraph">
-<area shape="rect" title="Constructs a component in&#45;place for an entity." alt="" coords="705,245,902,272"/>
-<area shape="rect" href="namespaceutil.html#a0af215271a8cf36a7b967449b3231ea3" title="Attaches a new timer to an entity." alt="" coords="504,103,621,129"/>
-<area shape="poly" title=" " alt="" coords="777,236,724,189,691,165,656,144,621,130,623,125,658,139,694,160,727,185,780,232"/>
-<area shape="rect" href="namespacefactory.html#afb051a88fa520dd405fa9b617102f984" title=" " alt="" coords="474,153,651,196"/>
-<area shape="poly" title=" " alt="" coords="748,242,625,199,627,194,749,237"/>
-<area shape="rect" href="namespacefactory.html#aeb6369c52248c80b2876a56befa07053" title=" " alt="" coords="478,220,647,247"/>
-<area shape="poly" title=" " alt="" coords="689,249,648,245,648,240,690,244"/>
-<area shape="rect" href="namespacefactory.html#ac986ddace9df2128cf45e161027b0038" title=" " alt="" coords="490,271,635,297"/>
-<area shape="poly" title=" " alt="" coords="690,273,636,279,635,274,690,268"/>
-<area shape="rect" href="class_input_system.html#a718a5d69acb0a2d662dd0c52c217058a" title=" " alt="" coords="468,321,657,364"/>
-<area shape="poly" title=" " alt="" coords="749,280,627,323,625,318,748,275"/>
-<area shape="rect" href="class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="476,388,649,431"/>
-<area shape="poly" title=" " alt="" coords="779,285,726,331,659,378,635,390,632,385,656,374,723,327,776,281"/>
-<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="252,16,405,59"/>
-<area shape="poly" title=" " alt="" coords="505,100,393,62,395,57,507,95"/>
-<area shape="rect" href="class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="237,95,420,137"/>
-<area shape="poly" title=" " alt="" coords="488,119,421,119,421,113,488,113"/>
-<area shape="rect" href="class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="261,183,396,225"/>
-<area shape="poly" title=" " alt="" coords="491,137,469,144,374,185,372,180,467,139,489,132"/>
-<area shape="rect" href="class_interaction_system.html#a78be599c43f0cda96c72a64d392278c3" title=" " alt="" coords="29,5,165,48"/>
-<area shape="poly" title=" " alt="" coords="236,36,165,32,165,27,236,30"/>
-<area shape="rect" href="class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="5,72,189,115"/>
-<area shape="poly" title=" " alt="" coords="221,108,189,105,189,100,222,103"/>
-<area shape="rect" href="class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="5,139,189,181"/>
-<area shape="poly" title=" " alt="" coords="222,139,190,145,189,140,221,134"/>
-<area shape="rect" href="class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="29,205,165,248"/>
-<area shape="poly" title=" " alt="" coords="245,215,165,223,165,217,245,209"/>
-<area shape="rect" href="class_g_engine.html#a11640a2dfd6e7a30dbe27711d3a51945" title=" " alt="" coords="244,271,413,297"/>
-<area shape="poly" title=" " alt="" coords="475,287,413,287,413,281,475,281"/>
-<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="256,363,401,389"/>
-<area shape="poly" title=" " alt="" coords="453,361,402,368,401,363,452,356"/>
-<area shape="poly" title=" " alt="" coords="460,397,401,389,402,384,461,392"/>
+<area shape="rect" title="Constructs a component in&#45;place for an entity." alt="" coords="904,97,1100,124"/>
+<area shape="rect" href="namespaceutil.html#a93f5c99884f3bc2b6dbce9bd1adb6e5c" title="Attaches a new timer to an entity." alt="" coords="738,97,856,124"/>
+<area shape="poly" title=" " alt="" coords="888,113,856,113,856,108,888,108"/>
+<area shape="rect" href="class_interaction_system.html#a2efec3ba0f55f346d55e19758cf7ea0a" title=" " alt="" coords="476,15,690,57"/>
+<area shape="poly" title=" " alt="" coords="741,94,645,60,647,55,743,89"/>
+<area shape="rect" href="class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="492,89,675,132"/>
+<area shape="poly" title=" " alt="" coords="723,113,675,113,675,108,723,108"/>
+<area shape="rect" href="class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="516,172,651,215"/>
+<area shape="poly" title=" " alt="" coords="747,133,642,174,640,169,745,128"/>
+<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="260,5,413,48"/>
+<area shape="poly" title=" " alt="" coords="460,34,414,32,414,27,460,29"/>
+<area shape="rect" href="class_interaction_system.html#a33989daebe85772690119e7c1f3a0068" title=" " alt="" coords="33,5,169,48"/>
+<area shape="poly" title=" " alt="" coords="244,29,169,29,169,24,244,24"/>
+<area shape="rect" href="class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="245,72,428,115"/>
+<area shape="poly" title=" " alt="" coords="476,106,428,102,429,97,476,100"/>
+<area shape="rect" href="class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="245,139,428,181"/>
+<area shape="poly" title=" " alt="" coords="476,135,429,144,428,139,475,129"/>
+<area shape="rect" href="class_assembling_machine_system.html#aebda3fbbbe3b7d87381ef655df76a243" title=" " alt="" coords="5,72,197,115"/>
+<area shape="poly" title=" " alt="" coords="229,96,197,96,197,91,229,91"/>
+<area shape="rect" href="class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="269,205,404,248"/>
+<area shape="poly" title=" " alt="" coords="501,207,405,220,404,215,500,202"/>
 </map>
 </div>
 
@@ -509,7 +449,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Iterates over all entities with a specific component." alt="" coords="5,5,129,32"/>
 <area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="177,5,374,32"/>
 <area shape="poly" title=" " alt="" coords="129,16,161,16,161,21,129,21"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="422,5,651,32"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="422,5,630,32"/>
 <area shape="poly" title=" " alt="" coords="374,16,406,16,406,21,374,21"/>
 </map>
 </div>
@@ -563,7 +503,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Retrieves a reference to an entity&#39;s component." alt="" coords="5,5,172,32"/>
 <area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="220,5,417,32"/>
 <area shape="poly" title=" " alt="" coords="172,16,204,16,204,21,172,21"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="465,5,694,32"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="465,5,673,32"/>
 <area shape="poly" title=" " alt="" coords="417,16,449,16,449,21,417,21"/>
 </map>
 </div>
@@ -572,70 +512,59 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_registry_ac5aae2c37c63375d54da7d8d801bbe22_icgraph.png" border="0" usemap="#aclass_registry_ac5aae2c37c63375d54da7d8d801bbe22_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_registry_ac5aae2c37c63375d54da7d8d801bbe22_icgraph" id="aclass_registry_ac5aae2c37c63375d54da7d8d801bbe22_icgraph">
-<area shape="rect" title="Retrieves a reference to an entity&#39;s component." alt="" coords="994,401,1160,427"/>
-<area shape="rect" href="class_u_i_system.html#a383081863786c7b8fdadba4340682ab7" title=" " alt="" coords="738,53,943,95"/>
-<area shape="poly" title=" " alt="" coords="1068,386,1055,330,1032,258,995,182,972,147,944,116,918,98,921,94,947,112,976,144,1000,179,1037,256,1060,328,1073,385"/>
-<area shape="rect" href="class_u_i_system.html#a5d7944c7ca3deb191c9c4758dbf17823" title=" " alt="" coords="468,61,687,87"/>
-<area shape="poly" title=" " alt="" coords="1073,385,1068,313,1062,266,1051,217,1034,167,1012,120,982,78,944,43,903,21,857,11,810,9,762,14,716,24,674,36,608,63,606,58,672,31,715,18,761,8,810,3,858,5,905,16,947,38,986,74,1017,117,1039,165,1056,216,1067,265,1074,312,1078,385"/>
-<area shape="rect" href="namespaceutil.html#a0af215271a8cf36a7b967449b3231ea3" title="Attaches a new timer to an entity." alt="" coords="519,267,636,294"/>
-<area shape="poly" title=" " alt="" coords="1051,391,1005,350,976,331,945,315,864,292,780,280,702,277,637,279,636,273,702,272,780,275,865,287,947,310,978,326,1008,346,1054,387"/>
-<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="252,126,405,169"/>
-<area shape="poly" title=" " alt="" coords="1057,389,1011,331,980,301,944,278,878,249,819,233,765,228,713,228,602,230,539,223,467,206,443,195,419,183,390,172,392,167,421,178,445,190,469,201,540,218,603,224,713,223,765,222,820,228,880,244,947,273,983,297,1015,327,1061,386"/>
-<area shape="rect" href="class_inventory_system.html#ad7f905ff3a6f38d809afca09b7d8636a" title=" " alt="" coords="735,578,946,605"/>
-<area shape="poly" title=" " alt="" coords="1062,443,1016,506,984,540,947,568,923,580,920,575,944,564,980,536,1012,503,1058,439"/>
-<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="780,325,901,351"/>
-<area shape="poly" title=" " alt="" coords="1021,398,945,373,887,354,889,349,946,367,1022,393"/>
-<area shape="rect" href="class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="491,419,664,462"/>
-<area shape="poly" title=" " alt="" coords="978,412,862,411,736,417,665,426,664,421,735,411,862,406,978,407"/>
-<area shape="rect" href="class_inventory_command.html#aef79beff4a3f0c7c1e0ee7db7827747e" title=" " alt="" coords="745,629,936,655"/>
-<area shape="poly" title=" " alt="" coords="1068,443,1051,483,1025,531,990,579,947,619,926,631,923,626,944,614,986,575,1020,528,1046,481,1063,441"/>
-<area shape="rect" href="class_resource_mine_command.html#aa286cd0a089ae22bb03599f7d6aabeb6" title=" " alt="" coords="758,679,923,722"/>
-<area shape="poly" title=" " alt="" coords="1071,443,1056,492,1031,553,996,615,973,644,947,669,925,684,922,679,944,665,969,640,991,612,1027,550,1051,490,1066,442"/>
-<area shape="rect" href="namespaceutil.html#acbb2b740a2214771587a3408dfdb7969" title=" " alt="" coords="760,426,921,453"/>
-<area shape="poly" title=" " alt="" coords="978,427,921,433,921,428,978,422"/>
-<area shape="rect" href="class_input_system.html#ae4fc698c779fde17990b3a8a68a09347" title=" " alt="" coords="482,486,674,529"/>
-<area shape="poly" title=" " alt="" coords="1034,436,992,453,946,467,876,482,804,493,675,506,674,500,804,488,875,477,945,462,990,448,1032,431"/>
-<area shape="rect" href="namespaceutil.html#abc429f884223f77fd0987d8b2a8850a1" title=" " alt="" coords="767,527,914,554"/>
-<area shape="poly" title=" " alt="" coords="1050,440,1004,476,947,511,900,529,898,524,944,506,1001,472,1047,435"/>
-<area shape="rect" href="class_u_i_system.html#ab42a93e4647c6a9550f070b5abd37d39" title=" " alt="" coords="506,113,649,139"/>
-<area shape="poly" title=" " alt="" coords="1067,386,1053,338,1028,279,993,221,970,195,944,174,910,154,872,139,833,128,794,121,717,116,650,119,649,114,717,111,794,116,835,123,874,134,912,149,947,169,974,191,997,218,1033,277,1058,336,1072,384"/>
-<area shape="rect" href="class_u_i_system.html#a816f6fd73e1c0043c51cbac24436d6ca" title=" " alt="" coords="496,165,659,191"/>
-<area shape="poly" title=" " alt="" coords="1064,387,1047,347,1022,300,988,254,967,234,944,218,911,200,875,187,799,172,726,167,660,170,660,165,726,162,800,166,876,182,913,195,947,213,971,230,992,251,1026,297,1052,345,1069,385"/>
-<area shape="rect" href="class_inventory_system.html#a8f2586536ab6779548d069e15a56c6ad" title=" " alt="" coords="747,746,934,773"/>
-<area shape="poly" title=" " alt="" coords="1075,443,1065,504,1042,583,1026,625,1005,666,979,703,947,736,929,748,926,743,944,732,975,700,1000,663,1021,623,1037,582,1059,503,1070,442"/>
-<area shape="rect" href="class_timer_expire_system.html#a840e6e46355ab1c54c37169441afde94" title=" " alt="" coords="768,797,913,839"/>
-<area shape="poly" title=" " alt="" coords="1076,443,1068,512,1047,604,1031,653,1009,702,982,747,948,787,932,799,914,807,912,802,929,794,944,783,977,744,1004,699,1026,651,1042,603,1063,511,1071,443"/>
-<area shape="poly" title=" " alt="" coords="722,77,688,77,688,71,722,71"/>
-<area shape="rect" href="class_u_i_system.html#ae66005968aae0198ab90285680e395a3" title=" " alt="" coords="263,75,394,102"/>
-<area shape="poly" title=" " alt="" coords="452,84,394,87,394,82,452,79"/>
-<area shape="poly" title=" " alt="" coords="503,269,466,251,450,234,441,216,433,199,418,183,400,172,403,167,422,179,438,196,446,214,454,231,470,247,505,264"/>
-<area shape="rect" href="class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="237,193,420,235"/>
-<area shape="poly" title=" " alt="" coords="509,265,410,239,412,233,511,260"/>
-<area shape="rect" href="class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="261,259,396,302"/>
-<area shape="poly" title=" " alt="" coords="503,283,396,283,396,278,503,278"/>
-<area shape="rect" href="class_interaction_system.html#a78be599c43f0cda96c72a64d392278c3" title=" " alt="" coords="29,118,165,161"/>
-<area shape="poly" title=" " alt="" coords="236,147,165,144,165,139,236,141"/>
-<area shape="rect" href="class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="5,185,189,227"/>
-<area shape="poly" title=" " alt="" coords="221,213,189,212,189,207,222,208"/>
-<area shape="rect" href="class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="5,251,189,294"/>
-<area shape="poly" title=" " alt="" coords="228,242,185,253,183,248,226,237"/>
-<area shape="rect" href="class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="29,318,165,361"/>
-<area shape="poly" title=" " alt="" coords="246,304,166,325,165,320,245,299"/>
-<area shape="poly" title=" " alt="" coords="764,324,636,296,637,291,765,319"/>
-<area shape="poly" title=" " alt="" coords="764,341,165,342,165,337,764,335"/>
-<area shape="poly" title=" " alt="" coords="768,359,737,372,713,391,689,410,662,421,660,416,686,405,710,387,734,368,766,354"/>
-<area shape="rect" href="class_movement_system.html#a67ce77218fa1afd071c8f6489f1d0034" title=" " alt="" coords="489,369,666,395"/>
-<area shape="poly" title=" " alt="" coords="765,353,662,371,661,365,764,348"/>
-<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="256,461,401,487"/>
-<area shape="poly" title=" " alt="" coords="476,457,402,467,401,462,475,452"/>
-<area shape="poly" title=" " alt="" coords="745,442,665,443,665,438,745,437"/>
-<area shape="rect" href="class_render_system.html#a97fcc27c66536abe727702c8f320b4bf" title=" " alt="" coords="498,553,657,579"/>
-<area shape="poly" title=" " alt="" coords="809,464,744,510,688,543,655,555,653,550,686,538,742,505,806,460"/>
-<area shape="poly" title=" " alt="" coords="772,460,664,488,662,483,771,455"/>
-<area shape="poly" title=" " alt="" coords="466,495,401,486,402,481,466,490"/>
-<area shape="poly" title=" " alt="" coords="752,552,658,561,657,556,751,547"/>
-<area shape="poly" title=" " alt="" coords="491,116,394,101,394,96,492,111"/>
-<area shape="poly" title=" " alt="" coords="487,162,467,154,452,144,442,135,433,125,419,116,391,105,393,100,421,112,436,121,446,131,455,140,469,149,489,157"/>
+<area shape="rect" title="Retrieves a reference to an entity&#39;s component." alt="" coords="1250,277,1416,304"/>
+<area shape="rect" href="namespaceutil.html#a93f5c99884f3bc2b6dbce9bd1adb6e5c" title="Attaches a new timer to an entity." alt="" coords="788,168,906,195"/>
+<area shape="poly" title=" " alt="" coords="1303,269,1257,237,1230,221,1201,209,1123,190,1043,180,968,178,906,180,906,174,968,173,1043,175,1124,185,1203,204,1232,216,1260,232,1306,265"/>
+<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="1042,99,1164,125"/>
+<area shape="poly" title=" " alt="" coords="1309,267,1261,217,1200,165,1168,145,1136,128,1138,124,1171,140,1204,161,1265,213,1313,264"/>
+<area shape="rect" href="class_inventory_command.html#a1dc8073affc4863795413b69f8170057" title=" " alt="" coords="1007,219,1198,245"/>
+<area shape="poly" title=" " alt="" coords="1263,276,1157,248,1159,243,1264,270"/>
+<area shape="rect" href="class_player_disconnected_command.html#af31be0c12d59ec7dafdd75c01f9a1096" title=" " alt="" coords="1004,269,1202,312"/>
+<area shape="poly" title=" " alt="" coords="1234,293,1203,293,1203,288,1234,288"/>
+<area shape="rect" href="class_resource_mine_command.html#a26510fad53eaaa55bf4f34ce2064c263" title=" " alt="" coords="1020,336,1186,379"/>
+<area shape="poly" title=" " alt="" coords="1270,311,1180,338,1178,333,1269,306"/>
+<area shape="rect" href="namespaceutil.html#acbb2b740a2214771587a3408dfdb7969" title=" " alt="" coords="1023,403,1183,429"/>
+<area shape="poly" title=" " alt="" coords="1309,317,1262,356,1203,393,1174,404,1172,400,1201,388,1259,352,1305,313"/>
+<area shape="rect" href="namespaceutil.html#abc429f884223f77fd0987d8b2a8850a1" title=" " alt="" coords="1030,463,1176,489"/>
+<area shape="poly" title=" " alt="" coords="1318,319,1271,381,1239,414,1203,444,1161,464,1158,460,1201,439,1236,410,1267,377,1313,316"/>
+<area shape="rect" href="class_interaction_system.html#a2efec3ba0f55f346d55e19758cf7ea0a" title=" " alt="" coords="476,179,690,221"/>
+<area shape="poly" title=" " alt="" coords="773,189,691,195,690,190,772,184"/>
+<area shape="rect" href="class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="492,245,675,288"/>
+<area shape="poly" title=" " alt="" coords="791,203,691,236,655,247,654,242,690,231,790,198"/>
+<area shape="rect" href="class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="516,112,651,155"/>
+<area shape="poly" title=" " alt="" coords="772,171,651,148,652,143,773,165"/>
+<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="260,147,413,189"/>
+<area shape="poly" title=" " alt="" coords="460,187,413,181,414,175,461,181"/>
+<area shape="rect" href="class_interaction_system.html#a33989daebe85772690119e7c1f3a0068" title=" " alt="" coords="33,76,169,119"/>
+<area shape="poly" title=" " alt="" coords="247,144,168,120,170,115,249,139"/>
+<area shape="rect" href="class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="245,291,428,333"/>
+<area shape="poly" title=" " alt="" coords="476,289,429,298,428,292,475,284"/>
+<area shape="rect" href="class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="245,224,428,267"/>
+<area shape="poly" title=" " alt="" coords="476,260,428,256,429,251,476,255"/>
+<area shape="rect" href="class_assembling_machine_system.html#aebda3fbbbe3b7d87381ef655df76a243" title=" " alt="" coords="5,291,197,333"/>
+<area shape="poly" title=" " alt="" coords="229,315,197,315,197,309,229,309"/>
+<area shape="rect" href="class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="269,75,404,117"/>
+<area shape="poly" title=" " alt="" coords="500,123,404,109,405,104,501,118"/>
+<area shape="poly" title=" " alt="" coords="1037,132,900,170,899,165,1036,127"/>
+<area shape="poly" title=" " alt="" coords="1026,112,690,103,405,99,405,94,690,97,1026,107"/>
+<area shape="rect" href="class_interaction_system.html#a0026eacddc828a0c3b8f8d805f4e7d9e" title=" " alt="" coords="248,5,424,48"/>
+<area shape="poly" title=" " alt="" coords="1027,100,955,88,664,55,425,35,425,30,665,50,956,83,1028,94"/>
+<area shape="poly" title=" " alt="" coords="249,56,170,80,168,75,247,51"/>
+<area shape="rect" href="class_input_system.html#a3f5918fbf34778a9a38a54cdef4d570e" title=" " alt="" coords="760,425,934,468"/>
+<area shape="poly" title=" " alt="" coords="1007,430,934,439,934,434,1007,425"/>
+<area shape="rect" href="class_u_i_system.html#a3851efbe02b07d3140feec0aaa17fab7" title=" " alt="" coords="741,308,953,335"/>
+<area shape="poly" title=" " alt="" coords="1015,399,1002,393,987,382,978,370,969,359,954,349,927,338,929,333,957,344,972,355,982,367,991,378,1005,388,1017,394"/>
+<area shape="rect" href="class_render_system.html#a97fcc27c66536abe727702c8f320b4bf" title=" " alt="" coords="768,492,926,519"/>
+<area shape="poly" title=" " alt="" coords="1043,437,1005,453,981,468,957,482,922,494,921,489,955,478,978,464,1002,448,1041,432"/>
+<area shape="rect" href="class_item_drag_system.html#a66d8aa4abb7bb1d4c20a9941c486069e" title=" " alt="" coords="738,359,956,401"/>
+<area shape="poly" title=" " alt="" coords="1007,405,956,398,957,393,1007,400"/>
+<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="510,433,656,460"/>
+<area shape="poly" title=" " alt="" coords="745,449,656,449,656,444,745,444"/>
+<area shape="rect" href="class_u_i_system.html#ae66005968aae0198ab90285680e395a3" title=" " alt="" coords="518,312,648,339"/>
+<area shape="poly" title=" " alt="" coords="726,326,649,327,649,322,726,321"/>
+<area shape="rect" href="class_item_drag_system.html#a419ea9a1b5f6be84ea1133a2d6904762" title=" " alt="" coords="498,367,668,393"/>
+<area shape="poly" title=" " alt="" coords="723,383,669,383,669,377,723,377"/>
+<area shape="poly" title=" " alt="" coords="1015,489,927,499,926,494,1014,483"/>
 </map>
 </div>
 
@@ -671,7 +600,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_registry_af4d70dc9cca0ded5ca3a8fb554ffccc9_cgraph.png" border="0" usemap="#aclass_registry_af4d70dc9cca0ded5ca3a8fb554ffccc9_cgraph" loading="lazy" alt=""/></div>
 <map name="aclass_registry_af4d70dc9cca0ded5ca3a8fb554ffccc9_cgraph" id="aclass_registry_af4d70dc9cca0ded5ca3a8fb554ffccc9_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,203,32"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="251,5,480,32"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="251,5,459,32"/>
 <area shape="poly" title=" " alt="" coords="203,16,235,16,235,21,203,21"/>
 </map>
 </div>
@@ -680,103 +609,74 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_registry_af4d70dc9cca0ded5ca3a8fb554ffccc9_icgraph.png" border="0" usemap="#aclass_registry_af4d70dc9cca0ded5ca3a8fb554ffccc9_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_registry_af4d70dc9cca0ded5ca3a8fb554ffccc9_icgraph" id="aclass_registry_af4d70dc9cca0ded5ca3a8fb554ffccc9_icgraph">
-<area shape="rect" title=" " alt="" coords="1236,499,1433,525"/>
-<area shape="rect" href="class_registry.html#ae939ff1b510d101fd03f48d8ec62fb39" title="Adds a component to an entity." alt="" coords="756,52,925,79"/>
-<area shape="poly" title=" " alt="" coords="1320,485,1269,382,1231,320,1186,263,1128,203,1077,162,1020,129,945,93,913,82,915,77,947,88,1023,124,1080,158,1131,199,1190,260,1235,317,1274,379,1324,483"/>
-<area shape="rect" href="class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="742,103,939,129"/>
-<area shape="poly" title=" " alt="" coords="1309,489,1250,426,1164,340,1059,248,1002,204,944,164,913,146,881,132,883,127,915,141,947,159,1005,199,1062,244,1167,337,1254,422,1313,485"/>
-<area shape="rect" href="class_registry.html#ad87ef73546637eb0d2439fe0643d3365" title="Iterates over all entities with a specific component." alt="" coords="1029,473,1152,500"/>
-<area shape="poly" title=" " alt="" coords="1220,503,1153,496,1153,490,1221,497"/>
-<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="1008,524,1174,551"/>
-<area shape="poly" title=" " alt="" coords="1221,526,1175,531,1174,526,1220,521"/>
-<area shape="rect" href="class_registry.html#a6a210e4eb7fc83e8551c1eabcbdb08c4" title="Removes a component from an entity." alt="" coords="994,575,1188,601"/>
-<area shape="poly" title=" " alt="" coords="1283,534,1189,565,1148,577,1147,572,1187,560,1281,529"/>
-<area shape="rect" href="class_registry.html#a1fe75e6a9c525a9dc4775bbdf1b29dde" title="Creates a view of all entities that have a given set of components." alt="" coords="1038,844,1144,871"/>
-<area shape="poly" title=" " alt="" coords="1317,540,1104,845,1100,842,1313,537"/>
-<area shape="rect" href="namespacefactory.html#aeb6369c52248c80b2876a56befa07053" title=" " alt="" coords="493,5,662,32"/>
-<area shape="poly" title=" " alt="" coords="746,51,656,35,657,30,747,46"/>
-<area shape="rect" href="namespacefactory.html#ac986ddace9df2128cf45e161027b0038" title=" " alt="" coords="505,56,650,83"/>
-<area shape="poly" title=" " alt="" coords="741,70,651,71,651,66,740,64"/>
-<area shape="rect" href="class_g_engine.html#a11640a2dfd6e7a30dbe27711d3a51945" title=" " alt="" coords="244,55,413,81"/>
-<area shape="poly" title=" " alt="" coords="490,72,413,71,414,66,490,66"/>
-<area shape="poly" title=" " alt="" coords="747,99,734,93,719,81,709,69,700,57,686,46,660,35,662,30,689,42,704,53,713,66,722,77,737,88,749,94"/>
-<area shape="poly" title=" " alt="" coords="746,102,651,85,651,80,747,97"/>
-<area shape="rect" href="namespaceutil.html#a0af215271a8cf36a7b967449b3231ea3" title="Attaches a new timer to an entity." alt="" coords="519,177,636,204"/>
-<area shape="poly" title=" " alt="" coords="780,137,688,164,632,179,631,174,687,159,778,132"/>
-<area shape="rect" href="namespacefactory.html#afb051a88fa520dd405fa9b617102f984" title=" " alt="" coords="490,107,666,149"/>
-<area shape="poly" title=" " alt="" coords="727,124,666,127,666,121,726,119"/>
-<area shape="rect" href="class_input_system.html#a718a5d69acb0a2d662dd0c52c217058a" title=" " alt="" coords="483,356,672,399"/>
-<area shape="poly" title=" " alt="" coords="807,140,772,165,737,194,695,237,655,282,597,358,592,354,651,279,691,233,734,190,769,161,804,136"/>
-<area shape="rect" href="class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="491,473,664,516"/>
-<area shape="poly" title=" " alt="" coords="798,139,765,163,738,193,721,230,715,265,716,298,720,331,724,363,722,396,712,429,689,463,667,481,663,476,685,460,707,427,717,395,718,363,715,332,710,299,709,265,716,229,733,191,761,159,795,135"/>
-<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="252,172,405,215"/>
-<area shape="poly" title=" " alt="" coords="503,194,405,195,405,190,503,189"/>
-<area shape="rect" href="class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="237,105,420,148"/>
-<area shape="poly" title=" " alt="" coords="507,176,413,151,415,146,509,170"/>
-<area shape="rect" href="class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="261,239,396,281"/>
-<area shape="poly" title=" " alt="" coords="513,211,397,244,396,239,512,206"/>
-<area shape="rect" href="class_interaction_system.html#a78be599c43f0cda96c72a64d392278c3" title=" " alt="" coords="29,172,165,215"/>
-<area shape="poly" title=" " alt="" coords="236,196,165,196,165,191,236,191"/>
-<area shape="rect" href="class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="5,39,189,81"/>
-<area shape="poly" title=" " alt="" coords="237,103,173,85,175,79,238,98"/>
-<area shape="rect" href="class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="5,105,189,148"/>
-<area shape="poly" title=" " alt="" coords="221,129,189,129,189,124,221,124"/>
-<area shape="rect" href="class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="29,268,165,311"/>
-<area shape="poly" title=" " alt="" coords="245,273,166,283,165,278,245,268"/>
-<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="256,481,401,508"/>
-<area shape="poly" title=" " alt="" coords="484,407,469,413,403,449,350,483,348,479,400,444,467,408,482,402"/>
-<area shape="poly" title=" " alt="" coords="475,497,401,497,401,492,475,492"/>
-<area shape="poly" title=" " alt="" coords="994,516,992,514,976,493,966,472,958,430,962,388,972,347,981,306,983,267,980,248,973,230,961,212,944,194,922,182,891,175,809,171,718,176,637,185,637,179,717,170,809,165,892,170,924,178,947,190,965,208,977,227,985,247,988,266,986,307,977,348,968,389,964,430,971,471,981,490,996,510,998,513"/>
-<area shape="poly" title=" " alt="" coords="995,517,992,514,972,486,965,457,965,429,968,401,972,373,971,347,963,321,944,295,915,282,862,269,712,247,468,219,405,208,406,203,468,213,712,241,863,264,917,277,947,291,968,318,977,346,977,374,974,402,970,429,970,457,977,484,996,510,999,513"/>
-<area shape="poly" title=" " alt="" coords="1005,523,945,515,797,503,665,498,665,493,797,498,946,509,1006,518"/>
-<area shape="rect" href="class_u_i_system.html#a383081863786c7b8fdadba4340682ab7" title=" " alt="" coords="738,777,943,820"/>
-<area shape="poly" title=" " alt="" coords="999,562,996,564,978,589,970,613,969,638,972,663,974,689,973,715,966,741,948,767,934,779,931,775,944,764,961,739,968,714,969,689,966,664,964,638,965,612,973,586,992,561,995,558"/>
-<area shape="rect" href="class_u_i_system.html#a5d7944c7ca3deb191c9c4758dbf17823" title=" " alt="" coords="468,895,687,921"/>
-<area shape="poly" title=" " alt="" coords="998,562,996,564,974,597,966,630,967,664,973,698,979,732,980,766,971,800,948,834,921,857,890,876,858,891,823,902,754,915,688,918,688,913,753,909,822,897,856,886,888,871,917,853,944,830,966,798,975,765,974,732,968,699,962,664,961,630,969,595,992,561,994,558"/>
-<area shape="rect" href="class_inventory_system.html#ad7f905ff3a6f38d809afca09b7d8636a" title=" " alt="" coords="735,204,946,231"/>
-<area shape="poly" title=" " alt="" coords="994,516,992,514,969,480,961,447,961,414,966,381,972,348,972,316,965,284,944,251,919,233,922,229,948,247,970,281,978,315,977,349,972,382,966,414,966,446,974,478,996,510,998,513"/>
-<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="780,423,901,449"/>
-<area shape="poly" title=" " alt="" coords="1005,520,992,514,977,503,968,492,958,481,944,470,900,452,902,447,947,466,962,477,972,488,981,499,995,510,1007,516"/>
-<area shape="rect" href="class_inventory_command.html#aef79beff4a3f0c7c1e0ee7db7827747e" title=" " alt="" coords="745,305,936,332"/>
-<area shape="poly" title=" " alt="" coords="995,517,992,514,976,493,968,471,967,428,966,386,959,366,944,346,928,335,931,330,948,342,964,363,972,385,973,428,973,470,980,490,996,510,999,513"/>
-<area shape="rect" href="class_resource_mine_command.html#aa286cd0a089ae22bb03599f7d6aabeb6" title=" " alt="" coords="758,356,923,399"/>
-<area shape="poly" title=" " alt="" coords="997,518,992,514,980,501,973,488,967,462,961,437,955,425,944,413,922,398,925,394,947,409,959,422,966,435,972,461,978,486,984,498,995,510,1001,514"/>
-<area shape="rect" href="namespaceutil.html#acbb2b740a2214771587a3408dfdb7969" title=" " alt="" coords="760,676,921,703"/>
-<area shape="poly" title=" " alt="" coords="1001,561,995,565,985,576,978,587,972,610,966,635,947,659,915,678,913,673,944,655,961,633,967,609,973,585,980,572,992,561,998,556"/>
-<area shape="rect" href="class_input_system.html#ae4fc698c779fde17990b3a8a68a09347" title=" " alt="" coords="482,637,674,680"/>
-<area shape="poly" title=" " alt="" coords="1015,558,995,565,971,578,947,590,877,612,805,629,675,651,674,645,804,623,876,607,945,586,969,573,993,560,1013,553"/>
-<area shape="rect" href="namespaceutil.html#abc429f884223f77fd0987d8b2a8850a1" title=" " alt="" coords="767,727,914,753"/>
-<area shape="poly" title=" " alt="" coords="999,561,996,565,981,583,974,601,973,639,970,678,963,698,948,717,932,728,915,735,913,730,930,723,944,713,958,695,965,677,967,639,969,600,977,580,992,561,996,557"/>
-<area shape="rect" href="class_u_i_system.html#ab42a93e4647c6a9550f070b5abd37d39" title=" " alt="" coords="506,579,649,605"/>
-<area shape="poly" title=" " alt="" coords="1004,557,946,565,787,581,650,591,649,586,787,576,945,560,1003,551"/>
-<area shape="rect" href="class_u_i_system.html#a816f6fd73e1c0043c51cbac24436d6ca" title=" " alt="" coords="759,945,922,972"/>
-<area shape="poly" title=" " alt="" coords="998,562,996,564,979,587,967,609,961,632,958,654,962,698,971,743,981,789,985,834,983,858,976,881,965,905,948,929,923,947,920,943,944,925,960,902,971,879,977,857,980,834,976,789,966,744,956,699,953,654,956,631,962,607,974,584,992,561,994,559"/>
-<area shape="rect" href="class_inventory_system.html#a8f2586536ab6779548d069e15a56c6ad" title=" " alt="" coords="747,524,934,551"/>
-<area shape="poly" title=" " alt="" coords="992,540,934,540,934,535,992,535"/>
-<area shape="rect" href="class_timer_expire_system.html#a840e6e46355ab1c54c37169441afde94" title=" " alt="" coords="768,996,913,1039"/>
-<area shape="poly" title=" " alt="" coords="998,562,996,564,976,591,964,617,956,643,954,668,958,720,971,772,983,824,989,877,987,904,979,931,967,958,948,986,932,999,915,1009,912,1004,929,995,944,982,962,955,974,929,981,903,984,877,978,825,966,773,953,721,948,668,951,642,959,615,972,588,992,561,994,559"/>
-<area shape="poly" title=" " alt="" coords="774,829,613,897,611,892,772,824"/>
-<area shape="rect" href="class_u_i_system.html#ae66005968aae0198ab90285680e395a3" title=" " alt="" coords="263,895,394,921"/>
-<area shape="poly" title=" " alt="" coords="452,911,394,911,394,905,452,905"/>
-<area shape="poly" title=" " alt="" coords="763,429,734,413,712,386,705,360,699,332,685,301,639,247,595,207,598,203,643,243,690,299,704,330,710,358,717,384,737,409,766,424"/>
-<area shape="poly" title=" " alt="" coords="764,427,734,413,717,396,709,378,702,361,686,346,657,337,607,329,464,314,165,295,165,290,464,309,608,324,659,332,689,342,706,358,714,375,722,393,737,409,766,422"/>
-<area shape="poly" title=" " alt="" coords="765,455,665,478,664,473,764,450"/>
-<area shape="rect" href="class_movement_system.html#a67ce77218fa1afd071c8f6489f1d0034" title=" " alt="" coords="489,423,666,449"/>
-<area shape="poly" title=" " alt="" coords="764,439,667,439,667,433,764,433"/>
-<area shape="poly" title=" " alt="" coords="810,668,686,569,612,519,615,514,689,565,813,664"/>
-<area shape="rect" href="class_render_system.html#a97fcc27c66536abe727702c8f320b4bf" title=" " alt="" coords="498,721,657,748"/>
-<area shape="poly" title=" " alt="" coords="745,708,658,724,657,718,744,703"/>
-<area shape="poly" title=" " alt="" coords="745,681,674,673,675,667,745,676"/>
-<area shape="poly" title=" " alt="" coords="492,633,467,620,428,593,392,562,340,511,344,507,396,558,431,588,469,615,495,628"/>
-<area shape="poly" title=" " alt="" coords="752,741,657,739,658,734,752,736"/>
-<area shape="poly" title=" " alt="" coords="494,612,470,627,439,659,413,695,391,733,373,773,348,845,335,895,330,894,342,843,368,771,386,731,408,692,435,655,466,623,491,608"/>
-<area shape="poly" title=" " alt="" coords="743,958,612,950,468,936,393,924,394,919,468,931,613,945,743,952"/>
-<area shape="poly" title=" " alt="" coords="1081,886,1062,926,1033,973,995,1018,972,1037,947,1053,890,1076,842,1082,793,1073,734,1053,685,1026,642,989,609,953,586,923,590,920,613,949,646,986,688,1021,736,1048,794,1068,842,1076,889,1071,944,1048,969,1033,991,1014,1029,970,1057,923,1076,884"/>
-<area shape="poly" title=" " alt="" coords="1069,833,1017,774,982,743,944,717,918,706,920,701,947,712,986,739,1021,770,1073,830"/>
-<area shape="poly" title=" " alt="" coords="1024,875,958,883,882,883,842,878,804,869,767,854,734,834,719,820,711,805,706,774,703,742,697,727,685,711,667,695,645,683,647,678,670,691,689,708,701,724,708,741,711,773,716,803,723,817,737,830,770,850,806,864,843,873,882,877,957,877,1023,869"/>
-<area shape="poly" title=" " alt="" coords="1058,836,1007,801,945,768,912,756,914,751,947,763,1010,797,1061,832"/>
-<area shape="poly" title=" " alt="" coords="1051,881,947,929,893,947,892,942,945,924,1049,876"/>
-<area shape="poly" title=" " alt="" coords="1069,884,1017,935,983,963,947,986,914,1001,912,996,944,982,980,958,1013,931,1066,880"/>
+<area shape="rect" title=" " alt="" coords="1494,417,1692,444"/>
+<area shape="rect" href="class_registry.html#ae939ff1b510d101fd03f48d8ec62fb39" title="Adds a component to an entity." alt="" coords="1264,291,1432,317"/>
+<area shape="poly" title=" " alt="" coords="1563,409,1510,370,1445,332,1415,320,1417,315,1447,327,1513,365,1566,405"/>
+<area shape="rect" href="class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="1250,341,1446,368"/>
+<area shape="poly" title=" " alt="" coords="1539,414,1446,383,1405,371,1407,366,1447,377,1541,409"/>
+<area shape="rect" href="class_registry.html#ad87ef73546637eb0d2439fe0643d3365" title="Iterates over all entities with a specific component." alt="" coords="1286,493,1410,520"/>
+<area shape="poly" title=" " alt="" coords="1541,452,1447,484,1407,495,1405,490,1446,479,1539,447"/>
+<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="1265,392,1431,419"/>
+<area shape="poly" title=" " alt="" coords="1478,422,1431,417,1432,411,1479,416"/>
+<area shape="rect" href="class_registry.html#a6a210e4eb7fc83e8551c1eabcbdb08c4" title="Removes a component from an entity." alt="" coords="1251,544,1445,571"/>
+<area shape="poly" title=" " alt="" coords="1566,456,1513,496,1447,534,1417,546,1415,541,1445,530,1510,492,1563,452"/>
+<area shape="rect" href="class_registry.html#a1fe75e6a9c525a9dc4775bbdf1b29dde" title="Creates a view of all entities that have a given set of components." alt="" coords="1296,443,1401,469"/>
+<area shape="poly" title=" " alt="" coords="1479,445,1402,453,1401,448,1479,440"/>
+<area shape="rect" href="namespaceutil.html#a93f5c99884f3bc2b6dbce9bd1adb6e5c" title="Attaches a new timer to an entity." alt="" coords="788,185,906,212"/>
+<area shape="poly" title=" " alt="" coords="1252,335,1248,331,1234,314,1227,296,1225,259,1222,225,1215,210,1200,195,1163,175,1122,163,1078,157,1035,158,952,170,887,187,886,182,951,164,1034,152,1079,152,1123,158,1165,170,1204,191,1219,206,1228,223,1231,259,1233,294,1239,311,1252,327,1256,331"/>
+<area shape="rect" href="class_interaction_system.html#a2efec3ba0f55f346d55e19758cf7ea0a" title=" " alt="" coords="476,136,690,179"/>
+<area shape="poly" title=" " alt="" coords="772,190,690,177,691,171,773,184"/>
+<area shape="rect" href="class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="492,69,675,112"/>
+<area shape="poly" title=" " alt="" coords="805,180,689,126,658,115,660,110,691,122,808,176"/>
+<area shape="rect" href="class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="516,203,651,245"/>
+<area shape="poly" title=" " alt="" coords="773,208,651,220,651,215,772,203"/>
+<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="260,141,413,184"/>
+<area shape="poly" title=" " alt="" coords="460,163,414,164,414,158,460,157"/>
+<area shape="rect" href="class_interaction_system.html#a33989daebe85772690119e7c1f3a0068" title=" " alt="" coords="33,224,169,267"/>
+<area shape="poly" title=" " alt="" coords="260,192,165,226,163,221,258,187"/>
+<area shape="rect" href="class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="245,5,428,48"/>
+<area shape="poly" title=" " alt="" coords="483,67,421,51,422,46,484,62"/>
+<area shape="rect" href="class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="245,72,428,115"/>
+<area shape="poly" title=" " alt="" coords="476,94,429,95,429,90,476,89"/>
+<area shape="rect" href="class_assembling_machine_system.html#aebda3fbbbe3b7d87381ef655df76a243" title=" " alt="" coords="5,5,197,48"/>
+<area shape="poly" title=" " alt="" coords="229,29,197,29,197,24,229,24"/>
+<area shape="rect" href="class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="269,213,404,256"/>
+<area shape="poly" title=" " alt="" coords="500,230,404,234,404,229,500,225"/>
+<area shape="poly" title=" " alt="" coords="1252,385,1248,382,1234,364,1227,345,1225,307,1222,272,1215,255,1200,239,1179,228,1149,219,1070,207,983,201,906,200,906,195,983,196,1071,201,1150,213,1181,223,1204,235,1219,252,1227,270,1230,307,1232,344,1238,361,1252,378,1256,381"/>
+<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="1042,300,1164,327"/>
+<area shape="poly" title=" " alt="" coords="1262,389,1249,382,1234,372,1224,361,1215,351,1201,341,1163,327,1165,322,1203,336,1218,347,1228,358,1237,368,1251,378,1265,384"/>
+<area shape="rect" href="class_inventory_command.html#a1dc8073affc4863795413b69f8170057" title=" " alt="" coords="1007,249,1198,276"/>
+<area shape="poly" title=" " alt="" coords="1254,386,1248,382,1230,359,1223,335,1217,312,1200,290,1182,279,1184,274,1204,286,1222,309,1229,333,1235,356,1252,378,1257,382"/>
+<area shape="rect" href="class_player_disconnected_command.html#af31be0c12d59ec7dafdd75c01f9a1096" title=" " alt="" coords="1004,351,1202,393"/>
+<area shape="poly" title=" " alt="" coords="1249,395,1202,388,1203,383,1250,389"/>
+<area shape="rect" href="class_resource_mine_command.html#a26510fad53eaaa55bf4f34ce2064c263" title=" " alt="" coords="1020,417,1186,460"/>
+<area shape="poly" title=" " alt="" coords="1250,421,1186,430,1186,425,1249,416"/>
+<area shape="rect" href="namespaceutil.html#acbb2b740a2214771587a3408dfdb7969" title=" " alt="" coords="1023,484,1183,511"/>
+<area shape="poly" title=" " alt="" coords="1265,427,1251,433,1237,443,1228,453,1218,464,1203,474,1175,486,1173,481,1201,470,1215,460,1224,450,1234,439,1249,428,1262,422"/>
+<area shape="rect" href="namespaceutil.html#abc429f884223f77fd0987d8b2a8850a1" title=" " alt="" coords="1030,535,1176,561"/>
+<area shape="poly" title=" " alt="" coords="1257,429,1252,433,1235,454,1229,477,1222,501,1204,525,1178,539,1175,534,1200,521,1217,499,1223,476,1230,452,1248,429,1254,424"/>
+<area shape="poly" title=" " alt="" coords="1026,299,1003,290,939,257,869,215,872,210,942,252,1005,286,1028,294"/>
+<area shape="poly" title=" " alt="" coords="1026,310,476,260,404,249,405,244,476,255,1027,304"/>
+<area shape="rect" href="class_interaction_system.html#a0026eacddc828a0c3b8f8d805f4e7d9e" title=" " alt="" coords="248,291,424,333"/>
+<area shape="poly" title=" " alt="" coords="1026,316,425,315,425,309,1026,311"/>
+<area shape="poly" title=" " alt="" coords="244,289,169,267,170,262,245,283"/>
+<area shape="rect" href="class_input_system.html#a3f5918fbf34778a9a38a54cdef4d570e" title=" " alt="" coords="760,371,934,413"/>
+<area shape="poly" title=" " alt="" coords="1014,480,1002,474,987,463,977,451,968,439,954,428,931,416,934,412,957,423,972,435,982,447,991,459,1005,470,1017,476"/>
+<area shape="rect" href="class_u_i_system.html#a3851efbe02b07d3140feec0aaa17fab7" title=" " alt="" coords="741,437,953,464"/>
+<area shape="poly" title=" " alt="" coords="1010,483,924,467,924,462,1011,478"/>
+<area shape="rect" href="class_render_system.html#a97fcc27c66536abe727702c8f320b4bf" title=" " alt="" coords="768,555,926,581"/>
+<area shape="poly" title=" " alt="" coords="1028,518,1005,525,957,545,915,557,914,552,955,540,1003,520,1027,513"/>
+<area shape="rect" href="class_item_drag_system.html#a66d8aa4abb7bb1d4c20a9941c486069e" title=" " alt="" coords="738,488,956,531"/>
+<area shape="poly" title=" " alt="" coords="1007,504,956,507,956,502,1007,499"/>
+<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="510,379,656,405"/>
+<area shape="poly" title=" " alt="" coords="745,395,656,395,656,389,745,389"/>
+<area shape="rect" href="class_u_i_system.html#ae66005968aae0198ab90285680e395a3" title=" " alt="" coords="518,437,648,464"/>
+<area shape="poly" title=" " alt="" coords="726,453,649,453,649,448,726,448"/>
+<area shape="rect" href="class_item_drag_system.html#a419ea9a1b5f6be84ea1133a2d6904762" title=" " alt="" coords="498,496,668,523"/>
+<area shape="poly" title=" " alt="" coords="723,512,669,512,669,507,723,507"/>
+<area shape="poly" title=" " alt="" coords="1014,558,927,564,926,559,1014,552"/>
+<area shape="poly" title=" " alt="" coords="1281,470,1184,486,1183,481,1280,465"/>
+<area shape="poly" title=" " alt="" coords="1281,472,1251,484,1237,493,1228,504,1218,515,1203,525,1175,537,1173,532,1201,520,1215,511,1224,500,1234,489,1249,479,1279,467"/>
 </map>
 </div>
 
@@ -812,15 +712,15 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_registry_a46a6d34891618cd03ace49f817943555_cgraph.png" border="0" usemap="#aclass_registry_a46a6d34891618cd03ace49f817943555_cgraph" loading="lazy" alt=""/></div>
 <map name="aclass_registry_a46a6d34891618cd03ace49f817943555_cgraph" id="aclass_registry_a46a6d34891618cd03ace49f817943555_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,229,32"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="277,5,506,32"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="277,5,485,32"/>
 <area shape="poly" title=" " alt="" coords="229,16,261,16,261,21,229,21"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a1067c48ae27e6a497ac42bdfc09d62a3" name="a1067c48ae27e6a497ac42bdfc09d62a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1067c48ae27e6a497ac42bdfc09d62a3">&#9670;&#160;</a></span>GetComponentTypeName()</h2>
+<a id="a3ca9d68512bb2048ac5b2f558c5b700c" name="a3ca9d68512bb2048ac5b2f558c5b700c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ca9d68512bb2048ac5b2f558c5b700c">&#9670;&#160;</a></span>GetComponentTypeID()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -831,7 +731,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const char * Registry::GetComponentTypeName </td>
+          <td class="memname">std::size_t Registry::GetComponentTypeID </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -846,164 +746,89 @@ template&lt;typename T&gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_registry_a1067c48ae27e6a497ac42bdfc09d62a3_icgraph.png" border="0" usemap="#aclass_registry_a1067c48ae27e6a497ac42bdfc09d62a3_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_registry_a1067c48ae27e6a497ac42bdfc09d62a3_icgraph" id="aclass_registry_a1067c48ae27e6a497ac42bdfc09d62a3_icgraph">
-<area shape="rect" title=" " alt="" coords="1507,673,1737,700"/>
-<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="1249,333,1446,360"/>
-<area shape="poly" title=" " alt="" coords="1598,663,1358,362,1362,359,1602,659"/>
-<area shape="rect" href="class_registry.html#a46a6d34891618cd03ace49f817943555" title=" " alt="" coords="1236,648,1459,675"/>
-<area shape="poly" title=" " alt="" coords="1492,677,1459,674,1460,669,1492,672"/>
-<area shape="rect" href="class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="1006,989,1176,1016"/>
-<area shape="poly" title=" " alt="" coords="1492,694,1418,700,1344,709,1281,722,1237,740,1206,766,1179,799,1156,834,1137,871,1111,940,1098,989,1092,988,1106,939,1132,869,1151,832,1174,795,1202,763,1235,735,1279,717,1343,703,1417,694,1492,689"/>
-<area shape="rect" href="class_registry.html#a31a8ff377d6a35e9c490de9d6550786f" title="Registers a new component type with the registry." alt="" coords="1250,749,1445,776"/>
-<area shape="poly" title=" " alt="" coords="1557,707,1400,751,1398,746,1556,702"/>
-<area shape="rect" href="class_registry.html#ae939ff1b510d101fd03f48d8ec62fb39" title="Adds a component to an entity." alt="" coords="756,55,925,81"/>
-<area shape="poly" title=" " alt="" coords="1307,328,1251,300,1187,273,1158,265,1131,261,1084,259,1039,251,1016,240,992,222,978,206,971,190,967,157,963,125,957,110,944,95,924,82,926,78,947,91,961,107,968,124,972,156,976,188,983,203,995,218,1019,236,1041,246,1085,254,1132,256,1159,260,1189,268,1253,295,1309,323"/>
-<area shape="rect" href="class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="742,105,939,132"/>
-<area shape="poly" title=" " alt="" coords="1257,332,1096,299,1029,281,992,266,973,242,966,218,960,194,944,170,916,150,886,135,888,130,919,145,948,166,965,192,971,217,978,240,995,262,1031,276,1097,293,1258,327"/>
-<area shape="rect" href="class_registry.html#ad87ef73546637eb0d2439fe0643d3365" title="Iterates over all entities with a specific component." alt="" coords="1029,384,1152,411"/>
-<area shape="poly" title=" " alt="" coords="1262,366,1154,388,1152,383,1261,361"/>
-<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="1008,628,1174,655"/>
-<area shape="poly" title=" " alt="" coords="1327,374,1106,629,1102,626,1323,370"/>
-<area shape="rect" href="class_registry.html#a6a210e4eb7fc83e8551c1eabcbdb08c4" title="Removes a component from an entity." alt="" coords="994,181,1188,208"/>
-<area shape="poly" title=" " alt="" coords="1319,325,1261,277,1187,229,1143,211,1145,206,1189,224,1264,273,1322,321"/>
-<area shape="rect" href="class_registry.html#a1fe75e6a9c525a9dc4775bbdf1b29dde" title="Creates a view of all entities that have a given set of components." alt="" coords="1038,333,1144,360"/>
-<area shape="poly" title=" " alt="" coords="1233,349,1144,349,1144,344,1233,344"/>
-<area shape="rect" href="namespacefactory.html#aeb6369c52248c80b2876a56befa07053" title=" " alt="" coords="493,56,662,83"/>
-<area shape="poly" title=" " alt="" coords="741,71,663,72,663,66,741,66"/>
-<area shape="rect" href="namespacefactory.html#ac986ddace9df2128cf45e161027b0038" title=" " alt="" coords="505,5,650,32"/>
-<area shape="poly" title=" " alt="" coords="751,54,650,35,651,30,752,49"/>
-<area shape="rect" href="class_g_engine.html#a11640a2dfd6e7a30dbe27711d3a51945" title=" " alt="" coords="244,5,413,32"/>
-<area shape="poly" title=" " alt="" coords="490,21,413,21,413,16,490,16"/>
-<area shape="poly" title=" " alt="" coords="750,105,652,86,653,81,751,99"/>
-<area shape="poly" title=" " alt="" coords="746,102,734,96,718,83,709,70,700,58,686,46,650,32,652,27,689,42,704,54,714,67,722,80,737,91,748,97"/>
-<area shape="rect" href="namespaceutil.html#a0af215271a8cf36a7b967449b3231ea3" title="Attaches a new timer to an entity." alt="" coords="519,628,636,655"/>
-<area shape="poly" title=" " alt="" coords="814,145,774,189,754,217,738,246,722,292,717,334,717,372,720,409,723,445,721,483,711,523,690,567,673,587,654,605,613,630,610,625,651,600,670,584,685,564,706,521,716,482,718,445,715,409,712,372,711,333,717,291,733,244,749,214,769,186,810,141"/>
-<area shape="rect" href="namespacefactory.html#afb051a88fa520dd405fa9b617102f984" title=" " alt="" coords="490,107,666,149"/>
-<area shape="poly" title=" " alt="" coords="727,125,666,128,666,122,727,120"/>
-<area shape="rect" href="class_input_system.html#a718a5d69acb0a2d662dd0c52c217058a" title=" " alt="" coords="483,173,672,216"/>
-<area shape="poly" title=" " alt="" coords="778,139,655,175,653,170,776,134"/>
-<area shape="rect" href="class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="491,511,664,553"/>
-<area shape="poly" title=" " alt="" coords="815,145,774,190,754,217,738,246,725,283,721,317,724,379,726,408,723,438,712,469,689,501,666,518,663,514,685,497,707,466,718,437,721,408,719,379,715,317,720,282,733,244,750,214,770,186,811,141"/>
-<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="252,792,405,835"/>
-<area shape="poly" title=" " alt="" coords="505,659,469,676,454,688,444,701,422,731,356,794,353,790,418,728,440,698,450,684,467,671,503,654"/>
-<area shape="rect" href="class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="237,608,420,651"/>
-<area shape="poly" title=" " alt="" coords="503,640,420,636,421,631,503,635"/>
-<area shape="rect" href="class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="261,675,396,717"/>
-<area shape="poly" title=" " alt="" coords="504,660,397,684,396,679,503,655"/>
-<area shape="rect" href="class_interaction_system.html#a78be599c43f0cda96c72a64d392278c3" title=" " alt="" coords="29,792,165,835"/>
-<area shape="poly" title=" " alt="" coords="236,816,165,816,165,811,236,811"/>
-<area shape="rect" href="class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="5,555,189,597"/>
-<area shape="poly" title=" " alt="" coords="221,607,189,600,190,595,222,602"/>
-<area shape="rect" href="class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="5,621,189,664"/>
-<area shape="poly" title=" " alt="" coords="222,638,189,640,189,635,221,633"/>
-<area shape="rect" href="class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="29,700,165,743"/>
-<area shape="poly" title=" " alt="" coords="245,708,165,717,165,711,245,702"/>
-<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="256,248,401,275"/>
-<area shape="poly" title=" " alt="" coords="481,223,382,250,381,245,480,218"/>
-<area shape="poly" title=" " alt="" coords="475,507,466,501,450,484,431,458,393,393,334,276,338,274,397,391,436,455,454,480,470,497,479,503"/>
-<area shape="poly" title=" " alt="" coords="992,644,637,644,637,639,992,639"/>
-<area shape="poly" title=" " alt="" coords="1009,661,736,720,406,797,405,792,735,715,1007,656"/>
-<area shape="poly" title=" " alt="" coords="1009,627,664,553,665,548,1010,622"/>
-<area shape="rect" href="class_u_i_system.html#a383081863786c7b8fdadba4340682ab7" title=" " alt="" coords="738,511,943,553"/>
-<area shape="poly" title=" " alt="" coords="1048,623,945,574,900,556,902,551,947,570,1050,618"/>
-<area shape="rect" href="class_u_i_system.html#a5d7944c7ca3deb191c9c4758dbf17823" title=" " alt="" coords="468,460,687,487"/>
-<area shape="poly" title=" " alt="" coords="1070,617,1048,588,1019,556,984,525,945,501,881,479,814,468,748,463,688,464,688,459,749,458,815,462,883,474,947,496,987,521,1023,552,1052,585,1074,613"/>
-<area shape="rect" href="class_inventory_system.html#ad7f905ff3a6f38d809afca09b7d8636a" title=" " alt="" coords="735,796,946,823"/>
-<area shape="poly" title=" " alt="" coords="1073,669,1021,728,986,760,947,786,920,798,918,793,944,782,982,756,1017,725,1069,665"/>
-<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="780,1167,901,1193"/>
-<area shape="poly" title=" " alt="" coords="1086,671,1068,741,1039,838,999,948,948,1055,926,1089,902,1120,858,1168,854,1164,898,1117,922,1085,943,1052,994,946,1034,837,1063,739,1081,669"/>
-<area shape="rect" href="class_inventory_command.html#aef79beff4a3f0c7c1e0ee7db7827747e" title=" " alt="" coords="745,964,936,991"/>
-<area shape="poly" title=" " alt="" coords="1087,671,1073,730,1047,807,1029,847,1006,887,979,923,947,954,929,966,926,961,944,950,975,919,1002,884,1024,845,1042,805,1068,729,1082,670"/>
-<area shape="rect" href="class_resource_mine_command.html#aa286cd0a089ae22bb03599f7d6aabeb6" title=" " alt="" coords="758,847,923,889"/>
-<area shape="poly" title=" " alt="" coords="1079,670,1058,707,1029,752,991,798,947,837,925,850,922,845,944,833,987,794,1024,749,1053,704,1074,667"/>
-<area shape="rect" href="namespaceutil.html#acbb2b740a2214771587a3408dfdb7969" title=" " alt="" coords="760,257,921,284"/>
-<area shape="poly" title=" " alt="" coords="1074,615,991,424,980,386,975,354,967,326,944,298,920,284,923,279,947,294,971,324,981,353,986,384,996,422,1079,613"/>
-<area shape="rect" href="class_input_system.html#ae4fc698c779fde17990b3a8a68a09347" title=" " alt="" coords="482,240,674,283"/>
-<area shape="poly" title=" " alt="" coords="1074,615,1034,531,991,424,984,395,981,370,981,324,980,303,974,284,963,266,944,248,925,238,899,232,830,230,751,236,675,246,674,241,751,231,830,224,900,227,927,233,947,243,967,262,979,282,985,302,986,324,987,369,989,394,996,422,1039,529,1078,613"/>
-<area shape="rect" href="namespaceutil.html#abc429f884223f77fd0987d8b2a8850a1" title=" " alt="" coords="767,308,914,335"/>
-<area shape="poly" title=" " alt="" coords="1075,615,1006,462,969,388,944,349,913,333,915,328,947,345,974,385,1011,460,1080,612"/>
-<area shape="rect" href="class_u_i_system.html#ab42a93e4647c6a9550f070b5abd37d39" title=" " alt="" coords="769,1015,912,1041"/>
-<area shape="poly" title=" " alt="" coords="1089,670,1079,739,1055,829,1036,877,1013,924,983,967,947,1005,931,1016,913,1023,911,1018,929,1011,944,1001,979,964,1008,921,1031,875,1049,828,1073,738,1084,670"/>
-<area shape="rect" href="class_u_i_system.html#a816f6fd73e1c0043c51cbac24436d6ca" title=" " alt="" coords="759,359,922,385"/>
-<area shape="poly" title=" " alt="" coords="1070,617,1017,542,944,457,900,418,861,388,864,384,904,414,948,453,1021,539,1074,614"/>
-<area shape="rect" href="class_inventory_system.html#a8f2586536ab6779548d069e15a56c6ad" title=" " alt="" coords="747,913,934,940"/>
-<area shape="poly" title=" " alt="" coords="1085,671,1068,721,1040,784,1000,849,976,878,947,903,927,915,924,911,944,899,972,874,996,846,1035,782,1063,719,1080,669"/>
-<area shape="rect" href="class_timer_expire_system.html#a840e6e46355ab1c54c37169441afde94" title=" " alt="" coords="768,729,913,772"/>
-<area shape="poly" title=" " alt="" coords="1050,664,947,713,902,731,900,726,945,708,1048,660"/>
-<area shape="poly" title=" " alt="" coords="727,509,640,490,642,485,728,504"/>
-<area shape="rect" href="class_u_i_system.html#ae66005968aae0198ab90285680e395a3" title=" " alt="" coords="263,460,394,487"/>
-<area shape="poly" title=" " alt="" coords="452,476,394,476,394,471,452,471"/>
-<area shape="poly" title=" " alt="" coords="764,1171,747,1162,733,1150,714,1123,700,1097,692,1072,688,1047,688,998,697,950,707,900,712,849,707,795,698,767,685,737,668,712,646,690,602,657,605,653,650,686,672,709,690,735,703,765,712,794,717,849,712,901,702,951,694,999,693,1047,697,1071,705,1095,719,1120,737,1146,751,1158,767,1167"/>
-<area shape="poly" title=" " alt="" coords="778,1163,734,1140,678,1093,637,1046,606,999,580,953,553,908,521,864,478,822,419,782,373,766,306,751,165,731,165,726,307,746,374,761,421,778,481,818,525,861,558,905,584,950,611,996,641,1043,682,1089,737,1135,780,1158"/>
-<area shape="poly" title=" " alt="" coords="797,1161,762,1134,746,1118,733,1099,717,1064,705,1031,696,969,700,911,709,856,718,801,722,744,712,684,701,651,685,617,672,599,656,582,620,556,623,552,659,578,676,595,690,615,706,649,718,682,727,744,724,801,714,857,705,912,702,969,711,1030,721,1062,738,1096,750,1114,766,1130,800,1156"/>
-<area shape="rect" href="class_movement_system.html#a67ce77218fa1afd071c8f6489f1d0034" title=" " alt="" coords="489,1155,666,1181"/>
-<area shape="poly" title=" " alt="" coords="764,1179,666,1175,667,1169,765,1174"/>
-<area shape="poly" title=" " alt="" coords="748,289,737,298,720,322,712,346,711,371,713,396,716,422,715,448,707,474,689,501,666,518,663,513,685,497,702,472,710,447,710,422,708,397,705,371,707,345,715,320,733,294,745,285"/>
-<area shape="rect" href="class_render_system.html#a97fcc27c66536abe727702c8f320b4bf" title=" " alt="" coords="498,307,657,333"/>
-<area shape="poly" title=" " alt="" coords="751,290,653,309,652,303,750,285"/>
-<area shape="poly" title=" " alt="" coords="745,270,674,267,675,262,745,265"/>
-<area shape="poly" title=" " alt="" coords="466,264,401,264,401,259,466,259"/>
-<area shape="poly" title=" " alt="" coords="752,324,657,323,657,318,752,318"/>
-<area shape="poly" title=" " alt="" coords="754,1020,733,1005,715,980,702,955,695,930,693,906,697,857,709,808,720,760,725,713,722,689,715,665,703,642,685,618,661,596,637,585,612,580,587,580,531,582,500,578,467,568,431,550,397,528,344,489,348,485,400,524,434,545,469,563,502,573,532,577,587,575,613,575,639,580,664,592,689,614,708,639,720,663,728,688,730,712,726,761,714,810,703,858,698,906,701,929,707,953,719,977,737,1001,757,1015"/>
-<area shape="poly" title=" " alt="" coords="755,391,395,463,394,458,754,386"/>
-<area shape="poly" title=" " alt="" coords="1024,365,995,374,971,387,947,400,880,421,812,438,686,462,685,457,811,433,879,416,945,395,969,383,993,370,1022,360"/>
-<area shape="poly" title=" " alt="" coords="1031,330,993,317,945,299,904,287,906,282,947,293,995,312,1033,325"/>
-<area shape="poly" title=" " alt="" coords="1022,335,992,317,980,302,973,286,969,256,964,227,957,215,944,203,917,188,892,179,869,175,846,176,796,187,736,204,712,216,689,230,658,242,656,237,686,226,710,211,734,199,795,182,845,171,869,170,893,174,919,183,947,199,961,212,969,226,974,255,978,285,984,299,995,313,1025,331"/>
-<area shape="poly" title=" " alt="" coords="1022,342,914,331,914,326,1023,337"/>
-<area shape="poly" title=" " alt="" coords="1023,356,923,366,922,361,1022,351"/>
-<area shape="poly" title=" " alt="" coords="1024,357,1009,364,996,374,977,396,967,418,962,440,961,462,961,509,957,537,948,566,927,614,903,659,859,730,854,727,898,657,922,611,943,564,952,535,956,509,956,461,957,439,962,416,973,394,992,370,1006,359,1022,352"/>
-<area shape="poly" title=" " alt="" coords="1065,1029,1013,1068,981,1086,947,1100,886,1120,834,1133,809,1134,784,1130,760,1118,734,1099,723,1087,715,1070,705,1029,701,978,700,923,700,815,695,770,685,737,668,712,646,690,602,657,605,653,649,686,672,709,690,735,701,769,705,815,706,923,706,978,710,1028,720,1069,727,1084,737,1095,762,1114,786,1125,809,1129,833,1128,884,1115,945,1095,979,1081,1010,1063,1062,1024"/>
-<area shape="poly" title=" " alt="" coords="1086,1032,1070,1084,1043,1147,1025,1179,1003,1209,977,1236,947,1258,881,1295,819,1322,760,1341,703,1348,646,1345,588,1330,529,1303,466,1262,440,1231,416,1184,395,1125,376,1059,347,930,330,836,336,835,352,929,381,1058,400,1123,421,1182,444,1229,470,1258,531,1298,590,1325,646,1340,702,1343,759,1335,817,1318,879,1290,944,1254,973,1232,999,1206,1020,1176,1038,1144,1065,1082,1081,1031"/>
-<area shape="poly" title=" " alt="" coords="1055,1026,988,1059,947,1074,902,1086,857,1092,813,1091,771,1079,734,1055,721,1040,712,1020,701,970,698,909,699,842,702,711,698,657,685,617,672,599,656,582,620,556,623,552,659,578,676,595,690,615,703,656,707,711,705,842,703,909,706,969,717,1018,726,1037,737,1051,773,1074,814,1086,857,1087,901,1081,945,1069,986,1054,1053,1022"/>
-<area shape="poly" title=" " alt="" coords="1072,978,1021,906,985,869,944,837,920,826,923,821,947,832,989,865,1025,903,1076,975"/>
-<area shape="poly" title=" " alt="" coords="1073,1030,1020,1090,986,1123,947,1150,903,1169,901,1165,944,1146,982,1118,1017,1087,1069,1027"/>
-<area shape="poly" title=" " alt="" coords="991,995,936,990,937,984,991,990"/>
-<area shape="poly" title=" " alt="" coords="1060,981,1008,942,944,904,918,892,920,887,947,899,1011,938,1063,977"/>
-<area shape="poly" title=" " alt="" coords="991,1015,912,1023,912,1018,990,1010"/>
-<area shape="poly" title=" " alt="" coords="1038,986,945,955,902,943,904,938,946,949,1040,981"/>
-<area shape="poly" title=" " alt="" coords="1076,976,1057,934,1028,883,990,831,944,786,912,769,914,764,947,782,994,827,1033,880,1062,932,1081,974"/>
-<area shape="rect" href="class_inventory_system.html#a747f4c853baefbdad883af4a6b029948" title=" " alt="" coords="752,1217,929,1244"/>
-<area shape="poly" title=" " alt="" coords="1080,1032,1060,1071,1031,1119,993,1167,947,1208,925,1219,922,1214,944,1203,989,1163,1027,1116,1056,1069,1075,1029"/>
-<area shape="rect" href="class_inventory_system.html#a022f699453e82ae1f117d623933b1439" title=" " alt="" coords="486,1205,669,1248"/>
-<area shape="poly" title=" " alt="" coords="736,1232,669,1231,669,1225,736,1226"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a33d5a37aef721de0fd2ce3f8afc85ca6" name="a33d5a37aef721de0fd2ce3f8afc85ca6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33d5a37aef721de0fd2ce3f8afc85ca6">&#9670;&#160;</a></span>GetInputState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_input_state.html">InputState</a> &amp; Registry::GetInputState </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_registry_a33d5a37aef721de0fd2ce3f8afc85ca6_icgraph.png" border="0" usemap="#aclass_registry_a33d5a37aef721de0fd2ce3f8afc85ca6_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_registry_a33d5a37aef721de0fd2ce3f8afc85ca6_icgraph" id="aclass_registry_a33d5a37aef721de0fd2ce3f8afc85ca6_icgraph">
-<area shape="rect" title=" " alt="" coords="420,13,579,40"/>
-<area shape="rect" href="class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="199,5,372,48"/>
-<area shape="poly" title=" " alt="" coords="404,29,373,29,373,24,404,24"/>
-<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="5,13,151,40"/>
-<area shape="poly" title=" " alt="" coords="183,29,151,29,151,24,183,24"/>
+<div class="center"><img src="class_registry_a3ca9d68512bb2048ac5b2f558c5b700c_icgraph.png" border="0" usemap="#aclass_registry_a3ca9d68512bb2048ac5b2f558c5b700c_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_registry_a3ca9d68512bb2048ac5b2f558c5b700c_icgraph" id="aclass_registry_a3ca9d68512bb2048ac5b2f558c5b700c_icgraph">
+<area shape="rect" title=" " alt="" coords="1764,347,1972,373"/>
+<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="1505,321,1703,348"/>
+<area shape="poly" title=" " alt="" coords="1748,351,1703,347,1703,341,1749,346"/>
+<area shape="rect" href="class_registry.html#a46a6d34891618cd03ace49f817943555" title=" " alt="" coords="1492,372,1716,399"/>
+<area shape="poly" title=" " alt="" coords="1748,374,1716,377,1716,372,1748,369"/>
+<area shape="rect" href="class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="1262,153,1432,180"/>
+<area shape="poly" title=" " alt="" coords="1815,343,1385,183,1387,178,1816,338"/>
+<area shape="rect" href="class_registry.html#a31a8ff377d6a35e9c490de9d6550786f" title="Registers a new component type with the registry." alt="" coords="1507,423,1701,449"/>
+<area shape="poly" title=" " alt="" coords="1815,382,1716,413,1672,425,1670,419,1715,408,1813,376"/>
+<area shape="rect" href="class_registry.html#ae939ff1b510d101fd03f48d8ec62fb39" title="Adds a component to an entity." alt="" coords="1263,321,1431,348"/>
+<area shape="poly" title=" " alt="" coords="1490,337,1432,337,1432,332,1490,332"/>
+<area shape="rect" href="class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="1005,372,1201,399"/>
+<area shape="poly" title=" " alt="" coords="1509,354,1445,363,1318,375,1202,383,1201,378,1318,370,1444,357,1508,348"/>
+<area shape="rect" href="class_registry.html#ad87ef73546637eb0d2439fe0643d3365" title="Iterates over all entities with a specific component." alt="" coords="1286,271,1409,297"/>
+<area shape="poly" title=" " alt="" coords="1517,320,1409,299,1410,294,1518,315"/>
+<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="1264,220,1430,247"/>
+<area shape="poly" title=" " alt="" coords="1563,316,1507,288,1443,261,1408,250,1409,245,1445,256,1509,283,1565,311"/>
+<area shape="rect" href="class_registry.html#a6a210e4eb7fc83e8551c1eabcbdb08c4" title="Removes a component from an entity." alt="" coords="1250,423,1444,449"/>
+<area shape="poly" title=" " alt="" coords="1507,356,1494,362,1479,372,1470,383,1461,395,1446,406,1405,424,1402,420,1443,402,1457,391,1466,380,1476,369,1491,358,1505,351"/>
+<area shape="rect" href="class_registry.html#a1fe75e6a9c525a9dc4775bbdf1b29dde" title="Creates a view of all entities that have a given set of components." alt="" coords="1294,473,1400,500"/>
+<area shape="poly" title=" " alt="" coords="1499,358,1494,362,1483,374,1476,385,1471,411,1465,437,1458,451,1446,463,1424,476,1401,484,1399,479,1422,471,1443,459,1454,448,1460,436,1466,410,1471,384,1479,370,1491,358,1496,354"/>
+<area shape="rect" href="namespaceutil.html#a93f5c99884f3bc2b6dbce9bd1adb6e5c" title="Attaches a new timer to an entity." alt="" coords="788,187,906,213"/>
+<area shape="poly" title=" " alt="" coords="1029,369,1002,356,955,321,913,282,856,215,860,212,917,278,959,317,1005,351,1031,364"/>
+<area shape="rect" href="class_interaction_system.html#a2efec3ba0f55f346d55e19758cf7ea0a" title=" " alt="" coords="476,179,690,221"/>
+<area shape="poly" title=" " alt="" coords="772,203,691,203,691,197,772,197"/>
+<area shape="rect" href="class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="492,245,675,288"/>
+<area shape="poly" title=" " alt="" coords="777,220,671,247,670,242,775,215"/>
+<area shape="rect" href="class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="516,112,651,155"/>
+<area shape="poly" title=" " alt="" coords="776,185,651,153,652,148,777,180"/>
+<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="260,147,413,189"/>
+<area shape="poly" title=" " alt="" coords="460,187,413,181,414,175,461,181"/>
+<area shape="rect" href="class_interaction_system.html#a33989daebe85772690119e7c1f3a0068" title=" " alt="" coords="33,76,169,119"/>
+<area shape="poly" title=" " alt="" coords="247,144,168,120,170,115,249,139"/>
+<area shape="rect" href="class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="245,291,428,333"/>
+<area shape="poly" title=" " alt="" coords="476,289,429,298,428,292,475,284"/>
+<area shape="rect" href="class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="245,224,428,267"/>
+<area shape="poly" title=" " alt="" coords="476,260,428,256,429,251,476,255"/>
+<area shape="rect" href="class_assembling_machine_system.html#aebda3fbbbe3b7d87381ef655df76a243" title=" " alt="" coords="5,291,197,333"/>
+<area shape="poly" title=" " alt="" coords="229,315,197,315,197,309,229,309"/>
+<area shape="rect" href="class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="269,75,404,117"/>
+<area shape="poly" title=" " alt="" coords="500,123,404,109,405,104,501,118"/>
+<area shape="poly" title=" " alt="" coords="1262,255,1252,261,1237,273,1229,287,1220,300,1203,312,1149,330,1104,335,1058,328,1003,312,958,292,918,266,860,216,863,212,921,262,961,288,1005,307,1059,323,1104,330,1148,325,1201,307,1216,297,1224,284,1233,270,1248,256,1260,251"/>
+<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="1042,36,1164,63"/>
+<area shape="poly" title=" " alt="" coords="1285,216,1248,194,1232,177,1223,161,1214,145,1200,127,1161,92,1124,65,1127,61,1164,88,1204,124,1218,142,1227,159,1236,174,1252,190,1287,211"/>
+<area shape="rect" href="class_inventory_command.html#a1dc8073affc4863795413b69f8170057" title=" " alt="" coords="1007,137,1198,164"/>
+<area shape="poly" title=" " alt="" coords="1300,216,1201,179,1162,167,1164,162,1203,173,1301,211"/>
+<area shape="rect" href="class_player_disconnected_command.html#af31be0c12d59ec7dafdd75c01f9a1096" title=" " alt="" coords="1004,255,1202,297"/>
+<area shape="poly" title=" " alt="" coords="1252,253,1203,261,1202,256,1252,247"/>
+<area shape="rect" href="class_resource_mine_command.html#a26510fad53eaaa55bf4f34ce2064c263" title=" " alt="" coords="1020,188,1186,231"/>
+<area shape="poly" title=" " alt="" coords="1248,226,1186,220,1186,215,1249,221"/>
+<area shape="rect" href="namespaceutil.html#acbb2b740a2214771587a3408dfdb7969" title=" " alt="" coords="1023,473,1183,500"/>
+<area shape="poly" title=" " alt="" coords="1255,258,1252,260,1234,285,1227,309,1226,334,1229,360,1231,386,1230,412,1222,438,1204,463,1185,477,1182,472,1200,459,1218,435,1225,411,1226,386,1223,360,1221,335,1222,309,1230,283,1248,257,1251,254"/>
+<area shape="rect" href="namespaceutil.html#abc429f884223f77fd0987d8b2a8850a1" title=" " alt="" coords="1030,423,1176,449"/>
+<area shape="poly" title=" " alt="" coords="1256,257,1252,261,1238,279,1231,297,1229,335,1227,374,1219,393,1204,413,1178,429,1175,424,1200,409,1214,391,1221,373,1223,335,1225,296,1233,276,1248,257,1252,253"/>
+<area shape="poly" title=" " alt="" coords="1035,71,1005,84,963,109,924,138,865,188,861,184,920,134,960,105,1002,79,1032,66"/>
+<area shape="poly" title=" " alt="" coords="1027,57,404,95,404,89,1026,51"/>
+<area shape="rect" href="class_interaction_system.html#a0026eacddc828a0c3b8f8d805f4e7d9e" title=" " alt="" coords="248,5,424,48"/>
+<area shape="poly" title=" " alt="" coords="1026,50,425,32,425,27,1026,44"/>
+<area shape="poly" title=" " alt="" coords="249,56,170,80,168,75,247,51"/>
+<area shape="rect" href="class_input_system.html#a3f5918fbf34778a9a38a54cdef4d570e" title=" " alt="" coords="760,532,934,575"/>
+<area shape="poly" title=" " alt="" coords="1034,507,932,534,931,529,1033,502"/>
+<area shape="rect" href="class_u_i_system.html#a3851efbe02b07d3140feec0aaa17fab7" title=" " alt="" coords="741,599,953,625"/>
+<area shape="poly" title=" " alt="" coords="1076,512,1023,552,957,589,924,601,923,596,955,584,1020,547,1072,508"/>
+<area shape="rect" href="class_render_system.html#a97fcc27c66536abe727702c8f320b4bf" title=" " alt="" coords="768,415,926,441"/>
+<area shape="poly" title=" " alt="" coords="1026,472,908,445,909,439,1027,467"/>
+<area shape="rect" href="class_item_drag_system.html#a66d8aa4abb7bb1d4c20a9941c486069e" title=" " alt="" coords="738,465,956,508"/>
+<area shape="poly" title=" " alt="" coords="1007,489,956,489,956,484,1007,484"/>
+<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="510,540,656,567"/>
+<area shape="poly" title=" " alt="" coords="745,556,656,556,656,551,745,551"/>
+<area shape="rect" href="class_u_i_system.html#ae66005968aae0198ab90285680e395a3" title=" " alt="" coords="518,599,648,625"/>
+<area shape="poly" title=" " alt="" coords="726,615,649,615,649,609,726,609"/>
+<area shape="rect" href="class_item_drag_system.html#a419ea9a1b5f6be84ea1133a2d6904762" title=" " alt="" coords="498,473,668,500"/>
+<area shape="poly" title=" " alt="" coords="723,489,669,489,669,484,723,484"/>
+<area shape="poly" title=" " alt="" coords="1014,436,926,433,926,428,1014,431"/>
+<area shape="poly" title=" " alt="" coords="1279,489,1184,489,1184,484,1279,484"/>
+<area shape="poly" title=" " alt="" coords="1278,475,1170,453,1171,447,1280,470"/>
+<area shape="poly" title=" " alt="" coords="1294,151,1249,138,1202,128,1102,116,1059,118,1004,128,966,140,929,156,871,188,868,184,927,151,964,135,1003,123,1058,113,1102,111,1202,123,1250,132,1295,146"/>
+<area shape="poly" title=" " alt="" coords="1311,147,1260,115,1201,84,1153,66,1155,61,1203,79,1263,110,1314,142"/>
+<area shape="poly" title=" " alt="" coords="1247,163,1199,160,1199,154,1247,157"/>
+<area shape="poly" title=" " alt="" coords="1296,189,1251,210,1228,228,1203,245,1177,257,1175,252,1201,240,1225,224,1249,206,1293,184"/>
+<area shape="poly" title=" " alt="" coords="1252,186,1186,198,1185,192,1251,181"/>
 </map>
 </div>
 
@@ -1054,7 +879,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_registry_a244332df2bdb57a1c43567a36da1b90b_cgraph.png" border="0" usemap="#aclass_registry_a244332df2bdb57a1c43567a36da1b90b_cgraph" loading="lazy" alt=""/></div>
 <map name="aclass_registry_a244332df2bdb57a1c43567a36da1b90b_cgraph" id="aclass_registry_a244332df2bdb57a1c43567a36da1b90b_cgraph">
 <area shape="rect" title="Checks if an entity has a specific component." alt="" coords="5,5,175,32"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="223,5,452,32"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="223,5,431,32"/>
 <area shape="poly" title=" " alt="" coords="175,16,207,16,207,21,175,21"/>
 </map>
 </div>
@@ -1063,53 +888,40 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_registry_a244332df2bdb57a1c43567a36da1b90b_icgraph.png" border="0" usemap="#aclass_registry_a244332df2bdb57a1c43567a36da1b90b_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_registry_a244332df2bdb57a1c43567a36da1b90b_icgraph" id="aclass_registry_a244332df2bdb57a1c43567a36da1b90b_icgraph">
-<area shape="rect" title="Checks if an entity has a specific component." alt="" coords="957,285,1126,312"/>
-<area shape="rect" href="class_inventory_system.html#a747f4c853baefbdad883af4a6b029948" title=" " alt="" coords="715,28,892,55"/>
-<area shape="poly" title=" " alt="" coords="1028,272,1011,229,985,178,951,125,907,79,888,67,867,58,869,53,890,62,910,75,955,122,990,175,1016,227,1033,270"/>
-<area shape="rect" href="namespaceutil.html#a0af215271a8cf36a7b967449b3231ea3" title="Attaches a new timer to an entity." alt="" coords="500,133,618,160"/>
-<area shape="poly" title=" " alt="" coords="1020,275,973,221,942,195,908,174,871,161,833,151,754,140,680,138,618,142,618,137,680,133,755,135,834,145,873,156,910,170,945,191,977,217,1024,271"/>
-<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="252,13,405,56"/>
-<area shape="poly" title=" " alt="" coords="1024,273,1005,240,979,203,946,166,907,137,847,108,794,91,745,84,697,83,595,86,535,83,468,73,405,59,406,53,468,68,536,78,595,81,697,78,745,79,795,86,849,103,910,132,950,162,983,199,1010,237,1029,270"/>
-<area shape="rect" href="class_inventory_system.html#ad7f905ff3a6f38d809afca09b7d8636a" title=" " alt="" coords="698,184,909,211"/>
-<area shape="poly" title=" " alt="" coords="1006,279,961,251,908,225,873,214,875,209,910,220,963,246,1009,274"/>
-<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="743,235,864,261"/>
-<area shape="poly" title=" " alt="" coords="960,284,864,263,865,258,961,279"/>
-<area shape="rect" href="class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="472,315,646,357"/>
-<area shape="poly" title=" " alt="" coords="941,308,699,327,646,331,646,326,698,321,941,303"/>
-<area shape="rect" href="class_inventory_command.html#aef79beff4a3f0c7c1e0ee7db7827747e" title=" " alt="" coords="708,336,899,363"/>
-<area shape="poly" title=" " alt="" coords="961,318,870,338,869,333,960,313"/>
-<area shape="rect" href="class_resource_mine_command.html#aa286cd0a089ae22bb03599f7d6aabeb6" title=" " alt="" coords="721,387,886,429"/>
-<area shape="poly" title=" " alt="" coords="1008,323,962,350,910,377,881,389,879,384,908,372,960,346,1005,318"/>
-<area shape="rect" href="class_u_i_system.html#ab42a93e4647c6a9550f070b5abd37d39" title=" " alt="" coords="732,453,875,480"/>
-<area shape="poly" title=" " alt="" coords="1025,327,978,386,946,417,910,444,876,458,874,453,907,439,943,413,974,382,1021,323"/>
-<area shape="rect" href="class_inventory_system.html#a8f2586536ab6779548d069e15a56c6ad" title=" " alt="" coords="710,504,897,531"/>
-<area shape="poly" title=" " alt="" coords="1031,327,1014,365,987,411,953,456,910,494,888,506,886,501,907,490,949,452,983,408,1009,363,1027,325"/>
-<area shape="rect" href="class_timer_expire_system.html#a840e6e46355ab1c54c37169441afde94" title=" " alt="" coords="731,555,876,597"/>
-<area shape="poly" title=" " alt="" coords="1035,328,1019,375,994,433,958,493,936,520,910,545,878,563,875,559,907,541,932,517,953,490,989,431,1014,373,1030,326"/>
-<area shape="rect" href="class_inventory_system.html#a022f699453e82ae1f117d623933b1439" title=" " alt="" coords="468,16,650,59"/>
-<area shape="poly" title=" " alt="" coords="699,42,651,41,651,36,699,37"/>
-<area shape="poly" title=" " alt="" coords="491,129,467,117,452,105,442,93,433,82,419,70,397,59,400,54,421,66,436,78,446,90,455,101,469,112,494,125"/>
-<area shape="rect" href="class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="237,80,420,123"/>
-<area shape="poly" title=" " alt="" coords="485,135,420,122,421,117,486,130"/>
-<area shape="rect" href="class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="261,147,396,189"/>
-<area shape="poly" title=" " alt="" coords="486,156,397,164,396,159,485,151"/>
-<area shape="rect" href="class_interaction_system.html#a78be599c43f0cda96c72a64d392278c3" title=" " alt="" coords="29,5,165,48"/>
-<area shape="poly" title=" " alt="" coords="236,34,165,32,165,26,236,29"/>
-<area shape="rect" href="class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="5,72,189,115"/>
-<area shape="poly" title=" " alt="" coords="221,100,189,99,189,94,222,95"/>
-<area shape="rect" href="class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="5,139,189,181"/>
-<area shape="poly" title=" " alt="" coords="228,130,185,141,183,135,226,124"/>
-<area shape="rect" href="class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="29,205,165,248"/>
-<area shape="poly" title=" " alt="" coords="246,191,166,212,165,207,245,186"/>
-<area shape="poly" title=" " alt="" coords="727,235,697,225,632,194,580,163,583,158,635,189,699,220,729,230"/>
-<area shape="poly" title=" " alt="" coords="727,248,165,231,165,226,728,243"/>
-<area shape="poly" title=" " alt="" coords="738,269,699,282,651,305,623,317,621,312,649,300,697,278,737,264"/>
-<area shape="rect" href="class_movement_system.html#a67ce77218fa1afd071c8f6489f1d0034" title=" " alt="" coords="470,264,648,291"/>
-<area shape="poly" title=" " alt="" coords="728,260,649,269,648,264,727,254"/>
-<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="256,323,401,349"/>
-<area shape="poly" title=" " alt="" coords="457,339,402,339,402,333,457,333"/>
-<area shape="rect" href="class_u_i_system.html#ae66005968aae0198ab90285680e395a3" title=" " alt="" coords="494,453,624,480"/>
-<area shape="poly" title=" " alt="" coords="717,469,625,469,625,464,717,464"/>
+<area shape="rect" title="Checks if an entity has a specific component." alt="" coords="1209,179,1378,205"/>
+<area shape="rect" href="namespaceutil.html#a93f5c99884f3bc2b6dbce9bd1adb6e5c" title="Attaches a new timer to an entity." alt="" coords="768,131,885,157"/>
+<area shape="poly" title=" " alt="" coords="1213,178,1161,169,1012,155,886,148,886,143,1013,150,1161,164,1214,173"/>
+<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="1001,76,1122,103"/>
+<area shape="poly" title=" " alt="" coords="1254,173,1160,125,1108,106,1110,101,1162,120,1257,168"/>
+<area shape="rect" href="class_inventory_command.html#a1dc8073affc4863795413b69f8170057" title=" " alt="" coords="966,179,1158,205"/>
+<area shape="poly" title=" " alt="" coords="1194,195,1158,195,1158,189,1194,189"/>
+<area shape="rect" href="class_player_disconnected_command.html#af31be0c12d59ec7dafdd75c01f9a1096" title=" " alt="" coords="963,229,1161,272"/>
+<area shape="poly" title=" " alt="" coords="1224,212,1150,231,1148,226,1223,207"/>
+<area shape="rect" href="class_resource_mine_command.html#a26510fad53eaaa55bf4f34ce2064c263" title=" " alt="" coords="979,296,1144,339"/>
+<area shape="poly" title=" " alt="" coords="1266,217,1219,252,1162,286,1136,298,1134,293,1160,282,1216,248,1263,213"/>
+<area shape="rect" href="class_interaction_system.html#a2efec3ba0f55f346d55e19758cf7ea0a" title=" " alt="" coords="476,189,690,232"/>
+<area shape="poly" title=" " alt="" coords="761,165,664,191,663,186,759,159"/>
+<area shape="rect" href="class_assembling_machine_system.html#a45a0477099068e1e02499c967bc1bca7" title=" " alt="" coords="492,256,675,299"/>
+<area shape="poly" title=" " alt="" coords="800,170,752,209,692,246,665,258,663,253,689,242,749,204,797,166"/>
+<area shape="rect" href="class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f" title=" " alt="" coords="516,123,651,165"/>
+<area shape="poly" title=" " alt="" coords="752,147,651,147,651,141,752,141"/>
+<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="260,155,413,197"/>
+<area shape="poly" title=" " alt="" coords="460,196,413,189,414,184,461,191"/>
+<area shape="rect" href="class_interaction_system.html#a33989daebe85772690119e7c1f3a0068" title=" " alt="" coords="33,83,169,125"/>
+<area shape="poly" title=" " alt="" coords="249,152,168,127,170,122,250,147"/>
+<area shape="rect" href="class_assembling_machine_system.html#a745854fc402b3b455bdcaadd8448f06b" title=" " alt="" coords="245,315,428,357"/>
+<area shape="poly" title=" " alt="" coords="477,305,429,317,428,312,476,300"/>
+<area shape="rect" href="class_assembling_machine_system.html#a7133ac4461cf34de33d0d73b2a040df5" title=" " alt="" coords="245,248,428,291"/>
+<area shape="poly" title=" " alt="" coords="476,277,429,275,429,270,476,271"/>
+<area shape="rect" href="class_assembling_machine_system.html#aebda3fbbbe3b7d87381ef655df76a243" title=" " alt="" coords="5,315,197,357"/>
+<area shape="poly" title=" " alt="" coords="229,339,197,339,197,333,229,333"/>
+<area shape="rect" href="class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85" title=" " alt="" coords="269,75,404,117"/>
+<area shape="poly" title=" " alt="" coords="500,131,404,112,405,106,501,125"/>
+<area shape="poly" title=" " alt="" coords="987,109,886,133,885,128,986,104"/>
+<area shape="poly" title=" " alt="" coords="986,93,404,98,404,93,985,87"/>
+<area shape="rect" href="class_interaction_system.html#a0026eacddc828a0c3b8f8d805f4e7d9e" title=" " alt="" coords="738,5,915,48"/>
+<area shape="poly" title=" " alt="" coords="994,74,909,51,910,46,995,69"/>
+<area shape="poly" title=" " alt="" coords="723,29,502,37,373,48,245,65,167,85,166,79,244,60,373,42,502,31,723,24"/>
 </map>
 </div>
 
@@ -1153,7 +965,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_registry_a31a8ff377d6a35e9c490de9d6550786f_cgraph.png" border="0" usemap="#aclass_registry_a31a8ff377d6a35e9c490de9d6550786f_cgraph" loading="lazy" alt=""/></div>
 <map name="aclass_registry_a31a8ff377d6a35e9c490de9d6550786f_cgraph" id="aclass_registry_a31a8ff377d6a35e9c490de9d6550786f_cgraph">
 <area shape="rect" title="Registers a new component type with the registry." alt="" coords="5,5,200,32"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="248,5,477,32"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="248,5,456,32"/>
 <area shape="poly" title=" " alt="" coords="200,16,232,16,232,21,200,21"/>
 </map>
 </div>
@@ -1206,7 +1018,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Removes a component from an entity." alt="" coords="5,5,200,32"/>
 <area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="248,5,445,32"/>
 <area shape="poly" title=" " alt="" coords="200,16,232,16,232,21,200,21"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="493,5,722,32"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="493,5,701,32"/>
 <area shape="poly" title=" " alt="" coords="445,16,477,16,477,21,445,21"/>
 </map>
 </div>
@@ -1254,7 +1066,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Creates a view of all entities that have a given set of components." alt="" coords="5,5,111,32"/>
 <area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="159,5,356,32"/>
 <area shape="poly" title=" " alt="" coords="111,16,143,16,143,21,111,21"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="404,5,633,32"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="404,5,612,32"/>
 <area shape="poly" title=" " alt="" coords="356,16,388,16,388,21,356,21"/>
 </map>
 </div>
@@ -1263,31 +1075,26 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_registry_a1fe75e6a9c525a9dc4775bbdf1b29dde_icgraph.png" border="0" usemap="#aclass_registry_a1fe75e6a9c525a9dc4775bbdf1b29dde_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_registry_a1fe75e6a9c525a9dc4775bbdf1b29dde_icgraph" id="aclass_registry_a1fe75e6a9c525a9dc4775bbdf1b29dde_icgraph">
-<area shape="rect" title="Creates a view of all entities that have a given set of components." alt="" coords="706,132,812,159"/>
-<area shape="rect" href="class_u_i_system.html#a5d7944c7ca3deb191c9c4758dbf17823" title=" " alt="" coords="439,5,658,32"/>
-<area shape="poly" title=" " alt="" coords="737,121,703,82,681,63,657,46,631,35,633,30,660,42,684,58,707,78,741,118"/>
-<area shape="rect" href="namespaceutil.html#acbb2b740a2214771587a3408dfdb7969" title=" " alt="" coords="468,157,629,184"/>
-<area shape="poly" title=" " alt="" coords="691,156,630,164,629,158,690,151"/>
-<area shape="rect" href="class_input_system.html#ae4fc698c779fde17990b3a8a68a09347" title=" " alt="" coords="199,83,391,125"/>
-<area shape="poly" title=" " alt="" coords="691,142,391,115,392,110,691,137"/>
-<area shape="rect" href="namespaceutil.html#abc429f884223f77fd0987d8b2a8850a1" title=" " alt="" coords="476,208,622,235"/>
-<area shape="poly" title=" " alt="" coords="722,169,659,198,621,210,620,205,657,194,720,164"/>
-<area shape="rect" href="class_u_i_system.html#a816f6fd73e1c0043c51cbac24436d6ca" title=" " alt="" coords="467,56,630,83"/>
-<area shape="poly" title=" " alt="" coords="714,128,657,104,601,86,603,81,659,99,716,123"/>
-<area shape="rect" href="class_timer_expire_system.html#a840e6e46355ab1c54c37169441afde94" title=" " alt="" coords="476,259,621,301"/>
-<area shape="poly" title=" " alt="" coords="741,173,706,212,660,249,622,266,620,261,657,244,702,208,737,169"/>
-<area shape="rect" href="class_u_i_system.html#ae66005968aae0198ab90285680e395a3" title=" " alt="" coords="230,19,360,45"/>
-<area shape="poly" title=" " alt="" coords="424,28,361,31,360,26,423,23"/>
-<area shape="rect" href="class_input_system.html#a0b241f19d21b2655f25c600600f28c5f" title=" " alt="" coords="208,149,382,192"/>
-<area shape="poly" title=" " alt="" coords="453,173,382,173,382,168,453,168"/>
-<area shape="rect" href="class_render_system.html#a97fcc27c66536abe727702c8f320b4bf" title=" " alt="" coords="216,216,374,243"/>
-<area shape="poly" title=" " alt="" coords="474,191,356,218,355,213,473,185"/>
-<area shape="poly" title=" " alt="" coords="479,155,378,129,380,123,481,150"/>
-<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="5,124,151,151"/>
-<area shape="poly" title=" " alt="" coords="192,158,151,151,152,146,193,152"/>
-<area shape="poly" title=" " alt="" coords="184,124,151,129,151,124,183,119"/>
-<area shape="poly" title=" " alt="" coords="460,227,375,230,374,224,460,221"/>
-<area shape="poly" title=" " alt="" coords="451,58,360,44,361,39,452,52"/>
+<area shape="rect" title="Creates a view of all entities that have a given set of components." alt="" coords="697,160,803,187"/>
+<area shape="rect" href="namespaceutil.html#acbb2b740a2214771587a3408dfdb7969" title=" " alt="" coords="489,131,649,157"/>
+<area shape="poly" title=" " alt="" coords="682,165,649,160,650,154,683,160"/>
+<area shape="rect" href="namespaceutil.html#abc429f884223f77fd0987d8b2a8850a1" title=" " alt="" coords="496,185,642,212"/>
+<area shape="poly" title=" " alt="" coords="683,185,643,191,642,186,682,180"/>
+<area shape="rect" href="class_input_system.html#a3f5918fbf34778a9a38a54cdef4d570e" title=" " alt="" coords="246,5,419,48"/>
+<area shape="poly" title=" " alt="" coords="537,123,492,92,440,62,412,51,414,46,442,58,495,88,540,119"/>
+<area shape="rect" href="class_u_i_system.html#a3851efbe02b07d3140feec0aaa17fab7" title=" " alt="" coords="227,72,438,99"/>
+<area shape="poly" title=" " alt="" coords="501,129,440,113,393,102,395,97,442,108,502,124"/>
+<area shape="rect" href="class_render_system.html#a97fcc27c66536abe727702c8f320b4bf" title=" " alt="" coords="253,189,412,216"/>
+<area shape="poly" title=" " alt="" coords="502,164,442,180,395,191,393,186,440,175,501,159"/>
+<area shape="rect" href="class_item_drag_system.html#a66d8aa4abb7bb1d4c20a9941c486069e" title=" " alt="" coords="224,123,441,165"/>
+<area shape="poly" title=" " alt="" coords="473,147,442,147,442,141,473,141"/>
+<area shape="rect" href="class_input_system.html#a263fc8d032fe8e77b680948d309cd410" title=" " alt="" coords="18,13,163,40"/>
+<area shape="poly" title=" " alt="" coords="230,29,164,29,164,24,230,24"/>
+<area shape="rect" href="class_u_i_system.html#ae66005968aae0198ab90285680e395a3" title=" " alt="" coords="25,72,156,99"/>
+<area shape="poly" title=" " alt="" coords="211,88,156,88,156,83,211,83"/>
+<area shape="rect" href="class_item_drag_system.html#a419ea9a1b5f6be84ea1133a2d6904762" title=" " alt="" coords="5,131,176,157"/>
+<area shape="poly" title=" " alt="" coords="208,147,176,147,176,141,208,141"/>
+<area shape="poly" title=" " alt="" coords="480,203,412,204,412,199,480,197"/>
 </map>
 </div>
 
@@ -1316,8 +1123,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="afd2e8ea7d506a359506bb56a4dfd7fcb" name="afd2e8ea7d506a359506bb56a4dfd7fcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd2e8ea7d506a359506bb56a4dfd7fcb">&#9670;&#160;</a></span>componentArrays</h2>
+<a id="ad02fe782a0fffb696d3ce9eed1a80322" name="ad02fe782a0fffb696d3ce9eed1a80322"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad02fe782a0fffb696d3ce9eed1a80322">&#9670;&#160;</a></span>COMPONENT_ID</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1326,7 +1133,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;const char *, std::unique_ptr&lt;<a class="el" href="class_i_component_array.html">IComponentArray</a>&gt; &gt; Registry::componentArrays {}</td>
+          <td class="memname">std::size_t Registry::COMPONENT_ID = 0</td>
         </tr>
       </table>
   </td>
@@ -1338,8 +1145,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a88ec8570446179f40f344b6bc06e3dcf" name="a88ec8570446179f40f344b6bc06e3dcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88ec8570446179f40f344b6bc06e3dcf">&#9670;&#160;</a></span>inputState</h2>
+<a id="a7e88e3e9fd3cb31f24f360497945ca44" name="a7e88e3e9fd3cb31f24f360497945ca44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e88e3e9fd3cb31f24f360497945ca44">&#9670;&#160;</a></span>componentArrays</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1348,7 +1155,29 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_input_state.html">InputState</a> Registry::inputState</td>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="class_i_component_array.html">IComponentArray</a>&gt; &gt; Registry::componentArrays {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e8114ac47b69e9f3c348094f3e45512" name="a6e8114ac47b69e9f3c348094f3e45512"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e8114ac47b69e9f3c348094f3e45512">&#9670;&#160;</a></span>eventDispatcher</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a>* Registry::eventDispatcher</td>
         </tr>
       </table>
   </td>

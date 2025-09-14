@@ -1,3 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_interaction_system.html" title=" " alt="" coords="5,5,133,32"/>
+<area shape="rect" id="Node000000" href="$class_i_game_state.html" title="An abstract base class for different states of the game (e.g., menu, playing)." alt="" coords="5,81,97,108"/>
+<area shape="rect" id="Node000001" href="$class_client_state.html" title=" " alt="" coords="158,5,244,32"/>
+<area shape="poly" id="edge22_Node000000_Node000001" title=" " alt="" coords="88,71,143,42,167,30,170,35,146,46,91,76"/>
+<area shape="rect" id="Node000002" href="$class_main_menu_state.html" title="Represents the main menu state of the game." alt="" coords="145,56,257,83"/>
+<area shape="poly" id="edge23_Node000000_Node000002" title=" " alt="" coords="112,82,144,76,145,81,113,87"/>
+<area shape="rect" id="Node000003" href="$class_pause_state.html" title="Represents the pause state of the game." alt="" coords="156,107,246,133"/>
+<area shape="poly" id="edge24_Node000000_Node000003" title=" " alt="" coords="113,102,156,110,155,115,112,108"/>
+<area shape="rect" id="Node000004" href="$class_server_state.html" title="Represents the primary gameplay state." alt="" coords="156,157,246,184"/>
+<area shape="poly" id="edge25_Node000000_Node000004" title=" " alt="" coords="91,113,146,143,170,154,167,159,143,148,88,118"/>
 </map>

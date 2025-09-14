@@ -1,0 +1,23 @@
+<map id="ResourceMineCommand::Execute" name="ResourceMineCommand::Execute">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,124,171,167"/>
+<area shape="rect" id="Node000002" href="$class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="233,5,400,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,122,157,81,217,42,232,35,234,40,220,46,160,85,113,126"/>
+<area shape="rect" id="Node000005" href="$class_world.html#a50b19dcb0785e3b3a8ac97c4c5e022d5" title=" " alt="" coords="219,56,414,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="140,121,218,92,242,85,244,90,220,97,142,126"/>
+<area shape="rect" id="Node000006" href="$class_world.html#a40f92216ce5dce7f021a94aaa1685446" title=" " alt="" coords="221,107,412,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="171,134,205,130,205,135,171,139"/>
+<area shape="rect" id="Node000007" href="$class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="476,91,645,117"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="171,149,286,151,351,149,414,143,462,133,507,120,508,125,463,138,414,148,351,154,287,157,171,154"/>
+<area shape="rect" id="Node000008" href="$class_ore_to_item_mapper.html#a4d0c2e07410e9c683c66a963694a781d" title=" " alt="" coords="225,208,408,235"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="154,165,220,187,259,200,258,205,218,192,152,170"/>
+<area shape="rect" id="Node000010" href="$class_event_dispatcher.html#a6990c88db24b61341115efb55071c357" title="Publishes an event to all subscribed listeners immediately." alt="" coords="232,259,401,285"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="113,165,160,206,220,244,234,251,232,256,217,249,157,210,109,169"/>
+<area shape="rect" id="Node000003" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="462,23,659,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="400,22,447,25,446,31,400,27"/>
+<area shape="rect" id="Node000004" href="$class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="707,57,916,84"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="660,47,696,52,695,57,659,52"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="645,90,692,84,692,89,646,95"/>
+<area shape="rect" id="Node000009" href="$class_ore_to_item_mapper.html#a42e338361eb52cb2b608351ebad89e31" title=" " alt="" coords="464,200,658,243"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="408,219,448,219,448,224,408,224"/>
+<area shape="poly" id="edge10_Node000009_Node000009" title=" " alt="" coords="514,200,513,190,520,181,536,175,561,173,587,176,602,182,600,187,585,181,561,179,538,181,523,185,518,191,520,199"/>
+</map>

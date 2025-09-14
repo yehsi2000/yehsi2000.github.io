@@ -1,0 +1,11 @@
+<map id="ClientNetworkSystem::TransformSnapshotHandler" name="ClientNetworkSystem::TransformSnapshotHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,194,91"/>
+<area shape="rect" id="Node000002" href="$namespaceutil.html#a5fcc5614623eaa5a217dbdeac5f7e378" title=" " alt="" coords="246,5,379,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,45,238,34,239,39,192,50"/>
+<area shape="rect" id="Node000003" href="$namespaceutil.html#a7a7929eb3dacd894f4eb0a1f0b25116c" title=" " alt="" coords="246,56,379,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,67,230,67,230,72,194,72"/>
+<area shape="rect" id="Node000004" href="$namespaceutil.html#ab7dede0aa21dea26ce7a59a7d8867234" title=" " alt="" coords="242,107,383,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="192,89,239,100,238,105,191,94"/>
+<area shape="rect" id="Node000005" href="$namespaceutil.html#ada35bd5825fc5981c2cd7cbea573c984" title=" " alt="" coords="431,107,564,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="383,117,416,117,416,123,383,123"/>
+</map>

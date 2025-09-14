@@ -1,0 +1,14 @@
+<map id="include/Core/WorldAssetManager.h" name="include/Core/WorldAssetManager.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="117,5,343,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,74,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,35,88,77,86,72,196,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="98,80,152,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,35,157,73,154,69,210,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="175,80,285,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="233,33,233,64,228,64,228,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="349,155,407,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="247,31,299,78,359,141,355,145,295,82,243,35"/>
+<area shape="rect" id="Node000006" href="$_texture_deleter_8h.html" title=" " alt="" coords="360,80,509,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="267,30,385,72,383,77,265,35"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="427,109,399,144,395,141,422,106"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="EntityFactory::CreateMiningDrill" name="EntityFactory::CreateMiningDrill">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,190,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="52,29,50,19,58,10,74,5,98,3,123,5,138,11,136,16,122,10,97,8,75,10,61,15,55,21,57,28"/>
+<area shape="rect" id="Node000002" href="$class_world.html#a86ed24f1ddfc5f69d70246fcb62f5e95" title="Converts world coordinates to tile grid indices." alt="" coords="238,29,437,72"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="190,48,222,48,222,53,190,53"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="292,29,290,19,298,10,314,5,337,3,363,5,378,11,376,16,362,10,337,8,315,10,301,15,295,21,297,28"/>
+</map>

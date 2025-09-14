@@ -26,11 +26,11 @@
 <area shape="poly" id="edge13_Node000009_Node000007" title=" " alt="" coords="605,205,751,279,748,284,602,210"/>
 <area shape="poly" id="edge32_Node000010_Node000004" title=" " alt="" coords="415,278,720,200,722,206,416,283"/>
 <area shape="poly" id="edge33_Node000010_Node000007" title=" " alt="" coords="407,322,468,333,560,341,651,333,729,318,730,323,652,339,560,346,468,339,406,327"/>
-<area shape="rect" id="Node000011" href="$namespaceutil.html#a0af215271a8cf36a7b967449b3231ea3" title="Attaches a new timer to an entity." alt="" coords="501,449,618,476"/>
+<area shape="rect" id="Node000011" href="$namespaceutil.html#a93f5c99884f3bc2b6dbce9bd1adb6e5c" title="Attaches a new timer to an entity." alt="" coords="501,449,618,476"/>
 <area shape="poly" id="edge16_Node000010_Node000011" title=" " alt="" coords="363,322,528,438,525,442,359,327"/>
 <area shape="rect" id="Node000020" href="$class_assembling_machine_system.html#ad7127eaae06cdbc969da51dd22ca1f74" title=" " alt="" coords="468,281,651,324"/>
 <area shape="poly" id="edge29_Node000010_Node000020" title=" " alt="" coords="420,300,452,300,452,305,420,305"/>
-<area shape="rect" id="Node000012" href="$class_timer_manager.html#afc1ce33693985bdb64bdde6181d8398c" title="Creates a new timer and returns a handle to it." alt="" coords="699,399,884,425"/>
+<area shape="rect" id="Node000012" href="$class_timer_manager.html#ab1044271acc729134b0579f22794f894" title="Creates a new timer and returns a handle to it." alt="" coords="699,399,884,425"/>
 <area shape="poly" id="edge17_Node000011_Node000012" title=" " alt="" coords="618,447,712,427,713,432,619,452"/>
 <area shape="rect" id="Node000013" href="$namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="731,449,852,476"/>
 <area shape="poly" id="edge18_Node000011_Node000013" title=" " alt="" coords="619,460,715,460,715,465,619,465"/>
@@ -46,9 +46,9 @@
 <area shape="poly" id="edge23_Node000013_Node000018" title=" " alt="" coords="852,448,958,426,959,431,853,453"/>
 <area shape="rect" id="Node000016" href="$class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="1203,500,1400,527"/>
 <area shape="poly" id="edge21_Node000015_Node000016" title=" " alt="" coords="1127,511,1188,511,1188,516,1127,516"/>
-<area shape="rect" id="Node000017" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="1448,475,1678,501"/>
-<area shape="poly" id="edge22_Node000016_Node000017" title=" " alt="" coords="1401,501,1432,498,1433,503,1401,506"/>
-<area shape="poly" id="edge24_Node000018_Node000017" title=" " alt="" coords="1129,422,1452,469,1451,474,1128,427"/>
+<area shape="rect" id="Node000017" href="$class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="1448,475,1657,501"/>
+<area shape="poly" id="edge22_Node000016_Node000017" title=" " alt="" coords="1400,501,1432,497,1433,503,1401,506"/>
+<area shape="poly" id="edge24_Node000018_Node000017" title=" " alt="" coords="1129,422,1444,469,1443,474,1128,427"/>
 <area shape="poly" id="edge26_Node000019_Node000016" title=" " alt="" coords="1115,547,1214,528,1215,533,1116,553"/>
 <area shape="poly" id="edge30_Node000020_Node000004" title=" " alt="" coords="611,278,650,260,753,204,755,209,653,265,614,283"/>
 <area shape="poly" id="edge31_Node000020_Node000007" title=" " alt="" coords="652,300,688,300,688,305,652,305"/>

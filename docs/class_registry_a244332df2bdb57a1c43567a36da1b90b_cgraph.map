@@ -1,5 +1,5 @@
 <map id="Registry::HasComponent" name="Registry::HasComponent">
 <area shape="rect" id="Node000001" title="Checks if an entity has a specific component." alt="" coords="5,5,175,32"/>
-<area shape="rect" id="Node000002" href="$class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="223,5,452,32"/>
+<area shape="rect" id="Node000002" href="$class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="223,5,431,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,16,207,16,207,21,175,21"/>
 </map>

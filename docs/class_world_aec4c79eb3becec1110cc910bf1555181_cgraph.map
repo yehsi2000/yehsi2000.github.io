@@ -1,0 +1,13 @@
+<map id="World::Update" name="World::Update">
+<area shape="rect" id="Node000001" title="Updates the world state, loading/unloading chunks around the player." alt="" coords="5,81,110,108"/>
+<area shape="rect" id="Node000002" href="$class_world.html#a6effd57244b7e457ebe97c39e2f41ff4" title=" " alt="" coords="158,56,286,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,84,142,79,143,84,110,89"/>
+<area shape="rect" id="Node000005" href="$class_world.html#af3e6a23ef48822817468efafd5f37abf" title=" " alt="" coords="340,107,481,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="110,96,325,111,324,117,110,101"/>
+<area shape="rect" id="Node000003" href="$class_world.html#a51c0652a33b08264b5108b897673ff5f" title=" " alt="" coords="334,5,487,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="274,53,343,34,344,39,275,58"/>
+<area shape="rect" id="Node000004" href="$class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="535,56,645,83"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="286,67,520,67,520,72,286,72"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="461,30,526,49,525,54,460,35"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="460,103,525,85,526,90,461,109"/>
+</map>

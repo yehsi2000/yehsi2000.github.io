@@ -1,0 +1,8 @@
+<map id="World::OccupyTile" name="World::OccupyTile">
+<area shape="rect" id="Node000001" title="Marks tiles as occupied by a building." alt="" coords="268,47,396,73"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="369,34,356,28,332,25,309,27,296,32,293,37,299,45,295,48,288,38,293,28,308,22,332,20,358,23,372,29"/>
+<area shape="rect" id="Node000002" href="$class_entity_factory.html#ae3681320d7eb90a9b96bf4cdf744472f" title=" " alt="" coords="5,5,220,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="252,51,220,46,220,40,253,45"/>
+<area shape="rect" id="Node000003" href="$class_entity_factory.html#a3fc8596dceedb12c4130873888880b32" title=" " alt="" coords="20,72,205,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="253,75,205,82,205,77,252,69"/>
+</map>

@@ -1,9 +1,26 @@
 <map id="InputSystem" name="InputSystem">
-<area shape="rect" id="Node000001" title=" " alt="" coords="17,301,112,328"/>
-<area shape="rect" id="Node000002" href="$class_g_engine.html" title="The main engine class that drives the game." alt="" coords="29,203,100,229"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,245,67,301,62,301,62,245"/>
-<area shape="rect" id="Node000003" href="$class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re..." alt="" coords="16,104,113,131"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="67,146,67,202,62,202,62,146"/>
-<area shape="rect" id="Node000004" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="67,48,67,104,62,104,62,48"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="119,464,214,491"/>
+<area shape="rect" id="Node000002" href="$class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="172,104,242,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,146,196,155,181,247,173,337,169,464,164,463,167,337,175,246,191,154,193,145"/>
+<area shape="rect" id="Node000004" href="$class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="305,365,359,392"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="205,146,202,178,202,215,208,255,222,292,239,315,261,335,306,363,303,367,257,339,235,319,217,295,203,256,197,216,197,177,199,146"/>
+<area shape="rect" id="Node000006" href="$class_entity_factory.html" title="A factory for creating pre&#45;configured entities." alt="" coords="282,267,382,293"/>
+<area shape="poly" id="edge9_Node000006_Node000002" title=" " alt="" coords="222,144,250,199,278,241,309,264,305,268,274,244,246,201,217,146"/>
+<area shape="rect" id="Node000003" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="148,5,266,32"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="133,28,89,38,49,55,32,66,19,80,11,97,8,116,8,380,11,398,19,413,30,427,46,438,82,455,119,466,118,471,80,460,43,442,27,431,14,416,6,399,3,380,3,116,6,95,15,77,29,62,46,50,87,33,132,23"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="209,48,209,104,204,104,204,48"/>
+<area shape="poly" id="edge7_Node000004_Node000003" title=" " alt="" coords="267,35,316,54,356,72,387,90,411,115,427,154,437,209,435,254,419,297,387,343,358,367,355,363,383,340,414,295,430,253,432,209,421,155,406,118,384,94,353,76,314,58,265,40"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="299,402,190,466,187,461,296,398"/>
+<area shape="rect" id="Node000005" href="$class_world_asset_manager.html" title="A singleton for managing and caching world tile assets." alt="" coords="491,267,629,293"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="535,305,506,326,473,344,414,364,360,376,359,371,412,359,471,339,503,321,532,301"/>
+<area shape="poly" id="edge8_Node000004_Node000006" title=" " alt="" coords="335,309,335,365,329,365,329,309"/>
+<area shape="rect" id="Node000007" href="$class_asset_manager.html" title="A singleton for managing and caching in&#45;game entity assets." alt="" coords="279,104,385,131"/>
+<area shape="poly" id="edge10_Node000006_Node000007" title=" " alt="" coords="335,146,335,266,329,266,329,146"/>
+<area shape="rect" id="Node000008" href="$class_input_manager.html" title="Manages all user input from keyboard, mouse, and other devices." alt="" coords="639,365,740,392"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="624,395,215,470,214,465,623,389"/>
+<area shape="rect" id="Node000009" href="$struct_input_state.html" title="A snapshot of the state of all input devices at a single point in time." alt="" coords="786,267,867,293"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="798,305,709,367,706,363,795,300"/>
+<area shape="rect" id="Node000010" href="$struct_vec2.html" title="A 2D vector of integers." alt="" coords="710,104,760,131"/>
+<area shape="poly" id="edge14_Node000008_Node000010" title=" " alt="" coords="730,146,704,267,693,365,688,365,699,266,725,145"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="752,143,822,265,817,267,747,146"/>
 </map>

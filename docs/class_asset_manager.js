@@ -1,9 +1,8 @@
 var class_asset_manager =
 [
-    [ "AssetManager", "class_asset_manager.html#a48938b146fa7ad19270a11be5363472a", null ],
-    [ "~AssetManager", "class_asset_manager.html#a4b1639accc9354ac88e9239833b519b7", null ],
-    [ "AssetManager", "class_asset_manager.html#a5f2da3cecd7f2c465e8cc056c4ff3451", null ],
-    [ "getTexture", "class_asset_manager.html#afab05d67b6db163192514d93cd3302be", null ],
-    [ "operator=", "class_asset_manager.html#a19aae622b1560e0c1684632278bc9b4c", null ],
+    [ "AssetManager", "class_asset_manager.html#aeee0b3c781ff03e9e468f5ef12498b2c", null ],
+    [ "~AssetManager", "class_asset_manager.html#a9c89817cbf3516f1451c116e89f47d30", null ],
+    [ "getTexture", "class_asset_manager.html#a83f85d31ef3cf70787e0502625ba001b", null ],
+    [ "renderer", "class_asset_manager.html#a35f95817e4fbab22318b3cf4d51decb4", null ],
     [ "textureCache", "class_asset_manager.html#a4aaa2f867e8bfb1868c8674fd9d79081", null ]
 ];

@@ -1,5 +1,5 @@
 <map id="InventoryCommand::TryAddItem" name="InventoryCommand::TryAddItem">
 <area shape="rect" id="Node000001" title=" " alt="" coords="245,5,456,32"/>
-<area shape="rect" id="Node000002" href="$class_inventory_command.html#aef79beff4a3f0c7c1e0ee7db7827747e" title=" " alt="" coords="5,5,197,32"/>
+<area shape="rect" id="Node000002" href="$class_inventory_command.html#a1dc8073affc4863795413b69f8170057" title=" " alt="" coords="5,5,197,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,21,197,21,197,16,229,16"/>
 </map>

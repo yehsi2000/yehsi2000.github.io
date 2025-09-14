@@ -1,0 +1,16 @@
+<map id="ServerNetworkSystem::Broadcast" name="ServerNetworkSystem::Broadcast">
+<area shape="rect" id="Node000001" title=" " alt="" coords="416,123,569,165"/>
+<area shape="rect" id="Node000002" href="$class_server_network_system.html#a0d169c1e605ae412fc6fd2a5f4848dec" title=" " alt="" coords="211,5,364,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="444,116,367,69,333,51,335,46,369,64,447,112"/>
+<area shape="rect" id="Node000003" href="$class_server_network_system.html#a7d42821121075c8dbc7102f60cea5b43" title=" " alt="" coords="5,93,159,136"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="408,121,368,113,259,107,159,110,159,105,259,102,368,108,409,116"/>
+<area shape="rect" id="Node000004" href="$class_server_network_system.html#aeb8160c2d21e84ef7151a3d4b0f459e3" title=" " alt="" coords="211,123,364,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="401,147,365,147,365,141,401,141"/>
+<area shape="rect" id="Node000005" href="$class_server_network_system.html#a111261fc78a42d78deb6e788c0575268" title=" " alt="" coords="211,189,364,232"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="411,173,356,191,355,186,410,168"/>
+<area shape="rect" id="Node000006" href="$class_server_network_system.html#a9b64816394a00d22867547c17e2f3cd4" title=" " alt="" coords="207,256,368,299"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="460,178,418,213,369,246,348,258,345,253,367,242,415,208,456,173"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="222,57,135,95,133,90,220,52"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="195,134,159,128,160,123,196,128"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="217,185,206,180,123,139,126,134,208,175,220,180"/>
+</map>

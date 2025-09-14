@@ -1,0 +1,12 @@
+<map id="AssemblingMachineSystem::AddInputHandler" name="AssemblingMachineSystem::AddInputHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,189,65"/>
+<area shape="rect" id="Node000002" href="$class_assembling_machine_system.html#a919297c670597d285beda0fee8c6b19a" title=" " alt="" coords="237,23,420,65"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,41,221,41,221,47,189,47"/>
+<area shape="rect" id="Node000003" href="$class_item_database.html#a5d13ed9b8c60c2593baabd6f2d41f905" title=" " alt="" coords="484,5,613,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="420,31,468,25,469,30,421,36"/>
+<area shape="rect" id="Node000004" href="$class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="468,56,628,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="421,52,452,56,452,61,420,57"/>
+<area shape="rect" id="Node000005" href="$class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="676,56,870,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="628,67,661,67,661,72,628,72"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="735,57,728,47,733,37,748,31,773,29,800,32,814,38,812,43,798,37,773,35,749,37,737,41,734,47,739,54"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="src/Core/Network/Socket_windows.cpp" name="src/Core/Network/Socket_windows.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="30,5,199,48"/>
+<area shape="rect" id="Node000002" href="$_socket_impl_8h.html" title=" " alt="" coords="50,96,180,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,49,117,80,112,80,112,49"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,171,59,197"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="102,125,59,162,56,158,99,121"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="82,171,147,197"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="117,123,117,155,112,155,112,123"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="171,171,232,197"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="131,121,177,159,173,163,128,125"/>
+</map>

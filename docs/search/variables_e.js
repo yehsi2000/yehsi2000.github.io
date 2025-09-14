@@ -1,10 +1,23 @@
 var searchData=
 [
-  ['payload_0',['payload',['../class_u_i_system.html#a63a8976bb65769c8958104dd2cc2cec7',1,'UISystem']]],
-  ['player_1',['player',['../class_g_engine.html#ab2625e0512bd33f694cb14fe4199055a',1,'GEngine']]],
-  ['playerentity_2',['playerEntity',['../class_camera_system.html#aeb19aee3e30a6fcbd5ada80c17be7dd6',1,'CameraSystem']]],
-  ['pool_3',['pool',['../class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7',1,'ObjectPool']]],
-  ['position_4',['position',['../struct_camera_component.html#a14d17bba2925f55bc216a184092cba9d',1,'CameraComponent::position'],['../struct_transform_component.html#ae536b865c8ee09ec6756edab0ac78bf8',1,'TransformComponent::position']]],
-  ['previewentity_5',['previewEntity',['../class_input_system.html#a1c7b5dfd9bbf229936920b8a6169e5a2',1,'InputSystem']]],
-  ['previewingitemid_6',['previewingItemID',['../class_input_system.html#a7d20669e852f442c910cd17533f0eb7d',1,'InputSystem']]]
+  ['packet_0',['packet',['../struct_send_request.html#a2f96013373e42478e6151879b7d62104',1,'SendRequest::packet'],['../struct_recv_packet.html#a54e56258d3c2c234790b69e43eee204e',1,'RecvPacket::packet']]],
+  ['packet_5fid_1',['packet_id',['../struct_packet_header.html#a264b6de2394ec4afd9e45b24087aba5d',1,'PacketHeader']]],
+  ['packet_5fsize_2',['packet_size',['../struct_packet_header.html#adc1243b51d4fa81e08b02a43f84a7caa',1,'PacketHeader']]],
+  ['payload_3',['payload',['../struct_item_drop_in_world_event.html#a0bef0b7def59993c66353f55bc7f27d2',1,'ItemDropInWorldEvent::payload'],['../class_u_i_system.html#a63a8976bb65769c8958104dd2cc2cec7',1,'UISystem::payload']]],
+  ['pendinginputqueue_4',['pendingInputQueue',['../class_client_network_system.html#a2d401b34e014d7ae39d9cbd31f44d82f',1,'ClientNetworkSystem']]],
+  ['pendingmoves_5',['pendingMoves',['../struct_system_context.html#a1ee7bd8abd318db2856fc8479e8d5eaa',1,'SystemContext::pendingMoves'],['../class_server_state.html#a11c4d9860f08113aa663baf7832e3265',1,'ServerState::pendingMoves'],['../class_movement_system.html#a905ef1ec24694d290233e8c2d454dac8',1,'MovementSystem::pendingMoves'],['../class_server_network_system.html#a3e7339134acf083bb1345baca52db140',1,'ServerNetworkSystem::pendingMoves']]],
+  ['pendingstate_6',['pendingState',['../class_g_engine.html#a500a63ee09a668a7f09c677da8438022',1,'GEngine']]],
+  ['pimpl_7',['pimpl',['../class_server.html#a7ef37bc1f2597313e1f31571e5001a2e',1,'Server::pimpl'],['../class_socket.html#a9ea5130ec2bf1dc970ab093849c8309e',1,'Socket::pimpl']]],
+  ['player_8',['player',['../class_client_state.html#a8ce1ec1c699a8c75cf168baee9704039',1,'ClientState::player'],['../class_server_state.html#aadb2a19a723378942db91c69adecd31f',1,'ServerState::player']]],
+  ['playerchat_9',['playerChat',['../class_u_i_system.html#a0056e20af9c38b514552bfe48b25de81',1,'UISystem']]],
+  ['playersnapshotsize_10',['playerSnapShotSize',['../class_server_network_system.html#ab040f53192b1e6852b0a14fd93b8a0b3',1,'ServerNetworkSystem']]],
+  ['pool_11',['pool',['../class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7',1,'ObjectPool']]],
+  ['position_12',['position',['../struct_camera_component.html#a14d17bba2925f55bc216a184092cba9d',1,'CameraComponent::position'],['../struct_transform_component.html#ae536b865c8ee09ec6756edab0ac78bf8',1,'TransformComponent::position']]],
+  ['predictedx_13',['predictedX',['../struct_net_prediction_component.html#ab4e724e47484d5d64638b8d874f89a2f',1,'NetPredictionComponent']]],
+  ['predictedy_14',['predictedY',['../struct_net_prediction_component.html#a51dd10c7f041c8e711aa7ed16bae3902',1,'NetPredictionComponent']]],
+  ['predx_15',['predX',['../struct_client_network_system_1_1_input_command.html#a98b8865e3bb05e476995421e14417566',1,'ClientNetworkSystem::InputCommand']]],
+  ['predy_16',['predY',['../struct_client_network_system_1_1_input_command.html#a3eef096053240c726626bb2b65c8f8c3',1,'ClientNetworkSystem::InputCommand']]],
+  ['previewentity_17',['previewEntity',['../class_item_drag_system.html#ac0ba0e641293bcba29125604c66e0f10',1,'ItemDragSystem']]],
+  ['previewingitemid_18',['previewingItemID',['../class_item_drag_system.html#a2ef2866bd8a38b14dcb3c2c8b0737748',1,'ItemDragSystem']]],
+  ['prevkeystate_19',['prevKeyState',['../class_input_manager.html#a8596bfa5a6f1a2068654565b4ae1414d',1,'InputManager']]]
 ];

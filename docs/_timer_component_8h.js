@@ -10,5 +10,5 @@ var _timer_component_8h =
       [ "MaxTimers", "_timer_component_8h.html#a3cc734b18ddce7759f5557c961389d68a703ed33eaa7d6631b5059af22572a1a5", null ]
     ] ],
     [ "INVALID_TIMER_HANDLE", "_timer_component_8h.html#abb499f2392cd4a52ffea4a1a65464408", null ],
-    [ "MAX_TIMERS_PER_ENTITY", "_timer_component_8h.html#a01f3b0fc469964bfb44789999db2ef35", null ]
+    [ "MAX_TIMERS_PER_ENTITY", "_timer_component_8h.html#a809b7f9555b222bee51f498da126fefa", null ]
 ];

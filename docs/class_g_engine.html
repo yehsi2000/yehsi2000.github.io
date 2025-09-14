@@ -92,43 +92,27 @@ $(function(){initNavTree('class_g_engine.html','','class_g_engine-members'); });
 </div><!--header-->
 <div class="contents">
 
-<p>The main engine class that drives the game.  
+<p>The main game engine class.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_g_engine_8h_source.html">GEngine.h</a>&gt;</code></p>
-<div class="dynheader">
-Collaboration diagram for GEngine:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_g_engine__coll__graph.png" border="0" usemap="#a_g_engine_coll__map" loading="lazy" alt="Collaboration graph"/></div>
-<map name="a_g_engine_coll__map" id="a_g_engine_coll__map">
-<area shape="rect" title="The main engine class that drives the game." alt="" coords="29,203,100,229"/>
-<area shape="rect" href="class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re..." alt="" coords="16,104,113,131"/>
-<area shape="poly" title=" " alt="" coords="67,146,67,202,62,202,62,146"/>
-<area shape="rect" href="class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
-<area shape="poly" title=" " alt="" coords="67,48,67,104,62,104,62,48"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac315ce5216df00fc88815ca15e70c4c2" id="r_ac315ce5216df00fc88815ca15e70c4c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac315ce5216df00fc88815ca15e70c4c2">GEngine</a> (SDL_Window *window, SDL_Renderer *renderer, TTF_Font *font)</td></tr>
-<tr class="memdesc:ac315ce5216df00fc88815ca15e70c4c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the <a class="el" href="class_g_engine.html" title="The main engine class that drives the game.">GEngine</a>.  <br /></td></tr>
 <tr class="memitem:a3bdec944d319d1f91af57597f781faa7" id="r_a3bdec944d319d1f91af57597f781faa7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bdec944d319d1f91af57597f781faa7">~GEngine</a> ()</td></tr>
-<tr class="memitem:a3791cc7999dc1c765e33e88d26311477" id="r_a3791cc7999dc1c765e33e88d26311477"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3791cc7999dc1c765e33e88d26311477">ChangeState</a> (std::unique_ptr&lt; <a class="el" href="class_game_state.html">GameState</a> &gt; newState)</td></tr>
-<tr class="memdesc:a3791cc7999dc1c765e33e88d26311477"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the current game state (e.g., from menu to in-game).  <br /></td></tr>
-<tr class="memitem:a33b5e83397ed9dcfac8351b73ae119eb" id="r_a33b5e83397ed9dcfac8351b73ae119eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33b5e83397ed9dcfac8351b73ae119eb">Update</a> (float deltaTime)</td></tr>
-<tr class="memdesc:a33b5e83397ed9dcfac8351b73ae119eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a single frame of the game loop.  <br /></td></tr>
-<tr class="memitem:aca54aa1ca2990844595b461ba7e86e42" id="r_aca54aa1ca2990844595b461ba7e86e42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca54aa1ca2990844595b461ba7e86e42">GetScreenSize</a> ()</td></tr>
-<tr class="memitem:aef66ed1d006ac33a8bd614c05270a5c8" id="r_aef66ed1d006ac33a8bd614c05270a5c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef66ed1d006ac33a8bd614c05270a5c8">GetDispatcher</a> ()</td></tr>
-<tr class="memitem:aa3fc7351ea94dc992e7b864fc00b55ba" id="r_aa3fc7351ea94dc992e7b864fc00b55ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_command_queue.html">CommandQueue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3fc7351ea94dc992e7b864fc00b55ba">GetCommandQueue</a> ()</td></tr>
-<tr class="memitem:abc682610b7b5faae16d5a62bc42f3dfa" id="r_abc682610b7b5faae16d5a62bc42f3dfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc682610b7b5faae16d5a62bc42f3dfa">GetPlayer</a> ()</td></tr>
-<tr class="memitem:acb52a8fff8ae4818589d2fd51a19e4b9" id="r_acb52a8fff8ae4818589d2fd51a19e4b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_registry.html">Registry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb52a8fff8ae4818589d2fd51a19e4b9">GetRegistry</a> ()</td></tr>
-<tr class="memitem:af9719409fc9aea356987258e8241c874" id="r_af9719409fc9aea356987258e8241c874"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_timer_manager.html">TimerManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9719409fc9aea356987258e8241c874">GetTimerManager</a> ()</td></tr>
+<tr class="memitem:a1639d915932a6a83667ea335bc989295" id="r_a1639d915932a6a83667ea335bc989295"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1639d915932a6a83667ea335bc989295">PushState</a> (std::unique_ptr&lt; <a class="el" href="class_i_game_state.html">IGameState</a> &gt; state)</td></tr>
+<tr class="memitem:aaa241f24ee32355b1dc07e1cb1326bb3" id="r_aaa241f24ee32355b1dc07e1cb1326bb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa241f24ee32355b1dc07e1cb1326bb3">PopState</a> ()</td></tr>
+<tr class="memitem:a354882c8f5f4d4eea9b3dc59fd1d8366" id="r_a354882c8f5f4d4eea9b3dc59fd1d8366"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a354882c8f5f4d4eea9b3dc59fd1d8366">ChangeState</a> (std::unique_ptr&lt; <a class="el" href="class_i_game_state.html">IGameState</a> &gt; state)</td></tr>
+<tr class="memitem:a2ec44ac231643168e5d958f606106362" id="r_a2ec44ac231643168e5d958f606106362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ec44ac231643168e5d958f606106362">Run</a> ()</td></tr>
 <tr class="memitem:a1158d450d846c847773febfab654fba4" id="r_a1158d450d846c847773febfab654fba4"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1158d450d846c847773febfab654fba4">GetRenderer</a> ()</td></tr>
 <tr class="memitem:a11604b70429dced039a7582e674de06d" id="r_a11604b70429dced039a7582e674de06d"><td class="memItemLeft" align="right" valign="top">SDL_Window *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11604b70429dced039a7582e674de06d">GetWindow</a> ()</td></tr>
 <tr class="memitem:a35779f6c5e17b8f24d4f0a15ac767a23" id="r_a35779f6c5e17b8f24d4f0a15ac767a23"><td class="memItemLeft" align="right" valign="top">TTF_Font *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35779f6c5e17b8f24d4f0a15ac767a23">GetFont</a> ()</td></tr>
-<tr class="memitem:a8f159185ba0afac7f7be64584ab2f923" id="r_a8f159185ba0afac7f7be64584ab2f923"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f159185ba0afac7f7be64584ab2f923">GetWorld</a> ()</td></tr>
-<tr class="memitem:a7f707e7ad4fe98bad49a06e2f5d546aa" id="r_a7f707e7ad4fe98bad49a06e2f5d546aa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f707e7ad4fe98bad49a06e2f5d546aa">IsRunning</a> () const</td></tr>
+<tr class="memitem:a2366d5a84f5e30273b794bba482c86c1" id="r_a2366d5a84f5e30273b794bba482c86c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_asset_manager.html">AssetManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2366d5a84f5e30273b794bba482c86c1">GetAssetManager</a> ()</td></tr>
+<tr class="memitem:a91eac70406f80599b2f3059576dd0c1b" id="r_a91eac70406f80599b2f3059576dd0c1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_world_asset_manager.html">WorldAssetManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91eac70406f80599b2f3059576dd0c1b">GetWorldAssetManager</a> ()</td></tr>
+<tr class="memitem:ae622490cfe12f855e59af83cecadf896" id="r_ae622490cfe12f855e59af83cecadf896"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_input_manager.html">InputManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae622490cfe12f855e59af83cecadf896">GetInputManager</a> ()</td></tr>
+<tr class="memitem:ad70b7a96ed6104343d6c8337ef20edad" id="r_ad70b7a96ed6104343d6c8337ef20edad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad70b7a96ed6104343d6c8337ef20edad">Stop</a> ()</td></tr>
+<tr class="memitem:a7f1dbb1e2cf5ad1ccbbbfbfe66d966f9" id="r_a7f1dbb1e2cf5ad1ccbbbfbfe66d966f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f1dbb1e2cf5ad1ccbbbfbfe66d966f9">IsChangeRequested</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -136,45 +120,23 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a2cd0a33f9ccf8ab487c0a8a274b3d74e" id="r_a2cd0a33f9ccf8ab487c0a8a274b3d74e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_g_engine.html">GEngine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cd0a33f9ccf8ab487c0a8a274b3d74e">operator=</a> (const <a class="el" href="class_g_engine.html">GEngine</a> &amp;)=delete</td></tr>
 <tr class="memitem:aae90c5134e0f86d77a6d34490f7b9b20" id="r_aae90c5134e0f86d77a6d34490f7b9b20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae90c5134e0f86d77a6d34490f7b9b20">GEngine</a> (<a class="el" href="class_g_engine.html">GEngine</a> &amp;&amp;)=delete</td></tr>
 <tr class="memitem:a398d9cc9268f297c67a53e7da6e7a8bb" id="r_a398d9cc9268f297c67a53e7da6e7a8bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_g_engine.html">GEngine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a398d9cc9268f297c67a53e7da6e7a8bb">operator=</a> (<a class="el" href="class_g_engine.html">GEngine</a> &amp;&amp;)=delete</td></tr>
-<tr class="memitem:a4b4c25c992f1a1fb55b1f56efb9ae245" id="r_a4b4c25c992f1a1fb55b1f56efb9ae245"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b4c25c992f1a1fb55b1f56efb9ae245">RegisterComponent</a> ()</td></tr>
-<tr class="memitem:ad24abc367950461fcf0b5b321cb8a1df" id="r_ad24abc367950461fcf0b5b321cb8a1df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad24abc367950461fcf0b5b321cb8a1df">InitCoreSystem</a> ()</td></tr>
-<tr class="memitem:a11640a2dfd6e7a30dbe27711d3a51945" id="r_a11640a2dfd6e7a30dbe27711d3a51945"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11640a2dfd6e7a30dbe27711d3a51945">GeneratePlayer</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a5359baf57f51f8d0d58f3913b68a4459" id="r_a5359baf57f51f8d0d58f3913b68a4459"><td class="memItemLeft" align="right" valign="top">SDL_Window *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5359baf57f51f8d0d58f3913b68a4459">gWindow</a></td></tr>
 <tr class="memitem:a14430c7f839d2922b33aa5809126a09d" id="r_a14430c7f839d2922b33aa5809126a09d"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14430c7f839d2922b33aa5809126a09d">gRenderer</a></td></tr>
 <tr class="memitem:a06e432d0474190d50c258a9b451c6b43" id="r_a06e432d0474190d50c258a9b451c6b43"><td class="memItemLeft" align="right" valign="top">TTF_Font *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06e432d0474190d50c258a9b451c6b43">gFont</a></td></tr>
-<tr class="memitem:ae2f24cec4fbf2a70c2a731e7722a12f0" id="r_ae2f24cec4fbf2a70c2a731e7722a12f0"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_registry.html">Registry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2f24cec4fbf2a70c2a731e7722a12f0">registry</a></td></tr>
-<tr class="memitem:a41264185d9ca6be2d55580e33f7c1dec" id="r_a41264185d9ca6be2d55580e33f7c1dec"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_timer_manager.html">TimerManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41264185d9ca6be2d55580e33f7c1dec">timerManager</a></td></tr>
-<tr class="memitem:a4900d1efd009cb2041904bd83a9f3b4e" id="r_a4900d1efd009cb2041904bd83a9f3b4e"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_event_dispatcher.html">EventDispatcher</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4900d1efd009cb2041904bd83a9f3b4e">dispatcher</a></td></tr>
-<tr class="memitem:ae53ce74fe5af36139765c9397b5b15ef" id="r_ae53ce74fe5af36139765c9397b5b15ef"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_command_queue.html">CommandQueue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae53ce74fe5af36139765c9397b5b15ef">commandQueue</a></td></tr>
-<tr class="memitem:acc31569a5c65306b7a258c4e25a6cc13" id="r_acc31569a5c65306b7a258c4e25a6cc13"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_world.html">World</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc31569a5c65306b7a258c4e25a6cc13">world</a></td></tr>
-<tr class="memitem:a75015c3c925210ad387835b131678c45" id="r_a75015c3c925210ad387835b131678c45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_event_handle.html">EventHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75015c3c925210ad387835b131678c45">GameEndHandle</a></td></tr>
-<tr class="memdesc:a75015c3c925210ad387835b131678c45"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re...">EventHandle</a> subscribing GameEnd <a class="el" href="struct_event.html">Event</a>.  <br /></td></tr>
-<tr class="memitem:ab2625e0512bd33f694cb14fe4199055a" id="r_ab2625e0512bd33f694cb14fe4199055a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2625e0512bd33f694cb14fe4199055a">player</a></td></tr>
-<tr class="memdesc:ab2625e0512bd33f694cb14fe4199055a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local player ID.  <br /></td></tr>
-<tr class="memitem:a936120503e9572fd30fef4ab9658d758" id="r_a936120503e9572fd30fef4ab9658d758"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_game_state.html">GameState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a936120503e9572fd30fef4ab9658d758">currentState</a></td></tr>
-<tr class="memdesc:a936120503e9572fd30fef4ab9658d758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current <a class="el" href="class_game_state.html" title="An abstract base class for different states of the game (e.g., menu, playing).">GameState</a>.  <br /></td></tr>
-<tr class="memitem:abef3cd58efdead9feb4d2578d83e0388" id="r_abef3cd58efdead9feb4d2578d83e0388"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_animation_system.html">AnimationSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abef3cd58efdead9feb4d2578d83e0388">animationSystem</a></td></tr>
-<tr class="memitem:a4cdc4f9b053d5705f6c377f360858e82" id="r_a4cdc4f9b053d5705f6c377f360858e82"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_assembling_machine_system.html">AssemblingMachineSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cdc4f9b053d5705f6c377f360858e82">assemblingMachineSystem</a></td></tr>
-<tr class="memitem:ad1bc5f51056ccd5b5bde5e3bd589854e" id="r_ad1bc5f51056ccd5b5bde5e3bd589854e"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_camera_system.html">CameraSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1bc5f51056ccd5b5bde5e3bd589854e">cameraSystem</a></td></tr>
-<tr class="memitem:a473ff44e3c39971bd25aaf09dbda533a" id="r_a473ff44e3c39971bd25aaf09dbda533a"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_input_system.html">InputSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a473ff44e3c39971bd25aaf09dbda533a">inputSystem</a></td></tr>
-<tr class="memitem:a6d01a8f7ccb4e97011e1888981f7075e" id="r_a6d01a8f7ccb4e97011e1888981f7075e"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_inventory_system.html">InventorySystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d01a8f7ccb4e97011e1888981f7075e">inventorySystem</a></td></tr>
-<tr class="memitem:ae4f2443fc70fa1631406e52f1dc114e9" id="r_ae4f2443fc70fa1631406e52f1dc114e9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_mining_drill_system.html">MiningDrillSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4f2443fc70fa1631406e52f1dc114e9">miningDrillSystem</a></td></tr>
-<tr class="memitem:a38ac74a3dac4d9769dc21c0e0e7d66ee" id="r_a38ac74a3dac4d9769dc21c0e0e7d66ee"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_movement_system.html">MovementSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38ac74a3dac4d9769dc21c0e0e7d66ee">movementSystem</a></td></tr>
-<tr class="memitem:ad34a48b804eb408cffb8fc0aaeb79917" id="r_ad34a48b804eb408cffb8fc0aaeb79917"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_refinery_system.html">RefinerySystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad34a48b804eb408cffb8fc0aaeb79917">refinerySystem</a></td></tr>
-<tr class="memitem:a9baaaf5bd6e269b79e06d2af9317f35b" id="r_a9baaaf5bd6e269b79e06d2af9317f35b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_render_system.html">RenderSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9baaaf5bd6e269b79e06d2af9317f35b">renderSystem</a></td></tr>
-<tr class="memitem:a72339fa75ca2169c5afc5282c19a05ae" id="r_a72339fa75ca2169c5afc5282c19a05ae"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_resource_node_system.html">ResourceNodeSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72339fa75ca2169c5afc5282c19a05ae">resourceNodeSystem</a></td></tr>
-<tr class="memitem:ac598718e69c19a3e0a30157bfd3ad85b" id="r_ac598718e69c19a3e0a30157bfd3ad85b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_timer_system.html">TimerSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac598718e69c19a3e0a30157bfd3ad85b">timerSystem</a></td></tr>
-<tr class="memitem:a674a9eedde91a1d6c29dfa68874b13b5" id="r_a674a9eedde91a1d6c29dfa68874b13b5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_timer_expire_system.html">TimerExpireSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a674a9eedde91a1d6c29dfa68874b13b5">timerExpireSystem</a></td></tr>
-<tr class="memitem:ad3f829449700b0fd4a7654bf8e9ec9d3" id="r_ad3f829449700b0fd4a7654bf8e9ec9d3"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_interaction_system.html">InteractionSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3f829449700b0fd4a7654bf8e9ec9d3">interactionSystem</a></td></tr>
-<tr class="memitem:a87022af70153609ff3fd1e04c287a88f" id="r_a87022af70153609ff3fd1e04c287a88f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_u_i_system.html">UISystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87022af70153609ff3fd1e04c287a88f">uiSystem</a></td></tr>
+<tr class="memitem:a3636360908eb42afca8536a5919658b9" id="r_a3636360908eb42afca8536a5919658b9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_asset_manager.html">AssetManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3636360908eb42afca8536a5919658b9">assetManager</a></td></tr>
+<tr class="memitem:a493730efc4e834d4524dadd0abcbf8ad" id="r_a493730efc4e834d4524dadd0abcbf8ad"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_world_asset_manager.html">WorldAssetManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a493730efc4e834d4524dadd0abcbf8ad">worldAssetManager</a></td></tr>
+<tr class="memitem:aa39fed69a7dbdfce7f59bf488be7d45c" id="r_aa39fed69a7dbdfce7f59bf488be7d45c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_input_manager.html">InputManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa39fed69a7dbdfce7f59bf488be7d45c">inputManager</a></td></tr>
 <tr class="memitem:aa92b2db58de0f073243f3118f8b80f07" id="r_aa92b2db58de0f073243f3118f8b80f07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa92b2db58de0f073243f3118f8b80f07">bIsRunning</a> = true</td></tr>
+<tr class="memitem:a500a63ee09a668a7f09c677da8438022" id="r_a500a63ee09a668a7f09c677da8438022"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_i_game_state.html">IGameState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a500a63ee09a668a7f09c677da8438022">pendingState</a> = nullptr</td></tr>
+<tr class="memitem:a6b759efe2461fc768c536dd0f98e0ed5" id="r_a6b759efe2461fc768c536dd0f98e0ed5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b759efe2461fc768c536dd0f98e0ed5">changeStateRequested</a> = false</td></tr>
+<tr class="memitem:a329675469f0d9a33f83556d759b4af0b" id="r_a329675469f0d9a33f83556d759b4af0b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="class_i_game_state.html">IGameState</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a329675469f0d9a33f83556d759b4af0b">gameStates</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The main engine class that drives the game. </p>
-<p>Manages the game loop, owns all core systems and services, and orchestrates the overall game state. </p>
+<div class="textblock"><p>The main game engine class. </p>
+<p>Orchestrates the entire game, including the main loop, state management, and core service initialization. It owns the primary SDL window and renderer, as well as managers for assets and input. The engine drives the active game state, handling transitions and updates. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abc2d44a285110e17af81a5ab8ae67612" name="abc2d44a285110e17af81a5ab8ae67612"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc2d44a285110e17af81a5ab8ae67612">&#9670;&#160;</a></span>GEngine() <span class="overload">[1/3]</span></h2>
@@ -285,19 +247,6 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs the <a class="el" href="class_g_engine.html" title="The main engine class that drives the game.">GEngine</a>. </p>
-<dl class="section note"><dt>Note</dt><dd>Initializes all core services and systems. </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_g_engine_ac315ce5216df00fc88815ca15e70c4c2_cgraph.png" border="0" usemap="#aclass_g_engine_ac315ce5216df00fc88815ca15e70c4c2_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_g_engine_ac315ce5216df00fc88815ca15e70c4c2_cgraph" id="aclass_g_engine_ac315ce5216df00fc88815ca15e70c4c2_cgraph">
-<area shape="rect" title="Constructs the GEngine." alt="" coords="5,5,135,32"/>
-<area shape="rect" href="class_g_engine.html#aef66ed1d006ac33a8bd614c05270a5c8" title=" " alt="" coords="183,5,346,32"/>
-<area shape="poly" title=" " alt="" coords="135,16,167,16,167,21,135,21"/>
-</map>
-</div>
-
 </div>
 </div>
 <a id="a3bdec944d319d1f91af57597f781faa7" name="a3bdec944d319d1f91af57597f781faa7"></a>
@@ -305,9 +254,6 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">GEngine::~GEngine </td>
@@ -316,18 +262,23 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_g_engine_a3bdec944d319d1f91af57597f781faa7_cgraph.png" border="0" usemap="#aclass_g_engine_a3bdec944d319d1f91af57597f781faa7_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_g_engine_a3bdec944d319d1f91af57597f781faa7_cgraph" id="aclass_g_engine_a3bdec944d319d1f91af57597f781faa7_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,143,32"/>
+<area shape="rect" href="class_g_engine.html#aaa241f24ee32355b1dc07e1cb1326bb3" title=" " alt="" coords="191,5,324,32"/>
+<area shape="poly" title=" " alt="" coords="143,16,175,16,175,21,143,21"/>
+</map>
+</div>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a3791cc7999dc1c765e33e88d26311477" name="a3791cc7999dc1c765e33e88d26311477"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3791cc7999dc1c765e33e88d26311477">&#9670;&#160;</a></span>ChangeState()</h2>
+<a id="a354882c8f5f4d4eea9b3dc59fd1d8366" name="a354882c8f5f4d4eea9b3dc59fd1d8366"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a354882c8f5f4d4eea9b3dc59fd1d8366">&#9670;&#160;</a></span>ChangeState()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -335,24 +286,16 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void GEngine::ChangeState </td>
           <td>(</td>
-          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_game_state.html">GameState</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>newState</em></span></td><td>)</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_i_game_state.html">IGameState</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Changes the current game state (e.g., from menu to in-game). </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">newState</td><td>The new <a class="el" href="class_game_state.html" title="An abstract base class for different states of the game (e.g., menu, playing).">GameState</a> to activate. </td></tr>
-  </table>
-  </dd>
-</dl>
-
 </div>
 </div>
-<a id="a11640a2dfd6e7a30dbe27711d3a51945" name="a11640a2dfd6e7a30dbe27711d3a51945"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11640a2dfd6e7a30dbe27711d3a51945">&#9670;&#160;</a></span>GeneratePlayer()</h2>
+<a id="a2366d5a84f5e30273b794bba482c86c1" name="a2366d5a84f5e30273b794bba482c86c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2366d5a84f5e30273b794bba482c86c1">&#9670;&#160;</a></span>GetAssetManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -361,86 +304,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEngine::GeneratePlayer </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_g_engine_a11640a2dfd6e7a30dbe27711d3a51945_cgraph.png" border="0" usemap="#aclass_g_engine_a11640a2dfd6e7a30dbe27711d3a51945_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_g_engine_a11640a2dfd6e7a30dbe27711d3a51945_cgraph" id="aclass_g_engine_a11640a2dfd6e7a30dbe27711d3a51945_cgraph">
-<area shape="rect" title=" " alt="" coords="5,132,175,159"/>
-<area shape="rect" href="namespacefactory.html#ac986ddace9df2128cf45e161027b0038" title=" " alt="" coords="223,132,368,159"/>
-<area shape="poly" title=" " alt="" coords="175,143,207,143,207,148,175,148"/>
-<area shape="rect" href="namespaceutil.html#ae3383a10be16eab71a2adc41b2272d9f" title=" " alt="" coords="450,5,578,32"/>
-<area shape="poly" title=" " alt="" coords="307,130,351,86,382,62,415,42,435,33,437,38,417,46,385,67,355,90,311,134"/>
-<area shape="rect" href="class_registry.html#ae939ff1b510d101fd03f48d8ec62fb39" title="Adds a component to an entity." alt="" coords="430,56,598,83"/>
-<area shape="poly" title=" " alt="" coords="325,129,415,92,439,85,440,90,417,97,327,134"/>
-<area shape="rect" href="class_registry.html#aaec7ed69f07cc2191b2c88f92bb08602" title="Creates a new entity." alt="" coords="438,107,590,133"/>
-<area shape="poly" title=" " alt="" coords="368,134,423,128,423,133,369,140"/>
-<area shape="rect" href="class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="416,157,612,184"/>
-<area shape="poly" title=" " alt="" coords="369,151,401,155,400,160,368,156"/>
-<area shape="rect" href="class_asset_manager.html#afab05d67b6db163192514d93cd3302be" title=" " alt="" coords="427,208,601,235"/>
-<area shape="poly" title=" " alt="" coords="327,157,417,193,440,201,439,206,415,199,325,162"/>
-<area shape="rect" href="class_asset_manager.html#aba5c8d6bc8d7017757257404c9bf01c9" title=" " alt="" coords="432,259,596,285"/>
-<area shape="poly" title=" " alt="" coords="311,157,355,200,385,224,417,244,431,250,428,255,415,249,382,228,351,204,307,161"/>
-<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="660,107,858,133"/>
-<area shape="poly" title=" " alt="" coords="583,81,677,100,676,106,582,86"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="906,107,1135,133"/>
-<area shape="poly" title=" " alt="" coords="858,117,890,117,890,123,858,123"/>
-<area shape="poly" title=" " alt="" coords="582,154,676,134,677,140,583,159"/>
-<area shape="rect" href="class_asset_manager.html#a48938b146fa7ad19270a11be5363472a" title=" " alt="" coords="660,259,858,285"/>
-<area shape="poly" title=" " alt="" coords="596,269,645,269,645,275,596,275"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="aa3fc7351ea94dc992e7b864fc00b55ba" name="aa3fc7351ea94dc992e7b864fc00b55ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3fc7351ea94dc992e7b864fc00b55ba">&#9670;&#160;</a></span>GetCommandQueue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_command_queue.html">CommandQueue</a> * GEngine::GetCommandQueue </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aef66ed1d006ac33a8bd614c05270a5c8" name="aef66ed1d006ac33a8bd614c05270a5c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef66ed1d006ac33a8bd614c05270a5c8">&#9670;&#160;</a></span>GetDispatcher()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a> * GEngine::GetDispatcher </td>
+          <td class="memname"><a class="el" href="class_asset_manager.html">AssetManager</a> * GEngine::GetAssetManager </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -455,13 +319,13 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_g_engine_aef66ed1d006ac33a8bd614c05270a5c8_icgraph.png" border="0" usemap="#aclass_g_engine_aef66ed1d006ac33a8bd614c05270a5c8_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_g_engine_aef66ed1d006ac33a8bd614c05270a5c8_icgraph" id="aclass_g_engine_aef66ed1d006ac33a8bd614c05270a5c8_icgraph">
-<area shape="rect" title=" " alt="" coords="219,43,382,69"/>
-<area shape="rect" href="class_resource_mine_command.html#aa286cd0a089ae22bb03599f7d6aabeb6" title=" " alt="" coords="5,5,171,48"/>
-<area shape="poly" title=" " alt="" coords="203,45,171,41,172,35,204,40"/>
-<area shape="rect" href="class_g_engine.html#ac315ce5216df00fc88815ca15e70c4c2" title="Constructs the GEngine." alt="" coords="23,72,153,99"/>
-<area shape="poly" title=" " alt="" coords="204,72,153,79,153,74,203,67"/>
+<div class="center"><img src="class_g_engine_a2366d5a84f5e30273b794bba482c86c1_icgraph.png" border="0" usemap="#aclass_g_engine_a2366d5a84f5e30273b794bba482c86c1_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_g_engine_a2366d5a84f5e30273b794bba482c86c1_icgraph" id="aclass_g_engine_a2366d5a84f5e30273b794bba482c86c1_icgraph">
+<area shape="rect" title=" " alt="" coords="170,31,354,57"/>
+<area shape="rect" href="class_client_state.html#a117fc910fa0bf494846ce07bf08f4d3e" title=" " alt="" coords="7,5,120,32"/>
+<area shape="poly" title=" " alt="" coords="154,33,120,28,120,23,155,28"/>
+<area shape="rect" href="class_server_state.html#a366d393858af0e45a9fd1cefa971b29e" title=" " alt="" coords="5,56,122,83"/>
+<area shape="poly" title=" " alt="" coords="155,60,122,65,122,59,154,55"/>
 </map>
 </div>
 
@@ -489,11 +353,25 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_g_engine_a35779f6c5e17b8f24d4f0a15ac767a23_icgraph.png" border="0" usemap="#aclass_g_engine_a35779f6c5e17b8f24d4f0a15ac767a23_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_g_engine_a35779f6c5e17b8f24d4f0a15ac767a23_icgraph" id="aclass_g_engine_a35779f6c5e17b8f24d4f0a15ac767a23_icgraph">
+<area shape="rect" title=" " alt="" coords="192,56,318,83"/>
+<area shape="rect" href="class_client_state.html#a117fc910fa0bf494846ce07bf08f4d3e" title=" " alt="" coords="18,5,131,32"/>
+<area shape="poly" title=" " alt="" coords="189,54,124,35,125,30,191,49"/>
+<area shape="rect" href="class_main_menu_state.html#a6f8f6578216e14cf7d145277eeb43214" title=" " alt="" coords="5,56,144,83"/>
+<area shape="poly" title=" " alt="" coords="176,72,144,72,144,67,176,67"/>
+<area shape="rect" href="class_server_state.html#a366d393858af0e45a9fd1cefa971b29e" title=" " alt="" coords="16,107,133,133"/>
+<area shape="poly" title=" " alt="" coords="191,90,125,109,124,104,189,85"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="abc682610b7b5faae16d5a62bc42f3dfa" name="abc682610b7b5faae16d5a62bc42f3dfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc682610b7b5faae16d5a62bc42f3dfa">&#9670;&#160;</a></span>GetPlayer()</h2>
+<a id="ae622490cfe12f855e59af83cecadf896" name="ae622490cfe12f855e59af83cecadf896"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae622490cfe12f855e59af83cecadf896">&#9670;&#160;</a></span>GetInputManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -502,7 +380,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> GEngine::GetPlayer </td>
+          <td class="memname"><a class="el" href="class_input_manager.html">InputManager</a> * GEngine::GetInputManager </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -514,31 +392,18 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_g_engine_ae622490cfe12f855e59af83cecadf896_icgraph.png" border="0" usemap="#aclass_g_engine_ae622490cfe12f855e59af83cecadf896_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_g_engine_ae622490cfe12f855e59af83cecadf896_icgraph" id="aclass_g_engine_ae622490cfe12f855e59af83cecadf896_icgraph">
+<area shape="rect" title=" " alt="" coords="170,31,349,57"/>
+<area shape="rect" href="class_client_state.html#a117fc910fa0bf494846ce07bf08f4d3e" title=" " alt="" coords="7,5,120,32"/>
+<area shape="poly" title=" " alt="" coords="154,33,120,29,120,23,155,28"/>
+<area shape="rect" href="class_server_state.html#a366d393858af0e45a9fd1cefa971b29e" title=" " alt="" coords="5,56,122,83"/>
+<area shape="poly" title=" " alt="" coords="155,60,122,64,122,59,154,55"/>
+</map>
 </div>
-</div>
-<a id="acb52a8fff8ae4818589d2fd51a19e4b9" name="acb52a8fff8ae4818589d2fd51a19e4b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb52a8fff8ae4818589d2fd51a19e4b9">&#9670;&#160;</a></span>GetRegistry()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_registry.html">Registry</a> * GEngine::GetRegistry </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -564,48 +429,20 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_g_engine_a1158d450d846c847773febfab654fba4_icgraph.png" border="0" usemap="#aclass_g_engine_a1158d450d846c847773febfab654fba4_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_g_engine_a1158d450d846c847773febfab654fba4_icgraph" id="aclass_g_engine_a1158d450d846c847773febfab654fba4_icgraph">
+<area shape="rect" title=" " alt="" coords="192,56,345,83"/>
+<area shape="rect" href="class_client_state.html#a117fc910fa0bf494846ce07bf08f4d3e" title=" " alt="" coords="18,5,131,32"/>
+<area shape="poly" title=" " alt="" coords="199,54,128,35,129,30,201,49"/>
+<area shape="rect" href="class_main_menu_state.html#a6f8f6578216e14cf7d145277eeb43214" title=" " alt="" coords="5,56,144,83"/>
+<area shape="poly" title=" " alt="" coords="176,72,144,72,144,67,176,67"/>
+<area shape="rect" href="class_server_state.html#a366d393858af0e45a9fd1cefa971b29e" title=" " alt="" coords="16,107,133,133"/>
+<area shape="poly" title=" " alt="" coords="201,90,129,109,128,103,199,85"/>
+</map>
 </div>
-</div>
-<a id="aca54aa1ca2990844595b461ba7e86e42" name="aca54aa1ca2990844595b461ba7e86e42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca54aa1ca2990844595b461ba7e86e42">&#9670;&#160;</a></span>GetScreenSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_vec2.html">Vec2</a> GEngine::GetScreenSize </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af9719409fc9aea356987258e8241c874" name="af9719409fc9aea356987258e8241c874"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9719409fc9aea356987258e8241c874">&#9670;&#160;</a></span>GetTimerManager()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_timer_manager.html">TimerManager</a> * GEngine::GetTimerManager </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -631,11 +468,25 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_g_engine_a11604b70429dced039a7582e674de06d_icgraph.png" border="0" usemap="#aclass_g_engine_a11604b70429dced039a7582e674de06d_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_g_engine_a11604b70429dced039a7582e674de06d_icgraph" id="aclass_g_engine_a11604b70429dced039a7582e674de06d_icgraph">
+<area shape="rect" title=" " alt="" coords="192,56,339,83"/>
+<area shape="rect" href="class_client_state.html#a117fc910fa0bf494846ce07bf08f4d3e" title=" " alt="" coords="18,5,131,32"/>
+<area shape="poly" title=" " alt="" coords="197,54,127,35,128,30,198,49"/>
+<area shape="rect" href="class_main_menu_state.html#a6f8f6578216e14cf7d145277eeb43214" title=" " alt="" coords="5,56,144,83"/>
+<area shape="poly" title=" " alt="" coords="176,72,144,72,144,67,176,67"/>
+<area shape="rect" href="class_server_state.html#a366d393858af0e45a9fd1cefa971b29e" title=" " alt="" coords="16,107,133,133"/>
+<area shape="poly" title=" " alt="" coords="198,90,128,109,127,103,197,85"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a8f159185ba0afac7f7be64584ab2f923" name="a8f159185ba0afac7f7be64584ab2f923"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f159185ba0afac7f7be64584ab2f923">&#9670;&#160;</a></span>GetWorld()</h2>
+<a id="a91eac70406f80599b2f3059576dd0c1b" name="a91eac70406f80599b2f3059576dd0c1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91eac70406f80599b2f3059576dd0c1b">&#9670;&#160;</a></span>GetWorldAssetManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -644,7 +495,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_world.html">World</a> * GEngine::GetWorld </td>
+          <td class="memname"><a class="el" href="class_world_asset_manager.html">WorldAssetManager</a> * GEngine::GetWorldAssetManager </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -659,18 +510,20 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_g_engine_a8f159185ba0afac7f7be64584ab2f923_icgraph.png" border="0" usemap="#aclass_g_engine_a8f159185ba0afac7f7be64584ab2f923_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_g_engine_a8f159185ba0afac7f7be64584ab2f923_icgraph" id="aclass_g_engine_a8f159185ba0afac7f7be64584ab2f923_icgraph">
-<area shape="rect" title=" " alt="" coords="219,13,352,40"/>
-<area shape="rect" href="class_resource_mine_command.html#aa286cd0a089ae22bb03599f7d6aabeb6" title=" " alt="" coords="5,5,171,48"/>
-<area shape="poly" title=" " alt="" coords="203,29,171,29,171,24,203,24"/>
+<div class="center"><img src="class_g_engine_a91eac70406f80599b2f3059576dd0c1b_icgraph.png" border="0" usemap="#aclass_g_engine_a91eac70406f80599b2f3059576dd0c1b_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_g_engine_a91eac70406f80599b2f3059576dd0c1b_icgraph" id="aclass_g_engine_a91eac70406f80599b2f3059576dd0c1b_icgraph">
+<area shape="rect" title=" " alt="" coords="170,31,387,57"/>
+<area shape="rect" href="class_client_state.html#a117fc910fa0bf494846ce07bf08f4d3e" title=" " alt="" coords="7,5,120,32"/>
+<area shape="poly" title=" " alt="" coords="154,32,120,28,120,23,154,27"/>
+<area shape="rect" href="class_server_state.html#a366d393858af0e45a9fd1cefa971b29e" title=" " alt="" coords="5,56,122,83"/>
+<area shape="poly" title=" " alt="" coords="154,61,123,65,122,60,154,56"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ad24abc367950461fcf0b5b321cb8a1df" name="ad24abc367950461fcf0b5b321cb8a1df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad24abc367950461fcf0b5b321cb8a1df">&#9670;&#160;</a></span>InitCoreSystem()</h2>
+<a id="a7f1dbb1e2cf5ad1ccbbbfbfe66d966f9" name="a7f1dbb1e2cf5ad1ccbbbfbfe66d966f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f1dbb1e2cf5ad1ccbbbfbfe66d966f9">&#9670;&#160;</a></span>IsChangeRequested()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -679,35 +532,10 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEngine::InitCoreSystem </td>
+          <td class="memname">bool GEngine::IsChangeRequested </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7f707e7ad4fe98bad49a06e2f5d546aa" name="a7f707e7ad4fe98bad49a06e2f5d546aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f707e7ad4fe98bad49a06e2f5d546aa">&#9670;&#160;</a></span>IsRunning()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool GEngine::IsRunning </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
         </tr>
       </table>
   </td>
@@ -716,18 +544,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_g_engine_a7f707e7ad4fe98bad49a06e2f5d546aa_icgraph.png" border="0" usemap="#aclass_g_engine_a7f707e7ad4fe98bad49a06e2f5d546aa_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_g_engine_a7f707e7ad4fe98bad49a06e2f5d546aa_icgraph" id="aclass_g_engine_a7f707e7ad4fe98bad49a06e2f5d546aa_icgraph">
-<area shape="rect" title=" " alt="" coords="235,5,373,32"/>
-<area shape="rect" href="main_8cpp.html#ae3982d33d2544713a93adc640b85dd75" title=" " alt="" coords="103,5,187,32"/>
-<area shape="poly" title=" " alt="" coords="219,21,188,21,188,16,219,16"/>
-<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
-<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -803,61 +619,59 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a4b4c25c992f1a1fb55b1f56efb9ae245" name="a4b4c25c992f1a1fb55b1f56efb9ae245"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b4c25c992f1a1fb55b1f56efb9ae245">&#9670;&#160;</a></span>RegisterComponent()</h2>
+<a id="aaa241f24ee32355b1dc07e1cb1326bb3" name="aaa241f24ee32355b1dc07e1cb1326bb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa241f24ee32355b1dc07e1cb1326bb3">&#9670;&#160;</a></span>PopState()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEngine::RegisterComponent </td>
+          <td class="memname">void GEngine::PopState </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_g_engine_aaa241f24ee32355b1dc07e1cb1326bb3_icgraph.png" border="0" usemap="#aclass_g_engine_aaa241f24ee32355b1dc07e1cb1326bb3_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_g_engine_aaa241f24ee32355b1dc07e1cb1326bb3_icgraph" id="aclass_g_engine_aaa241f24ee32355b1dc07e1cb1326bb3_icgraph">
+<area shape="rect" title=" " alt="" coords="288,31,421,57"/>
+<area shape="rect" href="class_g_engine.html#a2ec44ac231643168e5d958f606106362" title=" " alt="" coords="120,5,223,32"/>
+<area shape="poly" title=" " alt="" coords="272,35,223,28,224,23,273,30"/>
+<area shape="rect" href="class_g_engine.html#a3bdec944d319d1f91af57597f781faa7" title=" " alt="" coords="103,56,240,83"/>
+<area shape="poly" title=" " alt="" coords="273,58,241,62,240,57,272,53"/>
+<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="104,21,55,21,55,16,104,16"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a33b5e83397ed9dcfac8351b73ae119eb" name="a33b5e83397ed9dcfac8351b73ae119eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33b5e83397ed9dcfac8351b73ae119eb">&#9670;&#160;</a></span>Update()</h2>
+<a id="a1639d915932a6a83667ea335bc989295" name="a1639d915932a6a83667ea335bc989295"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1639d915932a6a83667ea335bc989295">&#9670;&#160;</a></span>PushState()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void GEngine::Update </td>
+          <td class="memname">void GEngine::PushState </td>
           <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>deltaTime</em></span></td><td>)</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_i_game_state.html">IGameState</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Executes a single frame of the game loop. </p>
-<p>Processes all pending commands and then updates all active game systems. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">deltaTime</td><td>The time elapsed since the last frame. </td></tr>
-  </table>
-  </dd>
-</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_g_engine_a33b5e83397ed9dcfac8351b73ae119eb_icgraph.png" border="0" usemap="#aclass_g_engine_a33b5e83397ed9dcfac8351b73ae119eb_icgraph" loading="lazy" alt=""/></div>
-<map name="aclass_g_engine_a33b5e83397ed9dcfac8351b73ae119eb_icgraph" id="aclass_g_engine_a33b5e83397ed9dcfac8351b73ae119eb_icgraph">
-<area shape="rect" title="Executes a single frame of the game loop." alt="" coords="235,5,356,32"/>
-<area shape="rect" href="main_8cpp.html#ae3982d33d2544713a93adc640b85dd75" title=" " alt="" coords="103,5,187,32"/>
-<area shape="poly" title=" " alt="" coords="219,21,188,21,188,16,219,16"/>
+<div class="center"><img src="class_g_engine_a1639d915932a6a83667ea335bc989295_icgraph.png" border="0" usemap="#aclass_g_engine_a1639d915932a6a83667ea335bc989295_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_g_engine_a1639d915932a6a83667ea335bc989295_icgraph" id="aclass_g_engine_a1639d915932a6a83667ea335bc989295_icgraph">
+<area shape="rect" title=" " alt="" coords="254,5,394,32"/>
+<area shape="rect" href="class_g_engine.html#a2ec44ac231643168e5d958f606106362" title=" " alt="" coords="103,5,206,32"/>
+<area shape="poly" title=" " alt="" coords="238,21,206,21,206,16,238,16"/>
 <area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
 <area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
 </map>
@@ -865,9 +679,47 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="abef3cd58efdead9feb4d2578d83e0388" name="abef3cd58efdead9feb4d2578d83e0388"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abef3cd58efdead9feb4d2578d83e0388">&#9670;&#160;</a></span>animationSystem</h2>
+<a id="a2ec44ac231643168e5d958f606106362" name="a2ec44ac231643168e5d958f606106362"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ec44ac231643168e5d958f606106362">&#9670;&#160;</a></span>Run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEngine::Run </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_g_engine_a2ec44ac231643168e5d958f606106362_cgraph.png" border="0" usemap="#aclass_g_engine_a2ec44ac231643168e5d958f606106362_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_g_engine_a2ec44ac231643168e5d958f606106362_cgraph" id="aclass_g_engine_a2ec44ac231643168e5d958f606106362_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,109,57"/>
+<area shape="rect" href="class_g_engine.html#aaa241f24ee32355b1dc07e1cb1326bb3" title=" " alt="" coords="160,5,294,32"/>
+<area shape="poly" title=" " alt="" coords="109,34,144,28,145,34,109,39"/>
+<area shape="rect" href="class_g_engine.html#a1639d915932a6a83667ea335bc989295" title=" " alt="" coords="157,56,297,83"/>
+<area shape="poly" title=" " alt="" coords="109,49,142,54,141,59,109,54"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_g_engine_a2ec44ac231643168e5d958f606106362_icgraph.png" border="0" usemap="#aclass_g_engine_a2ec44ac231643168e5d958f606106362_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_g_engine_a2ec44ac231643168e5d958f606106362_icgraph" id="aclass_g_engine_a2ec44ac231643168e5d958f606106362_icgraph">
+<area shape="rect" title=" " alt="" coords="103,5,206,32"/>
+<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad70b7a96ed6104343d6c8337ef20edad" name="ad70b7a96ed6104343d6c8337ef20edad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad70b7a96ed6104343d6c8337ef20edad">&#9670;&#160;</a></span>Stop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -876,20 +728,24 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_animation_system.html">AnimationSystem</a>&gt; GEngine::animationSystem</td>
+          <td class="memname">void GEngine::Stop </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4cdc4f9b053d5705f6c377f360858e82" name="a4cdc4f9b053d5705f6c377f360858e82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cdc4f9b053d5705f6c377f360858e82">&#9670;&#160;</a></span>assemblingMachineSystem</h2>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a3636360908eb42afca8536a5919658b9" name="a3636360908eb42afca8536a5919658b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3636360908eb42afca8536a5919658b9">&#9670;&#160;</a></span>assetManager</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -898,7 +754,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_assembling_machine_system.html">AssemblingMachineSystem</a>&gt; GEngine::assemblingMachineSystem</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_asset_manager.html">AssetManager</a>&gt; GEngine::assetManager</td>
         </tr>
       </table>
   </td>
@@ -932,8 +788,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ad1bc5f51056ccd5b5bde5e3bd589854e" name="ad1bc5f51056ccd5b5bde5e3bd589854e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1bc5f51056ccd5b5bde5e3bd589854e">&#9670;&#160;</a></span>cameraSystem</h2>
+<a id="a6b759efe2461fc768c536dd0f98e0ed5" name="a6b759efe2461fc768c536dd0f98e0ed5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b759efe2461fc768c536dd0f98e0ed5">&#9670;&#160;</a></span>changeStateRequested</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -942,7 +798,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_camera_system.html">CameraSystem</a>&gt; GEngine::cameraSystem</td>
+          <td class="memname">bool GEngine::changeStateRequested = false</td>
         </tr>
       </table>
   </td>
@@ -954,8 +810,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ae53ce74fe5af36139765c9397b5b15ef" name="ae53ce74fe5af36139765c9397b5b15ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae53ce74fe5af36139765c9397b5b15ef">&#9670;&#160;</a></span>commandQueue</h2>
+<a id="a329675469f0d9a33f83556d759b4af0b" name="a329675469f0d9a33f83556d759b4af0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a329675469f0d9a33f83556d759b4af0b">&#9670;&#160;</a></span>gameStates</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -964,7 +820,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_command_queue.html">CommandQueue</a>&gt; GEngine::commandQueue</td>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="class_i_game_state.html">IGameState</a>&gt; &gt; GEngine::gameStates</td>
         </tr>
       </table>
   </td>
@@ -973,76 +829,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a936120503e9572fd30fef4ab9658d758" name="a936120503e9572fd30fef4ab9658d758"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a936120503e9572fd30fef4ab9658d758">&#9670;&#160;</a></span>currentState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_game_state.html">GameState</a>&gt; GEngine::currentState</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Current <a class="el" href="class_game_state.html" title="An abstract base class for different states of the game (e.g., menu, playing).">GameState</a>. </p>
-
-</div>
-</div>
-<a id="a4900d1efd009cb2041904bd83a9f3b4e" name="a4900d1efd009cb2041904bd83a9f3b4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4900d1efd009cb2041904bd83a9f3b4e">&#9670;&#160;</a></span>dispatcher</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_event_dispatcher.html">EventDispatcher</a>&gt; GEngine::dispatcher</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a75015c3c925210ad387835b131678c45" name="a75015c3c925210ad387835b131678c45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75015c3c925210ad387835b131678c45">&#9670;&#160;</a></span>GameEndHandle</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_event_handle.html">EventHandle</a> GEngine::GameEndHandle</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><a class="el" href="class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re...">EventHandle</a> subscribing GameEnd <a class="el" href="struct_event.html">Event</a>. </p>
 
 </div>
 </div>
@@ -1112,8 +898,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a473ff44e3c39971bd25aaf09dbda533a" name="a473ff44e3c39971bd25aaf09dbda533a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a473ff44e3c39971bd25aaf09dbda533a">&#9670;&#160;</a></span>inputSystem</h2>
+<a id="aa39fed69a7dbdfce7f59bf488be7d45c" name="aa39fed69a7dbdfce7f59bf488be7d45c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa39fed69a7dbdfce7f59bf488be7d45c">&#9670;&#160;</a></span>inputManager</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1122,7 +908,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_input_system.html">InputSystem</a>&gt; GEngine::inputSystem</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_input_manager.html">InputManager</a>&gt; GEngine::inputManager</td>
         </tr>
       </table>
   </td>
@@ -1134,8 +920,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ad3f829449700b0fd4a7654bf8e9ec9d3" name="ad3f829449700b0fd4a7654bf8e9ec9d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3f829449700b0fd4a7654bf8e9ec9d3">&#9670;&#160;</a></span>interactionSystem</h2>
+<a id="a500a63ee09a668a7f09c677da8438022" name="a500a63ee09a668a7f09c677da8438022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a500a63ee09a668a7f09c677da8438022">&#9670;&#160;</a></span>pendingState</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1144,7 +930,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_interaction_system.html">InteractionSystem</a>&gt; GEngine::interactionSystem</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_i_game_state.html">IGameState</a>&gt; GEngine::pendingState = nullptr</td>
         </tr>
       </table>
   </td>
@@ -1156,8 +942,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6d01a8f7ccb4e97011e1888981f7075e" name="a6d01a8f7ccb4e97011e1888981f7075e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d01a8f7ccb4e97011e1888981f7075e">&#9670;&#160;</a></span>inventorySystem</h2>
+<a id="a493730efc4e834d4524dadd0abcbf8ad" name="a493730efc4e834d4524dadd0abcbf8ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a493730efc4e834d4524dadd0abcbf8ad">&#9670;&#160;</a></span>worldAssetManager</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1166,273 +952,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_inventory_system.html">InventorySystem</a>&gt; GEngine::inventorySystem</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae4f2443fc70fa1631406e52f1dc114e9" name="ae4f2443fc70fa1631406e52f1dc114e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4f2443fc70fa1631406e52f1dc114e9">&#9670;&#160;</a></span>miningDrillSystem</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_mining_drill_system.html">MiningDrillSystem</a>&gt; GEngine::miningDrillSystem</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a38ac74a3dac4d9769dc21c0e0e7d66ee" name="a38ac74a3dac4d9769dc21c0e0e7d66ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38ac74a3dac4d9769dc21c0e0e7d66ee">&#9670;&#160;</a></span>movementSystem</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_movement_system.html">MovementSystem</a>&gt; GEngine::movementSystem</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab2625e0512bd33f694cb14fe4199055a" name="ab2625e0512bd33f694cb14fe4199055a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2625e0512bd33f694cb14fe4199055a">&#9670;&#160;</a></span>player</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> GEngine::player</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Local player ID. </p>
-
-</div>
-</div>
-<a id="ad34a48b804eb408cffb8fc0aaeb79917" name="ad34a48b804eb408cffb8fc0aaeb79917"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad34a48b804eb408cffb8fc0aaeb79917">&#9670;&#160;</a></span>refinerySystem</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_refinery_system.html">RefinerySystem</a>&gt; GEngine::refinerySystem</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae2f24cec4fbf2a70c2a731e7722a12f0" name="ae2f24cec4fbf2a70c2a731e7722a12f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2f24cec4fbf2a70c2a731e7722a12f0">&#9670;&#160;</a></span>registry</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_registry.html">Registry</a>&gt; GEngine::registry</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9baaaf5bd6e269b79e06d2af9317f35b" name="a9baaaf5bd6e269b79e06d2af9317f35b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9baaaf5bd6e269b79e06d2af9317f35b">&#9670;&#160;</a></span>renderSystem</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_render_system.html">RenderSystem</a>&gt; GEngine::renderSystem</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a72339fa75ca2169c5afc5282c19a05ae" name="a72339fa75ca2169c5afc5282c19a05ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72339fa75ca2169c5afc5282c19a05ae">&#9670;&#160;</a></span>resourceNodeSystem</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_resource_node_system.html">ResourceNodeSystem</a>&gt; GEngine::resourceNodeSystem</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a674a9eedde91a1d6c29dfa68874b13b5" name="a674a9eedde91a1d6c29dfa68874b13b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a674a9eedde91a1d6c29dfa68874b13b5">&#9670;&#160;</a></span>timerExpireSystem</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_timer_expire_system.html">TimerExpireSystem</a>&gt; GEngine::timerExpireSystem</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a41264185d9ca6be2d55580e33f7c1dec" name="a41264185d9ca6be2d55580e33f7c1dec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41264185d9ca6be2d55580e33f7c1dec">&#9670;&#160;</a></span>timerManager</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_timer_manager.html">TimerManager</a>&gt; GEngine::timerManager</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac598718e69c19a3e0a30157bfd3ad85b" name="ac598718e69c19a3e0a30157bfd3ad85b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac598718e69c19a3e0a30157bfd3ad85b">&#9670;&#160;</a></span>timerSystem</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_timer_system.html">TimerSystem</a>&gt; GEngine::timerSystem</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a87022af70153609ff3fd1e04c287a88f" name="a87022af70153609ff3fd1e04c287a88f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87022af70153609ff3fd1e04c287a88f">&#9670;&#160;</a></span>uiSystem</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_u_i_system.html">UISystem</a>&gt; GEngine::uiSystem</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acc31569a5c65306b7a258c4e25a6cc13" name="acc31569a5c65306b7a258c4e25a6cc13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc31569a5c65306b7a258c4e25a6cc13">&#9670;&#160;</a></span>world</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_world.html">World</a>&gt; GEngine::world</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_world_asset_manager.html">WorldAssetManager</a>&gt; GEngine::worldAssetManager</td>
         </tr>
       </table>
   </td>

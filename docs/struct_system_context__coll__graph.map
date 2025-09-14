@@ -1,0 +1,47 @@
+<map id="SystemContext" name="SystemContext">
+<area shape="rect" id="Node000001" title="A container for shared game services and managers." alt="" coords="1284,523,1396,550"/>
+<area shape="rect" id="Node000002" href="$class_asset_manager.html" title="A singleton for managing and caching in&#45;game entity assets." alt="" coords="275,190,380,217"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="395,190,460,176,487,167,505,157,513,146,516,133,519,119,529,107,608,63,680,37,747,27,813,29,881,41,953,58,1123,99,1201,114,1231,129,1262,159,1279,189,1294,232,1317,340,1332,448,1340,522,1335,523,1327,449,1311,341,1288,234,1274,191,1258,162,1228,134,1199,120,1122,105,952,63,880,46,813,35,748,33,681,43,610,68,533,111,524,121,521,134,518,148,509,161,489,172,462,181,396,195"/>
+<area shape="rect" id="Node000008" href="$class_entity_factory.html" title="A factory for creating pre&#45;configured entities." alt="" coords="577,242,676,269"/>
+<area shape="poly" id="edge13_Node000008_Node000002" title=" " alt="" coords="396,216,404,218,577,246,576,251,404,223,395,221"/>
+<area shape="rect" id="Node000003" href="$class_world_asset_manager.html" title="A singleton for managing and caching world tile assets." alt="" coords="558,121,696,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="711,128,851,128,1014,135,1093,144,1163,157,1221,175,1244,187,1262,200,1279,225,1294,262,1317,357,1332,455,1340,523,1335,523,1327,455,1312,358,1289,264,1274,228,1258,204,1241,191,1219,180,1162,162,1092,149,1014,141,851,133,711,134"/>
+<area shape="rect" id="Node000007" href="$class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="981,221,1035,247"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="703,149,870,190,981,223,980,228,869,195,701,154"/>
+<area shape="rect" id="Node000004" href="$class_command_queue.html" title="A queue for deferred execution of commands." alt="" coords="948,475,1068,502"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1083,488,1168,495,1260,509,1302,520,1300,525,1259,514,1168,500,1083,494"/>
+<area shape="rect" id="Node000005" href="$class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="292,307,362,334"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="378,323,882,372,1141,400,1261,417,1289,440,1311,469,1336,522,1331,524,1306,472,1285,444,1259,422,1140,405,882,377,377,328"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="378,319,532,318,627,312,722,302,847,274,980,239,981,244,848,279,723,307,628,317,533,323,378,324"/>
+<area shape="poly" id="edge12_Node000008_Node000005" title=" " alt="" coords="377,307,576,263,577,269,378,312"/>
+<area shape="rect" id="Node000006" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,307,124,334"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="139,329,531,385,692,396,900,407,1007,415,1106,426,1193,442,1261,463,1282,476,1301,491,1330,521,1326,525,1298,495,1279,480,1259,468,1192,447,1105,431,1006,420,900,412,692,401,531,390,138,334"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="139,318,292,318,292,323,139,323"/>
+<area shape="poly" id="edge10_Node000007_Node000006" title=" " alt="" coords="89,294,122,265,166,231,218,199,274,175,339,165,426,163,528,168,636,178,841,204,981,227,980,232,841,210,635,183,527,173,426,168,340,170,275,180,220,204,169,235,126,269,92,298"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="1051,226,1099,225,1155,229,1211,244,1238,257,1261,275,1287,303,1306,336,1321,371,1330,408,1340,475,1342,523,1336,523,1335,475,1325,409,1316,373,1302,338,1283,306,1258,279,1235,262,1209,249,1154,234,1098,230,1051,231"/>
+<area shape="poly" id="edge18_Node000001_Node000008" title=" " alt="" coords="692,260,1016,304,1174,333,1229,347,1261,361,1280,379,1296,399,1319,445,1332,489,1339,522,1334,523,1327,490,1314,447,1291,402,1276,382,1258,365,1228,352,1173,338,1015,310,691,265"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="692,253,869,247,980,235,981,240,870,253,692,258"/>
+<area shape="rect" id="Node000009" href="$class_input_manager.html" title="Manages all user input from keyboard, mouse, and other devices." alt="" coords="958,526,1058,553"/>
+<area shape="poly" id="edge14_Node000001_Node000009" title=" " alt="" coords="1074,536,1283,534,1283,540,1074,541"/>
+<area shape="rect" id="Node000010" href="$struct_input_state.html" title="A snapshot of the state of all input devices at a single point in time." alt="" coords="586,563,667,590"/>
+<area shape="poly" id="edge15_Node000009_Node000010" title=" " alt="" coords="683,571,869,555,957,544,958,549,870,561,683,576"/>
+<area shape="rect" id="Node000011" href="$struct_vec2.html" title="A 2D vector of integers." alt="" coords="302,555,352,582"/>
+<area shape="poly" id="edge17_Node000009_Node000011" title=" " alt="" coords="364,545,403,531,473,518,533,512,586,511,635,513,738,523,869,531,958,534,958,540,869,537,738,529,635,518,585,516,533,517,474,524,405,536,366,550"/>
+<area shape="poly" id="edge16_Node000010_Node000011" title=" " alt="" coords="355,590,378,607,405,619,433,627,456,630,478,628,506,620,518,610,530,600,557,588,585,581,586,586,559,593,532,604,521,615,508,624,479,633,456,636,432,633,403,624,376,611,352,594"/>
+<area shape="rect" id="Node000012" href="$class_timer_manager.html" title="Manages the lifecycle of all TimerInstance objects in the game, centralizing the logic and memory man..." alt="" coords="956,579,1060,606"/>
+<area shape="poly" id="edge19_Node000001_Node000012" title=" " alt="" coords="1076,588,1164,581,1259,565,1308,548,1309,553,1260,570,1164,586,1076,593"/>
+<area shape="rect" id="Node000013" href="$class_object_pool.html" title=" " alt="" coords="531,614,722,641"/>
+<area shape="poly" id="edge20_Node000012_Node000013" title=" " alt="" coords="738,625,869,617,955,602,956,607,870,622,738,630"/>
+<area shape="rect" id="Node000014" href="$class_thread_safe_queue.html" title=" " alt="" coords="897,633,1119,659"/>
+<area shape="poly" id="edge21_Node000001_Node000014" title=" " alt="" coords="1134,643,1198,633,1259,612,1280,598,1299,581,1327,548,1331,552,1303,585,1283,602,1261,616,1199,638,1135,648"/>
+<area shape="rect" id="Node000015" href="$class_thread_safe_queue.html" title=" " alt="" coords="893,687,1123,714"/>
+<area shape="poly" id="edge22_Node000001_Node000015" title=" " alt="" coords="1138,707,1201,697,1231,686,1258,672,1287,644,1309,611,1324,577,1333,550,1338,551,1329,579,1314,613,1292,648,1261,676,1233,691,1202,702,1139,712"/>
+<area shape="rect" id="Node000016" href="$class_thread_safe_queue.html" title=" " alt="" coords="904,763,1112,790"/>
+<area shape="poly" id="edge23_Node000001_Node000016" title=" " alt="" coords="1091,790,1133,792,1177,789,1220,778,1258,757,1281,735,1298,709,1312,680,1322,650,1333,592,1336,550,1341,551,1338,593,1327,651,1317,682,1303,712,1285,739,1261,761,1222,783,1178,794,1133,797,1091,795"/>
+<area shape="rect" id="Node000017" href="$class_thread_safe_queue.html" title=" " alt="" coords="895,818,1121,845"/>
+<area shape="poly" id="edge24_Node000001_Node000017" title=" " alt="" coords="1073,846,1118,852,1167,853,1215,844,1238,834,1258,821,1273,802,1287,772,1310,693,1326,610,1334,550,1340,551,1331,610,1315,694,1292,774,1278,805,1261,825,1240,839,1217,849,1168,858,1118,857,1072,851"/>
+<area shape="rect" id="Node000018" href="$class_server.html" title="Manages the server&#45;side network communication." alt="" coords="978,873,1038,899"/>
+<area shape="poly" id="edge25_Node000001_Node000018" title=" " alt="" coords="1053,890,1169,899,1223,896,1244,891,1258,884,1276,860,1292,823,1304,776,1315,724,1329,621,1335,550,1340,551,1334,622,1320,725,1310,777,1297,824,1281,863,1261,888,1245,896,1224,901,1169,904,1053,895"/>
+<area shape="rect" id="Node000019" href="$class_socket.html" title="Manages the client&#45;side network communication." alt="" coords="977,927,1039,954"/>
+<area shape="poly" id="edge26_Node000001_Node000019" title=" " alt="" coords="1055,951,1102,960,1156,963,1211,955,1236,944,1258,929,1278,902,1294,858,1307,805,1318,745,1330,629,1335,550,1341,550,1336,630,1323,746,1313,806,1299,860,1282,904,1262,933,1238,949,1212,960,1157,968,1102,966,1054,957"/>
+</map>

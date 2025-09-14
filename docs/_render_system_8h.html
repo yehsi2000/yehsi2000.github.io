@@ -92,19 +92,41 @@ $(function(){initNavTree('_render_system_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="_type_8h_source.html">Core/Type.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_system_context_8h_source.html">Core/SystemContext.h</a>&quot;</code><br />
 <code>#include &quot;SDL_ttf.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for RenderSystem.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_render_system_8h__incl.png" border="0" usemap="#ainclude_2_system_2_render_system_8h" loading="lazy" alt=""/></div>
 <map name="ainclude_2_system_2_render_system_8h" id="ainclude_2_system_2_render_system_8h">
-<area shape="rect" title=" " alt="" coords="5,5,219,32"/>
-<area shape="rect" href="_type_8h.html" title=" " alt="" coords="11,80,104,107"/>
-<area shape="poly" title=" " alt="" coords="105,34,78,69,74,66,100,31"/>
-<area shape="rect" title=" " alt="" coords="128,80,205,107"/>
-<area shape="poly" title=" " alt="" coords="124,31,150,66,146,69,119,34"/>
-<area shape="rect" title=" " alt="" coords="22,155,93,181"/>
-<area shape="poly" title=" " alt="" coords="60,107,60,139,55,139,55,107"/>
+<area shape="rect" title=" " alt="" coords="178,5,392,32"/>
+<area shape="rect" href="_type_8h.html" title=" " alt="" coords="83,80,175,107"/>
+<area shape="poly" title=" " alt="" coords="259,35,171,75,169,71,257,30"/>
+<area shape="rect" href="_system_context_8h.html" title=" " alt="" coords="207,80,363,107"/>
+<area shape="poly" title=" " alt="" coords="288,33,288,64,282,64,282,33"/>
+<area shape="rect" title=" " alt="" coords="386,80,464,107"/>
+<area shape="poly" title=" " alt="" coords="311,30,388,70,386,75,308,35"/>
+<area shape="rect" title=" " alt="" coords="5,155,77,181"/>
+<area shape="poly" title=" " alt="" coords="115,109,70,147,66,143,112,105"/>
+<area shape="rect" href="_packet_8h.html" title=" " alt="" coords="152,155,258,181"/>
+<area shape="poly" title=" " alt="" coords="273,109,232,146,228,142,269,105"/>
+<area shape="rect" title=" " alt="" coords="86,229,146,256"/>
+<area shape="poly" title=" " alt="" coords="225,110,181,128,161,141,143,156,127,184,120,214,115,213,122,182,139,153,157,136,178,123,223,105"/>
+<area shape="rect" href="_thread_safe_queue_8h.html" title=" " alt="" coords="282,155,451,181"/>
+<area shape="poly" title=" " alt="" coords="301,105,343,142,339,146,297,109"/>
+<area shape="rect" title=" " alt="" coords="475,155,586,181"/>
+<area shape="poly" title=" " alt="" coords="328,105,474,147,472,152,327,110"/>
+<area shape="rect" title=" " alt="" coords="609,155,662,181"/>
+<area shape="poly" title=" " alt="" coords="364,105,469,124,594,152,593,157,468,129,363,110"/>
+<area shape="poly" title=" " alt="" coords="191,184,145,221,141,217,188,180"/>
+<area shape="rect" title=" " alt="" coords="170,229,238,256"/>
+<area shape="poly" title=" " alt="" coords="207,182,207,214,202,214,202,182"/>
+<area shape="rect" title=" " alt="" coords="262,229,388,256"/>
+<area shape="poly" title=" " alt="" coords="361,183,342,217,337,215,357,181"/>
+<area shape="rect" title=" " alt="" coords="412,229,470,256"/>
+<area shape="poly" title=" " alt="" coords="381,180,419,217,416,221,377,184"/>
+<area shape="rect" title=" " alt="" coords="494,229,550,256"/>
+<area shape="poly" title=" " alt="" coords="395,179,482,220,480,225,392,184"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -112,11 +134,13 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="_render_system_8h__dep__incl.png" border="0" usemap="#ainclude_2_system_2_render_system_8hdep" loading="lazy" alt=""/></div>
 <map name="ainclude_2_system_2_render_system_8hdep" id="ainclude_2_system_2_render_system_8hdep">
-<area shape="rect" title=" " alt="" coords="74,5,287,32"/>
-<area shape="rect" href="_g_engine_8cpp.html" title=" " alt="" coords="5,80,156,107"/>
-<area shape="poly" title=" " alt="" coords="152,43,100,82,96,77,149,39"/>
-<area shape="rect" href="_render_system_8cpp.html" title=" " alt="" coords="180,80,384,107"/>
-<area shape="poly" title=" " alt="" coords="212,39,266,77,263,82,209,44"/>
+<area shape="rect" title=" " alt="" coords="230,5,443,32"/>
+<area shape="rect" href="_client_state_8cpp.html" title=" " alt="" coords="5,80,209,107"/>
+<area shape="poly" title=" " alt="" coords="283,40,148,82,146,77,281,35"/>
+<area shape="rect" href="_server_state_8cpp.html" title=" " alt="" coords="233,80,440,107"/>
+<area shape="poly" title=" " alt="" coords="339,48,339,80,334,80,334,48"/>
+<area shape="rect" href="_render_system_8cpp.html" title=" " alt="" coords="464,80,668,107"/>
+<area shape="poly" title=" " alt="" coords="392,35,526,77,525,82,390,40"/>
 </map>
 </div>
 </div>
@@ -125,6 +149,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:RenderSystem" id="r_RenderSystem"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_render_system.html">RenderSystem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Responsible for rendering every entity, chunk and text.  <a href="class_render_system.html#details">More...</a><br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

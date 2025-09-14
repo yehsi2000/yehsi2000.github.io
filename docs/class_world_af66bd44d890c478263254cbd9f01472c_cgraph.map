@@ -1,0 +1,11 @@
+<map id="World::HasNoOcuupyingEntity" name="World::HasNoOcuupyingEntity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,205,131"/>
+<area shape="rect" id="Node000002" href="$class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="266,29,436,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,101,252,65,278,58,280,63,253,71,146,106"/>
+<area shape="rect" id="Node000003" href="$class_world.html#ac6a93e0a965e193413b3cc80cf17f5f2" title="Gets the tile data at a specific world position." alt="" coords="253,104,450,131"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="205,115,237,115,237,120,205,120"/>
+<area shape="rect" id="Node000004" href="$class_world.html#a62be7a1c73a7cf194941ab668b144277" title=" " alt="" coords="304,155,399,181"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="174,129,289,153,288,158,173,134"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="310,31,303,21,308,11,324,5,351,3,381,5,396,12,394,17,380,10,351,8,325,10,311,15,308,20,314,27"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="310,105,303,95,308,85,324,79,351,77,381,80,396,87,394,92,380,85,351,83,325,85,311,89,308,95,314,102"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="World::GeneratePlayer" name="World::GeneratePlayer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="212,13,364,40"/>
+<area shape="rect" id="Node000002" href="$class_player_spawn_command.html#af2cb1f93e9d51baf7361c32a66e23160" title=" " alt="" coords="5,5,164,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,29,164,29,164,24,196,24"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="WorldAssetManager::CreateChunkTexture" name="WorldAssetManager::CreateChunkTexture">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,152,77"/>
+<area shape="rect" id="Node000002" href="$class_world_asset_manager.html#ab75a3246aaffa015ddc38988296ffefd" title=" " alt="" coords="200,5,346,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,42,184,37,185,43,153,48"/>
+<area shape="rect" id="Node000003" href="$class_chunk.html#a82df33003a727351b30b5d35edc89d64" title=" " alt="" coords="218,72,328,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,64,204,72,203,78,152,70"/>
+</map>

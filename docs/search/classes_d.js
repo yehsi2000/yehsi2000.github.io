@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['spritecomponent_0',['SpriteComponent',['../struct_sprite_component.html',1,'']]]
+  ['quitevent_0',['QuitEvent',['../struct_quit_event.html',1,'']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['timerhandle_0',['TimerHandle',['../_timer_component_8h.html#af20991c256be0661cadbdc7f97b0ae42',1,'TimerComponent.h']]]
+  ['render_5forder_5ft_0',['render_order_t',['../_sprite_component_8h.html#a07745a0b7ed5ecc9881a244617b2acf2',1,'SpriteComponent.h']]],
+  ['rsrc_5famt_5ft_1',['rsrc_amt_t',['../_resource_node_component_8h.html#a271c8ed218cc794861b97e279cdb7498',1,'ResourceNodeComponent.h']]]
 ];

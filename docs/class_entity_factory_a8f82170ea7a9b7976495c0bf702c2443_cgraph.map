@@ -1,0 +1,7 @@
+<map id="EntityFactory::CreateAssemblingMachine" name="EntityFactory::CreateAssemblingMachine">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,220,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="64,29,62,19,71,10,87,5,113,3,140,5,156,11,154,16,138,10,112,8,88,10,73,15,68,21,70,28"/>
+<area shape="rect" id="Node000002" href="$class_world.html#a86ed24f1ddfc5f69d70246fcb62f5e95" title="Converts world coordinates to tile grid indices." alt="" coords="268,29,467,72"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="220,48,252,48,252,53,220,53"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="319,29,317,19,325,10,342,5,367,3,394,5,411,11,409,16,393,10,367,8,343,10,328,15,322,21,324,28"/>
+</map>

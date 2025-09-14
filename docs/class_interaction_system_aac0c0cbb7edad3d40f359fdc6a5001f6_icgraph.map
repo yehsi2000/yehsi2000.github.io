@@ -1,0 +1,7 @@
+<map id="InteractionSystem::AssemblyMachineInteractionHandler" name="InteractionSystem::AssemblyMachineInteractionHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="390,5,579,64"/>
+<area shape="rect" id="Node000002" href="$class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="189,13,342,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="374,37,342,37,342,32,374,32"/>
+<area shape="rect" id="Node000003" href="$class_interaction_system.html#a33989daebe85772690119e7c1f3a0068" title=" " alt="" coords="5,13,141,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="173,37,141,37,141,32,173,32"/>
+</map>

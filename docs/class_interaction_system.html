@@ -98,34 +98,65 @@ Collaboration diagram for InteractionSystem:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_interaction_system__coll__graph.png" border="0" usemap="#a_interaction_system_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_interaction_system_coll__map" id="a_interaction_system_coll__map">
-<area shape="rect" title=" " alt="" coords="5,301,133,328"/>
-<area shape="rect" href="class_g_engine.html" title="The main engine class that drives the game." alt="" coords="117,203,189,229"/>
-<area shape="poly" title=" " alt="" coords="134,243,82,303,78,299,130,239"/>
-<area shape="rect" href="class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re..." alt="" coords="21,104,117,131"/>
-<area shape="poly" title=" " alt="" coords="68,146,62,203,63,257,69,301,64,301,58,258,56,203,62,146"/>
-<area shape="poly" title=" " alt="" coords="92,141,144,201,140,204,88,144"/>
-<area shape="rect" href="class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="10,5,128,32"/>
-<area shape="poly" title=" " alt="" coords="72,48,72,104,66,104,66,48"/>
+<area shape="rect" title=" " alt="" coords="455,464,582,491"/>
+<area shape="rect" href="class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="406,104,476,131"/>
+<area shape="poly" title=" " alt="" coords="458,144,462,154,485,209,500,266,510,324,516,380,521,463,516,464,511,381,505,324,495,267,480,210,458,156,453,146"/>
+<area shape="rect" href="class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="414,365,468,392"/>
+<area shape="poly" title=" " alt="" coords="444,146,444,365,439,365,439,146"/>
+<area shape="rect" href="class_entity_factory.html" title="A factory for creating pre&#45;configured entities." alt="" coords="294,267,394,293"/>
+<area shape="poly" title=" " alt="" coords="394,139,374,156,359,184,350,215,346,267,341,266,345,214,354,182,370,153,390,135"/>
+<area shape="rect" href="class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="382,5,500,32"/>
+<area shape="poly" title=" " alt="" coords="367,24,258,30,140,45,88,58,46,73,18,93,10,104,8,116,8,380,11,395,21,408,36,420,57,431,112,448,179,460,327,473,455,475,455,480,326,478,178,466,111,453,55,436,34,425,17,412,6,397,3,380,3,116,6,102,14,89,43,69,86,52,139,40,257,25,366,19"/>
+<area shape="poly" title=" " alt="" coords="444,48,444,104,439,104,439,48"/>
+<area shape="poly" title=" " alt="" coords="517,30,536,40,551,54,578,91,599,127,613,163,621,198,621,233,613,269,597,305,573,343,551,362,523,374,495,380,469,381,469,376,494,374,522,369,548,358,569,340,593,303,608,267,616,233,616,198,608,164,594,130,574,94,547,58,532,44,514,34"/>
+<area shape="poly" title=" " alt="" coords="448,406,454,423,463,438,476,451,492,461,489,466,473,455,459,442,449,425,443,408"/>
+<area shape="rect" href="class_world_asset_manager.html" title="A singleton for managing and caching world tile assets." alt="" coords="132,267,270,293"/>
+<area shape="poly" title=" " alt="" coords="211,307,219,325,232,339,265,353,314,363,414,373,413,378,313,368,263,358,229,344,215,328,206,309"/>
+<area shape="poly" title=" " alt="" coords="356,307,365,324,377,339,395,354,415,365,412,369,392,358,373,343,360,327,351,309"/>
+<area shape="rect" href="class_asset_manager.html" title="A singleton for managing and caching in&#45;game entity assets." alt="" coords="197,104,302,131"/>
+<area shape="poly" title=" " alt="" coords="244,146,240,194,243,219,253,241,272,258,295,268,293,273,269,262,249,244,238,220,234,194,239,146"/>
+<area shape="rect" href="class_input_manager.html" title="Manages all user input from keyboard, mouse, and other devices." alt="" coords="662,365,762,392"/>
+<area shape="poly" title=" " alt="" coords="674,402,545,466,543,461,672,397"/>
+<area shape="rect" href="struct_input_state.html" title="A snapshot of the state of all input devices at a single point in time." alt="" coords="809,267,890,293"/>
+<area shape="poly" title=" " alt="" coords="821,305,731,367,728,363,818,300"/>
+<area shape="rect" href="struct_vec2.html" title="A 2D vector of integers." alt="" coords="732,104,782,131"/>
+<area shape="poly" title=" " alt="" coords="753,146,727,267,716,365,710,365,722,266,748,145"/>
+<area shape="poly" title=" " alt="" coords="774,143,844,265,840,267,770,146"/>
+<area shape="rect" href="class_timer_manager.html" title="Manages the lifecycle of all TimerInstance objects in the game, centralizing the logic and memory man..." alt="" coords="872,365,976,392"/>
+<area shape="poly" title=" " alt="" coords="875,400,807,422,730,443,583,470,582,465,729,437,805,417,873,395"/>
+<area shape="rect" href="class_object_pool.html" title=" " alt="" coords="914,267,1105,293"/>
+<area shape="poly" title=" " alt="" coords="990,307,937,367,933,363,986,303"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a78be599c43f0cda96c72a64d392278c3" id="r_a78be599c43f0cda96c72a64d392278c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78be599c43f0cda96c72a64d392278c3">InteractionSystem</a> (<a class="el" href="class_g_engine.html">GEngine</a> *<a class="el" href="#ad4baa76e7bc9ca86ce4d775cc2b13343">engine</a>)</td></tr>
+<tr class="memitem:a33989daebe85772690119e7c1f3a0068" id="r_a33989daebe85772690119e7c1f3a0068"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33989daebe85772690119e7c1f3a0068">InteractionSystem</a> (const <a class="el" href="struct_system_context.html">SystemContext</a> &amp;context)</td></tr>
+<tr class="memitem:a16294086d1f16c35162e6acc3b41b6ef" id="r_a16294086d1f16c35162e6acc3b41b6ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16294086d1f16c35162e6acc3b41b6ef">~InteractionSystem</a> ()</td></tr>
 <tr class="memitem:a9daa1b2f611ee1fe51473a2163519bf5" id="r_a9daa1b2f611ee1fe51473a2163519bf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9daa1b2f611ee1fe51473a2163519bf5">Update</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a4442d8eeac79d00ec8d2473a97c21547" id="r_a4442d8eeac79d00ec8d2473a97c21547"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4442d8eeac79d00ec8d2473a97c21547">OnPlayerInteractEvent</a> (const <a class="el" href="struct_player_interact_event.html">PlayerInteractEvent</a> &amp;event)</td></tr>
+<tr class="memitem:a0026eacddc828a0c3b8f8d805f4e7d9e" id="r_a0026eacddc828a0c3b8f8d805f4e7d9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0026eacddc828a0c3b8f8d805f4e7d9e">OnPlayerEndInteractEvent</a> (const <a class="el" href="struct_player_end_interact_event.html">PlayerEndInteractEvent</a> &amp;event)</td></tr>
+<tr class="memitem:a2efec3ba0f55f346d55e19758cf7ea0a" id="r_a2efec3ba0f55f346d55e19758cf7ea0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2efec3ba0f55f346d55e19758cf7ea0a">ResourceNodeInteractionHandler</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> player, <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> targetEntity)</td></tr>
+<tr class="memitem:aac0c0cbb7edad3d40f359fdc6a5001f6" id="r_aac0c0cbb7edad3d40f359fdc6a5001f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0c0cbb7edad3d40f359fdc6a5001f6">AssemblyMachineInteractionHandler</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> player, <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> targetEntity)</td></tr>
+<tr class="memitem:afbfa653f6e9c71a7ac08704290aa98aa" id="r_afbfa653f6e9c71a7ac08704290aa98aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbfa653f6e9c71a7ac08704290aa98aa">MiningDrillInteractionHandler</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> player, <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> targetEntity)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ad4baa76e7bc9ca86ce4d775cc2b13343" id="r_ad4baa76e7bc9ca86ce4d775cc2b13343"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_g_engine.html">GEngine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4baa76e7bc9ca86ce4d775cc2b13343">engine</a></td></tr>
-<tr class="memitem:a73ea4aaf37bf7ae812305514642d9e94" id="r_a73ea4aaf37bf7ae812305514642d9e94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_event_handle.html">EventHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73ea4aaf37bf7ae812305514642d9e94">handle</a></td></tr>
+<tr class="memitem:aae5474cc638a8cb48a066db77371578a" id="r_aae5474cc638a8cb48a066db77371578a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_registry.html">Registry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae5474cc638a8cb48a066db77371578a">registry</a></td></tr>
+<tr class="memitem:a05a9c064d2ed45e4d2da8f3b053903da" id="r_a05a9c064d2ed45e4d2da8f3b053903da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05a9c064d2ed45e4d2da8f3b053903da">world</a></td></tr>
+<tr class="memitem:a613b9b770c6d589f2ce3e2617032b39e" id="r_a613b9b770c6d589f2ce3e2617032b39e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_input_manager.html">InputManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a613b9b770c6d589f2ce3e2617032b39e">inputManager</a></td></tr>
+<tr class="memitem:a50846772fb9ef6cfc57ec9d12c0717f2" id="r_a50846772fb9ef6cfc57ec9d12c0717f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50846772fb9ef6cfc57ec9d12c0717f2">eventDispatcher</a></td></tr>
+<tr class="memitem:a8916efbc8bfa40b8f4c2220c92423c38" id="r_a8916efbc8bfa40b8f4c2220c92423c38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_timer_manager.html">TimerManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8916efbc8bfa40b8f4c2220c92423c38">timerManager</a></td></tr>
+<tr class="memitem:aa6bde47fc74840914773494743eed5f4" id="r_aa6bde47fc74840914773494743eed5f4"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_event_handle.html">EventHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6bde47fc74840914773494743eed5f4">startInteractHandle</a></td></tr>
+<tr class="memitem:a713b5c51e403e2d0b0df2a3dd01ac6be" id="r_a713b5c51e403e2d0b0df2a3dd01ac6be"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_event_handle.html">EventHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a713b5c51e403e2d0b0df2a3dd01ac6be">endInteractHandle</a></td></tr>
+<tr class="memitem:af8cb9f79939c5a886828d9a049fbadb1" id="r_af8cb9f79939c5a886828d9a049fbadb1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8cb9f79939c5a886828d9a049fbadb1">maxInteractionDistance</a> = 200.0</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a78be599c43f0cda96c72a64d392278c3" name="a78be599c43f0cda96c72a64d392278c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78be599c43f0cda96c72a64d392278c3">&#9670;&#160;</a></span>InteractionSystem()</h2>
+<a id="a33989daebe85772690119e7c1f3a0068" name="a33989daebe85772690119e7c1f3a0068"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33989daebe85772690119e7c1f3a0068">&#9670;&#160;</a></span>InteractionSystem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133,7 +164,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">InteractionSystem::InteractionSystem </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_g_engine.html">GEngine</a> *</td>          <td class="paramname"><span class="paramname"><em>engine</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_system_context.html">SystemContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -141,48 +172,219 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_interaction_system_a78be599c43f0cda96c72a64d392278c3_cgraph.png" border="0" usemap="#aclass_interaction_system_a78be599c43f0cda96c72a64d392278c3_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_interaction_system_a78be599c43f0cda96c72a64d392278c3_cgraph" id="aclass_interaction_system_a78be599c43f0cda96c72a64d392278c3_cgraph">
-<area shape="rect" title=" " alt="" coords="5,277,141,320"/>
-<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="189,277,342,320"/>
-<area shape="poly" title=" " alt="" coords="141,296,173,296,173,301,141,301"/>
-<area shape="rect" href="namespaceutil.html#a0af215271a8cf36a7b967449b3231ea3" title="Attaches a new timer to an entity." alt="" coords="416,133,534,160"/>
-<area shape="poly" title=" " alt="" coords="295,275,441,167,445,171,298,279"/>
-<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="865,32,1032,58"/>
-<area shape="poly" title=" " alt="" coords="275,275,318,201,350,158,388,119,442,76,489,49,541,30,608,13,681,4,755,5,824,14,883,25,882,30,823,19,754,11,681,9,609,18,542,35,492,54,445,81,392,123,354,161,323,204,279,278"/>
-<area shape="rect" href="class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="864,209,1033,236"/>
-<area shape="poly" title=" " alt="" coords="342,287,848,231,849,236,342,293"/>
-<area shape="rect" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e" title=" " alt="" coords="442,310,509,337"/>
-<area shape="poly" title=" " alt="" coords="343,305,427,315,426,321,342,310"/>
-<area shape="rect" href="class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="390,385,560,412"/>
-<area shape="poly" title=" " alt="" coords="313,318,433,376,430,380,311,323"/>
-<area shape="rect" href="namespaceutil.html#a099d6449cd520221170c0776aba427c7" title=" " alt="" coords="413,436,537,462"/>
-<area shape="poly" title=" " alt="" coords="285,319,329,370,359,398,391,422,402,427,399,432,389,426,355,402,325,374,281,322"/>
-<area shape="rect" href="class_timer_manager.html#afc1ce33693985bdb64bdde6181d8398c" title="Creates a new timer and returns a handle to it." alt="" coords="614,57,799,84"/>
-<area shape="poly" title=" " alt="" coords="509,130,607,93,632,86,633,91,609,98,511,135"/>
-<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="646,108,767,134"/>
-<area shape="poly" title=" " alt="" coords="534,137,630,127,631,132,534,143"/>
-<area shape="poly" title=" " alt="" coords="487,131,536,85,570,61,607,43,670,27,735,21,797,22,854,27,854,32,797,27,735,27,671,33,609,48,572,65,539,89,490,134"/>
-<area shape="poly" title=" " alt="" coords="506,158,554,178,609,195,670,206,733,213,848,220,848,225,732,219,669,211,608,200,552,183,504,163"/>
-<area shape="rect" href="class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="608,158,805,185"/>
-<area shape="poly" title=" " alt="" coords="534,150,593,157,593,162,534,156"/>
-<area shape="rect" href="class_timer_manager.html#ab6fb7ec06a23498f60811ec3f2bce91b" title="Destroys a timer instance, returning it to the pool." alt="" coords="853,108,1044,134"/>
-<area shape="poly" title=" " alt="" coords="768,118,837,118,837,124,768,124"/>
-<area shape="poly" title=" " alt="" coords="764,105,804,93,895,62,897,67,805,98,765,110"/>
-<area shape="poly" title=" " alt="" coords="768,132,806,144,863,171,913,198,911,203,861,175,804,149,767,137"/>
-<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="1092,158,1289,185"/>
-<area shape="poly" title=" " alt="" coords="977,57,1151,148,1148,153,975,61"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="1337,184,1567,210"/>
-<area shape="poly" title=" " alt="" coords="1290,179,1322,182,1321,187,1290,184"/>
-<area shape="poly" title=" " alt="" coords="1033,216,1322,201,1322,206,1034,221"/>
-<area shape="poly" title=" " alt="" coords="805,169,1077,169,1077,174,805,174"/>
-<area shape="poly" title=" " alt="" coords="440,386,433,376,438,367,452,361,475,358,500,361,513,367,511,372,499,366,475,364,453,366,441,371,439,376,444,383"/>
+<div class="center"><img src="class_interaction_system_a33989daebe85772690119e7c1f3a0068_cgraph.png" border="0" usemap="#aclass_interaction_system_a33989daebe85772690119e7c1f3a0068_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_interaction_system_a33989daebe85772690119e7c1f3a0068_cgraph" id="aclass_interaction_system_a33989daebe85772690119e7c1f3a0068_cgraph">
+<area shape="rect" title=" " alt="" coords="5,127,141,169"/>
+<area shape="rect" href="class_interaction_system.html#a0026eacddc828a0c3b8f8d805f4e7d9e" title=" " alt="" coords="409,15,585,57"/>
+<area shape="poly" title=" " alt="" coords="140,128,398,59,399,64,142,133"/>
+<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="189,156,342,199"/>
+<area shape="poly" title=" " alt="" coords="142,156,173,161,173,166,141,161"/>
+<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="862,5,984,32"/>
+<area shape="poly" title=" " alt="" coords="586,30,847,19,847,24,586,35"/>
+<area shape="rect" href="namespaceutil.html#a95478a857e6a23e3743a3bff7cd75f3f" title=" " alt="" coords="652,56,777,83"/>
+<area shape="poly" title=" " alt="" coords="586,47,638,55,637,60,585,52"/>
+<area shape="rect" href="class_timer_manager.html#ab6fb7ec06a23498f60811ec3f2bce91b" title="Destroys a timer instance, returning it to the pool." alt="" coords="1069,5,1260,32"/>
+<area shape="poly" title=" " alt="" coords="984,16,1053,16,1053,21,984,21"/>
+<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="1082,107,1248,133"/>
+<area shape="poly" title=" " alt="" coords="948,30,1002,61,1070,92,1090,99,1088,104,1068,97,1000,66,945,35"/>
+<area shape="rect" href="class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="1080,56,1249,83"/>
+<area shape="poly" title=" " alt="" coords="984,29,1083,50,1082,55,983,34"/>
+<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="1308,107,1506,133"/>
+<area shape="poly" title=" " alt="" coords="1248,117,1292,117,1292,123,1248,123"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="1554,81,1762,108"/>
+<area shape="poly" title=" " alt="" coords="1506,107,1538,104,1538,109,1506,113"/>
+<area shape="poly" title=" " alt="" coords="1250,71,1538,86,1538,91,1250,76"/>
+<area shape="rect" href="class_interaction_system.html#aac0c0cbb7edad3d40f359fdc6a5001f6" title=" " alt="" coords="402,148,592,207"/>
+<area shape="poly" title=" " alt="" coords="342,175,387,175,387,180,342,180"/>
+<area shape="rect" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e" title=" " alt="" coords="681,219,748,245"/>
+<area shape="poly" title=" " alt="" coords="285,197,329,244,358,266,391,283,449,300,496,303,544,297,604,283,643,269,678,251,680,256,645,274,605,288,545,302,496,309,448,305,389,288,356,271,326,248,281,201"/>
+<area shape="rect" href="class_interaction_system.html#afbfa653f6e9c71a7ac08704290aa98aa" title=" " alt="" coords="403,231,591,273"/>
+<area shape="poly" title=" " alt="" coords="332,197,391,216,412,223,411,228,389,221,330,202"/>
+<area shape="rect" href="class_interaction_system.html#a2efec3ba0f55f346d55e19758cf7ea0a" title=" " alt="" coords="390,81,604,124"/>
+<area shape="poly" title=" " alt="" coords="330,153,389,133,411,126,412,132,391,139,332,158"/>
+<area shape="poly" title=" " alt="" coords="604,84,637,79,637,84,605,89"/>
+<area shape="poly" title=" " alt="" coords="581,122,606,134,654,169,693,205,689,209,651,173,603,138,579,127"/>
+<area shape="rect" href="namespaceutil.html#a93f5c99884f3bc2b6dbce9bd1adb6e5c" title="Attaches a new timer to an entity." alt="" coords="656,107,773,133"/>
+<area shape="poly" title=" " alt="" coords="605,109,640,111,640,117,604,114"/>
+<area shape="poly" title=" " alt="" coords="754,104,775,92,789,81,798,71,808,60,823,48,851,35,853,40,826,53,812,63,802,74,793,85,778,97,756,108"/>
+<area shape="poly" title=" " alt="" coords="773,117,1066,117,1066,123,773,123"/>
+<area shape="poly" title=" " alt="" coords="773,107,824,99,1064,74,1065,79,825,104,774,112"/>
+<area shape="rect" href="class_timer_manager.html#ab1044271acc729134b0579f22794f894" title="Creates a new timer and returns a handle to it." alt="" coords="831,208,1015,235"/>
+<area shape="poly" title=" " alt="" coords="733,132,774,163,826,194,842,200,840,205,823,198,771,167,730,136"/>
+<area shape="rect" href="class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="825,157,1021,184"/>
+<area shape="poly" title=" " alt="" coords="773,131,851,151,850,156,772,137"/>
+<area shape="poly" title=" " alt="" coords="1021,163,1136,155,1260,143,1318,134,1319,139,1261,148,1136,161,1022,169"/>
 </map>
 </div>
 
 </div>
 </div>
+<a id="a16294086d1f16c35162e6acc3b41b6ef" name="a16294086d1f16c35162e6acc3b41b6ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16294086d1f16c35162e6acc3b41b6ef">&#9670;&#160;</a></span>~InteractionSystem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">InteractionSystem::~InteractionSystem </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aac0c0cbb7edad3d40f359fdc6a5001f6" name="aac0c0cbb7edad3d40f359fdc6a5001f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac0c0cbb7edad3d40f359fdc6a5001f6">&#9670;&#160;</a></span>AssemblyMachineInteractionHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InteractionSystem::AssemblyMachineInteractionHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a></td>          <td class="paramname"><span class="paramname"><em>player</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a></td>          <td class="paramname"><span class="paramname"><em>targetEntity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_interaction_system_aac0c0cbb7edad3d40f359fdc6a5001f6_icgraph.png" border="0" usemap="#aclass_interaction_system_aac0c0cbb7edad3d40f359fdc6a5001f6_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_interaction_system_aac0c0cbb7edad3d40f359fdc6a5001f6_icgraph" id="aclass_interaction_system_aac0c0cbb7edad3d40f359fdc6a5001f6_icgraph">
+<area shape="rect" title=" " alt="" coords="390,5,579,64"/>
+<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="189,13,342,56"/>
+<area shape="poly" title=" " alt="" coords="374,37,342,37,342,32,374,32"/>
+<area shape="rect" href="class_interaction_system.html#a33989daebe85772690119e7c1f3a0068" title=" " alt="" coords="5,13,141,56"/>
+<area shape="poly" title=" " alt="" coords="173,37,141,37,141,32,173,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afbfa653f6e9c71a7ac08704290aa98aa" name="afbfa653f6e9c71a7ac08704290aa98aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbfa653f6e9c71a7ac08704290aa98aa">&#9670;&#160;</a></span>MiningDrillInteractionHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InteractionSystem::MiningDrillInteractionHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a></td>          <td class="paramname"><span class="paramname"><em>player</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a></td>          <td class="paramname"><span class="paramname"><em>targetEntity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_interaction_system_afbfa653f6e9c71a7ac08704290aa98aa_icgraph.png" border="0" usemap="#aclass_interaction_system_afbfa653f6e9c71a7ac08704290aa98aa_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_interaction_system_afbfa653f6e9c71a7ac08704290aa98aa_icgraph" id="aclass_interaction_system_afbfa653f6e9c71a7ac08704290aa98aa_icgraph">
+<area shape="rect" title=" " alt="" coords="390,5,578,48"/>
+<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="189,5,342,48"/>
+<area shape="poly" title=" " alt="" coords="375,29,343,29,343,24,375,24"/>
+<area shape="rect" href="class_interaction_system.html#a33989daebe85772690119e7c1f3a0068" title=" " alt="" coords="5,5,141,48"/>
+<area shape="poly" title=" " alt="" coords="173,29,141,29,141,24,173,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0026eacddc828a0c3b8f8d805f4e7d9e" name="a0026eacddc828a0c3b8f8d805f4e7d9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0026eacddc828a0c3b8f8d805f4e7d9e">&#9670;&#160;</a></span>OnPlayerEndInteractEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InteractionSystem::OnPlayerEndInteractEvent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_player_end_interact_event.html">PlayerEndInteractEvent</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_interaction_system_a0026eacddc828a0c3b8f8d805f4e7d9e_cgraph.png" border="0" usemap="#aclass_interaction_system_a0026eacddc828a0c3b8f8d805f4e7d9e_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_interaction_system_a0026eacddc828a0c3b8f8d805f4e7d9e_cgraph" id="aclass_interaction_system_a0026eacddc828a0c3b8f8d805f4e7d9e_cgraph">
+<area shape="rect" title=" " alt="" coords="5,73,182,116"/>
+<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="231,56,352,83"/>
+<area shape="poly" title=" " alt="" coords="181,81,216,76,216,82,182,86"/>
+<area shape="rect" href="namespaceutil.html#a95478a857e6a23e3743a3bff7cd75f3f" title=" " alt="" coords="230,107,354,133"/>
+<area shape="poly" title=" " alt="" coords="182,103,214,107,214,113,181,109"/>
+<area shape="rect" href="class_timer_manager.html#ab6fb7ec06a23498f60811ec3f2bce91b" title="Destroys a timer instance, returning it to the pool." alt="" coords="402,5,593,32"/>
+<area shape="poly" title=" " alt="" coords="349,53,425,34,426,39,350,58"/>
+<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="414,56,581,83"/>
+<area shape="poly" title=" " alt="" coords="353,67,399,67,399,72,353,72"/>
+<area shape="rect" href="class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="655,107,825,133"/>
+<area shape="poly" title=" " alt="" coords="346,81,402,92,526,106,640,114,639,119,525,112,402,97,345,86"/>
+<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="641,56,839,83"/>
+<area shape="poly" title=" " alt="" coords="581,67,625,67,625,72,581,72"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="887,81,1095,108"/>
+<area shape="poly" title=" " alt="" coords="839,77,871,80,871,85,839,82"/>
+<area shape="poly" title=" " alt="" coords="825,109,871,104,872,109,825,114"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_interaction_system_a0026eacddc828a0c3b8f8d805f4e7d9e_icgraph.png" border="0" usemap="#aclass_interaction_system_a0026eacddc828a0c3b8f8d805f4e7d9e_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_interaction_system_a0026eacddc828a0c3b8f8d805f4e7d9e_icgraph" id="aclass_interaction_system_a0026eacddc828a0c3b8f8d805f4e7d9e_icgraph">
+<area shape="rect" title=" " alt="" coords="189,5,365,48"/>
+<area shape="rect" href="class_interaction_system.html#a33989daebe85772690119e7c1f3a0068" title=" " alt="" coords="5,5,141,48"/>
+<area shape="poly" title=" " alt="" coords="173,29,141,29,141,24,173,24"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a4442d8eeac79d00ec8d2473a97c21547" name="a4442d8eeac79d00ec8d2473a97c21547"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4442d8eeac79d00ec8d2473a97c21547">&#9670;&#160;</a></span>OnPlayerInteractEvent()</h2>
 
@@ -210,38 +412,40 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_interaction_system_a4442d8eeac79d00ec8d2473a97c21547_cgraph.png" border="0" usemap="#aclass_interaction_system_a4442d8eeac79d00ec8d2473a97c21547_cgraph" loading="lazy" alt=""/></div>
 <map name="aclass_interaction_system_a4442d8eeac79d00ec8d2473a97c21547_cgraph" id="aclass_interaction_system_a4442d8eeac79d00ec8d2473a97c21547_cgraph">
-<area shape="rect" title=" " alt="" coords="5,277,159,320"/>
-<area shape="rect" href="namespaceutil.html#a0af215271a8cf36a7b967449b3231ea3" title="Attaches a new timer to an entity." alt="" coords="233,133,350,160"/>
-<area shape="poly" title=" " alt="" coords="111,275,258,167,261,171,115,279"/>
-<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="682,32,848,58"/>
-<area shape="poly" title=" " alt="" coords="91,275,135,201,167,158,205,119,259,76,306,49,357,30,425,13,497,4,571,5,641,14,699,25,698,30,640,19,571,11,498,9,425,18,359,35,308,54,262,81,208,123,171,161,139,204,96,278"/>
-<area shape="rect" href="class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="680,209,850,236"/>
-<area shape="poly" title=" " alt="" coords="158,287,665,231,665,236,159,293"/>
-<area shape="rect" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e" title=" " alt="" coords="258,310,326,337"/>
-<area shape="poly" title=" " alt="" coords="160,305,243,315,243,321,159,310"/>
-<area shape="rect" href="class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="207,385,377,412"/>
-<area shape="poly" title=" " alt="" coords="130,318,249,376,247,380,128,323"/>
-<area shape="rect" href="namespaceutil.html#a099d6449cd520221170c0776aba427c7" title=" " alt="" coords="230,436,354,462"/>
-<area shape="poly" title=" " alt="" coords="101,319,146,370,175,398,208,422,219,427,216,432,205,426,172,402,142,374,97,322"/>
-<area shape="rect" href="class_timer_manager.html#afc1ce33693985bdb64bdde6181d8398c" title="Creates a new timer and returns a handle to it." alt="" coords="431,57,615,84"/>
-<area shape="poly" title=" " alt="" coords="325,130,424,93,449,86,450,91,426,98,327,135"/>
-<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="462,108,584,134"/>
-<area shape="poly" title=" " alt="" coords="351,137,447,127,447,132,351,143"/>
-<area shape="poly" title=" " alt="" coords="303,131,352,85,386,61,424,43,487,27,551,21,614,22,671,27,670,32,614,27,552,27,488,33,426,48,389,65,356,89,307,134"/>
-<area shape="poly" title=" " alt="" coords="323,158,370,178,426,195,487,206,549,213,665,220,665,225,549,219,486,211,424,200,368,183,321,163"/>
-<area shape="rect" href="class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="425,158,621,185"/>
-<area shape="poly" title=" " alt="" coords="351,150,410,157,409,162,351,156"/>
-<area shape="rect" href="class_timer_manager.html#ab6fb7ec06a23498f60811ec3f2bce91b" title="Destroys a timer instance, returning it to the pool." alt="" coords="669,108,861,134"/>
-<area shape="poly" title=" " alt="" coords="584,118,654,118,654,124,584,124"/>
-<area shape="poly" title=" " alt="" coords="580,105,621,93,712,62,714,67,622,98,582,110"/>
-<area shape="poly" title=" " alt="" coords="585,132,622,144,680,171,730,198,727,203,678,175,620,149,583,137"/>
-<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="909,158,1106,185"/>
-<area shape="poly" title=" " alt="" coords="794,57,967,148,965,153,791,61"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="1154,184,1383,210"/>
-<area shape="poly" title=" " alt="" coords="1107,179,1139,182,1138,187,1106,184"/>
-<area shape="poly" title=" " alt="" coords="850,216,1139,201,1139,206,850,221"/>
-<area shape="poly" title=" " alt="" coords="622,169,893,169,893,174,622,174"/>
-<area shape="poly" title=" " alt="" coords="256,386,250,376,254,367,269,361,292,358,317,361,330,367,328,372,315,366,292,364,270,366,258,371,255,376,261,383"/>
+<area shape="rect" title=" " alt="" coords="5,109,159,152"/>
+<area shape="rect" href="class_interaction_system.html#aac0c0cbb7edad3d40f359fdc6a5001f6" title=" " alt="" coords="219,5,408,64"/>
+<area shape="poly" title=" " alt="" coords="134,106,226,68,228,73,136,111"/>
+<area shape="rect" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e" title=" " alt="" coords="498,91,565,117"/>
+<area shape="poly" title=" " alt="" coords="159,123,482,104,482,110,159,129"/>
+<area shape="rect" href="class_interaction_system.html#afbfa653f6e9c71a7ac08704290aa98aa" title=" " alt="" coords="220,205,408,248"/>
+<area shape="poly" title=" " alt="" coords="123,150,208,191,224,197,222,202,206,196,121,155"/>
+<area shape="rect" href="class_interaction_system.html#a2efec3ba0f55f346d55e19758cf7ea0a" title=" " alt="" coords="207,139,421,181"/>
+<area shape="poly" title=" " alt="" coords="159,138,192,142,191,147,159,143"/>
+<area shape="poly" title=" " alt="" coords="399,135,482,114,483,119,400,141"/>
+<area shape="rect" href="namespaceutil.html#a93f5c99884f3bc2b6dbce9bd1adb6e5c" title="Attaches a new timer to an entity." alt="" coords="472,193,590,220"/>
+<area shape="poly" title=" " alt="" coords="417,179,458,188,456,193,416,185"/>
+<area shape="rect" href="namespaceutil.html#a95478a857e6a23e3743a3bff7cd75f3f" title=" " alt="" coords="469,143,593,169"/>
+<area shape="poly" title=" " alt="" coords="421,155,454,155,454,160,421,161"/>
+<area shape="rect" href="class_timer_manager.html#ab1044271acc729134b0579f22794f894" title="Creates a new timer and returns a handle to it." alt="" coords="647,92,832,119"/>
+<area shape="poly" title=" " alt="" coords="570,190,592,179,606,168,615,157,625,146,640,135,668,122,670,127,643,140,629,150,619,161,609,172,595,184,573,195"/>
+<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="679,193,800,220"/>
+<area shape="poly" title=" " alt="" coords="590,204,663,204,663,209,590,209"/>
+<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="898,143,1064,169"/>
+<area shape="poly" title=" " alt="" coords="584,190,641,179,767,164,883,157,883,162,767,170,642,184,585,195"/>
+<area shape="rect" href="class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="897,295,1066,321"/>
+<area shape="poly" title=" " alt="" coords="549,219,589,251,615,267,642,280,702,297,764,306,825,311,881,312,881,317,825,316,764,312,701,302,640,285,612,272,586,255,545,223"/>
+<area shape="rect" href="class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="641,244,838,271"/>
+<area shape="poly" title=" " alt="" coords="590,218,668,237,666,242,589,223"/>
+<area shape="rect" href="class_timer_manager.html#ab6fb7ec06a23498f60811ec3f2bce91b" title="Destroys a timer instance, returning it to the pool." alt="" coords="886,193,1077,220"/>
+<area shape="poly" title=" " alt="" coords="801,204,870,204,870,209,801,209"/>
+<area shape="poly" title=" " alt="" coords="800,191,899,170,900,176,801,197"/>
+<area shape="poly" title=" " alt="" coords="801,217,839,230,896,256,946,284,944,289,894,261,837,234,800,222"/>
+<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="1125,244,1322,271"/>
+<area shape="poly" title=" " alt="" coords="1044,167,1078,179,1137,206,1188,234,1186,238,1135,211,1076,184,1042,173"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="1370,269,1579,296"/>
+<area shape="poly" title=" " alt="" coords="1323,265,1355,268,1354,273,1322,270"/>
+<area shape="poly" title=" " alt="" coords="1066,301,1354,286,1355,291,1067,306"/>
+<area shape="poly" title=" " alt="" coords="838,255,1110,255,1110,260,838,260"/>
 </map>
 </div>
 <div class="dynheader">
@@ -250,7 +454,82 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_interaction_system_a4442d8eeac79d00ec8d2473a97c21547_icgraph.png" border="0" usemap="#aclass_interaction_system_a4442d8eeac79d00ec8d2473a97c21547_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_interaction_system_a4442d8eeac79d00ec8d2473a97c21547_icgraph" id="aclass_interaction_system_a4442d8eeac79d00ec8d2473a97c21547_icgraph">
 <area shape="rect" title=" " alt="" coords="189,5,342,48"/>
-<area shape="rect" href="class_interaction_system.html#a78be599c43f0cda96c72a64d392278c3" title=" " alt="" coords="5,5,141,48"/>
+<area shape="rect" href="class_interaction_system.html#a33989daebe85772690119e7c1f3a0068" title=" " alt="" coords="5,5,141,48"/>
+<area shape="poly" title=" " alt="" coords="173,29,141,29,141,24,173,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2efec3ba0f55f346d55e19758cf7ea0a" name="a2efec3ba0f55f346d55e19758cf7ea0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2efec3ba0f55f346d55e19758cf7ea0a">&#9670;&#160;</a></span>ResourceNodeInteractionHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InteractionSystem::ResourceNodeInteractionHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a></td>          <td class="paramname"><span class="paramname"><em>player</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a></td>          <td class="paramname"><span class="paramname"><em>targetEntity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_interaction_system_a2efec3ba0f55f346d55e19758cf7ea0a_cgraph.png" border="0" usemap="#aclass_interaction_system_a2efec3ba0f55f346d55e19758cf7ea0a_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_interaction_system_a2efec3ba0f55f346d55e19758cf7ea0a_cgraph" id="aclass_interaction_system_a2efec3ba0f55f346d55e19758cf7ea0a_cgraph">
+<area shape="rect" title=" " alt="" coords="5,149,220,192"/>
+<area shape="rect" href="namespaceutil.html#a93f5c99884f3bc2b6dbce9bd1adb6e5c" title="Attaches a new timer to an entity." alt="" coords="271,107,388,133"/>
+<area shape="poly" title=" " alt="" coords="206,146,255,135,257,140,207,151"/>
+<area shape="rect" href="namespaceutil.html#ab5f2a919fe1c5db6b0eb3f715ac66d3e" title=" " alt="" coords="296,157,364,184"/>
+<area shape="poly" title=" " alt="" coords="220,168,281,168,281,173,220,173"/>
+<area shape="rect" href="namespaceutil.html#a95478a857e6a23e3743a3bff7cd75f3f" title=" " alt="" coords="268,208,392,235"/>
+<area shape="poly" title=" " alt="" coords="207,190,256,201,254,207,206,195"/>
+<area shape="rect" href="class_timer_manager.html#ab1044271acc729134b0579f22794f894" title="Creates a new timer and returns a handle to it." alt="" coords="446,5,630,32"/>
+<area shape="poly" title=" " alt="" coords="348,104,389,76,439,48,471,35,473,40,441,53,391,81,351,108"/>
+<area shape="rect" href="namespaceutil.html#a812d58e65189f630adea6051147ddcc1" title="Detaches a timer from an entity." alt="" coords="478,107,599,133"/>
+<area shape="poly" title=" " alt="" coords="389,117,462,117,462,123,389,123"/>
+<area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="697,56,863,83"/>
+<area shape="poly" title=" " alt="" coords="383,103,440,92,565,78,681,70,682,75,566,83,440,97,384,109"/>
+<area shape="rect" href="class_registry.html#a244332df2bdb57a1c43567a36da1b90b" title="Checks if an entity has a specific component." alt="" coords="695,208,865,235"/>
+<area shape="poly" title=" " alt="" coords="372,131,394,143,408,157,417,171,426,183,441,194,500,215,562,226,623,230,680,230,680,235,623,236,561,231,498,220,439,198,422,187,413,174,404,161,390,147,370,136"/>
+<area shape="rect" href="class_registry.html#a0299624547ca4be52c5a3fb42a31e90a" title="Constructs a component in&#45;place for an entity." alt="" coords="440,157,636,184"/>
+<area shape="poly" title=" " alt="" coords="389,131,466,151,465,156,387,137"/>
+<area shape="rect" href="class_timer_manager.html#ab6fb7ec06a23498f60811ec3f2bce91b" title="Destroys a timer instance, returning it to the pool." alt="" coords="684,107,876,133"/>
+<area shape="poly" title=" " alt="" coords="599,117,669,117,669,123,599,123"/>
+<area shape="poly" title=" " alt="" coords="599,105,697,84,699,89,600,110"/>
+<area shape="poly" title=" " alt="" coords="600,131,637,143,695,169,745,197,742,202,693,174,635,148,598,136"/>
+<area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="924,157,1121,184"/>
+<area shape="poly" title=" " alt="" coords="842,81,877,92,936,119,987,147,984,152,933,124,875,97,841,86"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="1169,183,1377,209"/>
+<area shape="poly" title=" " alt="" coords="1122,178,1154,181,1153,187,1121,183"/>
+<area shape="poly" title=" " alt="" coords="865,214,1153,199,1153,205,865,220"/>
+<area shape="poly" title=" " alt="" coords="637,168,908,168,908,173,637,173"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_interaction_system_a2efec3ba0f55f346d55e19758cf7ea0a_icgraph.png" border="0" usemap="#aclass_interaction_system_a2efec3ba0f55f346d55e19758cf7ea0a_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_interaction_system_a2efec3ba0f55f346d55e19758cf7ea0a_icgraph" id="aclass_interaction_system_a2efec3ba0f55f346d55e19758cf7ea0a_icgraph">
+<area shape="rect" title=" " alt="" coords="390,5,604,48"/>
+<area shape="rect" href="class_interaction_system.html#a4442d8eeac79d00ec8d2473a97c21547" title=" " alt="" coords="189,5,342,48"/>
+<area shape="poly" title=" " alt="" coords="374,29,342,29,342,24,374,24"/>
+<area shape="rect" href="class_interaction_system.html#a33989daebe85772690119e7c1f3a0068" title=" " alt="" coords="5,5,141,48"/>
 <area shape="poly" title=" " alt="" coords="173,29,141,29,141,24,173,24"/>
 </map>
 </div>
@@ -275,8 +554,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ad4baa76e7bc9ca86ce4d775cc2b13343" name="ad4baa76e7bc9ca86ce4d775cc2b13343"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4baa76e7bc9ca86ce4d775cc2b13343">&#9670;&#160;</a></span>engine</h2>
+<a id="a713b5c51e403e2d0b0df2a3dd01ac6be" name="a713b5c51e403e2d0b0df2a3dd01ac6be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a713b5c51e403e2d0b0df2a3dd01ac6be">&#9670;&#160;</a></span>endInteractHandle</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -285,7 +564,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_g_engine.html">GEngine</a>* InteractionSystem::engine</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_event_handle.html">EventHandle</a>&gt; InteractionSystem::endInteractHandle</td>
         </tr>
       </table>
   </td>
@@ -297,8 +576,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a73ea4aaf37bf7ae812305514642d9e94" name="a73ea4aaf37bf7ae812305514642d9e94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73ea4aaf37bf7ae812305514642d9e94">&#9670;&#160;</a></span>handle</h2>
+<a id="a50846772fb9ef6cfc57ec9d12c0717f2" name="a50846772fb9ef6cfc57ec9d12c0717f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50846772fb9ef6cfc57ec9d12c0717f2">&#9670;&#160;</a></span>eventDispatcher</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,7 +586,139 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_handle.html">EventHandle</a> InteractionSystem::handle</td>
+          <td class="memname"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a>* InteractionSystem::eventDispatcher</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a613b9b770c6d589f2ce3e2617032b39e" name="a613b9b770c6d589f2ce3e2617032b39e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a613b9b770c6d589f2ce3e2617032b39e">&#9670;&#160;</a></span>inputManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_input_manager.html">InputManager</a>* InteractionSystem::inputManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8cb9f79939c5a886828d9a049fbadb1" name="af8cb9f79939c5a886828d9a049fbadb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8cb9f79939c5a886828d9a049fbadb1">&#9670;&#160;</a></span>maxInteractionDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double InteractionSystem::maxInteractionDistance = 200.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae5474cc638a8cb48a066db77371578a" name="aae5474cc638a8cb48a066db77371578a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae5474cc638a8cb48a066db77371578a">&#9670;&#160;</a></span>registry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_registry.html">Registry</a>* InteractionSystem::registry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6bde47fc74840914773494743eed5f4" name="aa6bde47fc74840914773494743eed5f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6bde47fc74840914773494743eed5f4">&#9670;&#160;</a></span>startInteractHandle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_event_handle.html">EventHandle</a>&gt; InteractionSystem::startInteractHandle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8916efbc8bfa40b8f4c2220c92423c38" name="a8916efbc8bfa40b8f4c2220c92423c38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8916efbc8bfa40b8f4c2220c92423c38">&#9670;&#160;</a></span>timerManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_timer_manager.html">TimerManager</a>* InteractionSystem::timerManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05a9c064d2ed45e4d2da8f3b053903da" name="a05a9c064d2ed45e4d2da8f3b053903da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a9c064d2ed45e4d2da8f3b053903da">&#9670;&#160;</a></span>world</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_world.html">World</a>* InteractionSystem::world</td>
         </tr>
       </table>
   </td>

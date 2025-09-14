@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['recipeid_0',['RecipeID',['../_recipe_8h.html#a4ae2ba3871cbbca1c985167f48d39527',1,'Recipe.h']]]
+  ['oretype_0',['OreType',['../_item_8h.html#a5cf1e23634a9c30fd64d7b248e9c6626',1,'Item.h']]]
 ];

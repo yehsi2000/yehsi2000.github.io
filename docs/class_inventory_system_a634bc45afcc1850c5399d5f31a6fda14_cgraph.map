@@ -1,0 +1,9 @@
+<map id="InventorySystem::InventorySystem" name="InventorySystem::InventorySystem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,188,91"/>
+<area shape="rect" id="Node000002" href="$class_inventory_system.html#a747f4c853baefbdad883af4a6b029948" title=" " alt="" coords="252,5,430,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,48,258,33,259,38,189,53"/>
+<area shape="rect" id="Node000003" href="$class_inventory_system.html#ad7f905ff3a6f38d809afca09b7d8636a" title=" " alt="" coords="236,56,446,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,67,220,67,220,72,188,72"/>
+<area shape="rect" id="Node000004" href="$class_inventory_system.html#a8f2586536ab6779548d069e15a56c6ad" title=" " alt="" coords="248,107,434,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="189,86,259,100,258,106,188,91"/>
+</map>

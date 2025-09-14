@@ -1,16 +1,15 @@
 var struct_input_state =
 [
-    [ "axis", "struct_input_state.html#a37ce35f05513d812f0bbe5d3fb77338b", null ],
-    [ "mousedelta", "struct_input_state.html#adf81ee7fdab7360cab7650c2437e03ff", null ],
-    [ "mouseDeltaX", "struct_input_state.html#aeddf5e5a11f10ff5a3892bb492da8ee4", null ],
-    [ "mouseDeltaY", "struct_input_state.html#a241331002efccaa90e3d75ece7329910", null ],
-    [ "mousepos", "struct_input_state.html#ac6de00e1c54c1e70027fb603815d2ee3", null ],
-    [ "mousewheel", "struct_input_state.html#a603f6356a560a2f7f05514dce89d5ad0", null ],
-    [ "mouseX", "struct_input_state.html#a92df1ffb6b6f69ec959166d0408266d7", null ],
-    [ "mouseY", "struct_input_state.html#a16ca0536668b14d673901000f9360b0b", null ],
-    [ "rightMouseDown", "struct_input_state.html#a3520d42809919aa15f112382a15eb4b5", null ],
-    [ "rightMousePressed", "struct_input_state.html#ab0f69ed745e381c70811b12a1331da12", null ],
-    [ "rightMouseReleased", "struct_input_state.html#a413f3243e4256a35738d8443f733a6a2", null ],
-    [ "xAxis", "struct_input_state.html#ac9b1f6d54ec2ccb61567939e07425df0", null ],
-    [ "yAxis", "struct_input_state.html#ae05851e70b94c90a04820f090208de6a", null ]
+    [ "axis", "struct_input_state.html#ad3b907236c05ca897d8e7ed99f483595", null ],
+    [ "bIsDraggedFromUI", "struct_input_state.html#aaa7754c5e50fca3b2d5f7a07c5e9711a", null ],
+    [ "bIsLeftMouseDown", "struct_input_state.html#a5e1b074c1d4a571f9479e079651409ac", null ],
+    [ "bIsLeftMousePressed", "struct_input_state.html#aa0bece790d353a47b20e25a40c59cd17", null ],
+    [ "bIsLeftMouseReleased", "struct_input_state.html#ade168452f1deaf317d3a2e02fc3a4101", null ],
+    [ "bIsQuit", "struct_input_state.html#ae4b9207702ed29029e72a41163fe535e", null ],
+    [ "bIsRightMouseDown", "struct_input_state.html#a77897a34b0ab34623aa74523c0352e9e", null ],
+    [ "bIsRightMousePressed", "struct_input_state.html#a8d19f85e19c5a25b7d59f073818a29c2", null ],
+    [ "bIsRightMouseReleased", "struct_input_state.html#a406f721fe084207240aa15e5e4988e64", null ],
+    [ "mouseDelta", "struct_input_state.html#a109f4f3b45b9016f7cdae0d0ae589265", null ],
+    [ "mousePos", "struct_input_state.html#a86fa1ed4e66d17509a17c0132fec0748", null ],
+    [ "mouseWheel", "struct_input_state.html#a31abe4ddde111c1a7202d2c9159df446", null ]
 ];

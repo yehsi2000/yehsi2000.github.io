@@ -102,26 +102,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae12af83ea882ea6112613e1c2af336de" id="r_ae12af83ea882ea6112613e1c2af336de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae12af83ea882ea6112613e1c2af336de">EventDispatcher</a> ()=default</td></tr>
 <tr class="memitem:ae84ee9ee18295de8a979f0e320ddc756" id="r_ae84ee9ee18295de8a979f0e320ddc756"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae84ee9ee18295de8a979f0e320ddc756">EventDispatcher</a> (const <a class="el" href="class_event_dispatcher.html">EventDispatcher</a> &amp;)=delete</td></tr>
 <tr class="memitem:a82d2afd2ea511c7915f61636e1746310" id="r_a82d2afd2ea511c7915f61636e1746310"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82d2afd2ea511c7915f61636e1746310">operator=</a> (const <a class="el" href="class_event_dispatcher.html">EventDispatcher</a> &amp;)=delete</td></tr>
-<tr class="memitem:a40bb9ab205723ec1fb682249aa109e64" id="r_a40bb9ab205723ec1fb682249aa109e64"><td class="memTemplParams" colspan="2">template&lt;typename EventType&gt; </td></tr>
-<tr class="memitem:a40bb9ab205723ec1fb682249aa109e64 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_event_handle.html">EventHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40bb9ab205723ec1fb682249aa109e64">Subscribe</a> (std::function&lt; void(const EventType &amp;)&gt; callback)</td></tr>
-<tr class="memdesc:a40bb9ab205723ec1fb682249aa109e64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subscribes a callback function to a specific event type.  <br /></td></tr>
+<tr class="memitem:a21f7ebec8a4a83701c53c6d31c815c8e" id="r_a21f7ebec8a4a83701c53c6d31c815c8e"><td class="memTemplParams" colspan="2">template&lt;typename EventType&gt; </td></tr>
+<tr class="memitem:a21f7ebec8a4a83701c53c6d31c815c8e template"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_event_handle.html">EventHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21f7ebec8a4a83701c53c6d31c815c8e">Subscribe</a> (std::function&lt; void(const EventType &amp;)&gt; callback)</td></tr>
+<tr class="memdesc:a21f7ebec8a4a83701c53c6d31c815c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subscribes a callback function to a specific event type.  <br /></td></tr>
 <tr class="memitem:a6990c88db24b61341115efb55071c357" id="r_a6990c88db24b61341115efb55071c357"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6990c88db24b61341115efb55071c357">Publish</a> (const <a class="el" href="struct_event.html">Event</a> &amp;event)</td></tr>
 <tr class="memdesc:a6990c88db24b61341115efb55071c357"><td class="mdescLeft">&#160;</td><td class="mdescRight">Publishes an event to all subscribed listeners immediately.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-types" class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
 <tr class="memitem:aca419321e24403fa395dd2fc71807bc7" id="r_aca419321e24403fa395dd2fc71807bc7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca419321e24403fa395dd2fc71807bc7">Callback</a> = std::function&lt;void(const <a class="el" href="struct_event.html">Event</a> &amp;)&gt;</td></tr>
-<tr class="memitem:a24fff3a9f466115f6a7b01a45d14308a" id="r_a24fff3a9f466115f6a7b01a45d14308a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24fff3a9f466115f6a7b01a45d14308a">CallbackID</a> = size_t</td></tr>
+<tr class="memitem:aa4eb1e6fed5e0ec56c7ccc8c02d6152f" id="r_aa4eb1e6fed5e0ec56c7ccc8c02d6152f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4eb1e6fed5e0ec56c7ccc8c02d6152f">CallbackID</a> = std::size_t</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a20d60574f93950aabe9192748fd56b5d" id="r_a20d60574f93950aabe9192748fd56b5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20d60574f93950aabe9192748fd56b5d">Unsubscribe</a> (const std::type_index &amp;ti, <a class="el" href="#a24fff3a9f466115f6a7b01a45d14308a">CallbackID</a> id)</td></tr>
+<tr class="memitem:a20d60574f93950aabe9192748fd56b5d" id="r_a20d60574f93950aabe9192748fd56b5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20d60574f93950aabe9192748fd56b5d">Unsubscribe</a> (const std::type_index &amp;ti, <a class="el" href="#aa4eb1e6fed5e0ec56c7ccc8c02d6152f">CallbackID</a> id)</td></tr>
 <tr class="memdesc:a20d60574f93950aabe9192748fd56b5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re...">EventHandle</a> destructor to remove the subscription.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:af96979bb2999347f88cb17dd31e6c6aa" id="r_af96979bb2999347f88cb17dd31e6c6aa"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::type_index, std::vector&lt; std::pair&lt; <a class="el" href="#a24fff3a9f466115f6a7b01a45d14308a">CallbackID</a>, <a class="el" href="#aca419321e24403fa395dd2fc71807bc7">Callback</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af96979bb2999347f88cb17dd31e6c6aa">listeners</a></td></tr>
-<tr class="memitem:a0a25d9d85560c68e8c626391607aa9e1" id="r_a0a25d9d85560c68e8c626391607aa9e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a24fff3a9f466115f6a7b01a45d14308a">CallbackID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a25d9d85560c68e8c626391607aa9e1">nextCallbackID</a> = 1</td></tr>
+<tr class="memitem:af96979bb2999347f88cb17dd31e6c6aa" id="r_af96979bb2999347f88cb17dd31e6c6aa"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::type_index, std::vector&lt; std::pair&lt; <a class="el" href="#aa4eb1e6fed5e0ec56c7ccc8c02d6152f">CallbackID</a>, <a class="el" href="#aca419321e24403fa395dd2fc71807bc7">Callback</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af96979bb2999347f88cb17dd31e6c6aa">listeners</a></td></tr>
+<tr class="memitem:a0a25d9d85560c68e8c626391607aa9e1" id="r_a0a25d9d85560c68e8c626391607aa9e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aa4eb1e6fed5e0ec56c7ccc8c02d6152f">CallbackID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a25d9d85560c68e8c626391607aa9e1">nextCallbackID</a> = 1</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -129,7 +129,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages event subscriptions and publications for immediate, synchronous communication. </p>
-<p>Systems can subscribe to specific event types. When an event is published, the dispatcher immediately invokes all registered callback functions for that event type. Subscriptions are managed by <a class="el" href="class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re...">EventHandle</a> objects, which automatically unsubscribe upon destruction. </p>
+<p>Systems can subscribe to specific event types. When an event is published, the eventDispatcher immediately invokes all registered callback functions for that event type. Subscriptions are managed by <a class="el" href="class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re...">EventHandle</a> objects, which automatically unsubscribe upon destruction. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="aca419321e24403fa395dd2fc71807bc7" name="aca419321e24403fa395dd2fc71807bc7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca419321e24403fa395dd2fc71807bc7">&#9670;&#160;</a></span>Callback</h2>
@@ -153,8 +153,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a24fff3a9f466115f6a7b01a45d14308a" name="a24fff3a9f466115f6a7b01a45d14308a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24fff3a9f466115f6a7b01a45d14308a">&#9670;&#160;</a></span>CallbackID</h2>
+<a id="aa4eb1e6fed5e0ec56c7ccc8c02d6152f" name="aa4eb1e6fed5e0ec56c7ccc8c02d6152f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4eb1e6fed5e0ec56c7ccc8c02d6152f">&#9670;&#160;</a></span>CallbackID</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,7 +163,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a24fff3a9f466115f6a7b01a45d14308a">EventDispatcher::CallbackID</a> = size_t</td>
+          <td class="memname">using <a class="el" href="#aa4eb1e6fed5e0ec56c7ccc8c02d6152f">EventDispatcher::CallbackID</a> = std::size_t</td>
         </tr>
       </table>
   </td>
@@ -310,7 +310,7 @@ Here is the call graph for this function:</div>
 <p>Publishes an event to all subscribed listeners immediately. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">event</td><td><a class="el" href="struct_event.html">Event</a> to broadcast to all subscribers </td></tr>
+    <tr><td class="paramname">event</td><td><a class="el" href="struct_event.html" title="The base struct for all events in the game.">Event</a> to broadcast to all subscribers </td></tr>
   </table>
   </dd>
 </dl>
@@ -319,16 +319,18 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_event_dispatcher_a6990c88db24b61341115efb55071c357_icgraph.png" border="0" usemap="#aclass_event_dispatcher_a6990c88db24b61341115efb55071c357_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_event_dispatcher_a6990c88db24b61341115efb55071c357_icgraph" id="aclass_event_dispatcher_a6990c88db24b61341115efb55071c357_icgraph">
-<area shape="rect" title="Publishes an event to all subscribed listeners immediately." alt="" coords="219,13,388,40"/>
-<area shape="rect" href="class_resource_mine_command.html#aa286cd0a089ae22bb03599f7d6aabeb6" title=" " alt="" coords="5,5,171,48"/>
-<area shape="poly" title=" " alt="" coords="203,29,171,29,171,24,203,24"/>
+<area shape="rect" title="Publishes an event to all subscribed listeners immediately." alt="" coords="252,47,421,73"/>
+<area shape="rect" href="class_player_disconnected_command.html#af31be0c12d59ec7dafdd75c01f9a1096" title=" " alt="" coords="5,5,204,48"/>
+<area shape="poly" title=" " alt="" coords="236,48,204,44,204,38,237,43"/>
+<area shape="rect" href="class_resource_mine_command.html#a26510fad53eaaa55bf4f34ce2064c263" title=" " alt="" coords="22,72,187,115"/>
+<area shape="poly" title=" " alt="" coords="237,77,188,84,187,79,236,72"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a40bb9ab205723ec1fb682249aa109e64" name="a40bb9ab205723ec1fb682249aa109e64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40bb9ab205723ec1fb682249aa109e64">&#9670;&#160;</a></span>Subscribe()</h2>
+<a id="a21f7ebec8a4a83701c53c6d31c815c8e" name="a21f7ebec8a4a83701c53c6d31c815c8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21f7ebec8a4a83701c53c6d31c815c8e">&#9670;&#160;</a></span>Subscribe()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,7 +341,7 @@ template&lt;typename EventType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_handle.html">EventHandle</a> EventDispatcher::Subscribe </td>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="class_event_handle.html">EventHandle</a> &gt; EventDispatcher::Subscribe </td>
           <td>(</td>
           <td class="paramtype">std::function&lt; void(const EventType &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>callback</em></span></td><td>)</td>
           <td></td>
@@ -355,7 +357,7 @@ template&lt;typename EventType&gt; </div>
 <p>Subscribes a callback function to a specific event type. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">EventType</td><td><a class="el" href="struct_event.html">Event</a> class to subscribe to. </td></tr>
+    <tr><td class="paramname">EventType</td><td><a class="el" href="struct_event.html" title="The base struct for all events in the game.">Event</a> class to subscribe to. </td></tr>
   </table>
   </dd>
 </dl>
@@ -367,14 +369,13 @@ template&lt;typename EventType&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re...">EventHandle</a> handle that automatically unsubscribes when it goes out of scope. </dd></dl>
 <div class="dynheader">
-Here is the call graph for this function:</div>
+Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_event_dispatcher_a40bb9ab205723ec1fb682249aa109e64_cgraph.png" border="0" usemap="#aclass_event_dispatcher_a40bb9ab205723ec1fb682249aa109e64_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_event_dispatcher_a40bb9ab205723ec1fb682249aa109e64_cgraph" id="aclass_event_dispatcher_a40bb9ab205723ec1fb682249aa109e64_cgraph">
-<area shape="rect" title="Subscribes a callback function to a specific event type." alt="" coords="5,29,190,56"/>
-<area shape="rect" href="class_event_dispatcher.html#a7828e871921e228ca126e1b745a251fa" title=" " alt="" coords="238,29,439,56"/>
-<area shape="poly" title=" " alt="" coords="190,40,222,40,222,45,190,45"/>
-<area shape="poly" title=" " alt="" coords="298,31,291,21,296,11,312,5,338,3,367,5,382,12,380,17,366,10,338,8,313,10,299,15,296,20,302,27"/>
+<div class="center"><img src="class_event_dispatcher_a21f7ebec8a4a83701c53c6d31c815c8e_icgraph.png" border="0" usemap="#aclass_event_dispatcher_a21f7ebec8a4a83701c53c6d31c815c8e_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_event_dispatcher_a21f7ebec8a4a83701c53c6d31c815c8e_icgraph" id="aclass_event_dispatcher_a21f7ebec8a4a83701c53c6d31c815c8e_icgraph">
+<area shape="rect" title="Subscribes a callback function to a specific event type." alt="" coords="257,5,441,32"/>
+<area shape="rect" href="class_render_system.html#a097ef183b9a1bb63e064a53c5eb45030" title=" " alt="" coords="5,5,209,32"/>
+<area shape="poly" title=" " alt="" coords="241,21,209,21,209,16,241,16"/>
 </map>
 </div>
 
@@ -397,7 +398,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a24fff3a9f466115f6a7b01a45d14308a">CallbackID</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#aa4eb1e6fed5e0ec56c7ccc8c02d6152f">CallbackID</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -410,7 +411,7 @@ Here is the call graph for this function:</div>
 <p>Called by <a class="el" href="class_event_handle.html" title="A handle to an event subscription. When the handle is destroyed, the subscription is automatically re...">EventHandle</a> destructor to remove the subscription. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ti</td><td>typeid of given <a class="el" href="struct_event.html">Event</a> </td></tr>
+    <tr><td class="paramname">ti</td><td>typeid of given <a class="el" href="struct_event.html" title="The base struct for all events in the game.">Event</a> </td></tr>
     <tr><td class="paramname">id</td><td>ID <a class="el" href="#aca419321e24403fa395dd2fc71807bc7">Callback</a> function to remove </td></tr>
   </table>
   </dd>
@@ -452,7 +453,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;std::type_index, std::vector&lt;std::pair&lt;<a class="el" href="#a24fff3a9f466115f6a7b01a45d14308a">CallbackID</a>, <a class="el" href="#aca419321e24403fa395dd2fc71807bc7">Callback</a>&gt; &gt; &gt; EventDispatcher::listeners</td>
+          <td class="memname">std::unordered_map&lt;std::type_index, std::vector&lt;std::pair&lt;<a class="el" href="#aa4eb1e6fed5e0ec56c7ccc8c02d6152f">CallbackID</a>, <a class="el" href="#aca419321e24403fa395dd2fc71807bc7">Callback</a>&gt; &gt; &gt; EventDispatcher::listeners</td>
         </tr>
       </table>
   </td>
@@ -474,7 +475,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a24fff3a9f466115f6a7b01a45d14308a">CallbackID</a> EventDispatcher::nextCallbackID = 1</td>
+          <td class="memname"><a class="el" href="#aa4eb1e6fed5e0ec56c7ccc8c02d6152f">CallbackID</a> EventDispatcher::nextCallbackID = 1</td>
         </tr>
       </table>
   </td>

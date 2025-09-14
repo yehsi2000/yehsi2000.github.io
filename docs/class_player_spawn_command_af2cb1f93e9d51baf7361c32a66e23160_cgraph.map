@@ -1,0 +1,5 @@
+<map id="PlayerSpawnCommand::Execute" name="PlayerSpawnCommand::Execute">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,164,48"/>
+<area shape="rect" id="Node000002" href="$class_world.html#a2482e36e1c324edfef072079abc9e454" title=" " alt="" coords="212,13,364,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,24,196,24,196,29,164,29"/>
+</map>

@@ -1,14 +1,18 @@
 <map id="RenderSystem" name="RenderSystem">
-<area shape="rect" id="Node000001" title=" " alt="" coords="16,443,124,469"/>
-<area shape="rect" id="Node000002" href="$class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="35,245,105,272"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,288,64,344,66,399,71,442,65,443,60,399,59,344,64,287"/>
-<area shape="rect" id="Node000006" href="$class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="124,344,178,371"/>
-<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="92,282,143,342,139,345,88,286"/>
-<area shape="rect" id="Node000003" href="$struct_input_state.html" title=" " alt="" coords="29,147,110,173"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="72,189,72,245,67,245,67,189"/>
-<area shape="rect" id="Node000004" href="$struct_vec2f.html" title=" " alt="" coords="5,5,60,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="36,47,40,83,50,122,62,145,58,147,45,124,35,84,31,48"/>
-<area shape="rect" id="Node000005" href="$struct_vec2.html" title=" " alt="" coords="83,5,134,32"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="104,48,76,147,71,145,98,46"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="133,384,82,444,78,441,129,381"/>
+<area shape="rect" id="Node000001" title="Responsible for rendering every entity, chunk and text." alt="" coords="304,400,413,427"/>
+<area shape="rect" id="Node000002" href="$class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="289,104,359,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="346,142,364,169,378,202,393,250,400,289,398,329,386,377,372,401,368,398,381,375,393,328,395,290,387,251,373,204,359,172,341,145"/>
+<area shape="rect" id="Node000004" href="$class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="287,301,342,328"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="325,146,318,301,312,301,320,145"/>
+<area shape="rect" id="Node000006" href="$class_entity_factory.html" title="A factory for creating pre&#45;configured entities." alt="" coords="168,203,267,229"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="276,137,247,157,231,180,223,203,218,201,227,177,243,153,273,132"/>
+<area shape="rect" id="Node000003" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="335,5,454,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="366,44,354,58,339,82,330,105,325,103,335,79,349,54,363,40"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="443,39,456,54,463,61,473,65,499,68,527,68,552,72,560,79,564,90,563,106,556,126,522,186,454,279,435,291,406,301,342,313,341,307,405,296,433,287,450,275,517,184,551,124,558,105,559,91,556,82,549,77,527,73,499,73,471,70,460,66,453,58,439,42"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="329,341,355,399,350,401,324,343"/>
+<area shape="rect" id="Node000005" href="$class_world_asset_manager.html" title="A singleton for managing and caching world tile assets." alt="" coords="5,203,144,229"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="84,243,92,261,105,275,138,289,187,299,287,309,287,314,187,304,136,294,102,280,88,264,79,245"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="229,243,238,260,250,275,268,290,288,301,285,305,265,294,246,279,233,263,224,245"/>
+<area shape="rect" id="Node000007" href="$class_asset_manager.html" title="A singleton for managing and caching in&#45;game entity assets." alt="" coords="70,104,175,131"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="120,146,121,162,127,177,145,194,168,204,166,209,142,198,122,180,116,163,115,146"/>
 </map>

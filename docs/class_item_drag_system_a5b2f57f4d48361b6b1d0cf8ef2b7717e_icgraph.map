@@ -1,0 +1,12 @@
+<map id="ItemDragSystem::DestroyPreviewEntity" name="ItemDragSystem::DestroyPreviewEntity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="498,64,719,107"/>
+<area shape="rect" id="Node000002" href="$class_item_drag_system.html#aaeefc2b4c85d68116ea81e32a4f06a94" title=" " alt="" coords="236,5,450,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="494,63,442,51,443,46,495,57"/>
+<area shape="rect" id="Node000003" href="$class_item_drag_system.html#a419ea9a1b5f6be84ea1133a2d6904762" title=" " alt="" coords="11,43,182,69"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="482,81,182,64,182,58,482,75"/>
+<area shape="rect" id="Node000004" href="$class_item_drag_system.html#a7bdea5f84d63598e8d1cfb6ce839d0fe" title=" " alt="" coords="252,123,434,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="495,113,435,126,434,121,494,108"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="221,44,182,49,182,43,220,39"/>
+<area shape="rect" id="Node000005" href="$class_item_drag_system.html#aef109050db10bf5ec81b89f83c8fd7b9" title=" " alt="" coords="5,123,188,165"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="236,147,188,147,188,141,236,141"/>
+</map>

@@ -96,69 +96,70 @@ $(function(){initNavTree('_object_pool_8h_source.html','',''); });
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;queue&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_object_pool.html">    9</a></span><span class="keyword">class </span><a class="code hl_function" href="class_object_pool.html#a2d5a714cd06dc1b7cee5ced9e1488322">ObjectPool</a> {</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">   11</a></span>  std::queue&lt;std::unique_ptr&lt;T&gt;&gt; <a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_object_pool.html#a0333a80d73b5ed37fc45f5a470da7899">   12</a></span>  std::function&lt;std::unique_ptr&lt;T&gt;()&gt; <a class="code hl_variable" href="class_object_pool.html#a0333a80d73b5ed37fc45f5a470da7899">createFunction</a>;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> <span class="keyword">public</span>:</div>
-<div class="foldopen" id="foldopen00015" data-start="{" data-end="}">
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_object_pool.html#a2d5a714cd06dc1b7cee5ced9e1488322">   15</a></span>  <a class="code hl_function" href="class_object_pool.html#a2d5a714cd06dc1b7cee5ced9e1488322">ObjectPool</a>(std::function&lt;std::unique_ptr&lt;T&gt;()&gt; createFunc)</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>      : <a class="code hl_variable" href="class_object_pool.html#a0333a80d73b5ed37fc45f5a470da7899">createFunction</a>(std::move(createFunc)) {}</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;cstddef&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;queue&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="class_object_pool.html">   10</a></span><span class="keyword">class </span><a class="code hl_function" href="class_object_pool.html#a2d5a714cd06dc1b7cee5ced9e1488322">ObjectPool</a> {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">   12</a></span>  std::queue&lt;std::unique_ptr&lt;T&gt;&gt; <a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="class_object_pool.html#a0333a80d73b5ed37fc45f5a470da7899">   13</a></span>  std::function&lt;std::unique_ptr&lt;T&gt;()&gt; <a class="code hl_variable" href="class_object_pool.html#a0333a80d73b5ed37fc45f5a470da7899">createFunction</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> <span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="}">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_object_pool.html#a2d5a714cd06dc1b7cee5ced9e1488322">   16</a></span>  <a class="code hl_function" href="class_object_pool.html#a2d5a714cd06dc1b7cee5ced9e1488322">ObjectPool</a>(std::function&lt;std::unique_ptr&lt;T&gt;()&gt; createFunc)</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>      : <a class="code hl_variable" href="class_object_pool.html#a0333a80d73b5ed37fc45f5a470da7899">createFunction</a>(std::move(createFunc)) {}</div>
 </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span></div>
-<div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_object_pool.html#a21cd4376fe5459ec86ab3886a3ab5bce">   23</a></span>  std::unique_ptr&lt;T&gt; <a class="code hl_function" href="class_object_pool.html#a21cd4376fe5459ec86ab3886a3ab5bce">Acquire</a>() {</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.empty()) {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="class_object_pool.html#a0333a80d73b5ed37fc45f5a470da7899">createFunction</a>();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    }</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keyword">auto</span> <span class="keywordtype">object</span> = std::move(<a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.front());</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.pop();</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordflow">return</span> object;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  }</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="}">
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_object_pool.html#a21cd4376fe5459ec86ab3886a3ab5bce">   24</a></span>  std::unique_ptr&lt;T&gt; <a class="code hl_function" href="class_object_pool.html#a21cd4376fe5459ec86ab3886a3ab5bce">Acquire</a>() {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.empty()) {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>      <span class="keywordflow">return</span> <a class="code hl_variable" href="class_object_pool.html#a0333a80d73b5ed37fc45f5a470da7899">createFunction</a>();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">auto</span> <span class="keywordtype">object</span> = std::move(<a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.front());</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.pop();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordflow">return</span> object;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  }</div>
 </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
-<div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_object_pool.html#a05392f2b4d18cb9765a374c5a0f4e488">   38</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_object_pool.html#a05392f2b4d18cb9765a374c5a0f4e488">Release</a>(std::unique_ptr&lt;T&gt; <span class="keywordtype">object</span>) {</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.push(std::move(<span class="keywordtype">object</span>));</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  }</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span></div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="class_object_pool.html#a05392f2b4d18cb9765a374c5a0f4e488">   39</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_object_pool.html#a05392f2b4d18cb9765a374c5a0f4e488">Release</a>(std::unique_ptr&lt;T&gt; <span class="keywordtype">object</span>) {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.push(std::move(<span class="keywordtype">object</span>));</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  }</div>
 </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_object_pool.html#adfa24bf1bbfc28f69cd421d36471532e">   42</a></span>  <span class="keywordtype">size_t</span> <a class="code hl_function" href="class_object_pool.html#adfa24bf1bbfc28f69cd421d36471532e">Size</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.size(); }</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_object_pool.html#a2d8a31dc1921cc0a2a7a35848b394ee8">   44</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_object_pool.html#a2d8a31dc1921cc0a2a7a35848b394ee8">Clear</a>() {</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordflow">while</span> (!<a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.empty()) {</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>      <a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.pop();</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  }</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="class_object_pool.html#a4d17a331f5d34c18b3565d61ef65f15a">   43</a></span>  std::size_t <a class="code hl_function" href="class_object_pool.html#a4d17a331f5d34c18b3565d61ef65f15a">Size</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.size(); }</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_object_pool.html#a2d8a31dc1921cc0a2a7a35848b394ee8">   45</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_object_pool.html#a2d8a31dc1921cc0a2a7a35848b394ee8">Clear</a>() {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">while</span> (!<a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.empty()) {</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>      <a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.pop();</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    }</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  }</div>
 </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  </div>
-<div class="foldopen" id="foldopen00056" data-start="{" data-end="}">
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="class_object_pool.html#a3c52e7dc99b44c8e60531c1dc4f31e30">   56</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_object_pool.html#a3c52e7dc99b44c8e60531c1dc4f31e30">PreAllocate</a>(<span class="keywordtype">size_t</span> count) {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; count; ++i) {</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>      <a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.push(<a class="code hl_variable" href="class_object_pool.html#a0333a80d73b5ed37fc45f5a470da7899">createFunction</a>());</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    }</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  }</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  </div>
+<div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="class_object_pool.html#ae258bd9f9b8adc02f799542755f1ae9c">   57</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_object_pool.html#ae258bd9f9b8adc02f799542755f1ae9c">PreAllocate</a>(std::size_t count) {</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordflow">for</span> (std::size_t i = 0; i &lt; count; ++i) {</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>      <a class="code hl_variable" href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">pool</a>.push(<a class="code hl_variable" href="class_object_pool.html#a0333a80d73b5ed37fc45f5a470da7899">createFunction</a>());</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    }</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  }</div>
 </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>};</div>
 </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#endif </span><span class="comment">/* CORE_OBJECTPOOL_ */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="aclass_object_pool_html_a0333a80d73b5ed37fc45f5a470da7899"><div class="ttname"><a href="class_object_pool.html#a0333a80d73b5ed37fc45f5a470da7899">ObjectPool::createFunction</a></div><div class="ttdeci">std::function&lt; std::unique_ptr&lt; T &gt;()&gt; createFunction</div><div class="ttdef"><b>Definition</b> ObjectPool.h:12</div></div>
-<div class="ttc" id="aclass_object_pool_html_a05392f2b4d18cb9765a374c5a0f4e488"><div class="ttname"><a href="class_object_pool.html#a05392f2b4d18cb9765a374c5a0f4e488">ObjectPool::Release</a></div><div class="ttdeci">void Release(std::unique_ptr&lt; T &gt; object)</div><div class="ttdoc">Return an object to the pool.</div><div class="ttdef"><b>Definition</b> ObjectPool.h:38</div></div>
-<div class="ttc" id="aclass_object_pool_html_a21cd4376fe5459ec86ab3886a3ab5bce"><div class="ttname"><a href="class_object_pool.html#a21cd4376fe5459ec86ab3886a3ab5bce">ObjectPool::Acquire</a></div><div class="ttdeci">std::unique_ptr&lt; T &gt; Acquire()</div><div class="ttdoc">Get an object from the pool or create a new one if pool is empty.</div><div class="ttdef"><b>Definition</b> ObjectPool.h:23</div></div>
-<div class="ttc" id="aclass_object_pool_html_a2d5a714cd06dc1b7cee5ced9e1488322"><div class="ttname"><a href="class_object_pool.html#a2d5a714cd06dc1b7cee5ced9e1488322">ObjectPool::ObjectPool</a></div><div class="ttdeci">ObjectPool(std::function&lt; std::unique_ptr&lt; T &gt;()&gt; createFunc)</div><div class="ttdef"><b>Definition</b> ObjectPool.h:15</div></div>
-<div class="ttc" id="aclass_object_pool_html_a2d8a31dc1921cc0a2a7a35848b394ee8"><div class="ttname"><a href="class_object_pool.html#a2d8a31dc1921cc0a2a7a35848b394ee8">ObjectPool::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition</b> ObjectPool.h:44</div></div>
-<div class="ttc" id="aclass_object_pool_html_a3c52e7dc99b44c8e60531c1dc4f31e30"><div class="ttname"><a href="class_object_pool.html#a3c52e7dc99b44c8e60531c1dc4f31e30">ObjectPool::PreAllocate</a></div><div class="ttdeci">void PreAllocate(size_t count)</div><div class="ttdoc">Pre-warm the pool.</div><div class="ttdef"><b>Definition</b> ObjectPool.h:56</div></div>
-<div class="ttc" id="aclass_object_pool_html_adfa24bf1bbfc28f69cd421d36471532e"><div class="ttname"><a href="class_object_pool.html#adfa24bf1bbfc28f69cd421d36471532e">ObjectPool::Size</a></div><div class="ttdeci">size_t Size() const</div><div class="ttdef"><b>Definition</b> ObjectPool.h:42</div></div>
-<div class="ttc" id="aclass_object_pool_html_ae888d0274f59dda7593471c727bfc2d7"><div class="ttname"><a href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">ObjectPool::pool</a></div><div class="ttdeci">std::queue&lt; std::unique_ptr&lt; T &gt; &gt; pool</div><div class="ttdef"><b>Definition</b> ObjectPool.h:11</div></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif </span><span class="comment">/* CORE_OBJECTPOOL_ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="aclass_object_pool_html_a0333a80d73b5ed37fc45f5a470da7899"><div class="ttname"><a href="class_object_pool.html#a0333a80d73b5ed37fc45f5a470da7899">ObjectPool::createFunction</a></div><div class="ttdeci">std::function&lt; std::unique_ptr&lt; T &gt;()&gt; createFunction</div><div class="ttdef"><b>Definition</b> ObjectPool.h:13</div></div>
+<div class="ttc" id="aclass_object_pool_html_a05392f2b4d18cb9765a374c5a0f4e488"><div class="ttname"><a href="class_object_pool.html#a05392f2b4d18cb9765a374c5a0f4e488">ObjectPool::Release</a></div><div class="ttdeci">void Release(std::unique_ptr&lt; T &gt; object)</div><div class="ttdoc">Return an object to the pool.</div><div class="ttdef"><b>Definition</b> ObjectPool.h:39</div></div>
+<div class="ttc" id="aclass_object_pool_html_a21cd4376fe5459ec86ab3886a3ab5bce"><div class="ttname"><a href="class_object_pool.html#a21cd4376fe5459ec86ab3886a3ab5bce">ObjectPool::Acquire</a></div><div class="ttdeci">std::unique_ptr&lt; T &gt; Acquire()</div><div class="ttdoc">Get an object from the pool or create a new one if pool is empty.</div><div class="ttdef"><b>Definition</b> ObjectPool.h:24</div></div>
+<div class="ttc" id="aclass_object_pool_html_a2d5a714cd06dc1b7cee5ced9e1488322"><div class="ttname"><a href="class_object_pool.html#a2d5a714cd06dc1b7cee5ced9e1488322">ObjectPool::ObjectPool</a></div><div class="ttdeci">ObjectPool(std::function&lt; std::unique_ptr&lt; T &gt;()&gt; createFunc)</div><div class="ttdef"><b>Definition</b> ObjectPool.h:16</div></div>
+<div class="ttc" id="aclass_object_pool_html_a2d8a31dc1921cc0a2a7a35848b394ee8"><div class="ttname"><a href="class_object_pool.html#a2d8a31dc1921cc0a2a7a35848b394ee8">ObjectPool::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition</b> ObjectPool.h:45</div></div>
+<div class="ttc" id="aclass_object_pool_html_a4d17a331f5d34c18b3565d61ef65f15a"><div class="ttname"><a href="class_object_pool.html#a4d17a331f5d34c18b3565d61ef65f15a">ObjectPool::Size</a></div><div class="ttdeci">std::size_t Size() const</div><div class="ttdef"><b>Definition</b> ObjectPool.h:43</div></div>
+<div class="ttc" id="aclass_object_pool_html_ae258bd9f9b8adc02f799542755f1ae9c"><div class="ttname"><a href="class_object_pool.html#ae258bd9f9b8adc02f799542755f1ae9c">ObjectPool::PreAllocate</a></div><div class="ttdeci">void PreAllocate(std::size_t count)</div><div class="ttdoc">Pre-warm the pool.</div><div class="ttdef"><b>Definition</b> ObjectPool.h:57</div></div>
+<div class="ttc" id="aclass_object_pool_html_ae888d0274f59dda7593471c727bfc2d7"><div class="ttname"><a href="class_object_pool.html#ae888d0274f59dda7593471c727bfc2d7">ObjectPool::pool</a></div><div class="ttdeci">std::queue&lt; std::unique_ptr&lt; T &gt; &gt; pool</div><div class="ttdef"><b>Definition</b> ObjectPool.h:12</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

@@ -117,7 +117,7 @@ Collaboration diagram for InventoryCommand:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a57ac1dbf0c24db6c8c521cbf4d4ec874" id="r_a57ac1dbf0c24db6c8c521cbf4d4ec874"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57ac1dbf0c24db6c8c521cbf4d4ec874">InventoryCommand</a> (<a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> <a class="el" href="#acc014f7d84ef02465dfa0f5d987c6fad">target</a>, <a class="el" href="_item_8h.html#a60ba97a2b1c6283fbd37eab8b2606523">ItemID</a> <a class="el" href="#a5752c3c54d1a41897ef2e49dc839c14a">item</a>, int <a class="el" href="#a7c6a82854d60dcbb7b1f4072891b102d">amount</a>, <a class="el" href="_entity_8h.html#ae6c17718e7ec934f9ccfffd2d49618fb">EntityID</a> <a class="el" href="#a3fb1c2d8c25ac90d6306fb4a5494a966">instigator</a>=<a class="el" href="_entity_8h.html#adb2de330aa9679e080de2631b6cd0820">INVALID_ENTITY</a>)</td></tr>
-<tr class="memitem:aef79beff4a3f0c7c1e0ee7db7827747e" id="r_aef79beff4a3f0c7c1e0ee7db7827747e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef79beff4a3f0c7c1e0ee7db7827747e">Execute</a> (<a class="el" href="class_g_engine.html">GEngine</a> &amp;engine, <a class="el" href="class_registry.html">Registry</a> &amp;registry) override</td></tr>
+<tr class="memitem:a1dc8073affc4863795413b69f8170057" id="r_a1dc8073affc4863795413b69f8170057"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dc8073affc4863795413b69f8170057">Execute</a> (<a class="el" href="class_registry.html">Registry</a> *registry, <a class="el" href="class_event_dispatcher.html">EventDispatcher</a> *eventDispatcher, <a class="el" href="class_world.html">World</a> *world) override</td></tr>
 <tr class="inherit_header pub_methods_class_command"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_command')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_command.html">Command</a></td></tr>
 <tr class="memitem:aa545a53d35818f9efb936daf3fa16c61 inherit pub_methods_class_command" id="r_aa545a53d35818f9efb936daf3fa16c61"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command.html#aa545a53d35818f9efb936daf3fa16c61">~Command</a> ()=default</td></tr>
 </table><table class="memberdecls">
@@ -174,8 +174,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="aef79beff4a3f0c7c1e0ee7db7827747e" name="aef79beff4a3f0c7c1e0ee7db7827747e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef79beff4a3f0c7c1e0ee7db7827747e">&#9670;&#160;</a></span>Execute()</h2>
+<a id="a1dc8073affc4863795413b69f8170057" name="a1dc8073affc4863795413b69f8170057"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dc8073affc4863795413b69f8170057">&#9670;&#160;</a></span>Execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,12 +186,17 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void InventoryCommand::Execute </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_g_engine.html">GEngine</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>engine</em></span>, </td>
+          <td class="paramtype"><a class="el" href="class_registry.html">Registry</a> *</td>          <td class="paramname"><span class="paramname"><em>registry</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_registry.html">Registry</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>registry</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="class_event_dispatcher.html">EventDispatcher</a> *</td>          <td class="paramname"><span class="paramname"><em>eventDispatcher</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_world.html">World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -201,12 +206,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_command.html#a36bdfe5a4824efd3fcba4d36fc9c5938">Command</a>.</p>
+<p>Implements <a class="el" href="class_command.html#aa60569641592ba99484e25919e1a9afc">Command</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_inventory_command_aef79beff4a3f0c7c1e0ee7db7827747e_cgraph.png" border="0" usemap="#aclass_inventory_command_aef79beff4a3f0c7c1e0ee7db7827747e_cgraph" loading="lazy" alt=""/></div>
-<map name="aclass_inventory_command_aef79beff4a3f0c7c1e0ee7db7827747e_cgraph" id="aclass_inventory_command_aef79beff4a3f0c7c1e0ee7db7827747e_cgraph">
+<div class="center"><img src="class_inventory_command_a1dc8073affc4863795413b69f8170057_cgraph.png" border="0" usemap="#aclass_inventory_command_a1dc8073affc4863795413b69f8170057_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_inventory_command_a1dc8073affc4863795413b69f8170057_cgraph" id="aclass_inventory_command_a1dc8073affc4863795413b69f8170057_cgraph">
 <area shape="rect" title=" " alt="" coords="5,81,197,108"/>
 <area shape="rect" href="class_registry.html#ac5aae2c37c63375d54da7d8d801bbe22" title="Retrieves a reference to an entity&#39;s component." alt="" coords="284,5,450,32"/>
 <area shape="poly" title=" " alt="" coords="145,78,244,48,296,34,297,39,245,53,147,83"/>
@@ -218,16 +223,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="138,106,245,143,277,151,275,156,244,148,136,111"/>
 <area shape="rect" href="class_registry.html#af4d70dc9cca0ded5ca3a8fb554ffccc9" title=" " alt="" coords="537,5,734,32"/>
 <area shape="poly" title=" " alt="" coords="451,16,521,16,521,21,451,21"/>
-<area shape="rect" href="class_registry.html#a1067c48ae27e6a497ac42bdfc09d62a3" title=" " alt="" coords="782,31,1012,57"/>
-<area shape="poly" title=" " alt="" coords="735,26,767,29,766,34,735,31"/>
-<area shape="poly" title=" " alt="" coords="721,58,767,54,767,59,721,64"/>
+<area shape="rect" href="class_registry.html#a3ca9d68512bb2048ac5b2f558c5b700c" title=" " alt="" coords="782,31,991,57"/>
+<area shape="poly" title=" " alt="" coords="735,26,767,29,766,35,734,31"/>
+<area shape="poly" title=" " alt="" coords="720,58,767,53,767,59,721,63"/>
 <area shape="rect" href="class_item_database.html#a5d13ed9b8c60c2593baabd6f2d41f905" title=" " alt="" coords="571,107,700,133"/>
 <area shape="poly" title=" " alt="" coords="473,117,555,117,555,123,473,123"/>
 <area shape="rect" href="class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="556,157,716,184"/>
 <area shape="poly" title=" " alt="" coords="442,131,547,151,546,157,441,137"/>
-<area shape="rect" href="class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="800,157,994,184"/>
-<area shape="poly" title=" " alt="" coords="716,168,785,168,785,173,716,173"/>
-<area shape="poly" title=" " alt="" coords="853,159,845,149,851,139,868,133,897,131,928,133,945,140,943,145,927,139,897,136,869,138,854,143,851,148,857,155"/>
+<area shape="rect" href="class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="790,157,983,184"/>
+<area shape="poly" title=" " alt="" coords="716,168,774,168,774,173,716,173"/>
+<area shape="poly" title=" " alt="" coords="845,159,837,149,842,139,859,133,887,131,917,133,932,140,930,145,915,138,886,136,860,138,846,143,842,148,849,155"/>
 </map>
 </div>
 
@@ -280,7 +285,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_inventory_command_a669cdafdc10f99587aee1e26c46e676d_icgraph.png" border="0" usemap="#aclass_inventory_command_a669cdafdc10f99587aee1e26c46e676d_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_inventory_command_a669cdafdc10f99587aee1e26c46e676d_icgraph" id="aclass_inventory_command_a669cdafdc10f99587aee1e26c46e676d_icgraph">
 <area shape="rect" title=" " alt="" coords="245,5,456,32"/>
-<area shape="rect" href="class_inventory_command.html#aef79beff4a3f0c7c1e0ee7db7827747e" title=" " alt="" coords="5,5,197,32"/>
+<area shape="rect" href="class_inventory_command.html#a1dc8073affc4863795413b69f8170057" title=" " alt="" coords="5,5,197,32"/>
 <area shape="poly" title=" " alt="" coords="229,21,197,21,197,16,229,16"/>
 </map>
 </div>
@@ -319,7 +324,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_inventory_command_a830b1fc18785614cee27ea4525478ccc_icgraph.png" border="0" usemap="#aclass_inventory_command_a830b1fc18785614cee27ea4525478ccc_icgraph" loading="lazy" alt=""/></div>
 <map name="aclass_inventory_command_a830b1fc18785614cee27ea4525478ccc_icgraph" id="aclass_inventory_command_a830b1fc18785614cee27ea4525478ccc_icgraph">
 <area shape="rect" title=" " alt="" coords="245,5,489,32"/>
-<area shape="rect" href="class_inventory_command.html#aef79beff4a3f0c7c1e0ee7db7827747e" title=" " alt="" coords="5,5,197,32"/>
+<area shape="rect" href="class_inventory_command.html#a1dc8073affc4863795413b69f8170057" title=" " alt="" coords="5,5,197,32"/>
 <area shape="poly" title=" " alt="" coords="229,21,197,21,197,16,229,16"/>
 </map>
 </div>

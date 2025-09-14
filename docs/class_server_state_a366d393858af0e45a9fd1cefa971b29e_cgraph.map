@@ -1,0 +1,19 @@
+<map id="ServerState::Init" name="ServerState::Init">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,183,122,209"/>
+<area shape="rect" id="Node000002" href="$class_g_engine.html#a2366d5a84f5e30273b794bba482c86c1" title=" " alt="" coords="186,5,370,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,181,81,152,103,114,132,75,168,42,177,37,179,41,171,46,136,78,107,117,86,154,73,183"/>
+<area shape="rect" id="Node000003" href="$class_g_engine.html#a35779f6c5e17b8f24d4f0a15ac767a23" title=" " alt="" coords="215,56,342,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="73,180,111,137,138,113,168,92,199,80,201,85,171,97,142,117,115,140,77,184"/>
+<area shape="rect" id="Node000004" href="$class_g_engine.html#ae622490cfe12f855e59af83cecadf896" title=" " alt="" coords="189,107,368,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="88,180,126,161,169,143,193,135,194,140,171,148,128,166,91,185"/>
+<area shape="rect" id="Node000005" href="$class_g_engine.html#a1158d450d846c847773febfab654fba4" title=" " alt="" coords="202,157,355,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="122,186,186,179,187,184,123,192"/>
+<area shape="rect" id="Node000006" href="$class_g_engine.html#a11604b70429dced039a7582e674de06d" title=" " alt="" coords="205,208,352,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="123,200,190,208,189,214,122,206"/>
+<area shape="rect" id="Node000007" href="$class_g_engine.html#a91eac70406f80599b2f3059576dd0c1b" title=" " alt="" coords="170,259,387,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="91,207,128,226,171,244,194,252,193,257,169,249,126,231,88,212"/>
+<area shape="rect" id="Node000008" href="$class_server_state.html#abc202cdbf2f48c6cc6f4c8d66e95da9b" title=" " alt="" coords="184,309,373,336"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="77,208,115,252,142,275,171,295,184,301,181,306,168,300,138,279,111,255,73,212"/>
+<area shape="rect" id="Node000009" href="$class_server_state.html#ab9343d781fd9d103f38c740dabc44ac7" title=" " alt="" coords="171,360,386,387"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="73,209,86,238,107,275,136,314,171,346,179,351,177,355,168,350,132,317,103,278,81,240,68,211"/>
+</map>

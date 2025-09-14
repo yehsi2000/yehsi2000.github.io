@@ -1,6 +1,7 @@
 var class_mining_drill_system =
 [
-    [ "MiningDrillSystem", "class_mining_drill_system.html#a91023ddfd88ab3c181c9aae89053f1ab", null ],
+    [ "MiningDrillSystem", "class_mining_drill_system.html#ad39bb06cdfde45eef4c4034074f9ad8b", null ],
+    [ "~MiningDrillSystem", "class_mining_drill_system.html#a481cfdafdbb8684cffa1c12c107a4b9b", null ],
     [ "StartMining", "class_mining_drill_system.html#a0ec748915a7a9f4d87899a912729459f", null ],
     [ "TileEmpty", "class_mining_drill_system.html#a7fe57b381d4574506ab1e93f9febafe3", null ],
     [ "Update", "class_mining_drill_system.html#a1b270e1b60fd3b61512a4fdae43fde85", null ],

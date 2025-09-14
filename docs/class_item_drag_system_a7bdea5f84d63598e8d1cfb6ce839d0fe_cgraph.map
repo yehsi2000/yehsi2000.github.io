@@ -1,0 +1,14 @@
+<map id="ItemDragSystem::ItemDropEventHandler" name="ItemDragSystem::ItemDropEventHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,89,188,132"/>
+<area shape="rect" id="Node000002" href="$class_item_drag_system.html#a5b2f57f4d48361b6b1d0cf8ef2b7717e" title=" " alt="" coords="236,5,457,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,86,235,57,256,51,258,56,237,63,156,91"/>
+<area shape="rect" id="Node000003" href="$class_item_database.html#a5d13ed9b8c60c2593baabd6f2d41f905" title=" " alt="" coords="282,72,411,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,99,266,91,266,96,188,104"/>
+<area shape="rect" id="Node000004" href="$class_item_database.html#a271a6bbc4b0f273f1f8411b6dbc589bf" title=" " alt="" coords="266,123,426,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,117,251,124,251,129,188,123"/>
+<area shape="rect" id="Node000006" href="$class_item_database.html#a46bdd7d97ca948dbe71b3b817bff6e68" title=" " alt="" coords="252,173,441,200"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="153,130,236,159,265,166,263,172,235,164,151,135"/>
+<area shape="rect" id="Node000005" href="$class_item_database.html#a001c91d16c39fb430f704c49eb2af1d9" title=" " alt="" coords="505,123,698,149"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="427,133,489,133,489,139,427,139"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="559,124,551,114,557,104,574,98,602,96,632,99,648,105,646,110,631,104,602,101,575,103,560,108,557,113,563,120"/>
+</map>

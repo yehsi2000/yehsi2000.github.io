@@ -92,33 +92,57 @@ $(function(){initNavTree('_input_system_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;cstddef&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;<a class="el" href="_item_8h_source.html">Core/Item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_system_context_8h_source.html">Core/SystemContext.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_type_8h_source.html">Core/Type.h</a>&quot;</code><br />
 <code>#include &quot;SDL.h&quot;</code><br />
 <code>#include &quot;imgui.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="_item_8h_source.html">Core/Item.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_entity_8h_source.html">Core/Entity.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for InputSystem.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_input_system_8h__incl.png" border="0" usemap="#ainclude_2_system_2_input_system_8h" loading="lazy" alt=""/></div>
 <map name="ainclude_2_system_2_input_system_8h" id="ainclude_2_system_2_input_system_8h">
-<area shape="rect" title=" " alt="" coords="116,5,316,32"/>
+<area shape="rect" title=" " alt="" coords="267,5,467,32"/>
 <area shape="rect" title=" " alt="" coords="5,80,70,107"/>
-<area shape="poly" title=" " alt="" coords="186,35,84,76,82,71,184,30"/>
-<area shape="rect" title=" " alt="" coords="117,155,227,181"/>
-<area shape="poly" title=" " alt="" coords="188,35,158,54,145,66,135,81,131,96,134,112,151,141,147,144,129,114,126,96,130,79,141,63,155,50,185,30"/>
-<area shape="rect" title=" " alt="" coords="144,80,203,107"/>
-<area shape="poly" title=" " alt="" coords="211,34,191,68,186,65,206,31"/>
-<area shape="rect" title=" " alt="" coords="227,80,290,107"/>
-<area shape="poly" title=" " alt="" coords="226,31,246,65,242,68,221,34"/>
-<area shape="rect" href="_item_8h.html" title=" " alt="" coords="315,80,405,107"/>
-<area shape="poly" title=" " alt="" coords="242,30,322,70,320,75,240,35"/>
-<area shape="rect" href="_entity_8h.html" title=" " alt="" coords="394,155,492,181"/>
-<area shape="poly" title=" " alt="" coords="317,27,372,46,397,60,419,78,430,92,437,108,444,139,439,140,432,109,425,95,416,82,394,64,369,50,316,32"/>
-<area shape="poly" title=" " alt="" coords="328,110,220,151,218,146,326,105"/>
-<area shape="poly" title=" " alt="" coords="376,105,419,142,415,146,373,109"/>
-<area shape="rect" title=" " alt="" coords="316,155,370,181"/>
-<area shape="poly" title=" " alt="" coords="360,108,352,140,347,139,355,107"/>
+<area shape="poly" title=" " alt="" coords="303,35,86,82,84,77,302,30"/>
+<area shape="rect" title=" " alt="" coords="94,80,152,107"/>
+<area shape="poly" title=" " alt="" coords="325,35,167,82,166,76,323,30"/>
+<area shape="rect" href="_item_8h.html" title=" " alt="" coords="175,80,265,107"/>
+<area shape="poly" title=" " alt="" coords="342,35,261,75,258,70,340,30"/>
+<area shape="rect" href="_system_context_8h.html" title=" " alt="" coords="289,80,444,107"/>
+<area shape="poly" title=" " alt="" coords="370,33,370,64,364,64,364,33"/>
+<area shape="rect" href="_type_8h.html" title=" " alt="" coords="469,80,561,107"/>
+<area shape="poly" title=" " alt="" coords="394,30,476,70,474,75,391,35"/>
+<area shape="rect" title=" " alt="" coords="586,80,644,107"/>
+<area shape="poly" title=" " alt="" coords="411,30,572,77,570,82,409,35"/>
+<area shape="rect" title=" " alt="" coords="668,80,732,107"/>
+<area shape="poly" title=" " alt="" coords="434,30,654,77,653,82,433,35"/>
+<area shape="rect" title=" " alt="" coords="276,155,330,181"/>
+<area shape="poly" title=" " alt="" coords="236,105,279,142,275,146,233,109"/>
+<area shape="rect" title=" " alt="" coords="142,155,253,181"/>
+<area shape="poly" title=" " alt="" coords="219,108,209,141,203,139,214,106"/>
+<area shape="rect" href="_entity_8h.html" title=" " alt="" coords="21,155,118,181"/>
+<area shape="poly" title=" " alt="" coords="195,110,111,150,108,145,193,105"/>
+<area shape="poly" title=" " alt="" coords="358,109,326,145,322,141,354,105"/>
+<area shape="poly" title=" " alt="" coords="338,110,242,151,240,146,336,105"/>
+<area shape="rect" href="_packet_8h.html" title=" " alt="" coords="405,155,510,181"/>
+<area shape="poly" title=" " alt="" coords="384,105,432,143,429,147,381,109"/>
+<area shape="rect" title=" " alt="" coords="338,229,398,256"/>
+<area shape="poly" title=" " alt="" coords="370,107,371,214,365,214,364,107"/>
+<area shape="rect" href="_thread_safe_queue_8h.html" title=" " alt="" coords="534,155,704,181"/>
+<area shape="poly" title=" " alt="" coords="411,105,561,147,560,153,410,110"/>
+<area shape="poly" title=" " alt="" coords="444,184,397,221,394,217,440,180"/>
+<area shape="rect" title=" " alt="" coords="422,229,490,256"/>
+<area shape="poly" title=" " alt="" coords="460,182,459,214,454,214,455,182"/>
+<area shape="rect" title=" " alt="" coords="595,229,720,256"/>
+<area shape="poly" title=" " alt="" coords="628,181,646,214,641,217,623,183"/>
+<area shape="rect" title=" " alt="" coords="745,229,802,256"/>
+<area shape="poly" title=" " alt="" coords="647,179,734,220,732,225,645,184"/>
+<area shape="rect" title=" " alt="" coords="515,229,571,256"/>
+<area shape="poly" title=" " alt="" coords="607,184,569,221,565,217,604,180"/>
+<area shape="rect" title=" " alt="" coords="727,155,798,181"/>
+<area shape="poly" title=" " alt="" coords="559,105,713,149,711,154,557,110"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -126,11 +150,13 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="_input_system_8h__dep__incl.png" border="0" usemap="#ainclude_2_system_2_input_system_8hdep" loading="lazy" alt=""/></div>
 <map name="ainclude_2_system_2_input_system_8hdep" id="ainclude_2_system_2_input_system_8hdep">
-<area shape="rect" title=" " alt="" coords="78,5,278,32"/>
-<area shape="rect" href="_g_engine_8cpp.html" title=" " alt="" coords="5,80,156,107"/>
-<area shape="poly" title=" " alt="" coords="150,44,99,82,96,77,147,39"/>
-<area shape="rect" href="_input_system_8cpp.html" title=" " alt="" coords="180,80,371,107"/>
-<area shape="poly" title=" " alt="" coords="208,39,260,77,257,82,205,44"/>
+<area shape="rect" title=" " alt="" coords="236,5,436,32"/>
+<area shape="rect" href="_client_state_8cpp.html" title=" " alt="" coords="5,80,209,107"/>
+<area shape="poly" title=" " alt="" coords="283,40,148,82,146,77,281,35"/>
+<area shape="rect" href="_server_state_8cpp.html" title=" " alt="" coords="233,80,440,107"/>
+<area shape="poly" title=" " alt="" coords="339,48,339,80,334,80,334,48"/>
+<area shape="rect" href="_input_system_8cpp.html" title=" " alt="" coords="465,80,656,107"/>
+<area shape="poly" title=" " alt="" coords="390,35,522,77,520,82,389,40"/>
 </map>
 </div>
 </div>
@@ -139,7 +165,6 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:KeyEvent" id="r_KeyEvent"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_key_event.html">KeyEvent</a></td></tr>
-<tr class="memitem:KeyEventHasher" id="r_KeyEventHasher"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_key_event_hasher.html">KeyEventHasher</a></td></tr>
 <tr class="memitem:InputSystem" id="r_InputSystem"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_input_system.html">InputSystem</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -148,10 +173,9 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="#a9c56096a2c51a4a98f907f8f87fd1671a8f2d950e196620e7d4f64790210574cf">StartInteraction</a>
 , <a class="el" href="#a9c56096a2c51a4a98f907f8f87fd1671ad2cab321a5510ae9a4e5e5f25aed3200">StopInteraction</a>
 , <a class="el" href="#a9c56096a2c51a4a98f907f8f87fd1671a4d604dd8f008145471dc845683399189">Inventory</a>
-, <a class="el" href="#a9c56096a2c51a4a98f907f8f87fd1671abe11914fc7132ee237f35b75f275a437">MouseDrop</a>
+, <a class="el" href="#a9c56096a2c51a4a98f907f8f87fd1671a55dcdf017b51fc96f7b5f9d63013b95d">Chat</a>
 , <br />
-&#160;&#160;<a class="el" href="#a9c56096a2c51a4a98f907f8f87fd1671aa603905470e2a5b8c13e96b579ef0dba">Debug</a>
-, <a class="el" href="#a9c56096a2c51a4a98f907f8f87fd1671a0d82790b0612935992bd564a17ce37d6">Quit</a>
+&#160;&#160;<a class="el" href="#a9c56096a2c51a4a98f907f8f87fd1671a0d82790b0612935992bd564a17ce37d6">Quit</a>
 <br />
  }</td></tr>
 <tr class="memitem:a5fc772c800c3d40d2b95564e8a839bab" id="r_a5fc772c800c3d40d2b95564e8a839bab"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fc772c800c3d40d2b95564e8a839bab">InputType</a> { <a class="el" href="#a5fc772c800c3d40d2b95564e8a839babaedda266cdb6345b9f6914cc2e7577475">KEYBOARD</a>
@@ -182,8 +206,7 @@ Enumerations</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9c56096a2c51a4a98f907f8f87fd1671a8f2d950e196620e7d4f64790210574cf" name="a9c56096a2c51a4a98f907f8f87fd1671a8f2d950e196620e7d4f64790210574cf"></a>StartInteraction&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9c56096a2c51a4a98f907f8f87fd1671ad2cab321a5510ae9a4e5e5f25aed3200" name="a9c56096a2c51a4a98f907f8f87fd1671ad2cab321a5510ae9a4e5e5f25aed3200"></a>StopInteraction&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9c56096a2c51a4a98f907f8f87fd1671a4d604dd8f008145471dc845683399189" name="a9c56096a2c51a4a98f907f8f87fd1671a4d604dd8f008145471dc845683399189"></a>Inventory&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9c56096a2c51a4a98f907f8f87fd1671abe11914fc7132ee237f35b75f275a437" name="a9c56096a2c51a4a98f907f8f87fd1671abe11914fc7132ee237f35b75f275a437"></a>MouseDrop&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9c56096a2c51a4a98f907f8f87fd1671aa603905470e2a5b8c13e96b579ef0dba" name="a9c56096a2c51a4a98f907f8f87fd1671aa603905470e2a5b8c13e96b579ef0dba"></a>Debug&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9c56096a2c51a4a98f907f8f87fd1671a55dcdf017b51fc96f7b5f9d63013b95d" name="a9c56096a2c51a4a98f907f8f87fd1671a55dcdf017b51fc96f7b5f9d63013b95d"></a>Chat&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9c56096a2c51a4a98f907f8f87fd1671a0d82790b0612935992bd564a17ce37d6" name="a9c56096a2c51a4a98f907f8f87fd1671a0d82790b0612935992bd564a17ce37d6"></a>Quit&#160;</td><td class="fielddoc"></td></tr>
 </table>
 

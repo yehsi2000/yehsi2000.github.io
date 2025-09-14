@@ -1,0 +1,14 @@
+<map id="EntityFactory::CreateMiningDrill" name="EntityFactory::CreateMiningDrill">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,109,190,152"/>
+<area shape="rect" id="Node000002" href="$namespaceutil.html#ae3383a10be16eab71a2adc41b2272d9f" title=" " alt="" coords="274,5,401,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,107,176,73,237,42,258,34,259,39,239,46,179,78,129,111"/>
+<area shape="rect" id="Node000003" href="$class_world.html#a3a09c1dc06f0dcb4e264465cf515dcc4" title="Gets the tile data at a specific tile grid index." alt="" coords="252,80,422,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,114,237,106,237,112,191,119"/>
+<area shape="rect" id="Node000004" href="$class_world.html#a671ab54ee485d6ce52fb7910c7eb4ee8" title="Checks if a building can be placed at a given location." alt="" coords="238,155,437,181"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="191,142,233,149,232,154,190,148"/>
+<area shape="rect" id="Node000005" href="$class_world.html#a757ca1ab7dd99ca0080a96812ffb99b6" title="Marks tiles as occupied by a building." alt="" coords="273,229,402,256"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="146,150,294,220,292,225,144,155"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="297,81,290,71,295,61,311,55,337,53,366,56,381,63,379,68,365,61,337,59,312,61,298,65,295,71,301,78"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="297,156,290,146,295,136,311,130,337,128,366,131,381,137,379,142,365,136,337,133,312,135,298,140,295,145,301,153"/>
+<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="297,231,290,221,295,211,311,205,337,203,366,205,381,212,379,217,365,210,337,208,312,210,298,215,295,220,301,227"/>
+</map>

@@ -1,7 +1,9 @@
 <map id="include/System/InventorySystem.h" name="include/System/InventorySystem.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="100,5,269,48"/>
-<area shape="rect" id="Node000002" href="$_g_engine_8cpp.html" title=" " alt="" coords="5,96,156,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,60,98,98,95,93,144,56"/>
-<area shape="rect" id="Node000003" href="$_inventory_system_8cpp.html" title=" " alt="" coords="180,96,397,123"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,56,274,93,271,98,222,60"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="252,5,421,48"/>
+<area shape="rect" id="Node000002" href="$_client_state_8cpp.html" title=" " alt="" coords="5,96,209,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="264,56,144,98,142,93,262,51"/>
+<area shape="rect" id="Node000003" href="$_server_state_8cpp.html" title=" " alt="" coords="233,96,440,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="339,64,339,95,334,95,334,64"/>
+<area shape="rect" id="Node000004" href="$_inventory_system_8cpp.html" title=" " alt="" coords="464,96,680,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="412,51,536,93,534,98,410,56"/>
 </map>

@@ -1,18 +1,22 @@
 <map id="MiningDrillSystem" name="MiningDrillSystem">
-<area shape="rect" id="Node000001" title=" " alt="" coords="82,443,210,469"/>
-<area shape="rect" id="Node000002" href="$class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="35,245,105,272"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,288,53,328,53,349,59,370,72,392,89,411,126,440,123,444,85,415,67,395,54,372,48,350,48,327,56,286"/>
-<area shape="rect" id="Node000006" href="$class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="119,344,173,371"/>
-<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="91,283,138,342,134,345,87,286"/>
-<area shape="rect" id="Node000003" href="$struct_input_state.html" title=" " alt="" coords="29,147,110,173"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="72,189,72,245,67,245,67,189"/>
-<area shape="rect" id="Node000004" href="$struct_vec2f.html" title=" " alt="" coords="5,5,60,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="36,47,40,83,50,122,62,145,58,147,45,124,35,84,31,48"/>
-<area shape="rect" id="Node000005" href="$struct_vec2.html" title=" " alt="" coords="83,5,134,32"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="104,48,76,147,71,145,98,46"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="148,386,148,442,143,442,143,386"/>
-<area shape="rect" id="Node000007" href="$class_timer_manager.html" title="Manages the lifecycle of all TimerInstance objects in the game, centralizing the logic and memory man..." alt="" coords="198,344,302,371"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="230,384,192,421,164,444,160,440,188,417,226,380"/>
-<area shape="rect" id="Node000008" href="$class_object_pool.html" title=" " alt="" coords="154,245,346,272"/>
-<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="252,288,252,344,247,344,247,288"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="476,400,603,427"/>
+<area shape="rect" id="Node000002" href="$class_registry.html" title="The core of the Entity&#45;Component&#45;System (ECS) architecture." alt="" coords="273,104,344,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="359,120,401,127,445,142,485,166,503,182,516,201,528,228,537,256,545,313,546,364,543,400,538,400,541,364,540,314,532,257,523,230,512,204,498,186,482,170,443,147,399,133,358,125"/>
+<area shape="rect" id="Node000004" href="$class_world.html" title="Manages the game world, including chunk loading and tile data." alt="" coords="276,301,330,328"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="260,139,215,165,195,183,180,204,175,220,178,235,187,250,202,263,239,286,276,302,274,307,236,290,198,267,183,253,173,237,170,220,175,201,191,179,212,160,258,134"/>
+<area shape="rect" id="Node000006" href="$class_entity_factory.html" title="A factory for creating pre&#45;configured entities." alt="" coords="403,203,502,229"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="341,137,435,200,432,204,338,142"/>
+<area shape="rect" id="Node000003" href="$class_event_dispatcher.html" title="Manages event subscriptions and publications for immediate, synchronous communication." alt="" coords="5,5,124,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="112,36,278,101,276,106,110,41"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="66,47,70,109,77,144,89,178,108,211,127,235,150,254,183,275,231,296,276,307,275,312,229,301,181,280,147,258,123,239,103,214,84,180,72,146,65,110,61,48"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="346,330,509,397,507,402,344,335"/>
+<area shape="rect" id="Node000005" href="$class_world_asset_manager.html" title="A singleton for managing and caching world tile assets." alt="" coords="241,203,379,229"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="308,245,307,254,306,301,300,301,302,253,302,245"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="449,245,441,263,429,279,406,295,380,305,331,315,330,309,378,300,403,290,425,275,437,261,444,243"/>
+<area shape="rect" id="Node000007" href="$class_asset_manager.html" title="A singleton for managing and caching in&#45;game entity assets." alt="" coords="530,104,636,131"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="556,142,471,204,468,200,552,138"/>
+<area shape="rect" id="Node000008" href="$class_timer_manager.html" title="Manages the lifecycle of all TimerInstance objects in the game, centralizing the logic and memory man..." alt="" coords="598,301,702,328"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="626,340,555,401,552,397,622,336"/>
+<area shape="rect" id="Node000009" href="$class_object_pool.html" title=" " alt="" coords="577,203,768,229"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="669,245,655,302,650,300,663,244"/>
 </map>

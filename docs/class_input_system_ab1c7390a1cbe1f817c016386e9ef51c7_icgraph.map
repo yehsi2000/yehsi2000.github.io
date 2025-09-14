@@ -1,5 +1,5 @@
 <map id="InputSystem::RegisterInputBindings" name="InputSystem::RegisterInputBindings">
-<area shape="rect" id="Node000001" title=" " alt="" coords="249,5,430,48"/>
-<area shape="rect" id="Node000002" href="$class_input_system.html#a4c2df990eb55eba45141a05a94005856" title=" " alt="" coords="5,13,201,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,29,201,29,201,24,233,24"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="231,5,412,48"/>
+<area shape="rect" id="Node000002" href="$class_input_system.html#ae193adb1202bd89531d76bddd9a36ed2" title=" " alt="" coords="5,13,183,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,29,183,29,183,24,215,24"/>
 </map>

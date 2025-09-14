@@ -1,0 +1,8 @@
+<map id="InputManager" name="InputManager">
+<area shape="rect" id="Node000001" title="Manages all user input from keyboard, mouse, and other devices." alt="" coords="5,267,106,293"/>
+<area shape="rect" id="Node000002" href="$struct_input_state.html" title="A snapshot of the state of all input devices at a single point in time." alt="" coords="107,168,188,195"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,208,69,268,65,265,123,204"/>
+<area shape="rect" id="Node000003" href="$struct_vec2.html" title="A 2D vector of integers." alt="" coords="6,5,57,32"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="29,47,21,115,21,155,25,194,37,233,51,265,46,267,32,235,20,195,15,155,16,114,24,47"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="52,43,141,166,136,169,47,46"/>
+</map>

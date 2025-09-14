@@ -1,11 +1,9 @@
 <map id="util::AddAnimation" name="util::AddAnimation">
-<area shape="rect" id="Node000001" title=" " alt="" coords="447,72,574,99"/>
-<area shape="rect" id="Node000002" href="$namespacefactory.html#afb051a88fa520dd405fa9b617102f984" title=" " alt="" coords="223,5,399,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="447,70,385,51,387,46,449,65"/>
-<area shape="rect" id="Node000003" href="$namespacefactory.html#aeb6369c52248c80b2876a56befa07053" title=" " alt="" coords="226,72,396,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="431,88,396,88,396,83,431,83"/>
-<area shape="rect" id="Node000004" href="$namespacefactory.html#ac986ddace9df2128cf45e161027b0038" title=" " alt="" coords="238,123,384,149"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="441,106,367,125,366,119,440,101"/>
-<area shape="rect" id="Node000005" href="$class_g_engine.html#a11640a2dfd6e7a30dbe27711d3a51945" title=" " alt="" coords="5,123,175,149"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="223,139,175,139,175,133,223,133"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="268,80,395,107"/>
+<area shape="rect" id="Node000002" href="$class_entity_factory.html#ae3681320d7eb90a9b96bf4cdf744472f" title=" " alt="" coords="5,5,220,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,77,184,51,186,46,271,72"/>
+<area shape="rect" id="Node000003" href="$class_entity_factory.html#a3fc8596dceedb12c4130873888880b32" title=" " alt="" coords="20,72,205,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="252,96,205,96,205,91,252,91"/>
+<area shape="rect" id="Node000004" href="$class_entity_factory.html#aac8be8543c372485c1b40fa3461913e4" title=" " alt="" coords="21,139,204,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="273,114,220,129,176,141,174,135,219,124,271,109"/>
 </map>
